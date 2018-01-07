@@ -71,25 +71,25 @@
 
 	var _Sidebar2 = _interopRequireDefault(_Sidebar);
 
-	var _ModalTextures = __webpack_require__(250);
+	var _ModalTextures = __webpack_require__(251);
 
 	var _ModalTextures2 = _interopRequireDefault(_ModalTextures);
 
-	var _ModalHelp = __webpack_require__(254);
+	var _ModalHelp = __webpack_require__(255);
 
 	var _ModalHelp2 = _interopRequireDefault(_ModalHelp);
 
-	var _SceneGraph = __webpack_require__(255);
+	var _SceneGraph = __webpack_require__(256);
 
 	var _SceneGraph2 = _interopRequireDefault(_SceneGraph);
 
-	var _ToolBar = __webpack_require__(260);
+	var _ToolBar = __webpack_require__(261);
 
 	var _ToolBar2 = _interopRequireDefault(_ToolBar);
 
-	var _utils = __webpack_require__(216);
+	var _utils = __webpack_require__(217);
 
-	__webpack_require__(261);
+	__webpack_require__(262);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -100,8 +100,8 @@
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 	/* global VERSION BUILD_TIMESTAMP COMMIT_HASH webFont */
-	__webpack_require__(263);
-	var INSPECTOR = __webpack_require__(210);
+	__webpack_require__(264);
+	var INSPECTOR = __webpack_require__(211);
 
 	THREE.ImageUtils.crossOrigin = '';
 
@@ -318,7 +318,7 @@
 	  window.addEventListener('inspector-loaded', function () {
 	    _reactDom2.default.render(_react2.default.createElement(Main, null), div);
 	  });
-	  console.log('A-Frame Inspector Version:', ("0.7.4"), '(' + ("08-12-2017") + ' Commit: ' + ("eac0f05ff67e5536c62278a96b0203ac1cb1d44a\n").substr(0, 7) + ')');
+	  console.log('A-Frame Inspector Version:', ("0.7.4"), '(' + ("07-01-2018") + ' Commit: ' + ("ca42891e3f0843ce9ed8a4b76d375ba7879e9b46\n").substr(0, 7) + ')');
 	})();
 
 /***/ }),
@@ -335,12 +335,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -567,12 +565,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -715,11 +711,9 @@
 
 	/**
 	 * Copyright (c) 2013-present, Facebook, Inc.
-	 * All rights reserved.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -757,12 +751,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2015-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2015-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -856,12 +848,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2014-2015, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2014-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -928,11 +918,9 @@
 
 	/**
 	 * Copyright (c) 2013-present, Facebook, Inc.
-	 * All rights reserved.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -968,12 +956,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -999,11 +985,9 @@
 
 	/**
 	 * Copyright (c) 2013-present, Facebook, Inc.
-	 * All rights reserved.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -1023,11 +1007,9 @@
 
 	/**
 	 * Copyright (c) 2013-present, Facebook, Inc.
-	 * All rights reserved.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -1082,12 +1064,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2014-2015, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2014-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -1151,12 +1131,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -1346,12 +1324,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -1462,12 +1438,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2014-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2014-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -1807,12 +1781,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -1840,12 +1812,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2014-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2014-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -1864,12 +1834,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -2044,12 +2012,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -2089,12 +2055,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -2152,12 +2116,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -2325,12 +2287,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2014-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2014-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -2584,12 +2544,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2016-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2016-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -2967,12 +2925,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -3249,12 +3205,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -3278,12 +3232,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -3299,12 +3251,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -3322,12 +3272,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 */
 
 	'use strict';
@@ -3349,12 +3297,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 */
 
 	'use strict';
@@ -3362,6 +3308,7 @@
 	var emptyFunction = __webpack_require__(9);
 	var invariant = __webpack_require__(12);
 	var warning = __webpack_require__(8);
+	var assign = __webpack_require__(4);
 
 	var ReactPropTypesSecret = __webpack_require__(32);
 	var checkPropTypes = __webpack_require__(33);
@@ -3460,7 +3407,8 @@
 	    objectOf: createObjectOfTypeChecker,
 	    oneOf: createEnumTypeChecker,
 	    oneOfType: createUnionTypeChecker,
-	    shape: createShapeTypeChecker
+	    shape: createShapeTypeChecker,
+	    exact: createStrictShapeTypeChecker,
 	  };
 
 	  /**
@@ -3675,7 +3623,7 @@
 	      if (typeof checker !== 'function') {
 	        warning(
 	          false,
-	          'Invalid argument supplid to oneOfType. Expected an array of check functions, but ' +
+	          'Invalid argument supplied to oneOfType. Expected an array of check functions, but ' +
 	          'received %s at index %s.',
 	          getPostfixForTypeWarning(checker),
 	          i
@@ -3726,6 +3674,36 @@
 	      }
 	      return null;
 	    }
+	    return createChainableTypeChecker(validate);
+	  }
+
+	  function createStrictShapeTypeChecker(shapeTypes) {
+	    function validate(props, propName, componentName, location, propFullName) {
+	      var propValue = props[propName];
+	      var propType = getPropType(propValue);
+	      if (propType !== 'object') {
+	        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type `' + propType + '` ' + ('supplied to `' + componentName + '`, expected `object`.'));
+	      }
+	      // We need to check all keys in case some are required but missing from
+	      // props.
+	      var allKeys = assign({}, props[propName], shapeTypes);
+	      for (var key in allKeys) {
+	        var checker = shapeTypes[key];
+	        if (!checker) {
+	          return new PropTypeError(
+	            'Invalid ' + location + ' `' + propFullName + '` key `' + key + '` supplied to `' + componentName + '`.' +
+	            '\nBad object: ' + JSON.stringify(props[propName], null, '  ') +
+	            '\nValid keys: ' +  JSON.stringify(Object.keys(shapeTypes), null, '  ')
+	          );
+	        }
+	        var error = checker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret);
+	        if (error) {
+	          return error;
+	        }
+	      }
+	      return null;
+	    }
+
 	    return createChainableTypeChecker(validate);
 	  }
 
@@ -3867,12 +3845,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 */
 
 	'use strict';
@@ -3887,12 +3863,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 */
 
 	'use strict';
@@ -3926,7 +3900,7 @@
 	        try {
 	          // This is intentionally an invariant that gets caught. It's the same
 	          // behavior as without this statement except with a better message.
-	          invariant(typeof typeSpecs[typeSpecName] === 'function', '%s: %s type `%s` is invalid; it must be a function, usually from ' + 'React.PropTypes.', componentName || 'React class', location, typeSpecName);
+	          invariant(typeof typeSpecs[typeSpecName] === 'function', '%s: %s type `%s` is invalid; it must be a function, usually from ' + 'the `prop-types` package, but received `%s`.', componentName || 'React class', location, typeSpecName, typeof typeSpecs[typeSpecName]);
 	          error = typeSpecs[typeSpecName](values, typeSpecName, componentName, location, null, ReactPropTypesSecret);
 	        } catch (ex) {
 	          error = ex;
@@ -3954,30 +3928,26 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
 	'use strict';
 
-	module.exports = '15.6.1';
+	module.exports = '15.6.2';
 
 /***/ }),
 /* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -3999,12 +3969,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -4877,12 +4845,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 	'use strict';
@@ -4928,12 +4894,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -5043,12 +5007,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -5243,11 +5205,9 @@
 
 	/**
 	 * Copyright (c) 2013-present, Facebook, Inc.
-	 * All rights reserved.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -5285,12 +5245,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -5498,12 +5456,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2015-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2015-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -5520,12 +5476,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -5610,12 +5564,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -5688,12 +5640,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -6076,12 +6026,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -6214,12 +6162,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -6492,12 +6438,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -6749,12 +6693,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -6979,12 +6921,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -7041,7 +6981,9 @@
 	  if (typeof window !== 'undefined' && typeof window.dispatchEvent === 'function' && typeof document !== 'undefined' && typeof document.createEvent === 'function') {
 	    var fakeNode = document.createElement('react');
 	    ReactErrorUtils.invokeGuardedCallback = function (name, func, a) {
-	      var boundFunc = func.bind(null, a);
+	      var boundFunc = function () {
+	        func(a);
+	      };
 	      var evtType = 'react-' + name;
 	      fakeNode.addEventListener(evtType, boundFunc, false);
 	      var evt = document.createEvent('Event');
@@ -7059,12 +7001,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2014-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2014-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -7121,12 +7061,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -7157,11 +7095,9 @@
 
 	/**
 	 * Copyright (c) 2013-present, Facebook, Inc.
-	 * All rights reserved.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -7196,12 +7132,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -7295,12 +7229,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -7411,12 +7343,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -7448,12 +7378,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -7488,12 +7416,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -7669,6 +7595,33 @@
 
 	SyntheticEvent.Interface = EventInterface;
 
+	/**
+	 * Helper to reduce boilerplate when creating subclasses.
+	 *
+	 * @param {function} Class
+	 * @param {?object} Interface
+	 */
+	SyntheticEvent.augmentClass = function (Class, Interface) {
+	  var Super = this;
+
+	  var E = function () {};
+	  E.prototype = Super.prototype;
+	  var prototype = new E();
+
+	  _assign(prototype, Class.prototype);
+	  Class.prototype = prototype;
+	  Class.prototype.constructor = Class;
+
+	  Class.Interface = _assign({}, Super.Interface, Interface);
+	  Class.augmentClass = Super.augmentClass;
+
+	  PooledClass.addPoolingTo(Class, PooledClass.fourArgumentPooler);
+	};
+
+	/** Proxying after everything set on SyntheticEvent
+	  * to resolve Proxy issue on some WebKit browsers
+	  * in which some Event properties are set to undefined (GH#10010)
+	  */
 	if ((undefined) !== 'production') {
 	  if (isProxySupported) {
 	    /*eslint-disable no-func-assign */
@@ -7692,28 +7645,6 @@
 	    /*eslint-enable no-func-assign */
 	  }
 	}
-	/**
-	 * Helper to reduce boilerplate when creating subclasses.
-	 *
-	 * @param {function} Class
-	 * @param {?object} Interface
-	 */
-	SyntheticEvent.augmentClass = function (Class, Interface) {
-	  var Super = this;
-
-	  var E = function () {};
-	  E.prototype = Super.prototype;
-	  var prototype = new E();
-
-	  _assign(prototype, Class.prototype);
-	  Class.prototype = prototype;
-	  Class.prototype.constructor = Class;
-
-	  Class.Interface = _assign({}, Super.Interface, Interface);
-	  Class.augmentClass = Super.augmentClass;
-
-	  PooledClass.addPoolingTo(Class, PooledClass.fourArgumentPooler);
-	};
 
 	PooledClass.addPoolingTo(SyntheticEvent, PooledClass.fourArgumentPooler);
 
@@ -7758,12 +7689,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -7799,12 +7728,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -7929,7 +7856,7 @@
 	  // IE9 claims to support the input event but fails to trigger it when
 	  // deleting text, so we ignore its input events.
 
-	  isInputEventSupported = isEventSupported('input') && (!('documentMode' in document) || document.documentMode > 9);
+	  isInputEventSupported = isEventSupported('input') && (!document.documentMode || document.documentMode > 9);
 	}
 
 	/**
@@ -8115,12 +8042,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -8328,7 +8253,7 @@
 	 * if no updates are currently being performed.
 	 */
 	function asap(callback, context) {
-	  !batchingStrategy.isBatchingUpdates ? (undefined) !== 'production' ? invariant(false, 'ReactUpdates.asap: Can\'t enqueue an asap callback in a context whereupdates are not being batched.') : _prodInvariant('125') : void 0;
+	  invariant(batchingStrategy.isBatchingUpdates, "ReactUpdates.asap: Can't enqueue an asap callback in a context where" + 'updates are not being batched.');
 	  asapCallbackQueue.enqueue(callback, context);
 	  asapEnqueued = true;
 	}
@@ -8370,12 +8295,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -8493,12 +8416,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -8519,12 +8440,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -8689,12 +8608,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -8782,12 +8699,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -8879,12 +8794,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2016-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2016-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -8907,12 +8820,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2016-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2016-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -9272,12 +9183,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2016-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2016-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -9313,12 +9222,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2016-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2016-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -9354,11 +9261,9 @@
 
 	/**
 	 * Copyright (c) 2013-present, Facebook, Inc.
-	 * All rights reserved.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * @typechecks
 	 */
@@ -9390,11 +9295,9 @@
 
 	/**
 	 * Copyright (c) 2013-present, Facebook, Inc.
-	 * All rights reserved.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * @typechecks
 	 */
@@ -9416,12 +9319,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -9648,12 +9549,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -9676,7 +9575,7 @@
 	}
 
 	function detachTracker(inst) {
-	  delete inst._wrapperState.valueTracker;
+	  inst._wrapperState.valueTracker = null;
 	}
 
 	function getValueFromNode(node) {
@@ -9775,12 +9674,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -9814,12 +9711,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -9878,12 +9773,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -9933,12 +9826,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -9963,12 +9854,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -10065,12 +9954,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -10141,12 +10028,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -10204,12 +10089,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -10233,12 +10116,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -10280,12 +10161,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -10334,6 +10213,7 @@
 	    contentEditable: 0,
 	    contextMenu: 0,
 	    controls: HAS_BOOLEAN_VALUE,
+	    controlsList: 0,
 	    coords: 0,
 	    crossOrigin: 0,
 	    data: 0, // For `<object />` acts as `src`.
@@ -10520,12 +10400,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -10552,12 +10430,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -10782,12 +10658,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2015-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2015-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -10904,12 +10778,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -10928,12 +10800,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -11030,12 +10900,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -11066,12 +10934,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -11122,12 +10988,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2016-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2016-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * Based on the escape-html library, which is used under the MIT License below:
 	 *
@@ -11248,12 +11112,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -11301,11 +11163,9 @@
 
 	/**
 	 * Copyright (c) 2013-present, Facebook, Inc.
-	 * All rights reserved.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * @typechecks
 	 */
@@ -11389,11 +11249,9 @@
 
 	/**
 	 * Copyright (c) 2013-present, Facebook, Inc.
-	 * All rights reserved.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * @typechecks
 	 */
@@ -11520,11 +11378,9 @@
 
 	/**
 	 * Copyright (c) 2013-present, Facebook, Inc.
-	 * All rights reserved.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -11616,12 +11472,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -11653,12 +11507,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -12419,6 +12271,10 @@
 	        // happen after `_updateDOMProperties`. Otherwise HTML5 input validations
 	        // raise warnings and prevent the new value from being assigned.
 	        ReactDOMInput.updateWrapper(this);
+
+	        // We also check that we haven't missed a value update, such as a
+	        // Radio group shifting the checked value to another named radio input.
+	        inputValueTracking.updateValueIfChanged(this);
 	        break;
 	      case 'textarea':
 	        ReactDOMTextarea.updateWrapper(this);
@@ -12667,12 +12523,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -12696,11 +12550,9 @@
 
 	/**
 	 * Copyright (c) 2013-present, Facebook, Inc.
-	 * All rights reserved.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -12726,12 +12578,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -12945,12 +12795,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -12969,6 +12817,7 @@
 	  boxFlexGroup: true,
 	  boxOrdinalGroup: true,
 	  columnCount: true,
+	  columns: true,
 	  flex: true,
 	  flexGrow: true,
 	  flexPositive: true,
@@ -13104,11 +12953,9 @@
 
 	/**
 	 * Copyright (c) 2013-present, Facebook, Inc.
-	 * All rights reserved.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * @typechecks
 	 */
@@ -13150,11 +12997,9 @@
 
 	/**
 	 * Copyright (c) 2013-present, Facebook, Inc.
-	 * All rights reserved.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * @typechecks
 	 */
@@ -13183,12 +13028,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -13267,11 +13110,9 @@
 
 	/**
 	 * Copyright (c) 2013-present, Facebook, Inc.
-	 * All rights reserved.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * @typechecks
 	 */
@@ -13312,11 +13153,9 @@
 
 	/**
 	 * Copyright (c) 2013-present, Facebook, Inc.
-	 * All rights reserved.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * @typechecks
 	 */
@@ -13347,11 +13186,9 @@
 
 	/**
 	 * Copyright (c) 2013-present, Facebook, Inc.
-	 * All rights reserved.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 * @typechecks static-only
@@ -13380,12 +13217,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -13619,12 +13454,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -13649,12 +13482,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -13977,12 +13808,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -14013,12 +13842,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -14118,12 +13945,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -14409,12 +14234,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -14551,12 +14374,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -14572,12 +14393,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -14698,12 +14517,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -14902,12 +14719,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -15066,12 +14881,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -15516,12 +15329,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2014-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2014-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -15564,12 +15375,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -15614,12 +15423,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
-	 * Copyright 2014-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2014-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -15772,12 +15579,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -15905,12 +15710,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -16179,7 +15982,7 @@
 	  },
 
 	  _constructComponent: function (doConstruct, publicProps, publicContext, updateQueue) {
-	    if ((undefined) !== 'production') {
+	    if ((undefined) !== 'production' && !doConstruct) {
 	      ReactCurrentOwner.current = this;
 	      try {
 	        return this._constructComponentWithoutOwner(doConstruct, publicProps, publicContext, updateQueue);
@@ -16809,12 +16612,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -16853,12 +16654,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -16945,12 +16744,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -16975,11 +16772,9 @@
 
 	/**
 	 * Copyright (c) 2013-present, Facebook, Inc.
-	 * All rights reserved.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * @typechecks
 	 * 
@@ -17046,12 +16841,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -17092,12 +16885,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2014-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2014-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -17126,12 +16917,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2014-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2014-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -17198,12 +16987,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -17223,12 +17010,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -17286,12 +17071,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -17466,12 +17249,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2014-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2014-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -17490,12 +17271,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -17535,12 +17314,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -17616,12 +17393,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2014-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2014-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -17710,12 +17485,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2015-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2015-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -17853,12 +17626,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2015-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2015-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -18091,12 +17862,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2015-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2015-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -18466,12 +18235,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2014-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2014-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -18530,12 +18297,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2015-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2015-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -18670,12 +18435,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -18836,12 +18599,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -18908,12 +18669,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -19070,11 +18829,9 @@
 
 	/**
 	 * Copyright (c) 2013-present, Facebook, Inc.
-	 * All rights reserved.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * @typechecks
 	 */
@@ -19149,11 +18906,9 @@
 
 	/**
 	 * Copyright (c) 2013-present, Facebook, Inc.
-	 * All rights reserved.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * @typechecks
 	 */
@@ -19191,12 +18946,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -19229,12 +18982,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -19411,12 +19162,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -19538,12 +19287,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -19754,12 +19501,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -19835,11 +19580,9 @@
 
 	/**
 	 * Copyright (c) 2013-present, Facebook, Inc.
-	 * All rights reserved.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -19879,11 +19622,9 @@
 
 	/**
 	 * Copyright (c) 2013-present, Facebook, Inc.
-	 * All rights reserved.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * @typechecks
 	 */
@@ -19908,11 +19649,9 @@
 
 	/**
 	 * Copyright (c) 2013-present, Facebook, Inc.
-	 * All rights reserved.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * @typechecks
 	 */
@@ -19937,11 +19676,9 @@
 
 	/**
 	 * Copyright (c) 2013-present, Facebook, Inc.
-	 * All rights reserved.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * @typechecks
 	 */
@@ -19977,12 +19714,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -20283,12 +20018,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -20475,12 +20208,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -20705,12 +20436,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -20748,12 +20477,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -20790,12 +20517,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -20830,12 +20555,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -20918,12 +20641,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -20972,12 +20693,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -21088,12 +20807,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -21128,12 +20845,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -21177,12 +20892,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -21220,12 +20933,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -21275,12 +20986,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -21817,12 +21526,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -21854,12 +21561,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -21877,12 +21582,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -21931,12 +21634,10 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * 
 	 */
@@ -21979,30 +21680,26 @@
 /***/ (function(module, exports) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
 	'use strict';
 
-	module.exports = '15.6.1';
+	module.exports = '15.6.2';
 
 /***/ }),
 /* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -22061,12 +21758,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -22095,12 +21790,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -22115,12 +21808,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -22231,12 +21922,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -22278,12 +21967,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 *
 	 */
 
@@ -22489,12 +22176,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 */
 
 	if ((undefined) !== 'production') {
@@ -22525,12 +22210,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
+	 * Copyright (c) 2013-present, Facebook, Inc.
 	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
+	 * This source code is licensed under the MIT license found in the
+	 * LICENSE file in the root directory of this source tree.
 	 */
 
 	'use strict';
@@ -22575,7 +22258,8 @@
 	    objectOf: getShim,
 	    oneOf: getShim,
 	    oneOfType: getShim,
-	    shape: getShim
+	    shape: getShim,
+	    exact: getShim
 	  };
 
 	  ReactPropTypes.checkPropTypes = emptyFunction;
@@ -22609,15 +22293,15 @@
 
 	var _AddComponent2 = _interopRequireDefault(_AddComponent);
 
-	var _Component = __webpack_require__(225);
+	var _Component = __webpack_require__(226);
 
 	var _Component2 = _interopRequireDefault(_Component);
 
-	var _CommonComponents = __webpack_require__(246);
+	var _CommonComponents = __webpack_require__(247);
 
 	var _CommonComponents2 = _interopRequireDefault(_CommonComponents);
 
-	var _DefaultComponents = __webpack_require__(248);
+	var _DefaultComponents = __webpack_require__(249);
 
 	var _DefaultComponents2 = _interopRequireDefault(_DefaultComponents);
 
@@ -22711,7 +22395,7 @@
 
 	var _reactSelect2 = _interopRequireDefault(_reactSelect);
 
-	__webpack_require__(206);
+	__webpack_require__(207);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -22721,7 +22405,7 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var INSPECTOR = __webpack_require__(210);
+	var INSPECTOR = __webpack_require__(211);
 
 
 	var DELIMITER = ' ';
@@ -23227,41 +22911,97 @@
 /* 192 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/*!
-	  Copyright (c) 2016 Jed Watson.
-	  Licensed under the MIT License (MIT), see
-	  http://jedwatson.github.io/react-select
-	*/
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+	exports.defaultFilterOptions = exports.defaultClearRenderer = exports.defaultArrowRenderer = exports.defaultMenuRenderer = exports.Option = exports.Value = exports.Creatable = exports.AsyncCreatable = exports.Async = undefined;
+
+	var _Select = __webpack_require__(193);
+
+	var _Select2 = _interopRequireDefault(_Select);
+
+	var _Async = __webpack_require__(204);
+
+	var _Async2 = _interopRequireDefault(_Async);
+
+	var _AsyncCreatable = __webpack_require__(205);
+
+	var _AsyncCreatable2 = _interopRequireDefault(_AsyncCreatable);
+
+	var _Creatable = __webpack_require__(206);
+
+	var _Creatable2 = _interopRequireDefault(_Creatable);
+
+	var _Value = __webpack_require__(203);
+
+	var _Value2 = _interopRequireDefault(_Value);
+
+	var _Option = __webpack_require__(202);
+
+	var _Option2 = _interopRequireDefault(_Option);
+
+	var _defaultMenuRenderer = __webpack_require__(200);
+
+	var _defaultMenuRenderer2 = _interopRequireDefault(_defaultMenuRenderer);
+
+	var _defaultArrowRenderer = __webpack_require__(196);
+
+	var _defaultArrowRenderer2 = _interopRequireDefault(_defaultArrowRenderer);
+
+	var _defaultClearRenderer = __webpack_require__(201);
+
+	var _defaultClearRenderer2 = _interopRequireDefault(_defaultClearRenderer);
+
+	var _defaultFilterOptions = __webpack_require__(197);
+
+	var _defaultFilterOptions2 = _interopRequireDefault(_defaultFilterOptions);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	_Select2.default.Async = _Async2.default;
+	_Select2.default.AsyncCreatable = _AsyncCreatable2.default;
+	_Select2.default.Creatable = _Creatable2.default;
+	_Select2.default.Value = _Value2.default;
+	_Select2.default.Option = _Option2.default;
+
+	exports.default = _Select2.default;
+	exports.Async = _Async2.default;
+	exports.AsyncCreatable = _AsyncCreatable2.default;
+	exports.Creatable = _Creatable2.default;
+	exports.Value = _Value2.default;
+	exports.Option = _Option2.default;
+	exports.defaultMenuRenderer = _defaultMenuRenderer2.default;
+	exports.defaultArrowRenderer = _defaultArrowRenderer2.default;
+	exports.defaultClearRenderer = _defaultClearRenderer2.default;
+	exports.defaultFilterOptions = _defaultFilterOptions2.default;
+
+/***/ }),
+/* 193 */
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	Object.defineProperty(exports, '__esModule', {
+	Object.defineProperty(exports, "__esModule", {
 		value: true
 	});
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-	function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
-
-	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 	var _react = __webpack_require__(2);
 
 	var _react2 = _interopRequireDefault(_react);
-
-	var _createReactClass = __webpack_require__(193);
-
-	var _createReactClass2 = _interopRequireDefault(_createReactClass);
 
 	var _propTypes = __webpack_require__(186);
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
 	var _reactDom = __webpack_require__(38);
-
-	var _reactDom2 = _interopRequireDefault(_reactDom);
 
 	var _reactInputAutosize = __webpack_require__(194);
 
@@ -23271,1240 +23011,1352 @@
 
 	var _classnames2 = _interopRequireDefault(_classnames);
 
-	var _utilsDefaultArrowRenderer = __webpack_require__(196);
+	var _defaultArrowRenderer = __webpack_require__(196);
 
-	var _utilsDefaultArrowRenderer2 = _interopRequireDefault(_utilsDefaultArrowRenderer);
+	var _defaultArrowRenderer2 = _interopRequireDefault(_defaultArrowRenderer);
 
-	var _utilsDefaultFilterOptions = __webpack_require__(197);
+	var _defaultFilterOptions = __webpack_require__(197);
 
-	var _utilsDefaultFilterOptions2 = _interopRequireDefault(_utilsDefaultFilterOptions);
+	var _defaultFilterOptions2 = _interopRequireDefault(_defaultFilterOptions);
 
-	var _utilsDefaultMenuRenderer = __webpack_require__(199);
+	var _defaultMenuRenderer = __webpack_require__(200);
 
-	var _utilsDefaultMenuRenderer2 = _interopRequireDefault(_utilsDefaultMenuRenderer);
+	var _defaultMenuRenderer2 = _interopRequireDefault(_defaultMenuRenderer);
 
-	var _utilsDefaultClearRenderer = __webpack_require__(200);
+	var _defaultClearRenderer = __webpack_require__(201);
 
-	var _utilsDefaultClearRenderer2 = _interopRequireDefault(_utilsDefaultClearRenderer);
+	var _defaultClearRenderer2 = _interopRequireDefault(_defaultClearRenderer);
 
-	var _Async = __webpack_require__(201);
-
-	var _Async2 = _interopRequireDefault(_Async);
-
-	var _AsyncCreatable = __webpack_require__(202);
-
-	var _AsyncCreatable2 = _interopRequireDefault(_AsyncCreatable);
-
-	var _Creatable = __webpack_require__(203);
-
-	var _Creatable2 = _interopRequireDefault(_Creatable);
-
-	var _Option = __webpack_require__(204);
+	var _Option = __webpack_require__(202);
 
 	var _Option2 = _interopRequireDefault(_Option);
 
-	var _Value = __webpack_require__(205);
+	var _Value = __webpack_require__(203);
 
 	var _Value2 = _interopRequireDefault(_Value);
 
-	function stringifyValue(value) {
-		var valueType = typeof value;
-		if (valueType === 'string') {
-			return value;
-		} else if (valueType === 'object') {
-			return JSON.stringify(value);
-		} else if (valueType === 'number' || valueType === 'boolean') {
-			return String(value);
-		} else {
-			return '';
-		}
-	}
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var stringOrNode = _propTypes2['default'].oneOfType([_propTypes2['default'].string, _propTypes2['default'].node]);
+	function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /*!
+	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Copyright (c) 2017 Jed Watson.
+	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Licensed under the MIT License (MIT), see
+	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 http://jedwatson.github.io/react-select
+	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               */
+
+
+	var stringifyValue = function stringifyValue(value) {
+		return typeof value === 'string' ? value : value !== null && JSON.stringify(value) || '';
+	};
+
+	var stringOrNode = _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.node]);
+	var stringOrNumber = _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.number]);
 
 	var instanceId = 1;
 
-	var Select = (0, _createReactClass2['default'])({
+	var Select = function (_React$Component) {
+		_inherits(Select, _React$Component);
 
-		displayName: 'Select',
+		function Select(props) {
+			_classCallCheck(this, Select);
 
-		propTypes: {
-			addLabelText: _propTypes2['default'].string, // placeholder displayed when you want to add a label on a multi-value input
-			'aria-describedby': _propTypes2['default'].string, // HTML ID(s) of element(s) that should be used to describe this input (for assistive tech)
-			'aria-label': _propTypes2['default'].string, // Aria label (for assistive tech)
-			'aria-labelledby': _propTypes2['default'].string, // HTML ID of an element that should be used as the label (for assistive tech)
-			arrowRenderer: _propTypes2['default'].func, // Create drop-down caret element
-			autoBlur: _propTypes2['default'].bool, // automatically blur the component when an option is selected
-			autofocus: _propTypes2['default'].bool, // autofocus the component on mount
-			autosize: _propTypes2['default'].bool, // whether to enable autosizing or not
-			backspaceRemoves: _propTypes2['default'].bool, // whether backspace removes an item if there is no text input
-			backspaceToRemoveMessage: _propTypes2['default'].string, // Message to use for screenreaders to press backspace to remove the current item - {label} is replaced with the item label
-			className: _propTypes2['default'].string, // className for the outer element
-			clearAllText: stringOrNode, // title for the "clear" control when multi: true
-			clearRenderer: _propTypes2['default'].func, // create clearable x element
-			clearValueText: stringOrNode, // title for the "clear" control
-			clearable: _propTypes2['default'].bool, // should it be possible to reset value
-			deleteRemoves: _propTypes2['default'].bool, // whether backspace removes an item if there is no text input
-			delimiter: _propTypes2['default'].string, // delimiter to use to join multiple values for the hidden field value
-			disabled: _propTypes2['default'].bool, // whether the Select is disabled or not
-			escapeClearsValue: _propTypes2['default'].bool, // whether escape clears the value when the menu is closed
-			filterOption: _propTypes2['default'].func, // method to filter a single option (option, filterString)
-			filterOptions: _propTypes2['default'].any, // boolean to enable default filtering or function to filter the options array ([options], filterString, [values])
-			ignoreAccents: _propTypes2['default'].bool, // whether to strip diacritics when filtering
-			ignoreCase: _propTypes2['default'].bool, // whether to perform case-insensitive filtering
-			inputProps: _propTypes2['default'].object, // custom attributes for the Input
-			inputRenderer: _propTypes2['default'].func, // returns a custom input component
-			instanceId: _propTypes2['default'].string, // set the components instanceId
-			isLoading: _propTypes2['default'].bool, // whether the Select is loading externally or not (such as options being loaded)
-			joinValues: _propTypes2['default'].bool, // joins multiple values into a single form field with the delimiter (legacy mode)
-			labelKey: _propTypes2['default'].string, // path of the label value in option objects
-			matchPos: _propTypes2['default'].string, // (any|start) match the start or entire string when filtering
-			matchProp: _propTypes2['default'].string, // (any|label|value) which option property to filter on
-			menuBuffer: _propTypes2['default'].number, // optional buffer (in px) between the bottom of the viewport and the bottom of the menu
-			menuContainerStyle: _propTypes2['default'].object, // optional style to apply to the menu container
-			menuRenderer: _propTypes2['default'].func, // renders a custom menu with options
-			menuStyle: _propTypes2['default'].object, // optional style to apply to the menu
-			multi: _propTypes2['default'].bool, // multi-value input
-			name: _propTypes2['default'].string, // generates a hidden <input /> tag with this field name for html forms
-			noResultsText: stringOrNode, // placeholder displayed when there are no matching search results
-			onBlur: _propTypes2['default'].func, // onBlur handler: function (event) {}
-			onBlurResetsInput: _propTypes2['default'].bool, // whether input is cleared on blur
-			onChange: _propTypes2['default'].func, // onChange handler: function (newValue) {}
-			onClose: _propTypes2['default'].func, // fires when the menu is closed
-			onCloseResetsInput: _propTypes2['default'].bool, // whether input is cleared when menu is closed through the arrow
-			onFocus: _propTypes2['default'].func, // onFocus handler: function (event) {}
-			onInputChange: _propTypes2['default'].func, // onInputChange handler: function (inputValue) {}
-			onInputKeyDown: _propTypes2['default'].func, // input keyDown handler: function (event) {}
-			onMenuScrollToBottom: _propTypes2['default'].func, // fires when the menu is scrolled to the bottom; can be used to paginate options
-			onOpen: _propTypes2['default'].func, // fires when the menu is opened
-			onValueClick: _propTypes2['default'].func, // onClick handler for value labels: function (value, event) {}
-			openAfterFocus: _propTypes2['default'].bool, // boolean to enable opening dropdown when focused
-			openOnFocus: _propTypes2['default'].bool, // always open options menu on focus
-			optionClassName: _propTypes2['default'].string, // additional class(es) to apply to the <Option /> elements
-			optionComponent: _propTypes2['default'].func, // option component to render in dropdown
-			optionRenderer: _propTypes2['default'].func, // optionRenderer: function (option) {}
-			options: _propTypes2['default'].array, // array of options
-			pageSize: _propTypes2['default'].number, // number of entries to page when using page up/down keys
-			placeholder: stringOrNode, // field placeholder, displayed when there's no value
-			required: _propTypes2['default'].bool, // applies HTML5 required attribute when needed
-			resetValue: _propTypes2['default'].any, // value to use when you clear the control
-			scrollMenuIntoView: _propTypes2['default'].bool, // boolean to enable the viewport to shift so that the full menu fully visible when engaged
-			searchable: _propTypes2['default'].bool, // whether to enable searching feature or not
-			simpleValue: _propTypes2['default'].bool, // pass the value to onChange as a simple value (legacy pre 1.0 mode), defaults to false
-			style: _propTypes2['default'].object, // optional style to apply to the control
-			tabIndex: _propTypes2['default'].string, // optional tab index of the control
-			tabSelectsValue: _propTypes2['default'].bool, // whether to treat tabbing out while focused to be value selection
-			value: _propTypes2['default'].any, // initial field value
-			valueComponent: _propTypes2['default'].func, // value component to render
-			valueKey: _propTypes2['default'].string, // path of the label value in option objects
-			valueRenderer: _propTypes2['default'].func, // valueRenderer: function (option) {}
-			wrapperStyle: _propTypes2['default'].object },
+			var _this = _possibleConstructorReturn(this, (Select.__proto__ || Object.getPrototypeOf(Select)).call(this, props));
 
-		// optional style to apply to the component wrapper
-		statics: { Async: _Async2['default'], AsyncCreatable: _AsyncCreatable2['default'], Creatable: _Creatable2['default'] },
+			['clearValue', 'focusOption', 'handleInputBlur', 'handleInputChange', 'handleInputFocus', 'handleInputValueChange', 'handleKeyDown', 'handleMenuScroll', 'handleMouseDown', 'handleMouseDownOnArrow', 'handleMouseDownOnMenu', 'handleRequired', 'handleTouchOutside', 'handleTouchMove', 'handleTouchStart', 'handleTouchEnd', 'handleTouchEndClearValue', 'handleValueClick', 'getOptionLabel', 'onOptionRef', 'removeValue', 'selectValue'].forEach(function (fn) {
+				return _this[fn] = _this[fn].bind(_this);
+			});
 
-		getDefaultProps: function getDefaultProps() {
-			return {
-				addLabelText: 'Add "{label}"?',
-				arrowRenderer: _utilsDefaultArrowRenderer2['default'],
-				autosize: true,
-				backspaceRemoves: true,
-				backspaceToRemoveMessage: 'Press backspace to remove {label}',
-				clearable: true,
-				clearAllText: 'Clear all',
-				clearRenderer: _utilsDefaultClearRenderer2['default'],
-				clearValueText: 'Clear value',
-				deleteRemoves: true,
-				delimiter: ',',
-				disabled: false,
-				escapeClearsValue: true,
-				filterOptions: _utilsDefaultFilterOptions2['default'],
-				ignoreAccents: true,
-				ignoreCase: true,
-				inputProps: {},
-				isLoading: false,
-				joinValues: false,
-				labelKey: 'label',
-				matchPos: 'any',
-				matchProp: 'any',
-				menuBuffer: 0,
-				menuRenderer: _utilsDefaultMenuRenderer2['default'],
-				multi: false,
-				noResultsText: 'No results found',
-				onBlurResetsInput: true,
-				onCloseResetsInput: true,
-				optionComponent: _Option2['default'],
-				pageSize: 5,
-				placeholder: 'Select...',
-				required: false,
-				scrollMenuIntoView: true,
-				searchable: true,
-				simpleValue: false,
-				tabSelectsValue: true,
-				valueComponent: _Value2['default'],
-				valueKey: 'value'
-			};
-		},
-
-		getInitialState: function getInitialState() {
-			return {
+			_this.state = {
 				inputValue: '',
 				isFocused: false,
 				isOpen: false,
 				isPseudoFocused: false,
 				required: false
 			};
-		},
+			return _this;
+		}
 
-		componentWillMount: function componentWillMount() {
-			this._instancePrefix = 'react-select-' + (this.props.instanceId || ++instanceId) + '-';
-			var valueArray = this.getValueArray(this.props.value);
+		_createClass(Select, [{
+			key: 'componentWillMount',
+			value: function componentWillMount() {
+				this._instancePrefix = 'react-select-' + (this.props.instanceId || ++instanceId) + '-';
+				var valueArray = this.getValueArray(this.props.value);
 
-			if (this.props.required) {
-				this.setState({
-					required: this.handleRequired(valueArray[0], this.props.multi)
-				});
-			}
-		},
-
-		componentDidMount: function componentDidMount() {
-			if (this.props.autofocus) {
-				this.focus();
-			}
-		},
-
-		componentWillReceiveProps: function componentWillReceiveProps(nextProps) {
-			var valueArray = this.getValueArray(nextProps.value, nextProps);
-
-			if (nextProps.required) {
-				this.setState({
-					required: this.handleRequired(valueArray[0], nextProps.multi)
-				});
-			}
-		},
-
-		componentWillUpdate: function componentWillUpdate(nextProps, nextState) {
-			if (nextState.isOpen !== this.state.isOpen) {
-				this.toggleTouchOutsideEvent(nextState.isOpen);
-				var handler = nextState.isOpen ? nextProps.onOpen : nextProps.onClose;
-				handler && handler();
-			}
-		},
-
-		componentDidUpdate: function componentDidUpdate(prevProps, prevState) {
-			// focus to the selected option
-			if (this.menu && this.focused && this.state.isOpen && !this.hasScrolledToOption) {
-				var focusedOptionNode = _reactDom2['default'].findDOMNode(this.focused);
-				var menuNode = _reactDom2['default'].findDOMNode(this.menu);
-				menuNode.scrollTop = focusedOptionNode.offsetTop;
-				this.hasScrolledToOption = true;
-			} else if (!this.state.isOpen) {
-				this.hasScrolledToOption = false;
-			}
-
-			if (this._scrollToFocusedOptionOnUpdate && this.focused && this.menu) {
-				this._scrollToFocusedOptionOnUpdate = false;
-				var focusedDOM = _reactDom2['default'].findDOMNode(this.focused);
-				var menuDOM = _reactDom2['default'].findDOMNode(this.menu);
-				var focusedRect = focusedDOM.getBoundingClientRect();
-				var menuRect = menuDOM.getBoundingClientRect();
-				if (focusedRect.bottom > menuRect.bottom || focusedRect.top < menuRect.top) {
-					menuDOM.scrollTop = focusedDOM.offsetTop + focusedDOM.clientHeight - menuDOM.offsetHeight;
+				if (this.props.required) {
+					this.setState({
+						required: this.handleRequired(valueArray[0], this.props.multi)
+					});
 				}
 			}
-			if (this.props.scrollMenuIntoView && this.menuContainer) {
-				var menuContainerRect = this.menuContainer.getBoundingClientRect();
-				if (window.innerHeight < menuContainerRect.bottom + this.props.menuBuffer) {
-					window.scrollBy(0, menuContainerRect.bottom + this.props.menuBuffer - window.innerHeight);
+		}, {
+			key: 'componentDidMount',
+			value: function componentDidMount() {
+				if (typeof this.props.autofocus !== 'undefined' && typeof console !== 'undefined') {
+					console.warn('Warning: The autofocus prop has changed to autoFocus, support will be removed after react-select@1.0');
+				}
+				if (this.props.autoFocus || this.props.autofocus) {
+					this.focus();
 				}
 			}
-			if (prevProps.disabled !== this.props.disabled) {
-				this.setState({ isFocused: false }); // eslint-disable-line react/no-did-update-set-state
-				this.closeMenu();
-			}
-		},
+		}, {
+			key: 'componentWillReceiveProps',
+			value: function componentWillReceiveProps(nextProps) {
+				var valueArray = this.getValueArray(nextProps.value, nextProps);
 
-		componentWillUnmount: function componentWillUnmount() {
-			if (!document.removeEventListener && document.detachEvent) {
-				document.detachEvent('ontouchstart', this.handleTouchOutside);
-			} else {
-				document.removeEventListener('touchstart', this.handleTouchOutside);
+				if (nextProps.required) {
+					this.setState({
+						required: this.handleRequired(valueArray[0], nextProps.multi)
+					});
+				} else if (this.props.required) {
+					// Used to be required but it's not any more
+					this.setState({ required: false });
+				}
 			}
-		},
+		}, {
+			key: 'componentDidUpdate',
+			value: function componentDidUpdate(prevProps, prevState) {
+				// focus to the selected option
+				if (this.menu && this.focused && this.state.isOpen && !this.hasScrolledToOption) {
+					var focusedOptionNode = (0, _reactDom.findDOMNode)(this.focused);
+					var menuNode = (0, _reactDom.findDOMNode)(this.menu);
 
-		toggleTouchOutsideEvent: function toggleTouchOutsideEvent(enabled) {
-			if (enabled) {
-				if (!document.addEventListener && document.attachEvent) {
-					document.attachEvent('ontouchstart', this.handleTouchOutside);
+					var scrollTop = menuNode.scrollTop;
+					var scrollBottom = scrollTop + menuNode.offsetHeight;
+					var optionTop = focusedOptionNode.offsetTop;
+					var optionBottom = optionTop + focusedOptionNode.offsetHeight;
+
+					if (scrollTop > optionTop || scrollBottom < optionBottom) {
+						menuNode.scrollTop = focusedOptionNode.offsetTop;
+					}
+
+					// We still set hasScrolledToOption to true even if we didn't
+					// actually need to scroll, as we've still confirmed that the
+					// option is in view.
+					this.hasScrolledToOption = true;
+				} else if (!this.state.isOpen) {
+					this.hasScrolledToOption = false;
+				}
+
+				if (this._scrollToFocusedOptionOnUpdate && this.focused && this.menu) {
+					this._scrollToFocusedOptionOnUpdate = false;
+					var focusedDOM = (0, _reactDom.findDOMNode)(this.focused);
+					var menuDOM = (0, _reactDom.findDOMNode)(this.menu);
+					var focusedRect = focusedDOM.getBoundingClientRect();
+					var menuRect = menuDOM.getBoundingClientRect();
+					if (focusedRect.bottom > menuRect.bottom) {
+						menuDOM.scrollTop = focusedDOM.offsetTop + focusedDOM.clientHeight - menuDOM.offsetHeight;
+					} else if (focusedRect.top < menuRect.top) {
+						menuDOM.scrollTop = focusedDOM.offsetTop;
+					}
+				}
+				if (this.props.scrollMenuIntoView && this.menuContainer) {
+					var menuContainerRect = this.menuContainer.getBoundingClientRect();
+					if (window.innerHeight < menuContainerRect.bottom + this.props.menuBuffer) {
+						window.scrollBy(0, menuContainerRect.bottom + this.props.menuBuffer - window.innerHeight);
+					}
+				}
+				if (prevProps.disabled !== this.props.disabled) {
+					this.setState({ isFocused: false }); // eslint-disable-line react/no-did-update-set-state
+					this.closeMenu();
+				}
+				if (prevState.isOpen !== this.state.isOpen) {
+					this.toggleTouchOutsideEvent(this.state.isOpen);
+					var handler = this.state.isOpen ? this.props.onOpen : this.props.onClose;
+					handler && handler();
+				}
+			}
+		}, {
+			key: 'componentWillUnmount',
+			value: function componentWillUnmount() {
+				this.toggleTouchOutsideEvent(false);
+			}
+		}, {
+			key: 'toggleTouchOutsideEvent',
+			value: function toggleTouchOutsideEvent(enabled) {
+				if (enabled) {
+					if (!document.addEventListener && document.attachEvent) {
+						document.attachEvent('ontouchstart', this.handleTouchOutside);
+					} else {
+						document.addEventListener('touchstart', this.handleTouchOutside);
+					}
 				} else {
-					document.addEventListener('touchstart', this.handleTouchOutside);
+					if (!document.removeEventListener && document.detachEvent) {
+						document.detachEvent('ontouchstart', this.handleTouchOutside);
+					} else {
+						document.removeEventListener('touchstart', this.handleTouchOutside);
+					}
 				}
-			} else {
-				if (!document.removeEventListener && document.detachEvent) {
-					document.detachEvent('ontouchstart', this.handleTouchOutside);
+			}
+		}, {
+			key: 'handleTouchOutside',
+			value: function handleTouchOutside(event) {
+				// handle touch outside on ios to dismiss menu
+				if (this.wrapper && !this.wrapper.contains(event.target)) {
+					this.closeMenu();
+				}
+			}
+		}, {
+			key: 'focus',
+			value: function focus() {
+				if (!this.input) return;
+				this.input.focus();
+			}
+		}, {
+			key: 'blurInput',
+			value: function blurInput() {
+				if (!this.input) return;
+				this.input.blur();
+			}
+		}, {
+			key: 'handleTouchMove',
+			value: function handleTouchMove(event) {
+				// Set a flag that the view is being dragged
+				this.dragging = true;
+			}
+		}, {
+			key: 'handleTouchStart',
+			value: function handleTouchStart(event) {
+				// Set a flag that the view is not being dragged
+				this.dragging = false;
+			}
+		}, {
+			key: 'handleTouchEnd',
+			value: function handleTouchEnd(event) {
+				// Check if the view is being dragged, In this case
+				// we don't want to fire the click event (because the user only wants to scroll)
+				if (this.dragging) return;
+
+				// Fire the mouse events
+				this.handleMouseDown(event);
+			}
+		}, {
+			key: 'handleTouchEndClearValue',
+			value: function handleTouchEndClearValue(event) {
+				// Check if the view is being dragged, In this case
+				// we don't want to fire the click event (because the user only wants to scroll)
+				if (this.dragging) return;
+
+				// Clear the value
+				this.clearValue(event);
+			}
+		}, {
+			key: 'handleMouseDown',
+			value: function handleMouseDown(event) {
+				// if the event was triggered by a mousedown and not the primary
+				// button, or if the component is disabled, ignore it.
+				if (this.props.disabled || event.type === 'mousedown' && event.button !== 0) {
+					return;
+				}
+
+				if (event.target.tagName === 'INPUT') {
+					if (!this.state.isFocused) {
+						this._openAfterFocus = this.props.openOnClick;
+						this.focus();
+					} else if (!this.state.isOpen) {
+						this.setState({
+							isOpen: true,
+							isPseudoFocused: false
+						});
+					}
+					return;
+				}
+
+				// prevent default event handlers
+				event.preventDefault();
+
+				// for the non-searchable select, toggle the menu
+				if (!this.props.searchable) {
+					// TODO: This code means that if a select is searchable, onClick the options menu will not appear, only on subsequent click will it open.
+					this.focus();
+					return this.setState({
+						isOpen: !this.state.isOpen
+					});
+				}
+
+				if (this.state.isFocused) {
+					// On iOS, we can get into a state where we think the input is focused but it isn't really,
+					// since iOS ignores programmatic calls to input.focus() that weren't triggered by a click event.
+					// Call focus() again here to be safe.
+					this.focus();
+
+					var input = this.input;
+					if (typeof input.getInput === 'function') {
+						// Get the actual DOM input if the ref is an <AutosizeInput /> component
+						input = input.getInput();
+					}
+
+					// clears the value so that the cursor will be at the end of input when the component re-renders
+					input.value = '';
+
+					// if the input is focused, ensure the menu is open
+					this.setState({
+						isOpen: true,
+						isPseudoFocused: false
+					});
 				} else {
-					document.removeEventListener('touchstart', this.handleTouchOutside);
+					// otherwise, focus the input and open the menu
+					this._openAfterFocus = this.props.openOnClick;
+					this.focus();
 				}
 			}
-		},
-
-		handleTouchOutside: function handleTouchOutside(event) {
-			// handle touch outside on ios to dismiss menu
-			if (this.wrapper && !this.wrapper.contains(event.target)) {
-				this.closeMenu();
-			}
-		},
-
-		focus: function focus() {
-			if (!this.input) return;
-			this.input.focus();
-		},
-
-		blurInput: function blurInput() {
-			if (!this.input) return;
-			this.input.blur();
-		},
-
-		handleTouchMove: function handleTouchMove(event) {
-			// Set a flag that the view is being dragged
-			this.dragging = true;
-		},
-
-		handleTouchStart: function handleTouchStart(event) {
-			// Set a flag that the view is not being dragged
-			this.dragging = false;
-		},
-
-		handleTouchEnd: function handleTouchEnd(event) {
-			// Check if the view is being dragged, In this case
-			// we don't want to fire the click event (because the user only wants to scroll)
-			if (this.dragging) return;
-
-			// Fire the mouse events
-			this.handleMouseDown(event);
-		},
-
-		handleTouchEndClearValue: function handleTouchEndClearValue(event) {
-			// Check if the view is being dragged, In this case
-			// we don't want to fire the click event (because the user only wants to scroll)
-			if (this.dragging) return;
-
-			// Clear the value
-			this.clearValue(event);
-		},
-
-		handleMouseDown: function handleMouseDown(event) {
-			// if the event was triggered by a mousedown and not the primary
-			// button, or if the component is disabled, ignore it.
-			if (this.props.disabled || event.type === 'mousedown' && event.button !== 0) {
-				return;
-			}
-
-			if (event.target.tagName === 'INPUT') {
-				return;
-			}
-
-			// prevent default event handlers
-			event.stopPropagation();
-			event.preventDefault();
-
-			// for the non-searchable select, toggle the menu
-			if (!this.props.searchable) {
-				this.focus();
-				return this.setState({
-					isOpen: !this.state.isOpen
-				});
-			}
-
-			if (this.state.isFocused) {
-				// On iOS, we can get into a state where we think the input is focused but it isn't really,
-				// since iOS ignores programmatic calls to input.focus() that weren't triggered by a click event.
-				// Call focus() again here to be safe.
-				this.focus();
-
-				var input = this.input;
-				if (typeof input.getInput === 'function') {
-					// Get the actual DOM input if the ref is an <AutosizeInput /> component
-					input = input.getInput();
+		}, {
+			key: 'handleMouseDownOnArrow',
+			value: function handleMouseDownOnArrow(event) {
+				// if the event was triggered by a mousedown and not the primary
+				// button, or if the component is disabled, ignore it.
+				if (this.props.disabled || event.type === 'mousedown' && event.button !== 0) {
+					return;
 				}
+				// If the menu isn't open, let the event bubble to the main handleMouseDown
+				if (!this.state.isOpen) {
+					this.setState({
+						isOpen: true
+					});
+				}
+				// prevent default event handlers
+				event.stopPropagation();
+				event.preventDefault();
+				// close the menu
+				if (this.state.isOpen) {
+					this.closeMenu();
+				}
+			}
+		}, {
+			key: 'handleMouseDownOnMenu',
+			value: function handleMouseDownOnMenu(event) {
+				// if the event was triggered by a mousedown and not the primary
+				// button, or if the component is disabled, ignore it.
+				if (this.props.disabled || event.type === 'mousedown' && event.button !== 0) {
+					return;
+				}
+				event.stopPropagation();
+				event.preventDefault();
 
-				// clears the value so that the cursor will be at the end of input when the component re-renders
-				input.value = '';
-
-				// if the input is focused, ensure the menu is open
-				this.setState({
-					isOpen: true,
-					isPseudoFocused: false
-				});
-			} else {
-				// otherwise, focus the input and open the menu
 				this._openAfterFocus = true;
 				this.focus();
 			}
-		},
-
-		handleMouseDownOnArrow: function handleMouseDownOnArrow(event) {
-			// if the event was triggered by a mousedown and not the primary
-			// button, or if the component is disabled, ignore it.
-			if (this.props.disabled || event.type === 'mousedown' && event.button !== 0) {
-				return;
-			}
-			// If the menu isn't open, let the event bubble to the main handleMouseDown
-			if (!this.state.isOpen) {
-				return;
-			}
-			// prevent default event handlers
-			event.stopPropagation();
-			event.preventDefault();
-			// close the menu
-			this.closeMenu();
-		},
-
-		handleMouseDownOnMenu: function handleMouseDownOnMenu(event) {
-			// if the event was triggered by a mousedown and not the primary
-			// button, or if the component is disabled, ignore it.
-			if (this.props.disabled || event.type === 'mousedown' && event.button !== 0) {
-				return;
-			}
-			event.stopPropagation();
-			event.preventDefault();
-
-			this._openAfterFocus = true;
-			this.focus();
-		},
-
-		closeMenu: function closeMenu() {
-			if (this.props.onCloseResetsInput) {
-				this.setState({
-					isOpen: false,
-					isPseudoFocused: this.state.isFocused && !this.props.multi,
-					inputValue: ''
-				});
-			} else {
-				this.setState({
-					isOpen: false,
-					isPseudoFocused: this.state.isFocused && !this.props.multi,
-					inputValue: this.state.inputValue
-				});
-			}
-			this.hasScrolledToOption = false;
-		},
-
-		handleInputFocus: function handleInputFocus(event) {
-			if (this.props.disabled) return;
-			var isOpen = this.state.isOpen || this._openAfterFocus || this.props.openOnFocus;
-			if (this.props.onFocus) {
-				this.props.onFocus(event);
-			}
-			this.setState({
-				isFocused: true,
-				isOpen: isOpen
-			});
-			this._openAfterFocus = false;
-		},
-
-		handleInputBlur: function handleInputBlur(event) {
-			// The check for menu.contains(activeElement) is necessary to prevent IE11's scrollbar from closing the menu in certain contexts.
-			if (this.menu && (this.menu === document.activeElement || this.menu.contains(document.activeElement))) {
-				this.focus();
-				return;
-			}
-
-			if (this.props.onBlur) {
-				this.props.onBlur(event);
-			}
-			var onBlurredState = {
-				isFocused: false,
-				isOpen: false,
-				isPseudoFocused: false
-			};
-			if (this.props.onBlurResetsInput) {
-				onBlurredState.inputValue = '';
-			}
-			this.setState(onBlurredState);
-		},
-
-		handleInputChange: function handleInputChange(event) {
-			var newInputValue = event.target.value;
-
-			if (this.state.inputValue !== event.target.value && this.props.onInputChange) {
-				var nextState = this.props.onInputChange(newInputValue);
-				// Note: != used deliberately here to catch undefined and null
-				if (nextState != null && typeof nextState !== 'object') {
-					newInputValue = '' + nextState;
+		}, {
+			key: 'closeMenu',
+			value: function closeMenu() {
+				if (this.props.onCloseResetsInput) {
+					this.setState({
+						isOpen: false,
+						isPseudoFocused: this.state.isFocused && !this.props.multi,
+						inputValue: this.handleInputValueChange('')
+					});
+				} else {
+					this.setState({
+						isOpen: false,
+						isPseudoFocused: this.state.isFocused && !this.props.multi
+					});
 				}
+				this.hasScrolledToOption = false;
 			}
-
-			this.setState({
-				isOpen: true,
-				isPseudoFocused: false,
-				inputValue: newInputValue
-			});
-		},
-
-		handleKeyDown: function handleKeyDown(event) {
-			if (this.props.disabled) return;
-
-			if (typeof this.props.onInputKeyDown === 'function') {
-				this.props.onInputKeyDown(event);
-				if (event.defaultPrevented) {
+		}, {
+			key: 'handleInputFocus',
+			value: function handleInputFocus(event) {
+				if (this.props.disabled) return;
+				var isOpen = this.state.isOpen || this._openAfterFocus || this.props.openOnFocus;
+				if (this.props.onFocus) {
+					this.props.onFocus(event);
+				}
+				this.setState({
+					isFocused: true,
+					isOpen: isOpen
+				});
+				this._openAfterFocus = false;
+			}
+		}, {
+			key: 'handleInputBlur',
+			value: function handleInputBlur(event) {
+				// The check for menu.contains(activeElement) is necessary to prevent IE11's scrollbar from closing the menu in certain contexts.
+				if (this.menu && (this.menu === document.activeElement || this.menu.contains(document.activeElement))) {
+					this.focus();
 					return;
 				}
-			}
 
-			switch (event.keyCode) {
-				case 8:
-					// backspace
-					if (!this.state.inputValue && this.props.backspaceRemoves) {
-						event.preventDefault();
-						this.popValue();
-					}
-					return;
-				case 9:
-					// tab
-					if (event.shiftKey || !this.state.isOpen || !this.props.tabSelectsValue) {
-						return;
-					}
-					this.selectFocusedOption();
-					return;
-				case 13:
-					// enter
-					if (!this.state.isOpen) return;
-					event.stopPropagation();
-					this.selectFocusedOption();
-					break;
-				case 27:
-					// escape
-					if (this.state.isOpen) {
-						this.closeMenu();
-						event.stopPropagation();
-					} else if (this.props.clearable && this.props.escapeClearsValue) {
-						this.clearValue(event);
-						event.stopPropagation();
-					}
-					break;
-				case 38:
-					// up
-					this.focusPreviousOption();
-					break;
-				case 40:
-					// down
-					this.focusNextOption();
-					break;
-				case 33:
-					// page up
-					this.focusPageUpOption();
-					break;
-				case 34:
-					// page down
-					this.focusPageDownOption();
-					break;
-				case 35:
-					// end key
-					if (event.shiftKey) {
-						return;
-					}
-					this.focusEndOption();
-					break;
-				case 36:
-					// home key
-					if (event.shiftKey) {
-						return;
-					}
-					this.focusStartOption();
-					break;
-				case 46:
-					// backspace
-					if (!this.state.inputValue && this.props.deleteRemoves) {
-						event.preventDefault();
-						this.popValue();
-					}
-					return;
-				default:
-					return;
-			}
-			event.preventDefault();
-		},
-
-		handleValueClick: function handleValueClick(option, event) {
-			if (!this.props.onValueClick) return;
-			this.props.onValueClick(option, event);
-		},
-
-		handleMenuScroll: function handleMenuScroll(event) {
-			if (!this.props.onMenuScrollToBottom) return;
-			var target = event.target;
-
-			if (target.scrollHeight > target.offsetHeight && !(target.scrollHeight - target.offsetHeight - target.scrollTop)) {
-				this.props.onMenuScrollToBottom();
-			}
-		},
-
-		handleRequired: function handleRequired(value, multi) {
-			if (!value) return true;
-			return multi ? value.length === 0 : Object.keys(value).length === 0;
-		},
-
-		getOptionLabel: function getOptionLabel(op) {
-			return op[this.props.labelKey];
-		},
-
-		/**
-	  * Turns a value into an array from the given options
-	  * @param	{String|Number|Array}	value		- the value of the select input
-	  * @param	{Object}		nextProps	- optionally specify the nextProps so the returned array uses the latest configuration
-	  * @returns	{Array}	the value of the select represented in an array
-	  */
-		getValueArray: function getValueArray(value, nextProps) {
-			var _this = this;
-
-			/** support optionally passing in the `nextProps` so `componentWillReceiveProps` updates will function as expected */
-			var props = typeof nextProps === 'object' ? nextProps : this.props;
-			if (props.multi) {
-				if (typeof value === 'string') value = value.split(props.delimiter);
-				if (!Array.isArray(value)) {
-					if (value === null || value === undefined) return [];
-					value = [value];
+				if (this.props.onBlur) {
+					this.props.onBlur(event);
 				}
-				return value.map(function (value) {
-					return _this.expandValue(value, props);
-				}).filter(function (i) {
-					return i;
-				});
-			}
-			var expandedValue = this.expandValue(value, props);
-			return expandedValue ? [expandedValue] : [];
-		},
-
-		/**
-	  * Retrieve a value from the given options and valueKey
-	  * @param	{String|Number|Array}	value	- the selected value(s)
-	  * @param	{Object}		props	- the Select component's props (or nextProps)
-	  */
-		expandValue: function expandValue(value, props) {
-			var valueType = typeof value;
-			if (valueType !== 'string' && valueType !== 'number' && valueType !== 'boolean') return value;
-			var options = props.options;
-			var valueKey = props.valueKey;
-
-			if (!options) return;
-			for (var i = 0; i < options.length; i++) {
-				if (options[i][valueKey] === value) return options[i];
-			}
-		},
-
-		setValue: function setValue(value) {
-			var _this2 = this;
-
-			if (this.props.autoBlur) {
-				this.blurInput();
-			}
-			if (!this.props.onChange) return;
-			if (this.props.required) {
-				var required = this.handleRequired(value, this.props.multi);
-				this.setState({ required: required });
-			}
-			if (this.props.simpleValue && value) {
-				value = this.props.multi ? value.map(function (i) {
-					return i[_this2.props.valueKey];
-				}).join(this.props.delimiter) : value[this.props.valueKey];
-			}
-			this.props.onChange(value);
-		},
-
-		selectValue: function selectValue(value) {
-			var _this3 = this;
-
-			//NOTE: update value in the callback to make sure the input value is empty so that there are no styling issues (Chrome had issue otherwise)
-			this.hasScrolledToOption = false;
-			if (this.props.multi) {
-				this.setState({
-					inputValue: '',
-					focusedIndex: null
-				}, function () {
-					_this3.addValue(value);
-				});
-			} else {
-				this.setState({
+				var onBlurredState = {
+					isFocused: false,
 					isOpen: false,
-					inputValue: '',
-					isPseudoFocused: this.state.isFocused
-				}, function () {
-					_this3.setValue(value);
-				});
+					isPseudoFocused: false
+				};
+				if (this.props.onBlurResetsInput) {
+					onBlurredState.inputValue = this.handleInputValueChange('');
+				}
+				this.setState(onBlurredState);
 			}
-		},
+		}, {
+			key: 'handleInputChange',
+			value: function handleInputChange(event) {
+				var newInputValue = event.target.value;
 
-		addValue: function addValue(value) {
-			var valueArray = this.getValueArray(this.props.value);
-			var visibleOptions = this._visibleOptions.filter(function (val) {
-				return !val.disabled;
-			});
-			var lastValueIndex = visibleOptions.indexOf(value);
-			this.setValue(valueArray.concat(value));
-			if (visibleOptions.length - 1 === lastValueIndex) {
-				// the last option was selected; focus the second-last one
-				this.focusOption(visibleOptions[lastValueIndex - 1]);
-			} else if (visibleOptions.length > lastValueIndex) {
-				// focus the option below the selected one
-				this.focusOption(visibleOptions[lastValueIndex + 1]);
-			}
-		},
+				if (this.state.inputValue !== event.target.value) {
+					newInputValue = this.handleInputValueChange(newInputValue);
+				}
 
-		popValue: function popValue() {
-			var valueArray = this.getValueArray(this.props.value);
-			if (!valueArray.length) return;
-			if (valueArray[valueArray.length - 1].clearableValue === false) return;
-			this.setValue(valueArray.slice(0, valueArray.length - 1));
-		},
-
-		removeValue: function removeValue(value) {
-			var valueArray = this.getValueArray(this.props.value);
-			this.setValue(valueArray.filter(function (i) {
-				return i !== value;
-			}));
-			this.focus();
-		},
-
-		clearValue: function clearValue(event) {
-			// if the event was triggered by a mousedown and not the primary
-			// button, ignore it.
-			if (event && event.type === 'mousedown' && event.button !== 0) {
-				return;
-			}
-			event.stopPropagation();
-			event.preventDefault();
-			this.setValue(this.getResetValue());
-			this.setState({
-				isOpen: false,
-				inputValue: ''
-			}, this.focus);
-		},
-
-		getResetValue: function getResetValue() {
-			if (this.props.resetValue !== undefined) {
-				return this.props.resetValue;
-			} else if (this.props.multi) {
-				return [];
-			} else {
-				return null;
-			}
-		},
-
-		focusOption: function focusOption(option) {
-			this.setState({
-				focusedOption: option
-			});
-		},
-
-		focusNextOption: function focusNextOption() {
-			this.focusAdjacentOption('next');
-		},
-
-		focusPreviousOption: function focusPreviousOption() {
-			this.focusAdjacentOption('previous');
-		},
-
-		focusPageUpOption: function focusPageUpOption() {
-			this.focusAdjacentOption('page_up');
-		},
-
-		focusPageDownOption: function focusPageDownOption() {
-			this.focusAdjacentOption('page_down');
-		},
-
-		focusStartOption: function focusStartOption() {
-			this.focusAdjacentOption('start');
-		},
-
-		focusEndOption: function focusEndOption() {
-			this.focusAdjacentOption('end');
-		},
-
-		focusAdjacentOption: function focusAdjacentOption(dir) {
-			var options = this._visibleOptions.map(function (option, index) {
-				return { option: option, index: index };
-			}).filter(function (option) {
-				return !option.option.disabled;
-			});
-			this._scrollToFocusedOptionOnUpdate = true;
-			if (!this.state.isOpen) {
 				this.setState({
 					isOpen: true,
-					inputValue: '',
-					focusedOption: this._focusedOption || (options.length ? options[dir === 'next' ? 0 : options.length - 1].option : null)
+					isPseudoFocused: false,
+					inputValue: newInputValue
 				});
-				return;
 			}
-			if (!options.length) return;
-			var focusedIndex = -1;
-			for (var i = 0; i < options.length; i++) {
-				if (this._focusedOption === options[i].option) {
-					focusedIndex = i;
-					break;
+		}, {
+			key: 'handleInputValueChange',
+			value: function handleInputValueChange(newValue) {
+				if (this.props.onInputChange) {
+					var nextState = this.props.onInputChange(newValue);
+					// Note: != used deliberately here to catch undefined and null
+					if (nextState != null && (typeof nextState === 'undefined' ? 'undefined' : _typeof(nextState)) !== 'object') {
+						newValue = '' + nextState;
+					}
+				}
+				return newValue;
+			}
+		}, {
+			key: 'handleKeyDown',
+			value: function handleKeyDown(event) {
+				if (this.props.disabled) return;
+
+				if (typeof this.props.onInputKeyDown === 'function') {
+					this.props.onInputKeyDown(event);
+					if (event.defaultPrevented) {
+						return;
+					}
+				}
+
+				switch (event.keyCode) {
+					case 8:
+						// backspace
+						if (!this.state.inputValue && this.props.backspaceRemoves) {
+							event.preventDefault();
+							this.popValue();
+						}
+						return;
+					case 9:
+						// tab
+						if (event.shiftKey || !this.state.isOpen || !this.props.tabSelectsValue) {
+							return;
+						}
+						event.preventDefault();
+						this.selectFocusedOption();
+						return;
+					case 13:
+						// enter
+						event.preventDefault();
+						event.stopPropagation();
+						if (this.state.isOpen) {
+							this.selectFocusedOption();
+						} else {
+							this.focusNextOption();
+						}
+						return;
+						break;
+					case 27:
+						// escape
+						if (this.state.isOpen) {
+							this.closeMenu();
+							event.stopPropagation();
+						} else if (this.props.clearable && this.props.escapeClearsValue) {
+							this.clearValue(event);
+							event.stopPropagation();
+						}
+						break;
+					case 32:
+						// space
+						if (this.props.searchable) {
+							return;
+						}
+						event.preventDefault();
+						if (!this.state.isOpen) {
+							this.focusNextOption();
+							return;
+						}
+						event.stopPropagation();
+						this.selectFocusedOption();
+						break;
+					case 38:
+						// up
+						this.focusPreviousOption();
+						break;
+					case 40:
+						// down
+						this.focusNextOption();
+						break;
+					case 33:
+						// page up
+						this.focusPageUpOption();
+						break;
+					case 34:
+						// page down
+						this.focusPageDownOption();
+						break;
+					case 35:
+						// end key
+						if (event.shiftKey) {
+							return;
+						}
+						this.focusEndOption();
+						break;
+					case 36:
+						// home key
+						if (event.shiftKey) {
+							return;
+						}
+						this.focusStartOption();
+						break;
+					case 46:
+						// delete
+						if (!this.state.inputValue && this.props.deleteRemoves) {
+							event.preventDefault();
+							this.popValue();
+						}
+						return;
+					default:
+						return;
+				}
+				event.preventDefault();
+			}
+		}, {
+			key: 'handleValueClick',
+			value: function handleValueClick(option, event) {
+				if (!this.props.onValueClick) return;
+				this.props.onValueClick(option, event);
+			}
+		}, {
+			key: 'handleMenuScroll',
+			value: function handleMenuScroll(event) {
+				if (!this.props.onMenuScrollToBottom) return;
+				var target = event.target;
+
+				if (target.scrollHeight > target.offsetHeight && target.scrollHeight - target.offsetHeight - target.scrollTop <= 0) {
+					this.props.onMenuScrollToBottom();
 				}
 			}
-			if (dir === 'next' && focusedIndex !== -1) {
-				focusedIndex = (focusedIndex + 1) % options.length;
-			} else if (dir === 'previous') {
-				if (focusedIndex > 0) {
-					focusedIndex = focusedIndex - 1;
+		}, {
+			key: 'handleRequired',
+			value: function handleRequired(value, multi) {
+				if (!value) return true;
+				return multi ? value.length === 0 : Object.keys(value).length === 0;
+			}
+		}, {
+			key: 'getOptionLabel',
+			value: function getOptionLabel(op) {
+				return op[this.props.labelKey];
+			}
+
+			/**
+	   * Turns a value into an array from the given options
+	   * @param	{String|Number|Array}	value		- the value of the select input
+	   * @param	{Object}		nextProps	- optionally specify the nextProps so the returned array uses the latest configuration
+	   * @returns	{Array}	the value of the select represented in an array
+	   */
+
+		}, {
+			key: 'getValueArray',
+			value: function getValueArray(value, nextProps) {
+				var _this2 = this;
+
+				/** support optionally passing in the `nextProps` so `componentWillReceiveProps` updates will function as expected */
+				var props = (typeof nextProps === 'undefined' ? 'undefined' : _typeof(nextProps)) === 'object' ? nextProps : this.props;
+				if (props.multi) {
+					if (typeof value === 'string') {
+						value = value.split(props.delimiter);
+					}
+					if (!Array.isArray(value)) {
+						if (value === null || value === undefined) return [];
+						value = [value];
+					}
+					return value.map(function (value) {
+						return _this2.expandValue(value, props);
+					}).filter(function (i) {
+						return i;
+					});
+				}
+				var expandedValue = this.expandValue(value, props);
+				return expandedValue ? [expandedValue] : [];
+			}
+
+			/**
+	   * Retrieve a value from the given options and valueKey
+	   * @param	{String|Number|Array}	value	- the selected value(s)
+	   * @param	{Object}		props	- the Select component's props (or nextProps)
+	   */
+
+		}, {
+			key: 'expandValue',
+			value: function expandValue(value, props) {
+				var valueType = typeof value === 'undefined' ? 'undefined' : _typeof(value);
+				if (valueType !== 'string' && valueType !== 'number' && valueType !== 'boolean') return value;
+				var options = props.options,
+				    valueKey = props.valueKey;
+
+				if (!options) return;
+				for (var i = 0; i < options.length; i++) {
+					if (String(options[i][valueKey]) === String(value)) return options[i];
+				}
+			}
+		}, {
+			key: 'setValue',
+			value: function setValue(value) {
+				var _this3 = this;
+
+				if (this.props.autoBlur) {
+					this.blurInput();
+				}
+				if (this.props.required) {
+					var required = this.handleRequired(value, this.props.multi);
+					this.setState({ required: required });
+				}
+				if (this.props.onChange) {
+					if (this.props.simpleValue && value) {
+						value = this.props.multi ? value.map(function (i) {
+							return i[_this3.props.valueKey];
+						}).join(this.props.delimiter) : value[this.props.valueKey];
+					}
+					this.props.onChange(value);
+				}
+			}
+		}, {
+			key: 'selectValue',
+			value: function selectValue(value) {
+				var _this4 = this;
+
+				// NOTE: we actually add/set the value in a callback to make sure the
+				// input value is empty to avoid styling issues in Chrome
+				if (this.props.closeOnSelect) {
+					this.hasScrolledToOption = false;
+				}
+				if (this.props.multi) {
+					var updatedValue = this.props.onSelectResetsInput ? '' : this.state.inputValue;
+					this.setState({
+						focusedIndex: null,
+						inputValue: this.handleInputValueChange(updatedValue),
+						isOpen: !this.props.closeOnSelect
+					}, function () {
+						var valueArray = _this4.getValueArray(_this4.props.value);
+						if (valueArray.some(function (i) {
+							return i[_this4.props.valueKey] === value[_this4.props.valueKey];
+						})) {
+							_this4.removeValue(value);
+						} else {
+							_this4.addValue(value);
+						}
+					});
 				} else {
-					focusedIndex = options.length - 1;
+					this.setState({
+						inputValue: this.handleInputValueChange(''),
+						isOpen: !this.props.closeOnSelect,
+						isPseudoFocused: this.state.isFocused
+					}, function () {
+						_this4.setValue(value);
+					});
 				}
-			} else if (dir === 'start') {
-				focusedIndex = 0;
-			} else if (dir === 'end') {
-				focusedIndex = options.length - 1;
-			} else if (dir === 'page_up') {
-				var potentialIndex = focusedIndex - this.props.pageSize;
-				if (potentialIndex < 0) {
+			}
+		}, {
+			key: 'addValue',
+			value: function addValue(value) {
+				var valueArray = this.getValueArray(this.props.value);
+				var visibleOptions = this._visibleOptions.filter(function (val) {
+					return !val.disabled;
+				});
+				var lastValueIndex = visibleOptions.indexOf(value);
+				this.setValue(valueArray.concat(value));
+				if (visibleOptions.length - 1 === lastValueIndex) {
+					// the last option was selected; focus the second-last one
+					this.focusOption(visibleOptions[lastValueIndex - 1]);
+				} else if (visibleOptions.length > lastValueIndex) {
+					// focus the option below the selected one
+					this.focusOption(visibleOptions[lastValueIndex + 1]);
+				}
+			}
+		}, {
+			key: 'popValue',
+			value: function popValue() {
+				var valueArray = this.getValueArray(this.props.value);
+				if (!valueArray.length) return;
+				if (valueArray[valueArray.length - 1].clearableValue === false) return;
+				this.setValue(this.props.multi ? valueArray.slice(0, valueArray.length - 1) : null);
+			}
+		}, {
+			key: 'removeValue',
+			value: function removeValue(value) {
+				var _this5 = this;
+
+				var valueArray = this.getValueArray(this.props.value);
+				this.setValue(valueArray.filter(function (i) {
+					return i[_this5.props.valueKey] !== value[_this5.props.valueKey];
+				}));
+				this.focus();
+			}
+		}, {
+			key: 'clearValue',
+			value: function clearValue(event) {
+				// if the event was triggered by a mousedown and not the primary
+				// button, ignore it.
+				if (event && event.type === 'mousedown' && event.button !== 0) {
+					return;
+				}
+				event.preventDefault();
+				this.setValue(this.getResetValue());
+				this.setState({
+					isOpen: false,
+					inputValue: this.handleInputValueChange('')
+				}, this.focus);
+			}
+		}, {
+			key: 'getResetValue',
+			value: function getResetValue() {
+				if (this.props.resetValue !== undefined) {
+					return this.props.resetValue;
+				} else if (this.props.multi) {
+					return [];
+				} else {
+					return null;
+				}
+			}
+		}, {
+			key: 'focusOption',
+			value: function focusOption(option) {
+				this.setState({
+					focusedOption: option
+				});
+			}
+		}, {
+			key: 'focusNextOption',
+			value: function focusNextOption() {
+				this.focusAdjacentOption('next');
+			}
+		}, {
+			key: 'focusPreviousOption',
+			value: function focusPreviousOption() {
+				this.focusAdjacentOption('previous');
+			}
+		}, {
+			key: 'focusPageUpOption',
+			value: function focusPageUpOption() {
+				this.focusAdjacentOption('page_up');
+			}
+		}, {
+			key: 'focusPageDownOption',
+			value: function focusPageDownOption() {
+				this.focusAdjacentOption('page_down');
+			}
+		}, {
+			key: 'focusStartOption',
+			value: function focusStartOption() {
+				this.focusAdjacentOption('start');
+			}
+		}, {
+			key: 'focusEndOption',
+			value: function focusEndOption() {
+				this.focusAdjacentOption('end');
+			}
+		}, {
+			key: 'focusAdjacentOption',
+			value: function focusAdjacentOption(dir) {
+				var options = this._visibleOptions.map(function (option, index) {
+					return { option: option, index: index };
+				}).filter(function (option) {
+					return !option.option.disabled;
+				});
+				this._scrollToFocusedOptionOnUpdate = true;
+				if (!this.state.isOpen) {
+					this.setState({
+						isOpen: true,
+						inputValue: '',
+						focusedOption: this._focusedOption || (options.length ? options[dir === 'next' ? 0 : options.length - 1].option : null)
+					});
+					return;
+				}
+				if (!options.length) return;
+				var focusedIndex = -1;
+				for (var i = 0; i < options.length; i++) {
+					if (this._focusedOption === options[i].option) {
+						focusedIndex = i;
+						break;
+					}
+				}
+				if (dir === 'next' && focusedIndex !== -1) {
+					focusedIndex = (focusedIndex + 1) % options.length;
+				} else if (dir === 'previous') {
+					if (focusedIndex > 0) {
+						focusedIndex = focusedIndex - 1;
+					} else {
+						focusedIndex = options.length - 1;
+					}
+				} else if (dir === 'start') {
 					focusedIndex = 0;
-				} else {
-					focusedIndex = potentialIndex;
-				}
-			} else if (dir === 'page_down') {
-				var potentialIndex = focusedIndex + this.props.pageSize;
-				if (potentialIndex > options.length - 1) {
+				} else if (dir === 'end') {
 					focusedIndex = options.length - 1;
-				} else {
-					focusedIndex = potentialIndex;
+				} else if (dir === 'page_up') {
+					var potentialIndex = focusedIndex - this.props.pageSize;
+					if (potentialIndex < 0) {
+						focusedIndex = 0;
+					} else {
+						focusedIndex = potentialIndex;
+					}
+				} else if (dir === 'page_down') {
+					var potentialIndex = focusedIndex + this.props.pageSize;
+					if (potentialIndex > options.length - 1) {
+						focusedIndex = options.length - 1;
+					} else {
+						focusedIndex = potentialIndex;
+					}
+				}
+
+				if (focusedIndex === -1) {
+					focusedIndex = 0;
+				}
+
+				this.setState({
+					focusedIndex: options[focusedIndex].index,
+					focusedOption: options[focusedIndex].option
+				});
+			}
+		}, {
+			key: 'getFocusedOption',
+			value: function getFocusedOption() {
+				return this._focusedOption;
+			}
+		}, {
+			key: 'selectFocusedOption',
+			value: function selectFocusedOption() {
+				if (this._focusedOption) {
+					return this.selectValue(this._focusedOption);
 				}
 			}
-
-			if (focusedIndex === -1) {
-				focusedIndex = 0;
+		}, {
+			key: 'renderLoading',
+			value: function renderLoading() {
+				if (!this.props.isLoading) return;
+				return _react2.default.createElement(
+					'span',
+					{ className: 'Select-loading-zone', 'aria-hidden': 'true' },
+					_react2.default.createElement('span', { className: 'Select-loading' })
+				);
 			}
+		}, {
+			key: 'renderValue',
+			value: function renderValue(valueArray, isOpen) {
+				var _this6 = this;
 
-			this.setState({
-				focusedIndex: options[focusedIndex].index,
-				focusedOption: options[focusedIndex].option
-			});
-		},
-
-		getFocusedOption: function getFocusedOption() {
-			return this._focusedOption;
-		},
-
-		getInputValue: function getInputValue() {
-			return this.state.inputValue;
-		},
-
-		selectFocusedOption: function selectFocusedOption() {
-			if (this._focusedOption) {
-				return this.selectValue(this._focusedOption);
-			}
-		},
-
-		renderLoading: function renderLoading() {
-			if (!this.props.isLoading) return;
-			return _react2['default'].createElement(
-				'span',
-				{ className: 'Select-loading-zone', 'aria-hidden': 'true' },
-				_react2['default'].createElement('span', { className: 'Select-loading' })
-			);
-		},
-
-		renderValue: function renderValue(valueArray, isOpen) {
-			var _this4 = this;
-
-			var renderLabel = this.props.valueRenderer || this.getOptionLabel;
-			var ValueComponent = this.props.valueComponent;
-			if (!valueArray.length) {
-				return !this.state.inputValue ? _react2['default'].createElement(
-					'div',
-					{ className: 'Select-placeholder' },
-					this.props.placeholder
-				) : null;
-			}
-			var onClick = this.props.onValueClick ? this.handleValueClick : null;
-			if (this.props.multi) {
-				return valueArray.map(function (value, i) {
-					return _react2['default'].createElement(
+				var renderLabel = this.props.valueRenderer || this.getOptionLabel;
+				var ValueComponent = this.props.valueComponent;
+				if (!valueArray.length) {
+					return !this.state.inputValue ? _react2.default.createElement(
+						'div',
+						{ className: 'Select-placeholder' },
+						this.props.placeholder
+					) : null;
+				}
+				var onClick = this.props.onValueClick ? this.handleValueClick : null;
+				if (this.props.multi) {
+					return valueArray.map(function (value, i) {
+						return _react2.default.createElement(
+							ValueComponent,
+							{
+								id: _this6._instancePrefix + '-value-' + i,
+								instancePrefix: _this6._instancePrefix,
+								disabled: _this6.props.disabled || value.clearableValue === false,
+								key: 'value-' + i + '-' + value[_this6.props.valueKey],
+								onClick: onClick,
+								onRemove: _this6.removeValue,
+								value: value
+							},
+							renderLabel(value, i),
+							_react2.default.createElement(
+								'span',
+								{ className: 'Select-aria-only' },
+								'\xA0'
+							)
+						);
+					});
+				} else if (!this.state.inputValue) {
+					if (isOpen) onClick = null;
+					return _react2.default.createElement(
 						ValueComponent,
 						{
-							id: _this4._instancePrefix + '-value-' + i,
-							instancePrefix: _this4._instancePrefix,
-							disabled: _this4.props.disabled || value.clearableValue === false,
-							key: 'value-' + i + '-' + value[_this4.props.valueKey],
+							id: this._instancePrefix + '-value-item',
+							disabled: this.props.disabled,
+							instancePrefix: this._instancePrefix,
 							onClick: onClick,
-							onRemove: _this4.removeValue,
-							value: value
+							value: valueArray[0]
 						},
-						renderLabel(value, i),
-						_react2['default'].createElement(
-							'span',
-							{ className: 'Select-aria-only' },
-							' '
-						)
+						renderLabel(valueArray[0])
 					);
-				});
-			} else if (!this.state.inputValue) {
-				if (isOpen) onClick = null;
-				return _react2['default'].createElement(
-					ValueComponent,
-					{
-						id: this._instancePrefix + '-value-item',
-						disabled: this.props.disabled,
-						instancePrefix: this._instancePrefix,
-						onClick: onClick,
-						value: valueArray[0]
-					},
-					renderLabel(valueArray[0])
-				);
-			}
-		},
-
-		renderInput: function renderInput(valueArray, focusedOptionIndex) {
-			var _classNames,
-			    _this5 = this;
-
-			var className = (0, _classnames2['default'])('Select-input', this.props.inputProps.className);
-			var isOpen = !!this.state.isOpen;
-
-			var ariaOwns = (0, _classnames2['default'])((_classNames = {}, _defineProperty(_classNames, this._instancePrefix + '-list', isOpen), _defineProperty(_classNames, this._instancePrefix + '-backspace-remove-message', this.props.multi && !this.props.disabled && this.state.isFocused && !this.state.inputValue), _classNames));
-
-			// TODO: Check how this project includes Object.assign()
-			var inputProps = _extends({}, this.props.inputProps, {
-				role: 'combobox',
-				'aria-expanded': '' + isOpen,
-				'aria-owns': ariaOwns,
-				'aria-haspopup': '' + isOpen,
-				'aria-activedescendant': isOpen ? this._instancePrefix + '-option-' + focusedOptionIndex : this._instancePrefix + '-value',
-				'aria-describedby': this.props['aria-describedby'],
-				'aria-labelledby': this.props['aria-labelledby'],
-				'aria-label': this.props['aria-label'],
-				className: className,
-				tabIndex: this.props.tabIndex,
-				onBlur: this.handleInputBlur,
-				onChange: this.handleInputChange,
-				onFocus: this.handleInputFocus,
-				ref: function ref(_ref) {
-					return _this5.input = _ref;
-				},
-				required: this.state.required,
-				value: this.state.inputValue
-			});
-
-			if (this.props.inputRenderer) {
-				return this.props.inputRenderer(inputProps);
-			}
-
-			if (this.props.disabled || !this.props.searchable) {
-				var _props$inputProps = this.props.inputProps;
-				var inputClassName = _props$inputProps.inputClassName;
-
-				var divProps = _objectWithoutProperties(_props$inputProps, ['inputClassName']);
-
-				var _ariaOwns = (0, _classnames2['default'])(_defineProperty({}, this._instancePrefix + '-list', isOpen));
-
-				return _react2['default'].createElement('div', _extends({}, divProps, {
-					role: 'combobox',
-					'aria-expanded': isOpen,
-					'aria-owns': _ariaOwns,
-					'aria-activedescendant': isOpen ? this._instancePrefix + '-option-' + focusedOptionIndex : this._instancePrefix + '-value',
-					className: className,
-					tabIndex: this.props.tabIndex || 0,
-					onBlur: this.handleInputBlur,
-					onFocus: this.handleInputFocus,
-					ref: function (ref) {
-						return _this5.input = ref;
-					},
-					'aria-readonly': '' + !!this.props.disabled,
-					style: { border: 0, width: 1, display: 'inline-block' } }));
-			}
-
-			if (this.props.autosize) {
-				return _react2['default'].createElement(_reactInputAutosize2['default'], _extends({}, inputProps, { minWidth: '5' }));
-			}
-			return _react2['default'].createElement(
-				'div',
-				{ className: className },
-				_react2['default'].createElement('input', inputProps)
-			);
-		},
-
-		renderClear: function renderClear() {
-
-			if (!this.props.clearable || this.props.value === undefined || this.props.value === null || this.props.multi && !this.props.value.length || this.props.disabled || this.props.isLoading) return;
-			var clear = this.props.clearRenderer();
-
-			return _react2['default'].createElement(
-				'span',
-				{ className: 'Select-clear-zone', title: this.props.multi ? this.props.clearAllText : this.props.clearValueText,
-					'aria-label': this.props.multi ? this.props.clearAllText : this.props.clearValueText,
-					onMouseDown: this.clearValue,
-					onTouchStart: this.handleTouchStart,
-					onTouchMove: this.handleTouchMove,
-					onTouchEnd: this.handleTouchEndClearValue
-				},
-				clear
-			);
-		},
-
-		renderArrow: function renderArrow() {
-			var onMouseDown = this.handleMouseDownOnArrow;
-			var isOpen = this.state.isOpen;
-			var arrow = this.props.arrowRenderer({ onMouseDown: onMouseDown, isOpen: isOpen });
-
-			return _react2['default'].createElement(
-				'span',
-				{
-					className: 'Select-arrow-zone',
-					onMouseDown: onMouseDown
-				},
-				arrow
-			);
-		},
-
-		filterOptions: function filterOptions(excludeOptions) {
-			var filterValue = this.state.inputValue;
-			var options = this.props.options || [];
-			if (this.props.filterOptions) {
-				// Maintain backwards compatibility with boolean attribute
-				var filterOptions = typeof this.props.filterOptions === 'function' ? this.props.filterOptions : _utilsDefaultFilterOptions2['default'];
-
-				return filterOptions(options, filterValue, excludeOptions, {
-					filterOption: this.props.filterOption,
-					ignoreAccents: this.props.ignoreAccents,
-					ignoreCase: this.props.ignoreCase,
-					labelKey: this.props.labelKey,
-					matchPos: this.props.matchPos,
-					matchProp: this.props.matchProp,
-					valueKey: this.props.valueKey
-				});
-			} else {
-				return options;
-			}
-		},
-
-		onOptionRef: function onOptionRef(ref, isFocused) {
-			if (isFocused) {
-				this.focused = ref;
-			}
-		},
-
-		renderMenu: function renderMenu(options, valueArray, focusedOption) {
-			if (options && options.length) {
-				return this.props.menuRenderer({
-					focusedOption: focusedOption,
-					focusOption: this.focusOption,
-					instancePrefix: this._instancePrefix,
-					labelKey: this.props.labelKey,
-					onFocus: this.focusOption,
-					onSelect: this.selectValue,
-					optionClassName: this.props.optionClassName,
-					optionComponent: this.props.optionComponent,
-					optionRenderer: this.props.optionRenderer || this.getOptionLabel,
-					options: options,
-					selectValue: this.selectValue,
-					valueArray: valueArray,
-					valueKey: this.props.valueKey,
-					onOptionRef: this.onOptionRef
-				});
-			} else if (this.props.noResultsText) {
-				return _react2['default'].createElement(
-					'div',
-					{ className: 'Select-noresults' },
-					this.props.noResultsText
-				);
-			} else {
-				return null;
-			}
-		},
-
-		renderHiddenField: function renderHiddenField(valueArray) {
-			var _this6 = this;
-
-			if (!this.props.name) return;
-			if (this.props.joinValues) {
-				var value = valueArray.map(function (i) {
-					return stringifyValue(i[_this6.props.valueKey]);
-				}).join(this.props.delimiter);
-				return _react2['default'].createElement('input', {
-					type: 'hidden',
-					ref: function (ref) {
-						return _this6.value = ref;
-					},
-					name: this.props.name,
-					value: value,
-					disabled: this.props.disabled });
-			}
-			return valueArray.map(function (item, index) {
-				return _react2['default'].createElement('input', { key: 'hidden.' + index,
-					type: 'hidden',
-					ref: 'value' + index,
-					name: _this6.props.name,
-					value: stringifyValue(item[_this6.props.valueKey]),
-					disabled: _this6.props.disabled });
-			});
-		},
-
-		getFocusableOptionIndex: function getFocusableOptionIndex(selectedOption) {
-			var options = this._visibleOptions;
-			if (!options.length) return null;
-
-			var valueKey = this.props.valueKey;
-			var focusedOption = this.state.focusedOption || selectedOption;
-			if (focusedOption && !focusedOption.disabled) {
-				var focusedOptionIndex = -1;
-				options.some(function (option, index) {
-					var isOptionEqual = option[valueKey] === focusedOption[valueKey];
-					if (isOptionEqual) {
-						focusedOptionIndex = index;
-					}
-					return isOptionEqual;
-				});
-				if (focusedOptionIndex !== -1) {
-					return focusedOptionIndex;
 				}
 			}
+		}, {
+			key: 'renderInput',
+			value: function renderInput(valueArray, focusedOptionIndex) {
+				var _classNames,
+				    _this7 = this;
 
-			for (var i = 0; i < options.length; i++) {
-				if (!options[i].disabled) return i;
-			}
-			return null;
-		},
+				var className = (0, _classnames2.default)('Select-input', this.props.inputProps.className);
+				var isOpen = !!this.state.isOpen;
 
-		renderOuter: function renderOuter(options, valueArray, focusedOption) {
-			var _this7 = this;
+				var ariaOwns = (0, _classnames2.default)((_classNames = {}, _defineProperty(_classNames, this._instancePrefix + '-list', isOpen), _defineProperty(_classNames, this._instancePrefix + '-backspace-remove-message', this.props.multi && !this.props.disabled && this.state.isFocused && !this.state.inputValue), _classNames));
+				var inputProps = _extends({}, this.props.inputProps, {
+					role: 'combobox',
+					'aria-expanded': '' + isOpen,
+					'aria-owns': ariaOwns,
+					'aria-haspopup': '' + isOpen,
+					'aria-activedescendant': isOpen ? this._instancePrefix + '-option-' + focusedOptionIndex : this._instancePrefix + '-value',
+					'aria-describedby': this.props['aria-describedby'],
+					'aria-labelledby': this.props['aria-labelledby'],
+					'aria-label': this.props['aria-label'],
+					className: className,
+					tabIndex: this.props.tabIndex,
+					onBlur: this.handleInputBlur,
+					onChange: this.handleInputChange,
+					onFocus: this.handleInputFocus,
+					ref: function ref(_ref) {
+						return _this7.input = _ref;
+					},
+					required: this.state.required,
+					value: this.state.inputValue
+				});
 
-			var menu = this.renderMenu(options, valueArray, focusedOption);
-			if (!menu) {
-				return null;
-			}
+				if (this.props.inputRenderer) {
+					return this.props.inputRenderer(inputProps);
+				}
 
-			return _react2['default'].createElement(
-				'div',
-				{ ref: function (ref) {
-						return _this7.menuContainer = ref;
-					}, className: 'Select-menu-outer', style: this.props.menuContainerStyle },
-				_react2['default'].createElement(
+				if (this.props.disabled || !this.props.searchable) {
+					var _props$inputProps = this.props.inputProps,
+					    inputClassName = _props$inputProps.inputClassName,
+					    divProps = _objectWithoutProperties(_props$inputProps, ['inputClassName']);
+
+					var _ariaOwns = (0, _classnames2.default)(_defineProperty({}, this._instancePrefix + '-list', isOpen));
+					return _react2.default.createElement('div', _extends({}, divProps, {
+						role: 'combobox',
+						'aria-expanded': isOpen,
+						'aria-owns': _ariaOwns,
+						'aria-activedescendant': isOpen ? this._instancePrefix + '-option-' + focusedOptionIndex : this._instancePrefix + '-value',
+						'aria-labelledby': this.props['aria-labelledby'],
+						'aria-label': this.props['aria-label'],
+						className: className,
+						tabIndex: this.props.tabIndex || 0,
+						onBlur: this.handleInputBlur,
+						onFocus: this.handleInputFocus,
+						ref: function ref(_ref2) {
+							return _this7.input = _ref2;
+						},
+						'aria-disabled': '' + !!this.props.disabled,
+						style: { border: 0, width: 1, display: 'inline-block' } }));
+				}
+
+				if (this.props.autosize) {
+					return _react2.default.createElement(_reactInputAutosize2.default, _extends({ id: this.props.id }, inputProps, { minWidth: '5' }));
+				}
+				return _react2.default.createElement(
 					'div',
-					{ ref: function (ref) {
-							return _this7.menu = ref;
-						}, role: 'listbox', className: 'Select-menu', id: this._instancePrefix + '-list',
-						style: this.props.menuStyle,
-						onScroll: this.handleMenuScroll,
-						onMouseDown: this.handleMouseDownOnMenu },
-					menu
-				)
-			);
-		},
-
-		render: function render() {
-			var _this8 = this;
-
-			var valueArray = this.getValueArray(this.props.value);
-			var options = this._visibleOptions = this.filterOptions(this.props.multi ? this.getValueArray(this.props.value) : null);
-			var isOpen = this.state.isOpen;
-			if (this.props.multi && !options.length && valueArray.length && !this.state.inputValue) isOpen = false;
-			var focusedOptionIndex = this.getFocusableOptionIndex(valueArray[0]);
-
-			var focusedOption = null;
-			if (focusedOptionIndex !== null) {
-				focusedOption = this._focusedOption = options[focusedOptionIndex];
-			} else {
-				focusedOption = this._focusedOption = null;
-			}
-			var className = (0, _classnames2['default'])('Select', this.props.className, {
-				'Select--multi': this.props.multi,
-				'Select--single': !this.props.multi,
-				'is-clearable': this.props.clearable,
-				'is-disabled': this.props.disabled,
-				'is-focused': this.state.isFocused,
-				'is-loading': this.props.isLoading,
-				'is-open': isOpen,
-				'is-pseudo-focused': this.state.isPseudoFocused,
-				'is-searchable': this.props.searchable,
-				'has-value': valueArray.length
-			});
-
-			var removeMessage = null;
-			if (this.props.multi && !this.props.disabled && valueArray.length && !this.state.inputValue && this.state.isFocused && this.props.backspaceRemoves) {
-				removeMessage = _react2['default'].createElement(
-					'span',
-					{ id: this._instancePrefix + '-backspace-remove-message', className: 'Select-aria-only', 'aria-live': 'assertive' },
-					this.props.backspaceToRemoveMessage.replace('{label}', valueArray[valueArray.length - 1][this.props.labelKey])
+					{ className: className, key: 'input-wrap' },
+					_react2.default.createElement('input', _extends({ id: this.props.id }, inputProps))
 				);
 			}
+		}, {
+			key: 'renderClear',
+			value: function renderClear() {
+				var valueArray = this.getValueArray(this.props.value);
+				if (!this.props.clearable || !valueArray.length || this.props.disabled || this.props.isLoading) return;
+				var clear = this.props.clearRenderer();
 
-			return _react2['default'].createElement(
-				'div',
-				{ ref: function (ref) {
-						return _this8.wrapper = ref;
-					},
-					className: className,
-					style: this.props.wrapperStyle },
-				this.renderHiddenField(valueArray),
-				_react2['default'].createElement(
-					'div',
-					{ ref: function (ref) {
-							return _this8.control = ref;
-						},
-						className: 'Select-control',
-						style: this.props.style,
-						onKeyDown: this.handleKeyDown,
-						onMouseDown: this.handleMouseDown,
-						onTouchEnd: this.handleTouchEnd,
+				return _react2.default.createElement(
+					'span',
+					{ className: 'Select-clear-zone', title: this.props.multi ? this.props.clearAllText : this.props.clearValueText,
+						'aria-label': this.props.multi ? this.props.clearAllText : this.props.clearValueText,
+						onMouseDown: this.clearValue,
 						onTouchStart: this.handleTouchStart,
-						onTouchMove: this.handleTouchMove
+						onTouchMove: this.handleTouchMove,
+						onTouchEnd: this.handleTouchEndClearValue
 					},
-					_react2['default'].createElement(
+					clear
+				);
+			}
+		}, {
+			key: 'renderArrow',
+			value: function renderArrow() {
+				if (!this.props.arrowRenderer) return;
+
+				var onMouseDown = this.handleMouseDownOnArrow;
+				var isOpen = this.state.isOpen;
+				var arrow = this.props.arrowRenderer({ onMouseDown: onMouseDown, isOpen: isOpen });
+
+				if (!arrow) {
+					return null;
+				}
+
+				return _react2.default.createElement(
+					'span',
+					{
+						className: 'Select-arrow-zone',
+						onMouseDown: onMouseDown
+					},
+					arrow
+				);
+			}
+		}, {
+			key: 'filterOptions',
+			value: function filterOptions(excludeOptions) {
+				var filterValue = this.state.inputValue;
+				var options = this.props.options || [];
+				if (this.props.filterOptions) {
+					// Maintain backwards compatibility with boolean attribute
+					var filterOptions = typeof this.props.filterOptions === 'function' ? this.props.filterOptions : _defaultFilterOptions2.default;
+
+					return filterOptions(options, filterValue, excludeOptions, {
+						filterOption: this.props.filterOption,
+						ignoreAccents: this.props.ignoreAccents,
+						ignoreCase: this.props.ignoreCase,
+						labelKey: this.props.labelKey,
+						matchPos: this.props.matchPos,
+						matchProp: this.props.matchProp,
+						valueKey: this.props.valueKey,
+						trimFilter: this.props.trimFilter
+					});
+				} else {
+					return options;
+				}
+			}
+		}, {
+			key: 'onOptionRef',
+			value: function onOptionRef(ref, isFocused) {
+				if (isFocused) {
+					this.focused = ref;
+				}
+			}
+		}, {
+			key: 'renderMenu',
+			value: function renderMenu(options, valueArray, focusedOption) {
+				if (options && options.length) {
+					return this.props.menuRenderer({
+						focusedOption: focusedOption,
+						focusOption: this.focusOption,
+						inputValue: this.state.inputValue,
+						instancePrefix: this._instancePrefix,
+						labelKey: this.props.labelKey,
+						onFocus: this.focusOption,
+						onSelect: this.selectValue,
+						optionClassName: this.props.optionClassName,
+						optionComponent: this.props.optionComponent,
+						optionRenderer: this.props.optionRenderer || this.getOptionLabel,
+						options: options,
+						selectValue: this.selectValue,
+						removeValue: this.removeValue,
+						valueArray: valueArray,
+						valueKey: this.props.valueKey,
+						onOptionRef: this.onOptionRef
+					});
+				} else if (this.props.noResultsText) {
+					return _react2.default.createElement(
+						'div',
+						{ className: 'Select-noresults' },
+						this.props.noResultsText
+					);
+				} else {
+					return null;
+				}
+			}
+		}, {
+			key: 'renderHiddenField',
+			value: function renderHiddenField(valueArray) {
+				var _this8 = this;
+
+				if (!this.props.name) return;
+				if (this.props.joinValues) {
+					var value = valueArray.map(function (i) {
+						return stringifyValue(i[_this8.props.valueKey]);
+					}).join(this.props.delimiter);
+					return _react2.default.createElement('input', {
+						type: 'hidden',
+						ref: function ref(_ref3) {
+							return _this8.value = _ref3;
+						},
+						name: this.props.name,
+						value: value,
+						disabled: this.props.disabled });
+				}
+				return valueArray.map(function (item, index) {
+					return _react2.default.createElement('input', { key: 'hidden.' + index,
+						type: 'hidden',
+						ref: 'value' + index,
+						name: _this8.props.name,
+						value: stringifyValue(item[_this8.props.valueKey]),
+						disabled: _this8.props.disabled });
+				});
+			}
+		}, {
+			key: 'getFocusableOptionIndex',
+			value: function getFocusableOptionIndex(selectedOption) {
+				var options = this._visibleOptions;
+				if (!options.length) return null;
+
+				var valueKey = this.props.valueKey;
+				var focusedOption = this.state.focusedOption || selectedOption;
+				if (focusedOption && !focusedOption.disabled) {
+					var focusedOptionIndex = -1;
+					options.some(function (option, index) {
+						var isOptionEqual = option[valueKey] === focusedOption[valueKey];
+						if (isOptionEqual) {
+							focusedOptionIndex = index;
+						}
+						return isOptionEqual;
+					});
+					if (focusedOptionIndex !== -1) {
+						return focusedOptionIndex;
+					}
+				}
+
+				for (var i = 0; i < options.length; i++) {
+					if (!options[i].disabled) return i;
+				}
+				return null;
+			}
+		}, {
+			key: 'renderOuter',
+			value: function renderOuter(options, valueArray, focusedOption) {
+				var _this9 = this;
+
+				var menu = this.renderMenu(options, valueArray, focusedOption);
+				if (!menu) {
+					return null;
+				}
+
+				return _react2.default.createElement(
+					'div',
+					{ ref: function ref(_ref5) {
+							return _this9.menuContainer = _ref5;
+						}, className: 'Select-menu-outer', style: this.props.menuContainerStyle },
+					_react2.default.createElement(
+						'div',
+						{ ref: function ref(_ref4) {
+								return _this9.menu = _ref4;
+							}, role: 'listbox', tabIndex: -1, className: 'Select-menu', id: this._instancePrefix + '-list',
+							style: this.props.menuStyle,
+							onScroll: this.handleMenuScroll,
+							onMouseDown: this.handleMouseDownOnMenu },
+						menu
+					)
+				);
+			}
+		}, {
+			key: 'render',
+			value: function render() {
+				var _this10 = this;
+
+				var valueArray = this.getValueArray(this.props.value);
+				var options = this._visibleOptions = this.filterOptions(this.props.multi && this.props.removeSelected ? valueArray : null);
+				var isOpen = this.state.isOpen;
+				if (this.props.multi && !options.length && valueArray.length && !this.state.inputValue) isOpen = false;
+				var focusedOptionIndex = this.getFocusableOptionIndex(valueArray[0]);
+
+				var focusedOption = null;
+				if (focusedOptionIndex !== null) {
+					focusedOption = this._focusedOption = options[focusedOptionIndex];
+				} else {
+					focusedOption = this._focusedOption = null;
+				}
+				var className = (0, _classnames2.default)('Select', this.props.className, {
+					'Select--multi': this.props.multi,
+					'Select--single': !this.props.multi,
+					'is-clearable': this.props.clearable,
+					'is-disabled': this.props.disabled,
+					'is-focused': this.state.isFocused,
+					'is-loading': this.props.isLoading,
+					'is-open': isOpen,
+					'is-pseudo-focused': this.state.isPseudoFocused,
+					'is-searchable': this.props.searchable,
+					'has-value': valueArray.length,
+					'Select--rtl': this.props.rtl
+				});
+
+				var removeMessage = null;
+				if (this.props.multi && !this.props.disabled && valueArray.length && !this.state.inputValue && this.state.isFocused && this.props.backspaceRemoves) {
+					removeMessage = _react2.default.createElement(
 						'span',
-						{ className: 'Select-multi-value-wrapper', id: this._instancePrefix + '-value' },
-						this.renderValue(valueArray, isOpen),
-						this.renderInput(valueArray, focusedOptionIndex)
+						{ id: this._instancePrefix + '-backspace-remove-message', className: 'Select-aria-only', 'aria-live': 'assertive' },
+						this.props.backspaceToRemoveMessage.replace('{label}', valueArray[valueArray.length - 1][this.props.labelKey])
+					);
+				}
+
+				return _react2.default.createElement(
+					'div',
+					{ ref: function ref(_ref7) {
+							return _this10.wrapper = _ref7;
+						},
+						className: className,
+						style: this.props.wrapperStyle },
+					this.renderHiddenField(valueArray),
+					_react2.default.createElement(
+						'div',
+						{ ref: function ref(_ref6) {
+								return _this10.control = _ref6;
+							},
+							className: 'Select-control',
+							style: this.props.style,
+							onKeyDown: this.handleKeyDown,
+							onMouseDown: this.handleMouseDown,
+							onTouchEnd: this.handleTouchEnd,
+							onTouchStart: this.handleTouchStart,
+							onTouchMove: this.handleTouchMove
+						},
+						_react2.default.createElement(
+							'span',
+							{ className: 'Select-multi-value-wrapper', id: this._instancePrefix + '-value' },
+							this.renderValue(valueArray, isOpen),
+							this.renderInput(valueArray, focusedOptionIndex)
+						),
+						removeMessage,
+						this.renderLoading(),
+						this.renderClear(),
+						this.renderArrow()
 					),
-					removeMessage,
-					this.renderLoading(),
-					this.renderClear(),
-					this.renderArrow()
-				),
-				isOpen ? this.renderOuter(options, !this.props.multi ? valueArray : null, focusedOption) : null
-			);
-		}
+					isOpen ? this.renderOuter(options, valueArray, focusedOption) : null
+				);
+			}
+		}]);
 
-	});
+		return Select;
+	}(_react2.default.Component);
 
-	exports['default'] = Select;
-	module.exports = exports['default'];
+	;
 
-/***/ }),
-/* 193 */
-/***/ (function(module, exports, __webpack_require__) {
+	Select.propTypes = {
+		'aria-describedby': _propTypes2.default.string, // html id(s) of element(s) that should be used to describe this input (for assistive tech)
+		'aria-label': _propTypes2.default.string, // aria label (for assistive tech)
+		'aria-labelledby': _propTypes2.default.string, // html id of an element that should be used as the label (for assistive tech)
+		arrowRenderer: _propTypes2.default.func, // create the drop-down caret element
+		autoBlur: _propTypes2.default.bool, // automatically blur the component when an option is selected
+		autoFocus: _propTypes2.default.bool, // autofocus the component on mount
+		autofocus: _propTypes2.default.bool, // deprecated; use autoFocus instead
+		autosize: _propTypes2.default.bool, // whether to enable autosizing or not
+		backspaceRemoves: _propTypes2.default.bool, // whether backspace removes an item if there is no text input
+		backspaceToRemoveMessage: _propTypes2.default.string, // message to use for screenreaders to press backspace to remove the current item - {label} is replaced with the item label
+		className: _propTypes2.default.string, // className for the outer element
+		clearAllText: stringOrNode, // title for the "clear" control when multi: true
+		clearRenderer: _propTypes2.default.func, // create clearable x element
+		clearValueText: stringOrNode, // title for the "clear" control
+		clearable: _propTypes2.default.bool, // should it be possible to reset value
+		closeOnSelect: _propTypes2.default.bool, // whether to close the menu when a value is selected
+		deleteRemoves: _propTypes2.default.bool, // whether delete removes an item if there is no text input
+		delimiter: _propTypes2.default.string, // delimiter to use to join multiple values for the hidden field value
+		disabled: _propTypes2.default.bool, // whether the Select is disabled or not
+		escapeClearsValue: _propTypes2.default.bool, // whether escape clears the value when the menu is closed
+		filterOption: _propTypes2.default.func, // method to filter a single option (option, filterString)
+		filterOptions: _propTypes2.default.any, // boolean to enable default filtering or function to filter the options array ([options], filterString, [values])
+		id: _propTypes2.default.string, // html id to set on the input element for accessibility or tests
+		ignoreAccents: _propTypes2.default.bool, // whether to strip diacritics when filtering
+		ignoreCase: _propTypes2.default.bool, // whether to perform case-insensitive filtering
+		inputProps: _propTypes2.default.object, // custom attributes for the Input
+		inputRenderer: _propTypes2.default.func, // returns a custom input component
+		instanceId: _propTypes2.default.string, // set the components instanceId
+		isLoading: _propTypes2.default.bool, // whether the Select is loading externally or not (such as options being loaded)
+		joinValues: _propTypes2.default.bool, // joins multiple values into a single form field with the delimiter (legacy mode)
+		labelKey: _propTypes2.default.string, // path of the label value in option objects
+		matchPos: _propTypes2.default.string, // (any|start) match the start or entire string when filtering
+		matchProp: _propTypes2.default.string, // (any|label|value) which option property to filter on
+		menuBuffer: _propTypes2.default.number, // optional buffer (in px) between the bottom of the viewport and the bottom of the menu
+		menuContainerStyle: _propTypes2.default.object, // optional style to apply to the menu container
+		menuRenderer: _propTypes2.default.func, // renders a custom menu with options
+		menuStyle: _propTypes2.default.object, // optional style to apply to the menu
+		multi: _propTypes2.default.bool, // multi-value input
+		name: _propTypes2.default.string, // generates a hidden <input /> tag with this field name for html forms
+		noResultsText: stringOrNode, // placeholder displayed when there are no matching search results
+		onBlur: _propTypes2.default.func, // onBlur handler: function (event) {}
+		onBlurResetsInput: _propTypes2.default.bool, // whether input is cleared on blur
+		onChange: _propTypes2.default.func, // onChange handler: function (newValue) {}
+		onClose: _propTypes2.default.func, // fires when the menu is closed
+		onCloseResetsInput: _propTypes2.default.bool, // whether input is cleared when menu is closed through the arrow
+		onFocus: _propTypes2.default.func, // onFocus handler: function (event) {}
+		onInputChange: _propTypes2.default.func, // onInputChange handler: function (inputValue) {}
+		onInputKeyDown: _propTypes2.default.func, // input keyDown handler: function (event) {}
+		onMenuScrollToBottom: _propTypes2.default.func, // fires when the menu is scrolled to the bottom; can be used to paginate options
+		onOpen: _propTypes2.default.func, // fires when the menu is opened
+		onSelectResetsInput: _propTypes2.default.bool, // whether input is cleared on select (works only for multiselect)
+		onValueClick: _propTypes2.default.func, // onClick handler for value labels: function (value, event) {}
+		openOnClick: _propTypes2.default.bool, // boolean to control opening the menu when the control is clicked
+		openOnFocus: _propTypes2.default.bool, // always open options menu on focus
+		optionClassName: _propTypes2.default.string, // additional class(es) to apply to the <Option /> elements
+		optionComponent: _propTypes2.default.func, // option component to render in dropdown
+		optionRenderer: _propTypes2.default.func, // optionRenderer: function (option) {}
+		options: _propTypes2.default.array, // array of options
+		pageSize: _propTypes2.default.number, // number of entries to page when using page up/down keys
+		placeholder: stringOrNode, // field placeholder, displayed when there's no value
+		removeSelected: _propTypes2.default.bool, // whether the selected option is removed from the dropdown on multi selects
+		required: _propTypes2.default.bool, // applies HTML5 required attribute when needed
+		resetValue: _propTypes2.default.any, // value to use when you clear the control
+		rtl: _propTypes2.default.bool, // set to true in order to use react-select in right-to-left direction
+		scrollMenuIntoView: _propTypes2.default.bool, // boolean to enable the viewport to shift so that the full menu fully visible when engaged
+		searchable: _propTypes2.default.bool, // whether to enable searching feature or not
+		simpleValue: _propTypes2.default.bool, // pass the value to onChange as a simple value (legacy pre 1.0 mode), defaults to false
+		style: _propTypes2.default.object, // optional style to apply to the control
+		tabIndex: stringOrNumber, // optional tab index of the control
+		tabSelectsValue: _propTypes2.default.bool, // whether to treat tabbing out while focused to be value selection
+		trimFilter: _propTypes2.default.bool, // whether to trim whitespace around filter value
+		value: _propTypes2.default.any, // initial field value
+		valueComponent: _propTypes2.default.func, // value component to render
+		valueKey: _propTypes2.default.string, // path of the label value in option objects
+		valueRenderer: _propTypes2.default.func, // valueRenderer: function (option) {}
+		wrapperStyle: _propTypes2.default.object // optional style to apply to the component wrapper
+	};
 
-	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
-	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
-	 *
-	 */
+	Select.defaultProps = {
+		arrowRenderer: _defaultArrowRenderer2.default,
+		autosize: true,
+		backspaceRemoves: true,
+		backspaceToRemoveMessage: 'Press backspace to remove {label}',
+		clearable: true,
+		clearAllText: 'Clear all',
+		clearRenderer: _defaultClearRenderer2.default,
+		clearValueText: 'Clear value',
+		closeOnSelect: true,
+		deleteRemoves: true,
+		delimiter: ',',
+		disabled: false,
+		escapeClearsValue: true,
+		filterOptions: _defaultFilterOptions2.default,
+		ignoreAccents: true,
+		ignoreCase: true,
+		inputProps: {},
+		isLoading: false,
+		joinValues: false,
+		labelKey: 'label',
+		matchPos: 'any',
+		matchProp: 'any',
+		menuBuffer: 0,
+		menuRenderer: _defaultMenuRenderer2.default,
+		multi: false,
+		noResultsText: 'No results found',
+		onBlurResetsInput: true,
+		onSelectResetsInput: true,
+		onCloseResetsInput: true,
+		openOnClick: true,
+		optionComponent: _Option2.default,
+		pageSize: 5,
+		placeholder: 'Select...',
+		removeSelected: true,
+		required: false,
+		rtl: false,
+		scrollMenuIntoView: true,
+		searchable: true,
+		simpleValue: false,
+		tabSelectsValue: true,
+		trimFilter: true,
+		valueComponent: _Value2.default,
+		valueKey: 'value'
+	};
 
-	'use strict';
-
-	var React = __webpack_require__(2);
-	var factory = __webpack_require__(36);
-
-	if (typeof React === 'undefined') {
-	  throw Error(
-	    'create-react-class could not find the React object. If you are using script tags, ' +
-	      'make sure that React is being loaded before create-react-class.'
-	  );
-	}
-
-	// Hack to grab NoopUpdateQueue from isomorphic React
-	var ReactNoopUpdateQueue = new React.Component().updater;
-
-	module.exports = factory(
-	  React.Component,
-	  React.isValidElement,
-	  ReactNoopUpdateQueue
-	);
-
+	exports.default = Select;
 
 /***/ }),
 /* 194 */
@@ -24512,11 +24364,31 @@
 
 	'use strict';
 
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-	var React = __webpack_require__(2);
-	var PropTypes = __webpack_require__(186);
-	var createClass = __webpack_require__(193);
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _propTypes = __webpack_require__(186);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 	var sizerStyle = {
 		position: 'absolute',
@@ -24528,153 +24400,237 @@
 		whiteSpace: 'pre'
 	};
 
-	var AutosizeInput = createClass({
-		propTypes: {
-			className: PropTypes.string, // className for the outer element
-			defaultValue: PropTypes.any, // default field value
-			inputClassName: PropTypes.string, // className for the input element
-			inputStyle: PropTypes.object, // css styles for the input element
-			minWidth: PropTypes.oneOfType([// minimum width for input element
-			PropTypes.number, PropTypes.string]),
-			onAutosize: PropTypes.func, // onAutosize handler: function(newWidth) {}
-			onChange: PropTypes.func, // onChange handler: function(newValue) {}
-			placeholder: PropTypes.string, // placeholder text
-			placeholderIsMinWidth: PropTypes.bool, // don't collapse size to less than the placeholder
-			style: PropTypes.object, // css styles for the outer element
-			value: PropTypes.any },
-		// field value
-		getDefaultProps: function getDefaultProps() {
-			return {
-				minWidth: 1
-			};
-		},
-		getInitialState: function getInitialState() {
-			return {
-				inputWidth: this.props.minWidth
-			};
-		},
-		componentDidMount: function componentDidMount() {
-			this.mounted = true;
-			this.copyInputStyles();
-			this.updateInputWidth();
-		},
-		componentDidUpdate: function componentDidUpdate(prevProps, prevState) {
-			if (prevState.inputWidth !== this.state.inputWidth) {
-				if (typeof this.props.onAutosize === 'function') {
-					this.props.onAutosize(this.state.inputWidth);
-				}
-			}
-			this.updateInputWidth();
-		},
-		componentWillUnmount: function componentWillUnmount() {
-			this.mounted = false;
-		},
-		inputRef: function inputRef(el) {
-			this.input = el;
-		},
-		placeHolderSizerRef: function placeHolderSizerRef(el) {
-			this.placeHolderSizer = el;
-		},
-		sizerRef: function sizerRef(el) {
-			this.sizer = el;
-		},
-		copyInputStyles: function copyInputStyles() {
-			if (this.mounted || !window.getComputedStyle) {
-				return;
-			}
-			var inputStyle = this.input && window.getComputedStyle(this.input);
-			if (!inputStyle) {
-				return;
-			}
-			var widthNode = this.sizer;
-			widthNode.style.fontSize = inputStyle.fontSize;
-			widthNode.style.fontFamily = inputStyle.fontFamily;
-			widthNode.style.fontWeight = inputStyle.fontWeight;
-			widthNode.style.fontStyle = inputStyle.fontStyle;
-			widthNode.style.letterSpacing = inputStyle.letterSpacing;
-			widthNode.style.textTransform = inputStyle.textTransform;
-			if (this.props.placeholder) {
-				var placeholderNode = this.placeHolderSizer;
-				placeholderNode.style.fontSize = inputStyle.fontSize;
-				placeholderNode.style.fontFamily = inputStyle.fontFamily;
-				placeholderNode.style.fontWeight = inputStyle.fontWeight;
-				placeholderNode.style.fontStyle = inputStyle.fontStyle;
-				placeholderNode.style.letterSpacing = inputStyle.letterSpacing;
-				placeholderNode.style.textTransform = inputStyle.textTransform;
-			}
-		},
-		updateInputWidth: function updateInputWidth() {
-			if (!this.mounted || !this.sizer || typeof this.sizer.scrollWidth === 'undefined') {
-				return;
-			}
-			var newInputWidth = undefined;
-			if (this.props.placeholder && (!this.props.value || this.props.value && this.props.placeholderIsMinWidth)) {
-				newInputWidth = Math.max(this.sizer.scrollWidth, this.placeHolderSizer.scrollWidth) + 2;
-			} else {
-				newInputWidth = this.sizer.scrollWidth + 2;
-			}
-			if (newInputWidth < this.props.minWidth) {
-				newInputWidth = this.props.minWidth;
-			}
-			if (newInputWidth !== this.state.inputWidth) {
-				this.setState({
-					inputWidth: newInputWidth
-				});
-			}
-		},
-		getInput: function getInput() {
-			return this.input;
-		},
-		focus: function focus() {
-			this.input.focus();
-		},
-		blur: function blur() {
-			this.input.blur();
-		},
-		select: function select() {
-			this.input.select();
-		},
-		render: function render() {
-			var sizerValue = [this.props.defaultValue, this.props.value, ''].reduce(function (previousValue, currentValue) {
-				if (previousValue !== null && previousValue !== undefined) {
-					return previousValue;
-				}
-				return currentValue;
-			});
+	var INPUT_PROPS_BLACKLIST = ['injectStyles', 'inputClassName', 'inputRef', 'inputStyle', 'minWidth', 'onAutosize', 'placeholderIsMinWidth'];
 
-			var wrapperStyle = this.props.style || {};
-			if (!wrapperStyle.display) wrapperStyle.display = 'inline-block';
-			var inputStyle = _extends({}, this.props.inputStyle);
-			inputStyle.width = this.state.inputWidth + 'px';
-			inputStyle.boxSizing = 'content-box';
-			var inputProps = _extends({}, this.props);
-			inputProps.className = this.props.inputClassName;
-			inputProps.style = inputStyle;
-			// ensure props meant for `AutosizeInput` don't end up on the `input`
-			delete inputProps.inputClassName;
-			delete inputProps.inputStyle;
-			delete inputProps.minWidth;
-			delete inputProps.onAutosize;
-			delete inputProps.placeholderIsMinWidth;
-			return React.createElement(
-				'div',
-				{ className: this.props.className, style: wrapperStyle },
-				React.createElement('input', _extends({}, inputProps, { ref: this.inputRef })),
-				React.createElement(
-					'div',
-					{ ref: this.sizerRef, style: sizerStyle },
-					sizerValue
-				),
-				this.props.placeholder ? React.createElement(
-					'div',
-					{ ref: this.placeHolderSizerRef, style: sizerStyle },
-					this.props.placeholder
-				) : null
-			);
+	var cleanInputProps = function cleanInputProps(inputProps) {
+		INPUT_PROPS_BLACKLIST.forEach(function (field) {
+			return delete inputProps[field];
+		});
+		return inputProps;
+	};
+
+	var copyStyles = function copyStyles(styles, node) {
+		node.style.fontSize = styles.fontSize;
+		node.style.fontFamily = styles.fontFamily;
+		node.style.fontWeight = styles.fontWeight;
+		node.style.fontStyle = styles.fontStyle;
+		node.style.letterSpacing = styles.letterSpacing;
+		node.style.textTransform = styles.textTransform;
+	};
+
+	var isIE = typeof window === 'undefined' ? false : /MSIE |Trident\/|Edge\//.test(window.navigator.userAgent);
+
+	var generateId = function generateId() {
+		// we only need an auto-generated ID for stylesheet injection, which is only
+		// used for IE. so if the browser is not IE, this should return undefined.
+		return isIE ? '_' + Math.random().toString(36).substr(2, 12) : undefined;
+	};
+
+	var AutosizeInput = function (_Component) {
+		_inherits(AutosizeInput, _Component);
+
+		function AutosizeInput(props) {
+			_classCallCheck(this, AutosizeInput);
+
+			var _this = _possibleConstructorReturn(this, (AutosizeInput.__proto__ || Object.getPrototypeOf(AutosizeInput)).call(this, props));
+
+			_this.inputRef = function (el) {
+				_this.input = el;
+				if (typeof _this.props.inputRef === 'function') {
+					_this.props.inputRef(el);
+				}
+			};
+
+			_this.placeHolderSizerRef = function (el) {
+				_this.placeHolderSizer = el;
+			};
+
+			_this.sizerRef = function (el) {
+				_this.sizer = el;
+			};
+
+			_this.state = {
+				inputWidth: props.minWidth,
+				inputId: props.id || generateId()
+			};
+			return _this;
 		}
-	});
 
-	module.exports = AutosizeInput;
+		_createClass(AutosizeInput, [{
+			key: 'componentDidMount',
+			value: function componentDidMount() {
+				this.mounted = true;
+				this.copyInputStyles();
+				this.updateInputWidth();
+			}
+		}, {
+			key: 'componentWillReceiveProps',
+			value: function componentWillReceiveProps(nextProps) {
+				var id = nextProps.id;
+
+				if (id !== this.props.id) {
+					this.setState({ inputId: id || generateId() });
+				}
+			}
+		}, {
+			key: 'componentDidUpdate',
+			value: function componentDidUpdate(prevProps, prevState) {
+				if (prevState.inputWidth !== this.state.inputWidth) {
+					if (typeof this.props.onAutosize === 'function') {
+						this.props.onAutosize(this.state.inputWidth);
+					}
+				}
+				this.updateInputWidth();
+			}
+		}, {
+			key: 'componentWillUnmount',
+			value: function componentWillUnmount() {
+				this.mounted = false;
+			}
+		}, {
+			key: 'copyInputStyles',
+			value: function copyInputStyles() {
+				if (!this.mounted || !window.getComputedStyle) {
+					return;
+				}
+				var inputStyles = this.input && window.getComputedStyle(this.input);
+				if (!inputStyles) {
+					return;
+				}
+				copyStyles(inputStyles, this.sizer);
+				if (this.placeHolderSizer) {
+					copyStyles(inputStyles, this.placeHolderSizer);
+				}
+			}
+		}, {
+			key: 'updateInputWidth',
+			value: function updateInputWidth() {
+				if (!this.mounted || !this.sizer || typeof this.sizer.scrollWidth === 'undefined') {
+					return;
+				}
+				var newInputWidth = void 0;
+				if (this.props.placeholder && (!this.props.value || this.props.value && this.props.placeholderIsMinWidth)) {
+					newInputWidth = Math.max(this.sizer.scrollWidth, this.placeHolderSizer.scrollWidth) + 2;
+				} else {
+					newInputWidth = this.sizer.scrollWidth + 2;
+				}
+				// allow for stepper UI on number types
+				if (this.props.type === 'number') {
+					newInputWidth += 16;
+				}
+				if (newInputWidth < this.props.minWidth) {
+					newInputWidth = this.props.minWidth;
+				}
+				if (newInputWidth !== this.state.inputWidth) {
+					this.setState({
+						inputWidth: newInputWidth
+					});
+				}
+			}
+		}, {
+			key: 'getInput',
+			value: function getInput() {
+				return this.input;
+			}
+		}, {
+			key: 'focus',
+			value: function focus() {
+				this.input.focus();
+			}
+		}, {
+			key: 'blur',
+			value: function blur() {
+				this.input.blur();
+			}
+		}, {
+			key: 'select',
+			value: function select() {
+				this.input.select();
+			}
+		}, {
+			key: 'renderStyles',
+			value: function renderStyles() {
+				// this method injects styles to hide IE's clear indicator, which messes
+				// with input size detection. the stylesheet is only injected when the
+				// browser is IE, and can also be disabled by the `injectStyles` prop.
+				var injectStyles = this.props.injectStyles;
+
+				return isIE && injectStyles ? _react2.default.createElement('style', { dangerouslySetInnerHTML: {
+						__html: 'input#' + this.state.inputId + '::-ms-clear {display: none;}'
+					} }) : null;
+			}
+		}, {
+			key: 'render',
+			value: function render() {
+				var sizerValue = [this.props.defaultValue, this.props.value, ''].reduce(function (previousValue, currentValue) {
+					if (previousValue !== null && previousValue !== undefined) {
+						return previousValue;
+					}
+					return currentValue;
+				});
+
+				var wrapperStyle = _extends({}, this.props.style);
+				if (!wrapperStyle.display) wrapperStyle.display = 'inline-block';
+
+				var inputStyle = _extends({
+					boxSizing: 'content-box',
+					width: this.state.inputWidth + 'px'
+				}, this.props.inputStyle);
+
+				var inputProps = _objectWithoutProperties(this.props, []);
+
+				cleanInputProps(inputProps);
+				inputProps.className = this.props.inputClassName;
+				inputProps.id = this.state.inputId;
+				inputProps.style = inputStyle;
+
+				return _react2.default.createElement(
+					'div',
+					{ className: this.props.className, style: wrapperStyle },
+					this.renderStyles(),
+					_react2.default.createElement('input', _extends({}, inputProps, { ref: this.inputRef })),
+					_react2.default.createElement(
+						'div',
+						{ ref: this.sizerRef, style: sizerStyle },
+						sizerValue
+					),
+					this.props.placeholder ? _react2.default.createElement(
+						'div',
+						{ ref: this.placeHolderSizerRef, style: sizerStyle },
+						this.props.placeholder
+					) : null
+				);
+			}
+		}]);
+
+		return AutosizeInput;
+	}(_react.Component);
+
+	;
+
+	AutosizeInput.propTypes = {
+		className: _propTypes2.default.string, // className for the outer element
+		defaultValue: _propTypes2.default.any, // default field value
+		id: _propTypes2.default.string, // id to use for the input, can be set for consistent snapshots
+		injectStyles: _propTypes2.default.bool, // inject the custom stylesheet to hide clear UI, defaults to true
+		inputClassName: _propTypes2.default.string, // className for the input element
+		inputRef: _propTypes2.default.func, // ref callback for the input element
+		inputStyle: _propTypes2.default.object, // css styles for the input element
+		minWidth: _propTypes2.default.oneOfType([// minimum width for input element
+		_propTypes2.default.number, _propTypes2.default.string]),
+		onAutosize: _propTypes2.default.func, // onAutosize handler: function(newWidth) {}
+		onChange: _propTypes2.default.func, // onChange handler: function(newValue) {}
+		placeholder: _propTypes2.default.string, // placeholder text
+		placeholderIsMinWidth: _propTypes2.default.bool, // don't collapse size to less than the placeholder
+		style: _propTypes2.default.object, // css styles for the outer element
+		value: _propTypes2.default.any // field value
+	};
+	AutosizeInput.defaultProps = {
+		minWidth: 1,
+		injectStyles: true
+	};
+
+	exports.default = AutosizeInput;
 
 /***/ }),
 /* 195 */
@@ -24734,30 +24690,35 @@
 /* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 		value: true
 	});
-	exports["default"] = arrowRenderer;
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	exports.default = arrowRenderer;
 
 	var _react = __webpack_require__(2);
 
 	var _react2 = _interopRequireDefault(_react);
 
+	var _propTypes = __webpack_require__(186);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 	function arrowRenderer(_ref) {
 		var onMouseDown = _ref.onMouseDown;
 
-		return _react2["default"].createElement("span", {
-			className: "Select-arrow",
+		return _react2.default.createElement('span', {
+			className: 'Select-arrow',
 			onMouseDown: onMouseDown
 		});
-	}
+	};
 
-	;
-	module.exports = exports["default"];
+	arrowRenderer.propTypes = {
+		onMouseDown: _propTypes2.default.func
+	};
 
 /***/ }),
 /* 197 */
@@ -24765,21 +24726,33 @@
 
 	'use strict';
 
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
 
 	var _stripDiacritics = __webpack_require__(198);
 
 	var _stripDiacritics2 = _interopRequireDefault(_stripDiacritics);
 
+	var _trim = __webpack_require__(199);
+
+	var _trim2 = _interopRequireDefault(_trim);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 	function filterOptions(options, filterValue, excludeOptions, props) {
 		var _this = this;
 
 		if (props.ignoreAccents) {
-			filterValue = (0, _stripDiacritics2['default'])(filterValue);
+			filterValue = (0, _stripDiacritics2.default)(filterValue);
 		}
 
 		if (props.ignoreCase) {
 			filterValue = filterValue.toLowerCase();
+		}
+
+		if (props.trimFilter) {
+			filterValue = (0, _trim2.default)(filterValue);
 		}
 
 		if (excludeOptions) excludeOptions = excludeOptions.map(function (i) {
@@ -24792,10 +24765,12 @@
 			if (!filterValue) return true;
 			var valueTest = String(option[props.valueKey]);
 			var labelTest = String(option[props.labelKey]);
+
 			if (props.ignoreAccents) {
-				if (props.matchProp !== 'label') valueTest = (0, _stripDiacritics2['default'])(valueTest);
-				if (props.matchProp !== 'value') labelTest = (0, _stripDiacritics2['default'])(labelTest);
+				if (props.matchProp !== 'label') valueTest = (0, _stripDiacritics2.default)(valueTest);
+				if (props.matchProp !== 'value') labelTest = (0, _stripDiacritics2.default)(labelTest);
 			}
+
 			if (props.ignoreCase) {
 				if (props.matchProp !== 'label') valueTest = valueTest.toLowerCase();
 				if (props.matchProp !== 'value') labelTest = labelTest.toLowerCase();
@@ -24804,7 +24779,7 @@
 		});
 	}
 
-	module.exports = filterOptions;
+	exports.default = filterOptions;
 
 /***/ }),
 /* 198 */
@@ -24812,9 +24787,13 @@
 
 	'use strict';
 
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+	exports.default = stripDiacritics;
 	var map = [{ 'base': 'A', 'letters': /[\u0041\u24B6\uFF21\u00C0\u00C1\u00C2\u1EA6\u1EA4\u1EAA\u1EA8\u00C3\u0100\u0102\u1EB0\u1EAE\u1EB4\u1EB2\u0226\u01E0\u00C4\u01DE\u1EA2\u00C5\u01FA\u01CD\u0200\u0202\u1EA0\u1EAC\u1EB6\u1E00\u0104\u023A\u2C6F]/g }, { 'base': 'AA', 'letters': /[\uA732]/g }, { 'base': 'AE', 'letters': /[\u00C6\u01FC\u01E2]/g }, { 'base': 'AO', 'letters': /[\uA734]/g }, { 'base': 'AU', 'letters': /[\uA736]/g }, { 'base': 'AV', 'letters': /[\uA738\uA73A]/g }, { 'base': 'AY', 'letters': /[\uA73C]/g }, { 'base': 'B', 'letters': /[\u0042\u24B7\uFF22\u1E02\u1E04\u1E06\u0243\u0182\u0181]/g }, { 'base': 'C', 'letters': /[\u0043\u24B8\uFF23\u0106\u0108\u010A\u010C\u00C7\u1E08\u0187\u023B\uA73E]/g }, { 'base': 'D', 'letters': /[\u0044\u24B9\uFF24\u1E0A\u010E\u1E0C\u1E10\u1E12\u1E0E\u0110\u018B\u018A\u0189\uA779]/g }, { 'base': 'DZ', 'letters': /[\u01F1\u01C4]/g }, { 'base': 'Dz', 'letters': /[\u01F2\u01C5]/g }, { 'base': 'E', 'letters': /[\u0045\u24BA\uFF25\u00C8\u00C9\u00CA\u1EC0\u1EBE\u1EC4\u1EC2\u1EBC\u0112\u1E14\u1E16\u0114\u0116\u00CB\u1EBA\u011A\u0204\u0206\u1EB8\u1EC6\u0228\u1E1C\u0118\u1E18\u1E1A\u0190\u018E]/g }, { 'base': 'F', 'letters': /[\u0046\u24BB\uFF26\u1E1E\u0191\uA77B]/g }, { 'base': 'G', 'letters': /[\u0047\u24BC\uFF27\u01F4\u011C\u1E20\u011E\u0120\u01E6\u0122\u01E4\u0193\uA7A0\uA77D\uA77E]/g }, { 'base': 'H', 'letters': /[\u0048\u24BD\uFF28\u0124\u1E22\u1E26\u021E\u1E24\u1E28\u1E2A\u0126\u2C67\u2C75\uA78D]/g }, { 'base': 'I', 'letters': /[\u0049\u24BE\uFF29\u00CC\u00CD\u00CE\u0128\u012A\u012C\u0130\u00CF\u1E2E\u1EC8\u01CF\u0208\u020A\u1ECA\u012E\u1E2C\u0197]/g }, { 'base': 'J', 'letters': /[\u004A\u24BF\uFF2A\u0134\u0248]/g }, { 'base': 'K', 'letters': /[\u004B\u24C0\uFF2B\u1E30\u01E8\u1E32\u0136\u1E34\u0198\u2C69\uA740\uA742\uA744\uA7A2]/g }, { 'base': 'L', 'letters': /[\u004C\u24C1\uFF2C\u013F\u0139\u013D\u1E36\u1E38\u013B\u1E3C\u1E3A\u0141\u023D\u2C62\u2C60\uA748\uA746\uA780]/g }, { 'base': 'LJ', 'letters': /[\u01C7]/g }, { 'base': 'Lj', 'letters': /[\u01C8]/g }, { 'base': 'M', 'letters': /[\u004D\u24C2\uFF2D\u1E3E\u1E40\u1E42\u2C6E\u019C]/g }, { 'base': 'N', 'letters': /[\u004E\u24C3\uFF2E\u01F8\u0143\u00D1\u1E44\u0147\u1E46\u0145\u1E4A\u1E48\u0220\u019D\uA790\uA7A4]/g }, { 'base': 'NJ', 'letters': /[\u01CA]/g }, { 'base': 'Nj', 'letters': /[\u01CB]/g }, { 'base': 'O', 'letters': /[\u004F\u24C4\uFF2F\u00D2\u00D3\u00D4\u1ED2\u1ED0\u1ED6\u1ED4\u00D5\u1E4C\u022C\u1E4E\u014C\u1E50\u1E52\u014E\u022E\u0230\u00D6\u022A\u1ECE\u0150\u01D1\u020C\u020E\u01A0\u1EDC\u1EDA\u1EE0\u1EDE\u1EE2\u1ECC\u1ED8\u01EA\u01EC\u00D8\u01FE\u0186\u019F\uA74A\uA74C]/g }, { 'base': 'OI', 'letters': /[\u01A2]/g }, { 'base': 'OO', 'letters': /[\uA74E]/g }, { 'base': 'OU', 'letters': /[\u0222]/g }, { 'base': 'P', 'letters': /[\u0050\u24C5\uFF30\u1E54\u1E56\u01A4\u2C63\uA750\uA752\uA754]/g }, { 'base': 'Q', 'letters': /[\u0051\u24C6\uFF31\uA756\uA758\u024A]/g }, { 'base': 'R', 'letters': /[\u0052\u24C7\uFF32\u0154\u1E58\u0158\u0210\u0212\u1E5A\u1E5C\u0156\u1E5E\u024C\u2C64\uA75A\uA7A6\uA782]/g }, { 'base': 'S', 'letters': /[\u0053\u24C8\uFF33\u1E9E\u015A\u1E64\u015C\u1E60\u0160\u1E66\u1E62\u1E68\u0218\u015E\u2C7E\uA7A8\uA784]/g }, { 'base': 'T', 'letters': /[\u0054\u24C9\uFF34\u1E6A\u0164\u1E6C\u021A\u0162\u1E70\u1E6E\u0166\u01AC\u01AE\u023E\uA786]/g }, { 'base': 'TZ', 'letters': /[\uA728]/g }, { 'base': 'U', 'letters': /[\u0055\u24CA\uFF35\u00D9\u00DA\u00DB\u0168\u1E78\u016A\u1E7A\u016C\u00DC\u01DB\u01D7\u01D5\u01D9\u1EE6\u016E\u0170\u01D3\u0214\u0216\u01AF\u1EEA\u1EE8\u1EEE\u1EEC\u1EF0\u1EE4\u1E72\u0172\u1E76\u1E74\u0244]/g }, { 'base': 'V', 'letters': /[\u0056\u24CB\uFF36\u1E7C\u1E7E\u01B2\uA75E\u0245]/g }, { 'base': 'VY', 'letters': /[\uA760]/g }, { 'base': 'W', 'letters': /[\u0057\u24CC\uFF37\u1E80\u1E82\u0174\u1E86\u1E84\u1E88\u2C72]/g }, { 'base': 'X', 'letters': /[\u0058\u24CD\uFF38\u1E8A\u1E8C]/g }, { 'base': 'Y', 'letters': /[\u0059\u24CE\uFF39\u1EF2\u00DD\u0176\u1EF8\u0232\u1E8E\u0178\u1EF6\u1EF4\u01B3\u024E\u1EFE]/g }, { 'base': 'Z', 'letters': /[\u005A\u24CF\uFF3A\u0179\u1E90\u017B\u017D\u1E92\u1E94\u01B5\u0224\u2C7F\u2C6B\uA762]/g }, { 'base': 'a', 'letters': /[\u0061\u24D0\uFF41\u1E9A\u00E0\u00E1\u00E2\u1EA7\u1EA5\u1EAB\u1EA9\u00E3\u0101\u0103\u1EB1\u1EAF\u1EB5\u1EB3\u0227\u01E1\u00E4\u01DF\u1EA3\u00E5\u01FB\u01CE\u0201\u0203\u1EA1\u1EAD\u1EB7\u1E01\u0105\u2C65\u0250]/g }, { 'base': 'aa', 'letters': /[\uA733]/g }, { 'base': 'ae', 'letters': /[\u00E6\u01FD\u01E3]/g }, { 'base': 'ao', 'letters': /[\uA735]/g }, { 'base': 'au', 'letters': /[\uA737]/g }, { 'base': 'av', 'letters': /[\uA739\uA73B]/g }, { 'base': 'ay', 'letters': /[\uA73D]/g }, { 'base': 'b', 'letters': /[\u0062\u24D1\uFF42\u1E03\u1E05\u1E07\u0180\u0183\u0253]/g }, { 'base': 'c', 'letters': /[\u0063\u24D2\uFF43\u0107\u0109\u010B\u010D\u00E7\u1E09\u0188\u023C\uA73F\u2184]/g }, { 'base': 'd', 'letters': /[\u0064\u24D3\uFF44\u1E0B\u010F\u1E0D\u1E11\u1E13\u1E0F\u0111\u018C\u0256\u0257\uA77A]/g }, { 'base': 'dz', 'letters': /[\u01F3\u01C6]/g }, { 'base': 'e', 'letters': /[\u0065\u24D4\uFF45\u00E8\u00E9\u00EA\u1EC1\u1EBF\u1EC5\u1EC3\u1EBD\u0113\u1E15\u1E17\u0115\u0117\u00EB\u1EBB\u011B\u0205\u0207\u1EB9\u1EC7\u0229\u1E1D\u0119\u1E19\u1E1B\u0247\u025B\u01DD]/g }, { 'base': 'f', 'letters': /[\u0066\u24D5\uFF46\u1E1F\u0192\uA77C]/g }, { 'base': 'g', 'letters': /[\u0067\u24D6\uFF47\u01F5\u011D\u1E21\u011F\u0121\u01E7\u0123\u01E5\u0260\uA7A1\u1D79\uA77F]/g }, { 'base': 'h', 'letters': /[\u0068\u24D7\uFF48\u0125\u1E23\u1E27\u021F\u1E25\u1E29\u1E2B\u1E96\u0127\u2C68\u2C76\u0265]/g }, { 'base': 'hv', 'letters': /[\u0195]/g }, { 'base': 'i', 'letters': /[\u0069\u24D8\uFF49\u00EC\u00ED\u00EE\u0129\u012B\u012D\u00EF\u1E2F\u1EC9\u01D0\u0209\u020B\u1ECB\u012F\u1E2D\u0268\u0131]/g }, { 'base': 'j', 'letters': /[\u006A\u24D9\uFF4A\u0135\u01F0\u0249]/g }, { 'base': 'k', 'letters': /[\u006B\u24DA\uFF4B\u1E31\u01E9\u1E33\u0137\u1E35\u0199\u2C6A\uA741\uA743\uA745\uA7A3]/g }, { 'base': 'l', 'letters': /[\u006C\u24DB\uFF4C\u0140\u013A\u013E\u1E37\u1E39\u013C\u1E3D\u1E3B\u017F\u0142\u019A\u026B\u2C61\uA749\uA781\uA747]/g }, { 'base': 'lj', 'letters': /[\u01C9]/g }, { 'base': 'm', 'letters': /[\u006D\u24DC\uFF4D\u1E3F\u1E41\u1E43\u0271\u026F]/g }, { 'base': 'n', 'letters': /[\u006E\u24DD\uFF4E\u01F9\u0144\u00F1\u1E45\u0148\u1E47\u0146\u1E4B\u1E49\u019E\u0272\u0149\uA791\uA7A5]/g }, { 'base': 'nj', 'letters': /[\u01CC]/g }, { 'base': 'o', 'letters': /[\u006F\u24DE\uFF4F\u00F2\u00F3\u00F4\u1ED3\u1ED1\u1ED7\u1ED5\u00F5\u1E4D\u022D\u1E4F\u014D\u1E51\u1E53\u014F\u022F\u0231\u00F6\u022B\u1ECF\u0151\u01D2\u020D\u020F\u01A1\u1EDD\u1EDB\u1EE1\u1EDF\u1EE3\u1ECD\u1ED9\u01EB\u01ED\u00F8\u01FF\u0254\uA74B\uA74D\u0275]/g }, { 'base': 'oi', 'letters': /[\u01A3]/g }, { 'base': 'ou', 'letters': /[\u0223]/g }, { 'base': 'oo', 'letters': /[\uA74F]/g }, { 'base': 'p', 'letters': /[\u0070\u24DF\uFF50\u1E55\u1E57\u01A5\u1D7D\uA751\uA753\uA755]/g }, { 'base': 'q', 'letters': /[\u0071\u24E0\uFF51\u024B\uA757\uA759]/g }, { 'base': 'r', 'letters': /[\u0072\u24E1\uFF52\u0155\u1E59\u0159\u0211\u0213\u1E5B\u1E5D\u0157\u1E5F\u024D\u027D\uA75B\uA7A7\uA783]/g }, { 'base': 's', 'letters': /[\u0073\u24E2\uFF53\u00DF\u015B\u1E65\u015D\u1E61\u0161\u1E67\u1E63\u1E69\u0219\u015F\u023F\uA7A9\uA785\u1E9B]/g }, { 'base': 't', 'letters': /[\u0074\u24E3\uFF54\u1E6B\u1E97\u0165\u1E6D\u021B\u0163\u1E71\u1E6F\u0167\u01AD\u0288\u2C66\uA787]/g }, { 'base': 'tz', 'letters': /[\uA729]/g }, { 'base': 'u', 'letters': /[\u0075\u24E4\uFF55\u00F9\u00FA\u00FB\u0169\u1E79\u016B\u1E7B\u016D\u00FC\u01DC\u01D8\u01D6\u01DA\u1EE7\u016F\u0171\u01D4\u0215\u0217\u01B0\u1EEB\u1EE9\u1EEF\u1EED\u1EF1\u1EE5\u1E73\u0173\u1E77\u1E75\u0289]/g }, { 'base': 'v', 'letters': /[\u0076\u24E5\uFF56\u1E7D\u1E7F\u028B\uA75F\u028C]/g }, { 'base': 'vy', 'letters': /[\uA761]/g }, { 'base': 'w', 'letters': /[\u0077\u24E6\uFF57\u1E81\u1E83\u0175\u1E87\u1E85\u1E98\u1E89\u2C73]/g }, { 'base': 'x', 'letters': /[\u0078\u24E7\uFF58\u1E8B\u1E8D]/g }, { 'base': 'y', 'letters': /[\u0079\u24E8\uFF59\u1EF3\u00FD\u0177\u1EF9\u0233\u1E8F\u00FF\u1EF7\u1E99\u1EF5\u01B4\u024F\u1EFF]/g }, { 'base': 'z', 'letters': /[\u007A\u24E9\uFF5A\u017A\u1E91\u017C\u017E\u1E93\u1E95\u01B6\u0225\u0240\u2C6C\uA763]/g }];
 
-	module.exports = function stripDiacritics(str) {
+	function stripDiacritics(str) {
 		for (var i = 0; i < map.length; i++) {
 			str = str.replace(map[i].letters, map[i].base);
 		}
@@ -24823,11 +24802,27 @@
 
 /***/ }),
 /* 199 */
+/***/ (function(module, exports) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	exports.default = trim;
+	function trim(str) {
+	    return str.replace(/^\s+|\s+$/g, '');
+	}
+
+/***/ }),
+/* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
 
 	var _classnames = __webpack_require__(195);
 
@@ -24837,36 +24832,46 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 	function menuRenderer(_ref) {
-		var focusedOption = _ref.focusedOption;
-		var instancePrefix = _ref.instancePrefix;
-		var labelKey = _ref.labelKey;
-		var onFocus = _ref.onFocus;
-		var onSelect = _ref.onSelect;
-		var optionClassName = _ref.optionClassName;
-		var optionComponent = _ref.optionComponent;
-		var optionRenderer = _ref.optionRenderer;
-		var options = _ref.options;
-		var valueArray = _ref.valueArray;
-		var valueKey = _ref.valueKey;
-		var onOptionRef = _ref.onOptionRef;
+		var focusedOption = _ref.focusedOption,
+		    focusOption = _ref.focusOption,
+		    inputValue = _ref.inputValue,
+		    instancePrefix = _ref.instancePrefix,
+		    labelKey = _ref.labelKey,
+		    onFocus = _ref.onFocus,
+		    onOptionRef = _ref.onOptionRef,
+		    onSelect = _ref.onSelect,
+		    optionClassName = _ref.optionClassName,
+		    optionComponent = _ref.optionComponent,
+		    optionRenderer = _ref.optionRenderer,
+		    options = _ref.options,
+		    removeValue = _ref.removeValue,
+		    selectValue = _ref.selectValue,
+		    valueArray = _ref.valueArray,
+		    valueKey = _ref.valueKey;
 
 		var Option = optionComponent;
 
 		return options.map(function (option, i) {
-			var isSelected = valueArray && valueArray.indexOf(option) > -1;
+			var isSelected = valueArray && valueArray.some(function (x) {
+				return x[valueKey] == option[valueKey];
+			});
 			var isFocused = option === focusedOption;
-			var optionClass = (0, _classnames2['default'])(optionClassName, {
+			var optionClass = (0, _classnames2.default)(optionClassName, {
 				'Select-option': true,
 				'is-selected': isSelected,
 				'is-focused': isFocused,
 				'is-disabled': option.disabled
 			});
 
-			return _react2['default'].createElement(
+			return _react2.default.createElement(
 				Option,
 				{
 					className: optionClass,
+					focusOption: focusOption,
+					inputValue: inputValue,
 					instancePrefix: instancePrefix,
 					isDisabled: option.disabled,
 					isFocused: isFocused,
@@ -24876,43 +24881,18 @@
 					onSelect: onSelect,
 					option: option,
 					optionIndex: i,
-					ref: function (ref) {
-						onOptionRef(ref, isFocused);
-					}
+					ref: function ref(_ref2) {
+						onOptionRef(_ref2, isFocused);
+					},
+					removeValue: removeValue,
+					selectValue: selectValue
 				},
-				optionRenderer(option, i)
+				optionRenderer(option, i, inputValue)
 			);
 		});
 	}
 
-	module.exports = menuRenderer;
-
-/***/ }),
-/* 200 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, '__esModule', {
-		value: true
-	});
-	exports['default'] = clearRenderer;
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-	var _react = __webpack_require__(2);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	function clearRenderer() {
-		return _react2['default'].createElement('span', {
-			className: 'Select-clear',
-			dangerouslySetInnerHTML: { __html: '&times;' }
-		});
-	}
-
-	;
-	module.exports = exports['default'];
+	exports.default = menuRenderer;
 
 /***/ }),
 /* 201 */
@@ -24920,23 +24900,35 @@
 
 	'use strict';
 
-	Object.defineProperty(exports, '__esModule', {
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+	exports.default = clearRenderer;
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function clearRenderer() {
+		return _react2.default.createElement('span', {
+			className: 'Select-clear',
+			dangerouslySetInnerHTML: { __html: '&times;' }
+		});
+	};
+
+/***/ }),
+/* 202 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
 		value: true
 	});
 
-	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
-
-	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
-
-	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 	var _react = __webpack_require__(2);
 
@@ -24946,36 +24938,365 @@
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
-	var _Select = __webpack_require__(192);
+	var _classnames = __webpack_require__(195);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Option = function (_React$Component) {
+		_inherits(Option, _React$Component);
+
+		function Option(props) {
+			_classCallCheck(this, Option);
+
+			var _this = _possibleConstructorReturn(this, (Option.__proto__ || Object.getPrototypeOf(Option)).call(this, props));
+
+			_this.handleMouseDown = _this.handleMouseDown.bind(_this);
+			_this.handleMouseEnter = _this.handleMouseEnter.bind(_this);
+			_this.handleMouseMove = _this.handleMouseMove.bind(_this);
+			_this.handleTouchStart = _this.handleTouchStart.bind(_this);
+			_this.handleTouchEnd = _this.handleTouchEnd.bind(_this);
+			_this.handleTouchMove = _this.handleTouchMove.bind(_this);
+			_this.onFocus = _this.onFocus.bind(_this);
+			return _this;
+		}
+
+		_createClass(Option, [{
+			key: 'blockEvent',
+			value: function blockEvent(event) {
+				event.preventDefault();
+				event.stopPropagation();
+				if (event.target.tagName !== 'A' || !('href' in event.target)) {
+					return;
+				}
+				if (event.target.target) {
+					window.open(event.target.href, event.target.target);
+				} else {
+					window.location.href = event.target.href;
+				}
+			}
+		}, {
+			key: 'handleMouseDown',
+			value: function handleMouseDown(event) {
+				event.preventDefault();
+				event.stopPropagation();
+				this.props.onSelect(this.props.option, event);
+			}
+		}, {
+			key: 'handleMouseEnter',
+			value: function handleMouseEnter(event) {
+				this.onFocus(event);
+			}
+		}, {
+			key: 'handleMouseMove',
+			value: function handleMouseMove(event) {
+				this.onFocus(event);
+			}
+		}, {
+			key: 'handleTouchEnd',
+			value: function handleTouchEnd(event) {
+				// Check if the view is being dragged, In this case
+				// we don't want to fire the click event (because the user only wants to scroll)
+				if (this.dragging) return;
+
+				this.handleMouseDown(event);
+			}
+		}, {
+			key: 'handleTouchMove',
+			value: function handleTouchMove(event) {
+				// Set a flag that the view is being dragged
+				this.dragging = true;
+			}
+		}, {
+			key: 'handleTouchStart',
+			value: function handleTouchStart(event) {
+				// Set a flag that the view is not being dragged
+				this.dragging = false;
+			}
+		}, {
+			key: 'onFocus',
+			value: function onFocus(event) {
+				if (!this.props.isFocused) {
+					this.props.onFocus(this.props.option, event);
+				}
+			}
+		}, {
+			key: 'render',
+			value: function render() {
+				var _props = this.props,
+				    option = _props.option,
+				    instancePrefix = _props.instancePrefix,
+				    optionIndex = _props.optionIndex;
+
+				var className = (0, _classnames2.default)(this.props.className, option.className);
+
+				return option.disabled ? _react2.default.createElement(
+					'div',
+					{ className: className,
+						onMouseDown: this.blockEvent,
+						onClick: this.blockEvent },
+					this.props.children
+				) : _react2.default.createElement(
+					'div',
+					{ className: className,
+						style: option.style,
+						role: 'option',
+						'aria-label': option.label,
+						onMouseDown: this.handleMouseDown,
+						onMouseEnter: this.handleMouseEnter,
+						onMouseMove: this.handleMouseMove,
+						onTouchStart: this.handleTouchStart,
+						onTouchMove: this.handleTouchMove,
+						onTouchEnd: this.handleTouchEnd,
+						id: instancePrefix + '-option-' + optionIndex,
+						title: option.title },
+					this.props.children
+				);
+			}
+		}]);
+
+		return Option;
+	}(_react2.default.Component);
+
+	;
+
+	Option.propTypes = {
+		children: _propTypes2.default.node,
+		className: _propTypes2.default.string, // className (based on mouse position)
+		instancePrefix: _propTypes2.default.string.isRequired, // unique prefix for the ids (used for aria)
+		isDisabled: _propTypes2.default.bool, // the option is disabled
+		isFocused: _propTypes2.default.bool, // the option is focused
+		isSelected: _propTypes2.default.bool, // the option is selected
+		onFocus: _propTypes2.default.func, // method to handle mouseEnter on option element
+		onSelect: _propTypes2.default.func, // method to handle click on option element
+		onUnfocus: _propTypes2.default.func, // method to handle mouseLeave on option element
+		option: _propTypes2.default.object.isRequired, // object that is base for that option
+		optionIndex: _propTypes2.default.number // index of the option, used to generate unique ids for aria
+	};
+
+	exports.default = Option;
+
+/***/ }),
+/* 203 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _propTypes = __webpack_require__(186);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
+	var _classnames = __webpack_require__(195);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Value = function (_React$Component) {
+		_inherits(Value, _React$Component);
+
+		function Value(props) {
+			_classCallCheck(this, Value);
+
+			var _this = _possibleConstructorReturn(this, (Value.__proto__ || Object.getPrototypeOf(Value)).call(this, props));
+
+			_this.handleMouseDown = _this.handleMouseDown.bind(_this);
+			_this.onRemove = _this.onRemove.bind(_this);
+			_this.handleTouchEndRemove = _this.handleTouchEndRemove.bind(_this);
+			_this.handleTouchMove = _this.handleTouchMove.bind(_this);
+			_this.handleTouchStart = _this.handleTouchStart.bind(_this);
+			return _this;
+		}
+
+		_createClass(Value, [{
+			key: 'handleMouseDown',
+			value: function handleMouseDown(event) {
+				if (event.type === 'mousedown' && event.button !== 0) {
+					return;
+				}
+				if (this.props.onClick) {
+					event.stopPropagation();
+					this.props.onClick(this.props.value, event);
+					return;
+				}
+				if (this.props.value.href) {
+					event.stopPropagation();
+				}
+			}
+		}, {
+			key: 'onRemove',
+			value: function onRemove(event) {
+				event.preventDefault();
+				event.stopPropagation();
+				this.props.onRemove(this.props.value);
+			}
+		}, {
+			key: 'handleTouchEndRemove',
+			value: function handleTouchEndRemove(event) {
+				// Check if the view is being dragged, In this case
+				// we don't want to fire the click event (because the user only wants to scroll)
+				if (this.dragging) return;
+
+				// Fire the mouse events
+				this.onRemove(event);
+			}
+		}, {
+			key: 'handleTouchMove',
+			value: function handleTouchMove(event) {
+				// Set a flag that the view is being dragged
+				this.dragging = true;
+			}
+		}, {
+			key: 'handleTouchStart',
+			value: function handleTouchStart(event) {
+				// Set a flag that the view is not being dragged
+				this.dragging = false;
+			}
+		}, {
+			key: 'renderRemoveIcon',
+			value: function renderRemoveIcon() {
+				if (this.props.disabled || !this.props.onRemove) return;
+				return _react2.default.createElement(
+					'span',
+					{ className: 'Select-value-icon',
+						'aria-hidden': 'true',
+						onMouseDown: this.onRemove,
+						onTouchEnd: this.handleTouchEndRemove,
+						onTouchStart: this.handleTouchStart,
+						onTouchMove: this.handleTouchMove },
+					'\xD7'
+				);
+			}
+		}, {
+			key: 'renderLabel',
+			value: function renderLabel() {
+				var className = 'Select-value-label';
+				return this.props.onClick || this.props.value.href ? _react2.default.createElement(
+					'a',
+					{ className: className, href: this.props.value.href, target: this.props.value.target, onMouseDown: this.handleMouseDown, onTouchEnd: this.handleMouseDown },
+					this.props.children
+				) : _react2.default.createElement(
+					'span',
+					{ className: className, role: 'option', 'aria-selected': 'true', id: this.props.id },
+					this.props.children
+				);
+			}
+		}, {
+			key: 'render',
+			value: function render() {
+				return _react2.default.createElement(
+					'div',
+					{ className: (0, _classnames2.default)('Select-value', this.props.value.className),
+						style: this.props.value.style,
+						title: this.props.value.title
+					},
+					this.renderRemoveIcon(),
+					this.renderLabel()
+				);
+			}
+		}]);
+
+		return Value;
+	}(_react2.default.Component);
+
+	;
+
+	Value.propTypes = {
+		children: _propTypes2.default.node,
+		disabled: _propTypes2.default.bool, // disabled prop passed to ReactSelect
+		id: _propTypes2.default.string, // Unique id for the value - used for aria
+		onClick: _propTypes2.default.func, // method to handle click on value label
+		onRemove: _propTypes2.default.func, // method to handle removal of the value
+		value: _propTypes2.default.object.isRequired // the option object for this value
+	};
+
+	exports.default = Value;
+
+/***/ }),
+/* 204 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _propTypes = __webpack_require__(186);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
+	var _Select = __webpack_require__(193);
 
 	var _Select2 = _interopRequireDefault(_Select);
 
-	var _utilsStripDiacritics = __webpack_require__(198);
+	var _stripDiacritics = __webpack_require__(198);
 
-	var _utilsStripDiacritics2 = _interopRequireDefault(_utilsStripDiacritics);
+	var _stripDiacritics2 = _interopRequireDefault(_stripDiacritics);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 	var propTypes = {
-		autoload: _propTypes2['default'].bool.isRequired, // automatically call the `loadOptions` prop on-mount; defaults to true
-		cache: _propTypes2['default'].any, // object to use to cache results; set to null/false to disable caching
-		children: _propTypes2['default'].func.isRequired, // Child function responsible for creating the inner Select component; (props: Object): PropTypes.element
-		ignoreAccents: _propTypes2['default'].bool, // strip diacritics when filtering; defaults to true
-		ignoreCase: _propTypes2['default'].bool, // perform case-insensitive filtering; defaults to true
-		loadingPlaceholder: _propTypes2['default'].oneOfType([// replaces the placeholder while options are loading
-		_propTypes2['default'].string, _propTypes2['default'].node]),
-		loadOptions: _propTypes2['default'].func.isRequired, // callback to load options asynchronously; (inputValue: string, callback: Function): ?Promise
-		multi: _propTypes2['default'].bool, // multi-value input
-		options: _propTypes2['default'].array.isRequired, // array of options
-		placeholder: _propTypes2['default'].oneOfType([// field placeholder, displayed when there's no value (shared with Select)
-		_propTypes2['default'].string, _propTypes2['default'].node]),
-		noResultsText: _propTypes2['default'].oneOfType([// field noResultsText, displayed when no options come back from the server
-		_propTypes2['default'].string, _propTypes2['default'].node]),
-		onChange: _propTypes2['default'].func, // onChange handler: function (newValue) {}
-		searchPromptText: _propTypes2['default'].oneOfType([// label to prompt for search input
-		_propTypes2['default'].string, _propTypes2['default'].node]),
-		onInputChange: _propTypes2['default'].func, // optional for keeping track of what is being typed
-		value: _propTypes2['default'].any };
+		autoload: _propTypes2.default.bool.isRequired, // automatically call the `loadOptions` prop on-mount; defaults to true
+		cache: _propTypes2.default.any, // object to use to cache results; set to null/false to disable caching
+		children: _propTypes2.default.func.isRequired, // Child function responsible for creating the inner Select component; (props: Object): PropTypes.element
+		ignoreAccents: _propTypes2.default.bool, // strip diacritics when filtering; defaults to true
+		ignoreCase: _propTypes2.default.bool, // perform case-insensitive filtering; defaults to true
+		loadOptions: _propTypes2.default.func.isRequired, // callback to load options asynchronously; (inputValue: string, callback: Function): ?Promise
+		loadingPlaceholder: _propTypes2.default.oneOfType([// replaces the placeholder while options are loading
+		_propTypes2.default.string, _propTypes2.default.node]),
+		multi: _propTypes2.default.bool, // multi-value input
+		noResultsText: _propTypes2.default.oneOfType([// field noResultsText, displayed when no options come back from the server
+		_propTypes2.default.string, _propTypes2.default.node]),
+		onChange: _propTypes2.default.func, // onChange handler: function (newValue) {}
+		onInputChange: _propTypes2.default.func, // optional for keeping track of what is being typed
+		options: _propTypes2.default.array.isRequired, // array of options
+		placeholder: _propTypes2.default.oneOfType([// field placeholder, displayed when there's no value (shared with Select)
+		_propTypes2.default.string, _propTypes2.default.node]),
+		searchPromptText: _propTypes2.default.oneOfType([// label to prompt for search input
+		_propTypes2.default.string, _propTypes2.default.node]),
+		value: _propTypes2.default.any // initial field value
+	};
 
-	// initial field value
 	var defaultCache = {};
 
 	var defaultProps = {
@@ -24989,22 +25310,24 @@
 		searchPromptText: 'Type to search'
 	};
 
-	var Async = (function (_Component) {
+	var Async = function (_Component) {
 		_inherits(Async, _Component);
 
 		function Async(props, context) {
 			_classCallCheck(this, Async);
 
-			_get(Object.getPrototypeOf(Async.prototype), 'constructor', this).call(this, props, context);
+			var _this = _possibleConstructorReturn(this, (Async.__proto__ || Object.getPrototypeOf(Async)).call(this, props, context));
 
-			this._cache = props.cache === defaultCache ? {} : props.cache;
+			_this._cache = props.cache === defaultCache ? {} : props.cache;
 
-			this.state = {
+			_this.state = {
+				inputValue: '',
 				isLoading: false,
 				options: props.options
 			};
 
-			this._onInputChange = this._onInputChange.bind(this);
+			_this.onInputChange = _this.onInputChange.bind(_this);
+			return _this;
 		}
 
 		_createClass(Async, [{
@@ -25012,26 +25335,24 @@
 			value: function componentDidMount() {
 				var autoload = this.props.autoload;
 
+
 				if (autoload) {
 					this.loadOptions('');
 				}
 			}
 		}, {
-			key: 'componentWillUpdate',
-			value: function componentWillUpdate(nextProps, nextState) {
-				var _this = this;
-
-				var propertiesToSync = ['options'];
-				propertiesToSync.forEach(function (prop) {
-					if (_this.props[prop] !== nextProps[prop]) {
-						_this.setState(_defineProperty({}, prop, nextProps[prop]));
-					}
-				});
+			key: 'componentWillReceiveProps',
+			value: function componentWillReceiveProps(nextProps) {
+				if (nextProps.options !== this.props.options) {
+					this.setState({
+						options: nextProps.options
+					});
+				}
 			}
 		}, {
-			key: 'clearOptions',
-			value: function clearOptions() {
-				this.setState({ options: [] });
+			key: 'componentWillUnmount',
+			value: function componentWillUnmount() {
+				this._callback = null;
 			}
 		}, {
 			key: 'loadOptions',
@@ -25042,8 +25363,11 @@
 
 				var cache = this._cache;
 
-				if (cache && cache.hasOwnProperty(inputValue)) {
+				if (cache && Object.prototype.hasOwnProperty.call(cache, inputValue)) {
+					this._callback = null;
+
 					this.setState({
+						isLoading: false,
 						options: cache[inputValue]
 					});
 
@@ -25051,14 +25375,14 @@
 				}
 
 				var callback = function callback(error, data) {
+					var options = data && data.options || [];
+
+					if (cache) {
+						cache[inputValue] = options;
+					}
+
 					if (callback === _this2._callback) {
 						_this2._callback = null;
-
-						var options = data && data.options || [];
-
-						if (cache) {
-							cache[inputValue] = options;
-						}
 
 						_this2.setState({
 							isLoading: false,
@@ -25084,49 +25408,52 @@
 						isLoading: true
 					});
 				}
-
-				return inputValue;
 			}
 		}, {
-			key: '_onInputChange',
-			value: function _onInputChange(inputValue) {
-				var _props = this.props;
-				var ignoreAccents = _props.ignoreAccents;
-				var ignoreCase = _props.ignoreCase;
-				var onInputChange = _props.onInputChange;
+			key: 'onInputChange',
+			value: function onInputChange(inputValue) {
+				var _props = this.props,
+				    ignoreAccents = _props.ignoreAccents,
+				    ignoreCase = _props.ignoreCase,
+				    onInputChange = _props.onInputChange;
+
+				var newInputValue = inputValue;
+
+				if (onInputChange) {
+					var value = onInputChange(newInputValue);
+					// Note: != used deliberately here to catch undefined and null
+					if (value != null && (typeof value === 'undefined' ? 'undefined' : _typeof(value)) !== 'object') {
+						newInputValue = '' + value;
+					}
+				}
+
+				var transformedInputValue = newInputValue;
 
 				if (ignoreAccents) {
-					inputValue = (0, _utilsStripDiacritics2['default'])(inputValue);
+					transformedInputValue = (0, _stripDiacritics2.default)(transformedInputValue);
 				}
 
 				if (ignoreCase) {
-					inputValue = inputValue.toLowerCase();
+					transformedInputValue = transformedInputValue.toLowerCase();
 				}
 
-				if (onInputChange) {
-					onInputChange(inputValue);
-				}
+				this.setState({ inputValue: newInputValue });
+				this.loadOptions(transformedInputValue);
 
-				return this.loadOptions(inputValue);
-			}
-		}, {
-			key: 'inputValue',
-			value: function inputValue() {
-				if (this.select) {
-					return this.select.state.inputValue;
-				}
-				return '';
+				// Return new input value, but without applying toLowerCase() to avoid modifying the user's view case of the input while typing.
+				return newInputValue;
 			}
 		}, {
 			key: 'noResultsText',
 			value: function noResultsText() {
-				var _props2 = this.props;
-				var loadingPlaceholder = _props2.loadingPlaceholder;
-				var noResultsText = _props2.noResultsText;
-				var searchPromptText = _props2.searchPromptText;
-				var isLoading = this.state.isLoading;
+				var _props2 = this.props,
+				    loadingPlaceholder = _props2.loadingPlaceholder,
+				    noResultsText = _props2.noResultsText,
+				    searchPromptText = _props2.searchPromptText;
+				var _state = this.state,
+				    inputValue = _state.inputValue,
+				    isLoading = _state.isLoading;
 
-				var inputValue = this.inputValue();
 
 				if (isLoading) {
 					return loadingPlaceholder;
@@ -25146,13 +25473,17 @@
 			value: function render() {
 				var _this3 = this;
 
-				var _props3 = this.props;
-				var children = _props3.children;
-				var loadingPlaceholder = _props3.loadingPlaceholder;
-				var placeholder = _props3.placeholder;
-				var _state = this.state;
-				var isLoading = _state.isLoading;
-				var options = _state.options;
+				var _props3 = this.props,
+				    children = _props3.children,
+				    loadingPlaceholder = _props3.loadingPlaceholder,
+				    multi = _props3.multi,
+				    onChange = _props3.onChange,
+				    placeholder = _props3.placeholder,
+				    value = _props3.value;
+				var _state2 = this.state,
+				    isLoading = _state2.isLoading,
+				    options = _state2.options;
+
 
 				var props = {
 					noResultsText: this.noResultsText(),
@@ -25160,394 +25491,411 @@
 					options: isLoading && loadingPlaceholder ? [] : options,
 					ref: function ref(_ref) {
 						return _this3.select = _ref;
-					},
-					onChange: function onChange(newValues) {
-						if (_this3.props.multi && _this3.props.value && newValues.length > _this3.props.value.length) {
-							_this3.clearOptions();
-						}
-						_this3.props.onChange(newValues);
 					}
 				};
 
 				return children(_extends({}, this.props, props, {
 					isLoading: isLoading,
-					onInputChange: this._onInputChange
+					onInputChange: this.onInputChange
 				}));
 			}
 		}]);
 
 		return Async;
-	})(_react.Component);
+	}(_react.Component);
 
-	exports['default'] = Async;
+	exports.default = Async;
+
 
 	Async.propTypes = propTypes;
 	Async.defaultProps = defaultProps;
 
 	function defaultChildren(props) {
-		return _react2['default'].createElement(_Select2['default'], props);
+		return _react2.default.createElement(_Select2.default, props);
 	}
-	module.exports = exports['default'];
 
 /***/ }),
-/* 202 */
+/* 205 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-	var _react = __webpack_require__(2);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _createReactClass = __webpack_require__(193);
-
-	var _createReactClass2 = _interopRequireDefault(_createReactClass);
-
-	var _Select = __webpack_require__(192);
-
-	var _Select2 = _interopRequireDefault(_Select);
-
-	function reduce(obj) {
-		var props = arguments.length <= 1 || arguments[1] === undefined ? {} : arguments[1];
-
-		return Object.keys(obj).reduce(function (props, key) {
-			var value = obj[key];
-			if (value !== undefined) props[key] = value;
-			return props;
-		}, props);
-	}
-
-	var AsyncCreatable = (0, _createReactClass2['default'])({
-		displayName: 'AsyncCreatableSelect',
-
-		focus: function focus() {
-			this.select.focus();
-		},
-
-		render: function render() {
-			var _this = this;
-
-			return _react2['default'].createElement(
-				_Select2['default'].Async,
-				this.props,
-				function (asyncProps) {
-					return _react2['default'].createElement(
-						_Select2['default'].Creatable,
-						_this.props,
-						function (creatableProps) {
-							return _react2['default'].createElement(_Select2['default'], _extends({}, reduce(asyncProps, reduce(creatableProps, {})), {
-								onInputChange: function (input) {
-									creatableProps.onInputChange(input);
-									return asyncProps.onInputChange(input);
-								},
-								ref: function (ref) {
-									_this.select = ref;
-									creatableProps.ref(ref);
-									asyncProps.ref(ref);
-								}
-							}));
-						}
-					);
-				}
-			);
-		}
+	Object.defineProperty(exports, "__esModule", {
+		value: true
 	});
 
-	module.exports = AsyncCreatable;
-
-/***/ }),
-/* 203 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-	function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 	var _react = __webpack_require__(2);
 
 	var _react2 = _interopRequireDefault(_react);
-
-	var _createReactClass = __webpack_require__(193);
-
-	var _createReactClass2 = _interopRequireDefault(_createReactClass);
 
 	var _propTypes = __webpack_require__(186);
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
-	var _Select = __webpack_require__(192);
+	var _Select = __webpack_require__(193);
 
 	var _Select2 = _interopRequireDefault(_Select);
 
-	var _utilsDefaultFilterOptions = __webpack_require__(197);
+	var _Async = __webpack_require__(204);
 
-	var _utilsDefaultFilterOptions2 = _interopRequireDefault(_utilsDefaultFilterOptions);
+	var _Async2 = _interopRequireDefault(_Async);
 
-	var _utilsDefaultMenuRenderer = __webpack_require__(199);
+	var _Creatable = __webpack_require__(206);
 
-	var _utilsDefaultMenuRenderer2 = _interopRequireDefault(_utilsDefaultMenuRenderer);
+	var _Creatable2 = _interopRequireDefault(_Creatable);
 
-	var Creatable = (0, _createReactClass2['default'])({
-		displayName: 'CreatableSelect',
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-		propTypes: {
-			// Child function responsible for creating the inner Select component
-			// This component can be used to compose HOCs (eg Creatable and Async)
-			// (props: Object): PropTypes.element
-			children: _propTypes2['default'].func,
+	function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
 
-			// See Select.propTypes.filterOptions
-			filterOptions: _propTypes2['default'].any,
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-			// Searches for any matching option within the set of options.
-			// This function prevents duplicate options from being created.
-			// ({ option: Object, options: Array, labelKey: string, valueKey: string }): boolean
-			isOptionUnique: _propTypes2['default'].func,
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
-			// Determines if the current input text represents a valid option.
-			// ({ label: string }): boolean
-			isValidNewOption: _propTypes2['default'].func,
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-			// See Select.propTypes.menuRenderer
-			menuRenderer: _propTypes2['default'].any,
+	var AsyncCreatableSelect = function (_React$Component) {
+		_inherits(AsyncCreatableSelect, _React$Component);
 
-			// Factory to create new option.
-			// ({ label: string, labelKey: string, valueKey: string }): Object
-			newOptionCreator: _propTypes2['default'].func,
+		function AsyncCreatableSelect() {
+			_classCallCheck(this, AsyncCreatableSelect);
 
-			// input change handler: function (inputValue) {}
-			onInputChange: _propTypes2['default'].func,
+			return _possibleConstructorReturn(this, (AsyncCreatableSelect.__proto__ || Object.getPrototypeOf(AsyncCreatableSelect)).apply(this, arguments));
+		}
 
-			// input keyDown handler: function (event) {}
-			onInputKeyDown: _propTypes2['default'].func,
+		_createClass(AsyncCreatableSelect, [{
+			key: 'focus',
+			value: function focus() {
+				this.select.focus();
+			}
+		}, {
+			key: 'render',
+			value: function render() {
+				var _this2 = this;
 
-			// new option click handler: function (option) {}
-			onNewOptionClick: _propTypes2['default'].func,
+				return _react2.default.createElement(
+					_Async2.default,
+					this.props,
+					function (_ref) {
+						var ref = _ref.ref,
+						    asyncProps = _objectWithoutProperties(_ref, ['ref']);
 
-			// See Select.propTypes.options
-			options: _propTypes2['default'].array,
+						var asyncRef = ref;
+						return _react2.default.createElement(
+							_Creatable2.default,
+							asyncProps,
+							function (_ref2) {
+								var ref = _ref2.ref,
+								    creatableProps = _objectWithoutProperties(_ref2, ['ref']);
 
-			// Creates prompt/placeholder option text.
-			// (filterText: string): string
-			promptTextCreator: _propTypes2['default'].func,
+								var creatableRef = ref;
+								return _this2.props.children(_extends({}, creatableProps, {
+									ref: function ref(select) {
+										creatableRef(select);
+										asyncRef(select);
+										_this2.select = select;
+									}
+								}));
+							}
+						);
+					}
+				);
+			}
+		}]);
 
-			// Decides if a keyDown event (eg its `keyCode`) should result in the creation of a new option.
-			shouldKeyDownEventCreateNewOption: _propTypes2['default'].func
-		},
+		return AsyncCreatableSelect;
+	}(_react2.default.Component);
 
-		// Default prop methods
-		statics: {
-			isOptionUnique: isOptionUnique,
-			isValidNewOption: isValidNewOption,
-			newOptionCreator: newOptionCreator,
-			promptTextCreator: promptTextCreator,
-			shouldKeyDownEventCreateNewOption: shouldKeyDownEventCreateNewOption
-		},
+	;
 
-		getDefaultProps: function getDefaultProps() {
-			return {
-				filterOptions: _utilsDefaultFilterOptions2['default'],
-				isOptionUnique: isOptionUnique,
-				isValidNewOption: isValidNewOption,
-				menuRenderer: _utilsDefaultMenuRenderer2['default'],
-				newOptionCreator: newOptionCreator,
-				promptTextCreator: promptTextCreator,
-				shouldKeyDownEventCreateNewOption: shouldKeyDownEventCreateNewOption
-			};
-		},
+	function defaultChildren(props) {
+		return _react2.default.createElement(_Select2.default, props);
+	};
 
-		createNewOption: function createNewOption() {
-			var _props = this.props;
-			var isValidNewOption = _props.isValidNewOption;
-			var newOptionCreator = _props.newOptionCreator;
-			var onNewOptionClick = _props.onNewOptionClick;
-			var _props$options = _props.options;
-			var options = _props$options === undefined ? [] : _props$options;
-			var shouldKeyDownEventCreateNewOption = _props.shouldKeyDownEventCreateNewOption;
+	AsyncCreatableSelect.propTypes = {
+		children: _propTypes2.default.func.isRequired // Child function responsible for creating the inner Select component; (props: Object): PropTypes.element
+	};
 
-			if (isValidNewOption({ label: this.inputValue })) {
-				var option = newOptionCreator({ label: this.inputValue, labelKey: this.labelKey, valueKey: this.valueKey });
-				var _isOptionUnique = this.isOptionUnique({ option: option });
+	AsyncCreatableSelect.defaultProps = {
+		children: defaultChildren
+	};
 
-				// Don't add the same option twice.
-				if (_isOptionUnique) {
-					if (onNewOptionClick) {
-						onNewOptionClick(option);
-					} else {
-						options.unshift(option);
+	exports.default = AsyncCreatableSelect;
 
-						this.select.selectValue(option);
+/***/ }),
+/* 206 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _propTypes = __webpack_require__(186);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
+	var _Select = __webpack_require__(193);
+
+	var _Select2 = _interopRequireDefault(_Select);
+
+	var _defaultFilterOptions = __webpack_require__(197);
+
+	var _defaultFilterOptions2 = _interopRequireDefault(_defaultFilterOptions);
+
+	var _defaultMenuRenderer = __webpack_require__(200);
+
+	var _defaultMenuRenderer2 = _interopRequireDefault(_defaultMenuRenderer);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var CreatableSelect = function (_React$Component) {
+		_inherits(CreatableSelect, _React$Component);
+
+		function CreatableSelect(props, context) {
+			_classCallCheck(this, CreatableSelect);
+
+			var _this = _possibleConstructorReturn(this, (CreatableSelect.__proto__ || Object.getPrototypeOf(CreatableSelect)).call(this, props, context));
+
+			_this.filterOptions = _this.filterOptions.bind(_this);
+			_this.menuRenderer = _this.menuRenderer.bind(_this);
+			_this.onInputKeyDown = _this.onInputKeyDown.bind(_this);
+			_this.onInputChange = _this.onInputChange.bind(_this);
+			_this.onOptionSelect = _this.onOptionSelect.bind(_this);
+			return _this;
+		}
+
+		_createClass(CreatableSelect, [{
+			key: 'createNewOption',
+			value: function createNewOption() {
+				var _props = this.props,
+				    isValidNewOption = _props.isValidNewOption,
+				    newOptionCreator = _props.newOptionCreator,
+				    onNewOptionClick = _props.onNewOptionClick,
+				    _props$options = _props.options,
+				    options = _props$options === undefined ? [] : _props$options,
+				    shouldKeyDownEventCreateNewOption = _props.shouldKeyDownEventCreateNewOption;
+
+
+				if (isValidNewOption({ label: this.inputValue })) {
+					var option = newOptionCreator({ label: this.inputValue, labelKey: this.labelKey, valueKey: this.valueKey });
+					var _isOptionUnique = this.isOptionUnique({ option: option });
+
+					// Don't add the same option twice.
+					if (_isOptionUnique) {
+						if (onNewOptionClick) {
+							onNewOptionClick(option);
+						} else {
+							options.unshift(option);
+
+							this.select.selectValue(option);
+						}
 					}
 				}
 			}
-		},
+		}, {
+			key: 'filterOptions',
+			value: function filterOptions() {
+				var _props2 = this.props,
+				    filterOptions = _props2.filterOptions,
+				    isValidNewOption = _props2.isValidNewOption,
+				    promptTextCreator = _props2.promptTextCreator;
 
-		filterOptions: function filterOptions() {
-			var _props2 = this.props;
-			var filterOptions = _props2.filterOptions;
-			var isValidNewOption = _props2.isValidNewOption;
-			var options = _props2.options;
-			var promptTextCreator = _props2.promptTextCreator;
+				// TRICKY Check currently selected options as well.
+				// Don't display a create-prompt for a value that's selected.
+				// This covers async edge-cases where a newly-created Option isn't yet in the async-loaded array.
 
-			// TRICKY Check currently selected options as well.
-			// Don't display a create-prompt for a value that's selected.
-			// This covers async edge-cases where a newly-created Option isn't yet in the async-loaded array.
-			var excludeOptions = arguments[2] || [];
+				var excludeOptions = (arguments.length <= 2 ? undefined : arguments[2]) || [];
 
-			var filteredOptions = filterOptions.apply(undefined, arguments) || [];
+				var filteredOptions = filterOptions.apply(undefined, arguments) || [];
 
-			if (isValidNewOption({ label: this.inputValue })) {
-				var _newOptionCreator = this.props.newOptionCreator;
+				if (isValidNewOption({ label: this.inputValue })) {
+					var _newOptionCreator = this.props.newOptionCreator;
 
-				var option = _newOptionCreator({
-					label: this.inputValue,
-					labelKey: this.labelKey,
-					valueKey: this.valueKey
-				});
 
-				// TRICKY Compare to all options (not just filtered options) in case option has already been selected).
-				// For multi-selects, this would remove it from the filtered list.
-				var _isOptionUnique2 = this.isOptionUnique({
-					option: option,
-					options: excludeOptions.concat(filteredOptions)
-				});
-
-				if (_isOptionUnique2) {
-					var _prompt = promptTextCreator(this.inputValue);
-
-					this._createPlaceholderOption = _newOptionCreator({
-						label: _prompt,
+					var option = _newOptionCreator({
+						label: this.inputValue,
 						labelKey: this.labelKey,
 						valueKey: this.valueKey
 					});
 
-					filteredOptions.unshift(this._createPlaceholderOption);
-				}
-			}
+					// TRICKY Compare to all options (not just filtered options) in case option has already been selected).
+					// For multi-selects, this would remove it from the filtered list.
+					var _isOptionUnique2 = this.isOptionUnique({
+						option: option,
+						options: excludeOptions.concat(filteredOptions)
+					});
 
-			return filteredOptions;
-		},
+					if (_isOptionUnique2) {
+						var prompt = promptTextCreator(this.inputValue);
 
-		isOptionUnique: function isOptionUnique(_ref2) {
-			var option = _ref2.option;
-			var options = _ref2.options;
-			var isOptionUnique = this.props.isOptionUnique;
+						this._createPlaceholderOption = _newOptionCreator({
+							label: prompt,
+							labelKey: this.labelKey,
+							valueKey: this.valueKey
+						});
 
-			options = options || this.select.filterOptions();
-
-			return isOptionUnique({
-				labelKey: this.labelKey,
-				option: option,
-				options: options,
-				valueKey: this.valueKey
-			});
-		},
-
-		menuRenderer: function menuRenderer(params) {
-			var menuRenderer = this.props.menuRenderer;
-
-			return menuRenderer(_extends({}, params, {
-				onSelect: this.onOptionSelect,
-				selectValue: this.onOptionSelect
-			}));
-		},
-
-		onInputChange: function onInputChange(input) {
-			var onInputChange = this.props.onInputChange;
-
-			if (onInputChange) {
-				onInputChange(input);
-			}
-
-			// This value may be needed in between Select mounts (when this.select is null)
-			this.inputValue = input;
-		},
-
-		onInputKeyDown: function onInputKeyDown(event) {
-			var _props3 = this.props;
-			var shouldKeyDownEventCreateNewOption = _props3.shouldKeyDownEventCreateNewOption;
-			var onInputKeyDown = _props3.onInputKeyDown;
-
-			var focusedOption = this.select.getFocusedOption();
-
-			if (focusedOption && focusedOption === this._createPlaceholderOption && shouldKeyDownEventCreateNewOption({ keyCode: event.keyCode })) {
-				this.createNewOption();
-
-				// Prevent decorated Select from doing anything additional with this keyDown event
-				event.preventDefault();
-			} else if (onInputKeyDown) {
-				onInputKeyDown(event);
-			}
-		},
-
-		onOptionSelect: function onOptionSelect(option, event) {
-			if (option === this._createPlaceholderOption) {
-				this.createNewOption();
-			} else {
-				this.select.selectValue(option);
-			}
-		},
-
-		focus: function focus() {
-			this.select.focus();
-		},
-
-		render: function render() {
-			var _this = this;
-
-			var _props4 = this.props;
-			var newOptionCreator = _props4.newOptionCreator;
-			var shouldKeyDownEventCreateNewOption = _props4.shouldKeyDownEventCreateNewOption;
-
-			var restProps = _objectWithoutProperties(_props4, ['newOptionCreator', 'shouldKeyDownEventCreateNewOption']);
-
-			var children = this.props.children;
-
-			// We can't use destructuring default values to set the children,
-			// because it won't apply work if `children` is null. A falsy check is
-			// more reliable in real world use-cases.
-			if (!children) {
-				children = defaultChildren;
-			}
-
-			var props = _extends({}, restProps, {
-				allowCreate: true,
-				filterOptions: this.filterOptions,
-				menuRenderer: this.menuRenderer,
-				onInputChange: this.onInputChange,
-				onInputKeyDown: this.onInputKeyDown,
-				ref: function ref(_ref) {
-					_this.select = _ref;
-
-					// These values may be needed in between Select mounts (when this.select is null)
-					if (_ref) {
-						_this.labelKey = _ref.props.labelKey;
-						_this.valueKey = _ref.props.valueKey;
+						filteredOptions.unshift(this._createPlaceholderOption);
 					}
 				}
-			});
 
-			return children(props);
-		}
-	});
+				return filteredOptions;
+			}
+		}, {
+			key: 'isOptionUnique',
+			value: function isOptionUnique(_ref) {
+				var option = _ref.option,
+				    options = _ref.options;
+				var isOptionUnique = this.props.isOptionUnique;
+
+
+				options = options || this.props.options;
+
+				return isOptionUnique({
+					labelKey: this.labelKey,
+					option: option,
+					options: options,
+					valueKey: this.valueKey
+				});
+			}
+		}, {
+			key: 'menuRenderer',
+			value: function menuRenderer(params) {
+				var menuRenderer = this.props.menuRenderer;
+
+
+				return menuRenderer(_extends({}, params, {
+					onSelect: this.onOptionSelect,
+					selectValue: this.onOptionSelect
+				}));
+			}
+		}, {
+			key: 'onInputChange',
+			value: function onInputChange(input) {
+				var onInputChange = this.props.onInputChange;
+
+				// This value may be needed in between Select mounts (when this.select is null)
+
+				this.inputValue = input;
+
+				if (onInputChange) {
+					this.inputValue = onInputChange(input);
+				}
+
+				return this.inputValue;
+			}
+		}, {
+			key: 'onInputKeyDown',
+			value: function onInputKeyDown(event) {
+				var _props3 = this.props,
+				    shouldKeyDownEventCreateNewOption = _props3.shouldKeyDownEventCreateNewOption,
+				    onInputKeyDown = _props3.onInputKeyDown;
+
+				var focusedOption = this.select.getFocusedOption();
+
+				if (focusedOption && focusedOption === this._createPlaceholderOption && shouldKeyDownEventCreateNewOption({ keyCode: event.keyCode })) {
+					this.createNewOption();
+
+					// Prevent decorated Select from doing anything additional with this keyDown event
+					event.preventDefault();
+				} else if (onInputKeyDown) {
+					onInputKeyDown(event);
+				}
+			}
+		}, {
+			key: 'onOptionSelect',
+			value: function onOptionSelect(option, event) {
+				if (option === this._createPlaceholderOption) {
+					this.createNewOption();
+				} else {
+					this.select.selectValue(option);
+				}
+			}
+		}, {
+			key: 'focus',
+			value: function focus() {
+				this.select.focus();
+			}
+		}, {
+			key: 'render',
+			value: function render() {
+				var _this2 = this;
+
+				var _props4 = this.props,
+				    newOptionCreator = _props4.newOptionCreator,
+				    shouldKeyDownEventCreateNewOption = _props4.shouldKeyDownEventCreateNewOption,
+				    refProp = _props4.ref,
+				    restProps = _objectWithoutProperties(_props4, ['newOptionCreator', 'shouldKeyDownEventCreateNewOption', 'ref']);
+
+				var children = this.props.children;
+
+				// We can't use destructuring default values to set the children,
+				// because it won't apply work if `children` is null. A falsy check is
+				// more reliable in real world use-cases.
+
+				if (!children) {
+					children = defaultChildren;
+				}
+
+				var props = _extends({}, restProps, {
+					allowCreate: true,
+					filterOptions: this.filterOptions,
+					menuRenderer: this.menuRenderer,
+					onInputChange: this.onInputChange,
+					onInputKeyDown: this.onInputKeyDown,
+					ref: function ref(_ref2) {
+						_this2.select = _ref2;
+
+						// These values may be needed in between Select mounts (when this.select is null)
+						if (_ref2) {
+							_this2.labelKey = _ref2.props.labelKey;
+							_this2.valueKey = _ref2.props.valueKey;
+						}
+						if (refProp) {
+							refProp(_ref2);
+						}
+					}
+				});
+
+				return children(props);
+			}
+		}]);
+
+		return CreatableSelect;
+	}(_react2.default.Component);
+
+	;
 
 	function defaultChildren(props) {
-		return _react2['default'].createElement(_Select2['default'], props);
+		return _react2.default.createElement(_Select2.default, props);
 	};
 
 	function isOptionUnique(_ref3) {
-		var option = _ref3.option;
-		var options = _ref3.options;
-		var labelKey = _ref3.labelKey;
-		var valueKey = _ref3.valueKey;
+		var option = _ref3.option,
+		    options = _ref3.options,
+		    labelKey = _ref3.labelKey,
+		    valueKey = _ref3.valueKey;
 
 		return options.filter(function (existingOption) {
 			return existingOption[labelKey] === option[labelKey] || existingOption[valueKey] === option[valueKey];
@@ -25561,9 +25909,9 @@
 	};
 
 	function newOptionCreator(_ref5) {
-		var label = _ref5.label;
-		var labelKey = _ref5.labelKey;
-		var valueKey = _ref5.valueKey;
+		var label = _ref5.label,
+		    labelKey = _ref5.labelKey,
+		    valueKey = _ref5.valueKey;
 
 		var option = {};
 		option[valueKey] = label;
@@ -25585,265 +25933,88 @@
 			case 188:
 				// COMMA
 				return true;
+			default:
+				return false;
 		}
-
-		return false;
 	};
 
-	module.exports = Creatable;
+	// Default prop methods
+	CreatableSelect.isOptionUnique = isOptionUnique;
+	CreatableSelect.isValidNewOption = isValidNewOption;
+	CreatableSelect.newOptionCreator = newOptionCreator;
+	CreatableSelect.promptTextCreator = promptTextCreator;
+	CreatableSelect.shouldKeyDownEventCreateNewOption = shouldKeyDownEventCreateNewOption;
+
+	CreatableSelect.defaultProps = {
+		filterOptions: _defaultFilterOptions2.default,
+		isOptionUnique: isOptionUnique,
+		isValidNewOption: isValidNewOption,
+		menuRenderer: _defaultMenuRenderer2.default,
+		newOptionCreator: newOptionCreator,
+		promptTextCreator: promptTextCreator,
+		shouldKeyDownEventCreateNewOption: shouldKeyDownEventCreateNewOption
+	};
+
+	CreatableSelect.propTypes = {
+		// Child function responsible for creating the inner Select component
+		// This component can be used to compose HOCs (eg Creatable and Async)
+		// (props: Object): PropTypes.element
+		children: _propTypes2.default.func,
+
+		// See Select.propTypes.filterOptions
+		filterOptions: _propTypes2.default.any,
+
+		// Searches for any matching option within the set of options.
+		// This function prevents duplicate options from being created.
+		// ({ option: Object, options: Array, labelKey: string, valueKey: string }): boolean
+		isOptionUnique: _propTypes2.default.func,
+
+		// Determines if the current input text represents a valid option.
+		// ({ label: string }): boolean
+		isValidNewOption: _propTypes2.default.func,
+
+		// See Select.propTypes.menuRenderer
+		menuRenderer: _propTypes2.default.any,
+
+		// Factory to create new option.
+		// ({ label: string, labelKey: string, valueKey: string }): Object
+		newOptionCreator: _propTypes2.default.func,
+
+		// input change handler: function (inputValue) {}
+		onInputChange: _propTypes2.default.func,
+
+		// input keyDown handler: function (event) {}
+		onInputKeyDown: _propTypes2.default.func,
+
+		// new option click handler: function (option) {}
+		onNewOptionClick: _propTypes2.default.func,
+
+		// See Select.propTypes.options
+		options: _propTypes2.default.array,
+
+		// Creates prompt/placeholder option text.
+		// (filterText: string): string
+		promptTextCreator: _propTypes2.default.func,
+
+		ref: _propTypes2.default.func,
+
+		// Decides if a keyDown event (eg its `keyCode`) should result in the creation of a new option.
+		shouldKeyDownEventCreateNewOption: _propTypes2.default.func
+	};
+
+	exports.default = CreatableSelect;
 
 /***/ }),
-/* 204 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-	var _react = __webpack_require__(2);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _createReactClass = __webpack_require__(193);
-
-	var _createReactClass2 = _interopRequireDefault(_createReactClass);
-
-	var _propTypes = __webpack_require__(186);
-
-	var _propTypes2 = _interopRequireDefault(_propTypes);
-
-	var _classnames = __webpack_require__(195);
-
-	var _classnames2 = _interopRequireDefault(_classnames);
-
-	var Option = (0, _createReactClass2['default'])({
-		propTypes: {
-			children: _propTypes2['default'].node,
-			className: _propTypes2['default'].string, // className (based on mouse position)
-			instancePrefix: _propTypes2['default'].string.isRequired, // unique prefix for the ids (used for aria)
-			isDisabled: _propTypes2['default'].bool, // the option is disabled
-			isFocused: _propTypes2['default'].bool, // the option is focused
-			isSelected: _propTypes2['default'].bool, // the option is selected
-			onFocus: _propTypes2['default'].func, // method to handle mouseEnter on option element
-			onSelect: _propTypes2['default'].func, // method to handle click on option element
-			onUnfocus: _propTypes2['default'].func, // method to handle mouseLeave on option element
-			option: _propTypes2['default'].object.isRequired, // object that is base for that option
-			optionIndex: _propTypes2['default'].number },
-		// index of the option, used to generate unique ids for aria
-		blockEvent: function blockEvent(event) {
-			event.preventDefault();
-			event.stopPropagation();
-			if (event.target.tagName !== 'A' || !('href' in event.target)) {
-				return;
-			}
-			if (event.target.target) {
-				window.open(event.target.href, event.target.target);
-			} else {
-				window.location.href = event.target.href;
-			}
-		},
-
-		handleMouseDown: function handleMouseDown(event) {
-			event.preventDefault();
-			event.stopPropagation();
-			this.props.onSelect(this.props.option, event);
-		},
-
-		handleMouseEnter: function handleMouseEnter(event) {
-			this.onFocus(event);
-		},
-
-		handleMouseMove: function handleMouseMove(event) {
-			this.onFocus(event);
-		},
-
-		handleTouchEnd: function handleTouchEnd(event) {
-			// Check if the view is being dragged, In this case
-			// we don't want to fire the click event (because the user only wants to scroll)
-			if (this.dragging) return;
-
-			this.handleMouseDown(event);
-		},
-
-		handleTouchMove: function handleTouchMove(event) {
-			// Set a flag that the view is being dragged
-			this.dragging = true;
-		},
-
-		handleTouchStart: function handleTouchStart(event) {
-			// Set a flag that the view is not being dragged
-			this.dragging = false;
-		},
-
-		onFocus: function onFocus(event) {
-			if (!this.props.isFocused) {
-				this.props.onFocus(this.props.option, event);
-			}
-		},
-		render: function render() {
-			var _props = this.props;
-			var option = _props.option;
-			var instancePrefix = _props.instancePrefix;
-			var optionIndex = _props.optionIndex;
-
-			var className = (0, _classnames2['default'])(this.props.className, option.className);
-
-			return option.disabled ? _react2['default'].createElement(
-				'div',
-				{ className: className,
-					onMouseDown: this.blockEvent,
-					onClick: this.blockEvent },
-				this.props.children
-			) : _react2['default'].createElement(
-				'div',
-				{ className: className,
-					style: option.style,
-					role: 'option',
-					onMouseDown: this.handleMouseDown,
-					onMouseEnter: this.handleMouseEnter,
-					onMouseMove: this.handleMouseMove,
-					onTouchStart: this.handleTouchStart,
-					onTouchMove: this.handleTouchMove,
-					onTouchEnd: this.handleTouchEnd,
-					id: instancePrefix + '-option-' + optionIndex,
-					title: option.title },
-				this.props.children
-			);
-		}
-	});
-
-	module.exports = Option;
-
-/***/ }),
-/* 205 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-	var _react = __webpack_require__(2);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _createReactClass = __webpack_require__(193);
-
-	var _createReactClass2 = _interopRequireDefault(_createReactClass);
-
-	var _propTypes = __webpack_require__(186);
-
-	var _propTypes2 = _interopRequireDefault(_propTypes);
-
-	var _classnames = __webpack_require__(195);
-
-	var _classnames2 = _interopRequireDefault(_classnames);
-
-	var Value = (0, _createReactClass2['default'])({
-
-		displayName: 'Value',
-
-		propTypes: {
-			children: _propTypes2['default'].node,
-			disabled: _propTypes2['default'].bool, // disabled prop passed to ReactSelect
-			id: _propTypes2['default'].string, // Unique id for the value - used for aria
-			onClick: _propTypes2['default'].func, // method to handle click on value label
-			onRemove: _propTypes2['default'].func, // method to handle removal of the value
-			value: _propTypes2['default'].object.isRequired },
-
-		// the option object for this value
-		handleMouseDown: function handleMouseDown(event) {
-			if (event.type === 'mousedown' && event.button !== 0) {
-				return;
-			}
-			if (this.props.onClick) {
-				event.stopPropagation();
-				this.props.onClick(this.props.value, event);
-				return;
-			}
-			if (this.props.value.href) {
-				event.stopPropagation();
-			}
-		},
-
-		onRemove: function onRemove(event) {
-			event.preventDefault();
-			event.stopPropagation();
-			this.props.onRemove(this.props.value);
-		},
-
-		handleTouchEndRemove: function handleTouchEndRemove(event) {
-			// Check if the view is being dragged, In this case
-			// we don't want to fire the click event (because the user only wants to scroll)
-			if (this.dragging) return;
-
-			// Fire the mouse events
-			this.onRemove(event);
-		},
-
-		handleTouchMove: function handleTouchMove(event) {
-			// Set a flag that the view is being dragged
-			this.dragging = true;
-		},
-
-		handleTouchStart: function handleTouchStart(event) {
-			// Set a flag that the view is not being dragged
-			this.dragging = false;
-		},
-
-		renderRemoveIcon: function renderRemoveIcon() {
-			if (this.props.disabled || !this.props.onRemove) return;
-			return _react2['default'].createElement(
-				'span',
-				{ className: 'Select-value-icon',
-					'aria-hidden': 'true',
-					onMouseDown: this.onRemove,
-					onTouchEnd: this.handleTouchEndRemove,
-					onTouchStart: this.handleTouchStart,
-					onTouchMove: this.handleTouchMove },
-				'×'
-			);
-		},
-
-		renderLabel: function renderLabel() {
-			var className = 'Select-value-label';
-			return this.props.onClick || this.props.value.href ? _react2['default'].createElement(
-				'a',
-				{ className: className, href: this.props.value.href, target: this.props.value.target, onMouseDown: this.handleMouseDown, onTouchEnd: this.handleMouseDown },
-				this.props.children
-			) : _react2['default'].createElement(
-				'span',
-				{ className: className, role: 'option', 'aria-selected': 'true', id: this.props.id },
-				this.props.children
-			);
-		},
-
-		render: function render() {
-			return _react2['default'].createElement(
-				'div',
-				{ className: (0, _classnames2['default'])('Select-value', this.props.value.className),
-					style: this.props.value.style,
-					title: this.props.value.title
-				},
-				this.renderRemoveIcon(),
-				this.renderLabel()
-			);
-		}
-
-	});
-
-	module.exports = Value;
-
-/***/ }),
-/* 206 */
+/* 207 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(207);
+	var content = __webpack_require__(208);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(209)(content, {});
+	var update = __webpack_require__(210)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -25860,21 +26031,21 @@
 	}
 
 /***/ }),
-/* 207 */
+/* 208 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(208)();
+	exports = module.exports = __webpack_require__(209)();
 	// imports
 
 
 	// module
-	exports.push([module.id, "/**\n * React Select\n * ============\n * Created by Jed Watson and Joss Mackison for KeystoneJS, http://www.keystonejs.com/\n * https://twitter.com/jedwatson https://twitter.com/jossmackison https://twitter.com/keystonejs\n * MIT License: https://github.com/JedWatson/react-select\n*/\n.Select {\n  position: relative;\n}\n.Select,\n.Select div,\n.Select input,\n.Select span {\n  box-sizing: border-box;\n}\n.Select.is-disabled > .Select-control {\n  background-color: #f9f9f9;\n}\n.Select.is-disabled > .Select-control:hover {\n  box-shadow: none;\n}\n.Select.is-disabled .Select-arrow-zone {\n  cursor: default;\n  pointer-events: none;\n  opacity: 0.35;\n}\n.Select-control {\n  background-color: #fff;\n  border-color: #d9d9d9 #ccc #b3b3b3;\n  border-radius: 4px;\n  border: 1px solid #ccc;\n  color: #333;\n  cursor: default;\n  display: table;\n  border-spacing: 0;\n  border-collapse: separate;\n  height: 36px;\n  outline: none;\n  overflow: hidden;\n  position: relative;\n  width: 100%;\n}\n.Select-control:hover {\n  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);\n}\n.Select-control .Select-input:focus {\n  outline: none;\n}\n.is-searchable.is-open > .Select-control {\n  cursor: text;\n}\n.is-open > .Select-control {\n  border-bottom-right-radius: 0;\n  border-bottom-left-radius: 0;\n  background: #fff;\n  border-color: #b3b3b3 #ccc #d9d9d9;\n}\n.is-open > .Select-control .Select-arrow {\n  top: -2px;\n  border-color: transparent transparent #999;\n  border-width: 0 5px 5px;\n}\n.is-searchable.is-focused:not(.is-open) > .Select-control {\n  cursor: text;\n}\n.is-focused:not(.is-open) > .Select-control {\n  border-color: #007eff;\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 3px rgba(0, 126, 255, 0.1);\n}\n.Select-placeholder,\n.Select--single > .Select-control .Select-value {\n  bottom: 0;\n  color: #aaa;\n  left: 0;\n  line-height: 34px;\n  padding-left: 10px;\n  padding-right: 10px;\n  position: absolute;\n  right: 0;\n  top: 0;\n  max-width: 100%;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n}\n.has-value.Select--single > .Select-control .Select-value .Select-value-label,\n.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label {\n  color: #333;\n}\n.has-value.Select--single > .Select-control .Select-value a.Select-value-label,\n.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value a.Select-value-label {\n  cursor: pointer;\n  text-decoration: none;\n}\n.has-value.Select--single > .Select-control .Select-value a.Select-value-label:hover,\n.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value a.Select-value-label:hover,\n.has-value.Select--single > .Select-control .Select-value a.Select-value-label:focus,\n.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value a.Select-value-label:focus {\n  color: #007eff;\n  outline: none;\n  text-decoration: underline;\n}\n.Select-input {\n  height: 34px;\n  padding-left: 10px;\n  padding-right: 10px;\n  vertical-align: middle;\n}\n.Select-input > input {\n  width: 100%;\n  background: none transparent;\n  border: 0 none;\n  box-shadow: none;\n  cursor: default;\n  display: inline-block;\n  font-family: inherit;\n  font-size: inherit;\n  margin: 0;\n  outline: none;\n  line-height: 14px;\n  /* For IE 8 compatibility */\n  padding: 8px 0 12px;\n  /* For IE 8 compatibility */\n  -webkit-appearance: none;\n}\n.is-focused .Select-input > input {\n  cursor: text;\n}\n.has-value.is-pseudo-focused .Select-input {\n  opacity: 0;\n}\n.Select-control:not(.is-searchable) > .Select-input {\n  outline: none;\n}\n.Select-loading-zone {\n  cursor: pointer;\n  display: table-cell;\n  position: relative;\n  text-align: center;\n  vertical-align: middle;\n  width: 16px;\n}\n.Select-loading {\n  -webkit-animation: Select-animation-spin 400ms infinite linear;\n  animation: Select-animation-spin 400ms infinite linear;\n  width: 16px;\n  height: 16px;\n  box-sizing: border-box;\n  border-radius: 50%;\n  border: 2px solid #ccc;\n  border-right-color: #333;\n  display: inline-block;\n  position: relative;\n  vertical-align: middle;\n}\n.Select-clear-zone {\n  -webkit-animation: Select-animation-fadeIn 200ms;\n  animation: Select-animation-fadeIn 200ms;\n  color: #999;\n  cursor: pointer;\n  display: table-cell;\n  position: relative;\n  text-align: center;\n  vertical-align: middle;\n  width: 17px;\n}\n.Select-clear-zone:hover {\n  color: #D0021B;\n}\n.Select-clear {\n  display: inline-block;\n  font-size: 18px;\n  line-height: 1;\n}\n.Select--multi .Select-clear-zone {\n  width: 17px;\n}\n.Select-arrow-zone {\n  cursor: pointer;\n  display: table-cell;\n  position: relative;\n  text-align: center;\n  vertical-align: middle;\n  width: 25px;\n  padding-right: 5px;\n}\n.Select-arrow {\n  border-color: #999 transparent transparent;\n  border-style: solid;\n  border-width: 5px 5px 2.5px;\n  display: inline-block;\n  height: 0;\n  width: 0;\n  position: relative;\n}\n.is-open .Select-arrow,\n.Select-arrow-zone:hover > .Select-arrow {\n  border-top-color: #666;\n}\n.Select--multi .Select-multi-value-wrapper {\n  display: inline-block;\n}\n.Select .Select-aria-only {\n  display: inline-block;\n  height: 1px;\n  width: 1px;\n  margin: -1px;\n  clip: rect(0, 0, 0, 0);\n  overflow: hidden;\n  float: left;\n}\n@-webkit-keyframes Select-animation-fadeIn {\n  from {\n    opacity: 0;\n  }\n  to {\n    opacity: 1;\n  }\n}\n@keyframes Select-animation-fadeIn {\n  from {\n    opacity: 0;\n  }\n  to {\n    opacity: 1;\n  }\n}\n.Select-menu-outer {\n  border-bottom-right-radius: 4px;\n  border-bottom-left-radius: 4px;\n  background-color: #fff;\n  border: 1px solid #ccc;\n  border-top-color: #e6e6e6;\n  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);\n  box-sizing: border-box;\n  margin-top: -1px;\n  max-height: 200px;\n  position: absolute;\n  top: 100%;\n  width: 100%;\n  z-index: 1;\n  -webkit-overflow-scrolling: touch;\n}\n.Select-menu {\n  max-height: 198px;\n  overflow-y: auto;\n}\n.Select-option {\n  box-sizing: border-box;\n  background-color: #fff;\n  color: #666666;\n  cursor: pointer;\n  display: block;\n  padding: 8px 10px;\n}\n.Select-option:last-child {\n  border-bottom-right-radius: 4px;\n  border-bottom-left-radius: 4px;\n}\n.Select-option.is-selected {\n  background-color: #f5faff;\n  /* Fallback color for IE 8 */\n  background-color: rgba(0, 126, 255, 0.04);\n  color: #333;\n}\n.Select-option.is-focused {\n  background-color: #ebf5ff;\n  /* Fallback color for IE 8 */\n  background-color: rgba(0, 126, 255, 0.08);\n  color: #333;\n}\n.Select-option.is-disabled {\n  color: #cccccc;\n  cursor: default;\n}\n.Select-noresults {\n  box-sizing: border-box;\n  color: #999999;\n  cursor: default;\n  display: block;\n  padding: 8px 10px;\n}\n.Select--multi .Select-input {\n  vertical-align: middle;\n  margin-left: 10px;\n  padding: 0;\n}\n.Select--multi.has-value .Select-input {\n  margin-left: 5px;\n}\n.Select--multi .Select-value {\n  background-color: #ebf5ff;\n  /* Fallback color for IE 8 */\n  background-color: rgba(0, 126, 255, 0.08);\n  border-radius: 2px;\n  border: 1px solid #c2e0ff;\n  /* Fallback color for IE 8 */\n  border: 1px solid rgba(0, 126, 255, 0.24);\n  color: #007eff;\n  display: inline-block;\n  font-size: 0.9em;\n  line-height: 1.4;\n  margin-left: 5px;\n  margin-top: 5px;\n  vertical-align: top;\n}\n.Select--multi .Select-value-icon,\n.Select--multi .Select-value-label {\n  display: inline-block;\n  vertical-align: middle;\n}\n.Select--multi .Select-value-label {\n  border-bottom-right-radius: 2px;\n  border-top-right-radius: 2px;\n  cursor: default;\n  padding: 2px 5px;\n}\n.Select--multi a.Select-value-label {\n  color: #007eff;\n  cursor: pointer;\n  text-decoration: none;\n}\n.Select--multi a.Select-value-label:hover {\n  text-decoration: underline;\n}\n.Select--multi .Select-value-icon {\n  cursor: pointer;\n  border-bottom-left-radius: 2px;\n  border-top-left-radius: 2px;\n  border-right: 1px solid #c2e0ff;\n  /* Fallback color for IE 8 */\n  border-right: 1px solid rgba(0, 126, 255, 0.24);\n  padding: 1px 5px 3px;\n}\n.Select--multi .Select-value-icon:hover,\n.Select--multi .Select-value-icon:focus {\n  background-color: #d8eafd;\n  /* Fallback color for IE 8 */\n  background-color: rgba(0, 113, 230, 0.08);\n  color: #0071e6;\n}\n.Select--multi .Select-value-icon:active {\n  background-color: #c2e0ff;\n  /* Fallback color for IE 8 */\n  background-color: rgba(0, 126, 255, 0.24);\n}\n.Select--multi.is-disabled .Select-value {\n  background-color: #fcfcfc;\n  border: 1px solid #e3e3e3;\n  color: #333;\n}\n.Select--multi.is-disabled .Select-value-icon {\n  cursor: not-allowed;\n  border-right: 1px solid #e3e3e3;\n}\n.Select--multi.is-disabled .Select-value-icon:hover,\n.Select--multi.is-disabled .Select-value-icon:focus,\n.Select--multi.is-disabled .Select-value-icon:active {\n  background-color: #fcfcfc;\n}\n@keyframes Select-animation-spin {\n  to {\n    -webkit-transform: rotate(1turn);\n            transform: rotate(1turn);\n  }\n}\n@-webkit-keyframes Select-animation-spin {\n  to {\n    -webkit-transform: rotate(1turn);\n  }\n}\n", ""]);
+	exports.push([module.id, "/**\n * React Select\n * ============\n * Created by Jed Watson and Joss Mackison for KeystoneJS, http://www.keystonejs.com/\n * https://twitter.com/jedwatson https://twitter.com/jossmackison https://twitter.com/keystonejs\n * MIT License: https://github.com/JedWatson/react-select\n*/\n.Select {\n  position: relative;\n}\n.Select input::-webkit-contacts-auto-fill-button,\n.Select input::-webkit-credentials-auto-fill-button {\n  display: none !important;\n}\n.Select input::-ms-clear {\n  display: none !important;\n}\n.Select input::-ms-reveal {\n  display: none !important;\n}\n.Select,\n.Select div,\n.Select input,\n.Select span {\n  box-sizing: border-box;\n}\n.Select.is-disabled .Select-arrow-zone {\n  cursor: default;\n  pointer-events: none;\n  opacity: 0.35;\n}\n.Select.is-disabled > .Select-control {\n  background-color: #f9f9f9;\n}\n.Select.is-disabled > .Select-control:hover {\n  box-shadow: none;\n}\n.Select.is-open > .Select-control {\n  border-bottom-right-radius: 0;\n  border-bottom-left-radius: 0;\n  background: #fff;\n  border-color: #b3b3b3 #ccc #d9d9d9;\n}\n.Select.is-open > .Select-control .Select-arrow {\n  top: -2px;\n  border-color: transparent transparent #999;\n  border-width: 0 5px 5px;\n}\n.Select.is-searchable.is-open > .Select-control {\n  cursor: text;\n}\n.Select.is-searchable.is-focused:not(.is-open) > .Select-control {\n  cursor: text;\n}\n.Select.is-focused > .Select-control {\n  background: #fff;\n}\n.Select.is-focused:not(.is-open) > .Select-control {\n  border-color: #007eff;\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 3px rgba(0, 126, 255, 0.1);\n  background: #fff;\n}\n.Select.has-value.is-clearable.Select--single > .Select-control .Select-value {\n  padding-right: 42px;\n}\n.Select.has-value.Select--single > .Select-control .Select-value .Select-value-label,\n.Select.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label {\n  color: #333;\n}\n.Select.has-value.Select--single > .Select-control .Select-value a.Select-value-label,\n.Select.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value a.Select-value-label {\n  cursor: pointer;\n  text-decoration: none;\n}\n.Select.has-value.Select--single > .Select-control .Select-value a.Select-value-label:hover,\n.Select.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value a.Select-value-label:hover,\n.Select.has-value.Select--single > .Select-control .Select-value a.Select-value-label:focus,\n.Select.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value a.Select-value-label:focus {\n  color: #007eff;\n  outline: none;\n  text-decoration: underline;\n}\n.Select.has-value.Select--single > .Select-control .Select-value a.Select-value-label:focus,\n.Select.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value a.Select-value-label:focus {\n  background: #fff;\n}\n.Select.has-value.is-pseudo-focused .Select-input {\n  opacity: 0;\n}\n.Select.is-open .Select-arrow,\n.Select .Select-arrow-zone:hover > .Select-arrow {\n  border-top-color: #666;\n}\n.Select.Select--rtl {\n  direction: rtl;\n  text-align: right;\n}\n.Select-control {\n  background-color: #fff;\n  border-color: #d9d9d9 #ccc #b3b3b3;\n  border-radius: 4px;\n  border: 1px solid #ccc;\n  color: #333;\n  cursor: default;\n  display: table;\n  border-spacing: 0;\n  border-collapse: separate;\n  height: 36px;\n  outline: none;\n  overflow: hidden;\n  position: relative;\n  width: 100%;\n}\n.Select-control:hover {\n  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);\n}\n.Select-control .Select-input:focus {\n  outline: none;\n  background: #fff;\n}\n.Select-placeholder,\n.Select--single > .Select-control .Select-value {\n  bottom: 0;\n  color: #aaa;\n  left: 0;\n  line-height: 34px;\n  padding-left: 10px;\n  padding-right: 10px;\n  position: absolute;\n  right: 0;\n  top: 0;\n  max-width: 100%;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n}\n.Select-input {\n  height: 34px;\n  padding-left: 10px;\n  padding-right: 10px;\n  vertical-align: middle;\n}\n.Select-input > input {\n  width: 100%;\n  background: none transparent;\n  border: 0 none;\n  box-shadow: none;\n  cursor: default;\n  display: inline-block;\n  font-family: inherit;\n  font-size: inherit;\n  margin: 0;\n  outline: none;\n  line-height: 17px;\n  /* For IE 8 compatibility */\n  padding: 8px 0 12px;\n  /* For IE 8 compatibility */\n  -webkit-appearance: none;\n}\n.is-focused .Select-input > input {\n  cursor: text;\n}\n.has-value.is-pseudo-focused .Select-input {\n  opacity: 0;\n}\n.Select-control:not(.is-searchable) > .Select-input {\n  outline: none;\n}\n.Select-loading-zone {\n  cursor: pointer;\n  display: table-cell;\n  position: relative;\n  text-align: center;\n  vertical-align: middle;\n  width: 16px;\n}\n.Select-loading {\n  -webkit-animation: Select-animation-spin 400ms infinite linear;\n  animation: Select-animation-spin 400ms infinite linear;\n  width: 16px;\n  height: 16px;\n  box-sizing: border-box;\n  border-radius: 50%;\n  border: 2px solid #ccc;\n  border-right-color: #333;\n  display: inline-block;\n  position: relative;\n  vertical-align: middle;\n}\n.Select-clear-zone {\n  -webkit-animation: Select-animation-fadeIn 200ms;\n  animation: Select-animation-fadeIn 200ms;\n  color: #999;\n  cursor: pointer;\n  display: table-cell;\n  position: relative;\n  text-align: center;\n  vertical-align: middle;\n  width: 17px;\n}\n.Select-clear-zone:hover {\n  color: #D0021B;\n}\n.Select-clear {\n  display: inline-block;\n  font-size: 18px;\n  line-height: 1;\n}\n.Select--multi .Select-clear-zone {\n  width: 17px;\n}\n.Select-arrow-zone {\n  cursor: pointer;\n  display: table-cell;\n  position: relative;\n  text-align: center;\n  vertical-align: middle;\n  width: 25px;\n  padding-right: 5px;\n}\n.Select--rtl .Select-arrow-zone {\n  padding-right: 0;\n  padding-left: 5px;\n}\n.Select-arrow {\n  border-color: #999 transparent transparent;\n  border-style: solid;\n  border-width: 5px 5px 2.5px;\n  display: inline-block;\n  height: 0;\n  width: 0;\n  position: relative;\n}\n.Select-control > *:last-child {\n  padding-right: 5px;\n}\n.Select--multi .Select-multi-value-wrapper {\n  display: inline-block;\n}\n.Select .Select-aria-only {\n  position: absolute;\n  display: inline-block;\n  height: 1px;\n  width: 1px;\n  margin: -1px;\n  clip: rect(0, 0, 0, 0);\n  overflow: hidden;\n  float: left;\n}\n@-webkit-keyframes Select-animation-fadeIn {\n  from {\n    opacity: 0;\n  }\n  to {\n    opacity: 1;\n  }\n}\n@keyframes Select-animation-fadeIn {\n  from {\n    opacity: 0;\n  }\n  to {\n    opacity: 1;\n  }\n}\n.Select-menu-outer {\n  border-bottom-right-radius: 4px;\n  border-bottom-left-radius: 4px;\n  background-color: #fff;\n  border: 1px solid #ccc;\n  border-top-color: #e6e6e6;\n  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);\n  box-sizing: border-box;\n  margin-top: -1px;\n  max-height: 200px;\n  position: absolute;\n  top: 100%;\n  width: 100%;\n  z-index: 1;\n  -webkit-overflow-scrolling: touch;\n}\n.Select-menu {\n  max-height: 198px;\n  overflow-y: auto;\n}\n.Select-option {\n  box-sizing: border-box;\n  background-color: #fff;\n  color: #666666;\n  cursor: pointer;\n  display: block;\n  padding: 8px 10px;\n}\n.Select-option:last-child {\n  border-bottom-right-radius: 4px;\n  border-bottom-left-radius: 4px;\n}\n.Select-option.is-selected {\n  background-color: #f5faff;\n  /* Fallback color for IE 8 */\n  background-color: rgba(0, 126, 255, 0.04);\n  color: #333;\n}\n.Select-option.is-focused {\n  background-color: #ebf5ff;\n  /* Fallback color for IE 8 */\n  background-color: rgba(0, 126, 255, 0.08);\n  color: #333;\n}\n.Select-option.is-disabled {\n  color: #cccccc;\n  cursor: default;\n}\n.Select-noresults {\n  box-sizing: border-box;\n  color: #999999;\n  cursor: default;\n  display: block;\n  padding: 8px 10px;\n}\n.Select--multi .Select-input {\n  vertical-align: middle;\n  margin-left: 10px;\n  padding: 0;\n}\n.Select--multi.Select--rtl .Select-input {\n  margin-left: 0;\n  margin-right: 10px;\n}\n.Select--multi.has-value .Select-input {\n  margin-left: 5px;\n}\n.Select--multi .Select-value {\n  background-color: #ebf5ff;\n  /* Fallback color for IE 8 */\n  background-color: rgba(0, 126, 255, 0.08);\n  border-radius: 2px;\n  border: 1px solid #c2e0ff;\n  /* Fallback color for IE 8 */\n  border: 1px solid rgba(0, 126, 255, 0.24);\n  color: #007eff;\n  display: inline-block;\n  font-size: 0.9em;\n  line-height: 1.4;\n  margin-left: 5px;\n  margin-top: 5px;\n  vertical-align: top;\n}\n.Select--multi .Select-value-icon,\n.Select--multi .Select-value-label {\n  display: inline-block;\n  vertical-align: middle;\n}\n.Select--multi .Select-value-label {\n  border-bottom-right-radius: 2px;\n  border-top-right-radius: 2px;\n  cursor: default;\n  padding: 2px 5px;\n}\n.Select--multi a.Select-value-label {\n  color: #007eff;\n  cursor: pointer;\n  text-decoration: none;\n}\n.Select--multi a.Select-value-label:hover {\n  text-decoration: underline;\n}\n.Select--multi .Select-value-icon {\n  cursor: pointer;\n  border-bottom-left-radius: 2px;\n  border-top-left-radius: 2px;\n  border-right: 1px solid #c2e0ff;\n  /* Fallback color for IE 8 */\n  border-right: 1px solid rgba(0, 126, 255, 0.24);\n  padding: 1px 5px 3px;\n}\n.Select--multi .Select-value-icon:hover,\n.Select--multi .Select-value-icon:focus {\n  background-color: #d8eafd;\n  /* Fallback color for IE 8 */\n  background-color: rgba(0, 113, 230, 0.08);\n  color: #0071e6;\n}\n.Select--multi .Select-value-icon:active {\n  background-color: #c2e0ff;\n  /* Fallback color for IE 8 */\n  background-color: rgba(0, 126, 255, 0.24);\n}\n.Select--multi.Select--rtl .Select-value {\n  margin-left: 0;\n  margin-right: 5px;\n}\n.Select--multi.Select--rtl .Select-value-icon {\n  border-right: none;\n  border-left: 1px solid #c2e0ff;\n  /* Fallback color for IE 8 */\n  border-left: 1px solid rgba(0, 126, 255, 0.24);\n}\n.Select--multi.is-disabled .Select-value {\n  background-color: #fcfcfc;\n  border: 1px solid #e3e3e3;\n  color: #333;\n}\n.Select--multi.is-disabled .Select-value-icon {\n  cursor: not-allowed;\n  border-right: 1px solid #e3e3e3;\n}\n.Select--multi.is-disabled .Select-value-icon:hover,\n.Select--multi.is-disabled .Select-value-icon:focus,\n.Select--multi.is-disabled .Select-value-icon:active {\n  background-color: #fcfcfc;\n}\n@keyframes Select-animation-spin {\n  to {\n    -webkit-transform: rotate(1turn);\n            transform: rotate(1turn);\n  }\n}\n@-webkit-keyframes Select-animation-spin {\n  to {\n    -webkit-transform: rotate(1turn);\n  }\n}\n", ""]);
 
 	// exports
 
 
 /***/ }),
-/* 208 */
+/* 209 */
 /***/ (function(module, exports) {
 
 	/*
@@ -25930,7 +26101,7 @@
 
 
 /***/ }),
-/* 209 */
+/* 210 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/*
@@ -26182,19 +26353,19 @@
 
 
 /***/ }),
-/* 210 */
+/* 211 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var _GLTFExporter = __webpack_require__(211);
+	var _GLTFExporter = __webpack_require__(212);
 
 	var Events = __webpack_require__(190);
-	var Viewport = __webpack_require__(212);
-	var ComponentLoader = __webpack_require__(217);
-	var AssetsLoader = __webpack_require__(218);
-	var ShaderLoader = __webpack_require__(219);
-	var Shortcuts = __webpack_require__(220);
+	var Viewport = __webpack_require__(213);
+	var ComponentLoader = __webpack_require__(218);
+	var AssetsLoader = __webpack_require__(219);
+	var ShaderLoader = __webpack_require__(220);
+	var Shortcuts = __webpack_require__(221);
 	// eslint-disable-line no-unused-vars
 
 	function Inspector() {
@@ -26578,12 +26749,12 @@
 	var inspector = new Inspector();
 	AFRAME.INSPECTOR = inspector;
 
-	var Modules = __webpack_require__(222); // eslint-disable-line no-unused-vars
+	var Modules = __webpack_require__(223); // eslint-disable-line no-unused-vars
 
 	module.exports = inspector;
 
 /***/ }),
-/* 211 */
+/* 212 */
 /***/ (function(module, exports) {
 
 	"use strict";
@@ -26596,37 +26767,37 @@
 	// Constants
 	//------------------------------------------------------------------------------
 	var WEBGL_CONSTANTS = {
-		POINTS: 0x0000,
-		LINES: 0x0001,
-		LINE_LOOP: 0x0002,
-		LINE_STRIP: 0x0003,
-		TRIANGLES: 0x0004,
-		TRIANGLE_STRIP: 0x0005,
-		TRIANGLE_FAN: 0x0006,
+				POINTS: 0x0000,
+				LINES: 0x0001,
+				LINE_LOOP: 0x0002,
+				LINE_STRIP: 0x0003,
+				TRIANGLES: 0x0004,
+				TRIANGLE_STRIP: 0x0005,
+				TRIANGLE_FAN: 0x0006,
 
-		UNSIGNED_BYTE: 0x1401,
-		UNSIGNED_SHORT: 0x1403,
-		FLOAT: 0x1406,
-		UNSIGNED_INT: 0x1405,
-		ARRAY_BUFFER: 0x8892,
-		ELEMENT_ARRAY_BUFFER: 0x8893,
+				UNSIGNED_BYTE: 0x1401,
+				UNSIGNED_SHORT: 0x1403,
+				FLOAT: 0x1406,
+				UNSIGNED_INT: 0x1405,
+				ARRAY_BUFFER: 0x8892,
+				ELEMENT_ARRAY_BUFFER: 0x8893,
 
-		NEAREST: 0x2600,
-		LINEAR: 0x2601,
-		NEAREST_MIPMAP_NEAREST: 0x2700,
-		LINEAR_MIPMAP_NEAREST: 0x2701,
-		NEAREST_MIPMAP_LINEAR: 0x2702,
-		LINEAR_MIPMAP_LINEAR: 0x2703
+				NEAREST: 0x2600,
+				LINEAR: 0x2601,
+				NEAREST_MIPMAP_NEAREST: 0x2700,
+				LINEAR_MIPMAP_NEAREST: 0x2701,
+				NEAREST_MIPMAP_LINEAR: 0x2702,
+				LINEAR_MIPMAP_LINEAR: 0x2703
 	};
 
 	var THREE_TO_WEBGL = {
-		// @TODO Replace with computed property name [THREE.*] when available on es6
-		1003: WEBGL_CONSTANTS.NEAREST,
-		1004: WEBGL_CONSTANTS.NEAREST_MIPMAP_NEAREST,
-		1005: WEBGL_CONSTANTS.NEAREST_MIPMAP_LINEAR,
-		1006: WEBGL_CONSTANTS.LINEAR,
-		1007: WEBGL_CONSTANTS.LINEAR_MIPMAP_NEAREST,
-		1008: WEBGL_CONSTANTS.LINEAR_MIPMAP_LINEAR
+				// @TODO Replace with computed property name [THREE.*] when available on es6
+				1003: WEBGL_CONSTANTS.NEAREST,
+				1004: WEBGL_CONSTANTS.NEAREST_MIPMAP_NEAREST,
+				1005: WEBGL_CONSTANTS.NEAREST_MIPMAP_LINEAR,
+				1006: WEBGL_CONSTANTS.LINEAR,
+				1007: WEBGL_CONSTANTS.LINEAR_MIPMAP_NEAREST,
+				1008: WEBGL_CONSTANTS.LINEAR_MIPMAP_LINEAR
 	};
 
 	//------------------------------------------------------------------------------
@@ -26636,871 +26807,871 @@
 
 	THREE.GLTFExporter.prototype = {
 
-		constructor: THREE.GLTFExporter,
+				constructor: THREE.GLTFExporter,
 
-		/**
-	  * Parse scenes and generate GLTF output
-	  * @param  {THREE.Scene or [THREE.Scenes]} input   THREE.Scene or Array of THREE.Scenes
-	  * @param  {Function} onDone  Callback on completed
-	  * @param  {Object} options options
-	  *                          trs: Exports position, rotation and scale instead of matrix
-	  */
-		parse: function parse(input, onDone, options) {
+				/**
+	    * Parse scenes and generate GLTF output
+	    * @param  {THREE.Scene or [THREE.Scenes]} input   THREE.Scene or Array of THREE.Scenes
+	    * @param  {Function} onDone  Callback on completed
+	    * @param  {Object} options options
+	    *                          trs: Exports position, rotation and scale instead of matrix
+	    */
+				parse: function parse(input, onDone, options) {
 
-			var DEFAULT_OPTIONS = {
-				trs: false,
-				onlyVisible: true,
-				truncateDrawRange: true
-			};
+							var DEFAULT_OPTIONS = {
+										trs: false,
+										onlyVisible: true,
+										truncateDrawRange: true
+							};
 
-			options = Object.assign({}, DEFAULT_OPTIONS, options);
+							options = Object.assign({}, DEFAULT_OPTIONS, options);
 
-			var outputJSON = {
+							var outputJSON = {
 
-				asset: {
+										asset: {
 
-					version: "2.0",
-					generator: "THREE.JS GLTFExporter" // @QUESTION Does it support spaces?
+													version: "2.0",
+													generator: "THREE.JS GLTFExporter" // @QUESTION Does it support spaces?
 
-				}
+										}
 
-			};
+							};
 
-			var byteOffset = 0;
-			var dataViews = [];
-			var cachedData = {
+							var byteOffset = 0;
+							var dataViews = [];
+							var cachedData = {
 
-				images: {},
-				materials: {}
+										images: {},
+										materials: {}
 
-			};
+							};
 
-			/**
-	   * Compare two arrays
-	   */
-			/**
-	   * Compare two arrays
-	   * @param  {Array} array1 Array 1 to compare
-	   * @param  {Array} array2 Array 2 to compare
-	   * @return {Boolean}        Returns true if both arrays are equal
-	   */
-			function equalArray(array1, array2) {
+							/**
+	       * Compare two arrays
+	       */
+							/**
+	       * Compare two arrays
+	       * @param  {Array} array1 Array 1 to compare
+	       * @param  {Array} array2 Array 2 to compare
+	       * @return {Boolean}        Returns true if both arrays are equal
+	       */
+							function equalArray(array1, array2) {
 
-				return array1.length === array2.length && array1.every(function (element, index) {
+										return array1.length === array2.length && array1.every(function (element, index) {
 
-					return element === array2[index];
-				});
-			}
-
-			/**
-	   * Get the min and he max vectors from the given attribute
-	   * @param  {THREE.WebGLAttribute} attribute Attribute to find the min/max
-	   * @return {Object} Object containing the `min` and `max` values (As an array of attribute.itemSize components)
-	   */
-			function getMinMax(attribute) {
-
-				var output = {
-
-					min: new Array(attribute.itemSize).fill(Number.POSITIVE_INFINITY),
-					max: new Array(attribute.itemSize).fill(Number.NEGATIVE_INFINITY)
-
-				};
-
-				for (var i = 0; i < attribute.count; i++) {
-
-					for (var a = 0; a < attribute.itemSize; a++) {
-
-						var value = attribute.array[i * attribute.itemSize + a];
-						output.min[a] = Math.min(output.min[a], value);
-						output.max[a] = Math.max(output.max[a], value);
-					}
-				}
-
-				return output;
-			}
-
-			/**
-	   * Process a buffer to append to the default one.
-	   * @param  {THREE.BufferAttribute} attribute     Attribute to store
-	   * @param  {Integer} componentType Component type (Unsigned short, unsigned int or float)
-	   * @return {Integer}               Index of the buffer created (Currently always 0)
-	   */
-			function processBuffer(attribute, componentType, start, count) {
-
-				if (!outputJSON.buffers) {
-
-					outputJSON.buffers = [{
-
-						byteLength: 0,
-						uri: ''
-
-					}];
-				}
-
-				var offset = 0;
-				var componentSize = componentType === WEBGL_CONSTANTS.UNSIGNED_SHORT ? 2 : 4;
-
-				// Create a new dataview and dump the attribute's array into it
-				var byteLength = count * attribute.itemSize * componentSize;
-
-				var dataView = new DataView(new ArrayBuffer(byteLength));
-
-				for (var i = start; i < start + count; i++) {
-
-					for (var a = 0; a < attribute.itemSize; a++) {
-
-						var value = attribute.array[i * attribute.itemSize + a];
-
-						if (componentType === WEBGL_CONSTANTS.FLOAT) {
-
-							dataView.setFloat32(offset, value, true);
-						} else if (componentType === WEBGL_CONSTANTS.UNSIGNED_INT) {
-
-							dataView.setUint8(offset, value, true);
-						} else if (componentType === WEBGL_CONSTANTS.UNSIGNED_SHORT) {
-
-							dataView.setUint16(offset, value, true);
-						}
-
-						offset += componentSize;
-					}
-				}
-
-				// We just use one buffer
-				dataViews.push(dataView);
-
-				// Always using just one buffer
-				return 0;
-			}
-
-			/**
-	   * Process and generate a BufferView
-	   * @param  {[type]} data [description]
-	   * @return {[type]}      [description]
-	   */
-			function processBufferView(data, componentType, start, count) {
-
-				var isVertexAttributes = componentType === WEBGL_CONSTANTS.FLOAT;
-
-				if (!outputJSON.bufferViews) {
-
-					outputJSON.bufferViews = [];
-				}
-
-				var componentSize = componentType === WEBGL_CONSTANTS.UNSIGNED_SHORT ? 2 : 4;
-
-				// Create a new dataview and dump the attribute's array into it
-				var byteLength = count * data.itemSize * componentSize;
-
-				var gltfBufferView = {
-
-					buffer: processBuffer(data, componentType, start, count),
-					byteOffset: byteOffset,
-					byteLength: byteLength,
-					byteStride: data.itemSize * componentSize,
-					target: isVertexAttributes ? WEBGL_CONSTANTS.ARRAY_BUFFER : WEBGL_CONSTANTS.ELEMENT_ARRAY_BUFFER
-
-				};
-
-				byteOffset += byteLength;
-
-				outputJSON.bufferViews.push(gltfBufferView);
-
-				// @TODO Ideally we'll have just two bufferviews: 0 is for vertex attributes, 1 for indices
-				var output = {
-
-					id: outputJSON.bufferViews.length - 1,
-					byteLength: 0
-
-				};
-
-				return output;
-			}
-
-			/**
-	   * Process attribute to generate an accessor
-	   * @param  {THREE.WebGLAttribute} attribute Attribute to process
-	   * @return {Integer}           Index of the processed accessor on the "accessors" array
-	   */
-			function processAccessor(attribute, geometry) {
-
-				if (!outputJSON.accessors) {
-
-					outputJSON.accessors = [];
-				}
-
-				var types = ['SCALAR', 'VEC2', 'VEC3', 'VEC4'];
-
-				var componentType;
-
-				// Detect the component type of the attribute array (float, uint or ushort)
-				if (attribute.array.constructor === Float32Array) {
-
-					componentType = WEBGL_CONSTANTS.FLOAT;
-				} else if (attribute.array.constructor === Uint32Array) {
-
-					componentType = WEBGL_CONSTANTS.UNSIGNED_INT;
-				} else if (attribute.array.constructor === Uint16Array) {
-
-					componentType = WEBGL_CONSTANTS.UNSIGNED_SHORT;
-				} else {
-
-					throw new Error('THREE.GLTFExporter: Unsupported bufferAttribute component type.');
-				}
-
-				var minMax = getMinMax(attribute);
-
-				var start = 0;
-				var count = attribute.count;
-
-				// @TODO Indexed buffer geometry with drawRange not supported yet
-				if (options.truncateDrawRange && geometry.index === null) {
-					start = geometry.drawRange.start;
-					count = geometry.drawRange.count !== Infinity ? geometry.drawRange.count : attribute.count;
-				}
-
-				var bufferView = processBufferView(attribute, componentType, start, count);
-
-				var gltfAccessor = {
-
-					bufferView: bufferView.id,
-					byteOffset: bufferView.byteOffset,
-					componentType: componentType,
-					count: count,
-					max: minMax.max,
-					min: minMax.min,
-					type: types[attribute.itemSize - 1]
-
-				};
-
-				outputJSON.accessors.push(gltfAccessor);
-
-				return outputJSON.accessors.length - 1;
-			}
-
-			/**
-	   * Process image
-	   * @param  {Texture} map Texture to process
-	   * @return {Integer}     Index of the processed texture in the "images" array
-	   */
-			function processImage(map) {
-
-				if (cachedData.images[map.uuid]) {
-
-					return cachedData.images[map.uuid];
-				}
-
-				if (!outputJSON.images) {
-
-					outputJSON.images = [];
-				}
-
-				var gltfImage = {};
-
-				if (options.embedImages) {
-
-					// @TODO { bufferView, mimeType }
-
-				} else {
-
-					// @TODO base64 based on options
-					gltfImage.uri = map.image.src;
-				}
-
-				outputJSON.images.push(gltfImage);
-
-				var index = outputJSON.images.length - 1;
-				cachedData.images[map.uuid] = index;
-
-				return index;
-			}
-
-			/**
-	   * Process sampler
-	   * @param  {Texture} map Texture to process
-	   * @return {Integer}     Index of the processed texture in the "samplers" array
-	   */
-			function processSampler(map) {
-
-				if (!outputJSON.samplers) {
-
-					outputJSON.samplers = [];
-				}
-
-				var gltfSampler = {
-
-					magFilter: THREE_TO_WEBGL[map.magFilter],
-					minFilter: THREE_TO_WEBGL[map.minFilter],
-					wrapS: THREE_TO_WEBGL[map.wrapS],
-					wrapT: THREE_TO_WEBGL[map.wrapT]
-
-				};
-
-				outputJSON.samplers.push(gltfSampler);
-
-				return outputJSON.samplers.length - 1;
-			}
-
-			/**
-	   * Process texture
-	   * @param  {Texture} map Map to process
-	   * @return {Integer}     Index of the processed texture in the "textures" array
-	   */
-			function processTexture(map) {
-
-				if (!outputJSON.textures) {
-
-					outputJSON.textures = [];
-				}
-
-				var gltfTexture = {
-
-					sampler: processSampler(map),
-					source: processImage(map)
-
-				};
-
-				outputJSON.textures.push(gltfTexture);
-
-				return outputJSON.textures.length - 1;
-			}
-
-			/**
-	   * Process material
-	   * @param  {THREE.Material} material Material to process
-	   * @return {Integer}      Index of the processed material in the "materials" array
-	   */
-			function processMaterial(material) {
-
-				if (cachedData.materials[material.uuid]) {
-
-					return cachedData.materials[material.uuid];
-				}
-
-				if (!outputJSON.materials) {
-
-					outputJSON.materials = [];
-				}
-
-				if (material instanceof THREE.ShaderMaterial) {
-
-					console.warn('GLTFExporter: THREE.ShaderMaterial not supported.');
-					return null;
-				}
-
-				if (!(material instanceof THREE.MeshStandardMaterial)) {
-
-					console.warn('GLTFExporter: Currently just THREE.StandardMaterial is supported. Material conversion may lose information.');
-				}
-
-				// @QUESTION Should we avoid including any attribute that has the default value?
-				var gltfMaterial = {
-
-					pbrMetallicRoughness: {}
-
-				};
-
-				// pbrMetallicRoughness.baseColorFactor
-				var color = material.color.toArray().concat([material.opacity]);
-
-				if (!equalArray(color, [1, 1, 1, 1])) {
-
-					gltfMaterial.pbrMetallicRoughness.baseColorFactor = color;
-				}
-
-				if (material instanceof THREE.MeshStandardMaterial) {
-
-					gltfMaterial.pbrMetallicRoughness.metallicFactor = material.metalness;
-					gltfMaterial.pbrMetallicRoughness.roughnessFactor = material.roughness;
-				} else {
-
-					gltfMaterial.pbrMetallicRoughness.metallicFactor = 0.5;
-					gltfMaterial.pbrMetallicRoughness.roughnessFactor = 0.5;
-				}
-
-				// pbrMetallicRoughness.baseColorTexture
-				if (material.map) {
-
-					gltfMaterial.pbrMetallicRoughness.baseColorTexture = {
-
-						index: processTexture(material.map)
-
-					};
-				}
-
-				if (material instanceof THREE.MeshBasicMaterial || material instanceof THREE.LineBasicMaterial || material instanceof THREE.PointsMaterial) {} else {
-
-					// emissiveFactor
-					var emissive = material.emissive.clone().multiplyScalar(material.emissiveIntensity).toArray();
-
-					if (!equalArray(emissive, [0, 0, 0])) {
-
-						gltfMaterial.emissiveFactor = emissive;
-					}
-
-					// emissiveTexture
-					if (material.emissiveMap) {
-
-						gltfMaterial.emissiveTexture = {
-
-							index: processTexture(material.emissiveMap)
-
-						};
-					}
-				}
-
-				// normalTexture
-				if (material.normalMap) {
-
-					gltfMaterial.normalTexture = {
-
-						index: processTexture(material.normalMap)
-
-					};
-
-					if (material.normalScale.x !== -1) {
-
-						if (material.normalScale.x !== material.normalScale.y) {
-
-							console.warn('GLTFExporter: Normal scale components are different, ignoring Y and exporting X');
-						}
-
-						gltfMaterial.normalTexture.scale = material.normalScale.x;
-					}
-				}
-
-				// occlusionTexture
-				if (material.aoMap) {
-
-					gltfMaterial.occlusionTexture = {
-
-						index: processTexture(material.aoMap)
-
-					};
-
-					if (material.aoMapIntensity !== 1.0) {
-
-						gltfMaterial.occlusionTexture.strength = material.aoMapIntensity;
-					}
-				}
-
-				// alphaMode
-				if (material.transparent) {
-
-					gltfMaterial.alphaMode = 'MASK'; // @FIXME We should detect MASK or BLEND
-
-					if (material.alphaTest !== 0.5) {
-
-						gltfMaterial.alphaCutoff = material.alphaTest;
-					}
-				}
-
-				// doubleSided
-				if (material.side === THREE.DoubleSide) {
-
-					gltfMaterial.doubleSided = true;
-				}
-
-				if (material.name) {
-
-					gltfMaterial.name = material.name;
-				}
-
-				outputJSON.materials.push(gltfMaterial);
-
-				var index = outputJSON.materials.length - 1;
-				cachedData.materials[material.uuid] = index;
-
-				return index;
-			}
-
-			/**
-	   * Process mesh
-	   * @param  {THREE.Mesh} mesh Mesh to process
-	   * @return {Integer}      Index of the processed mesh in the "meshes" array
-	   */
-			function processMesh(mesh) {
-
-				if (!outputJSON.meshes) {
-
-					outputJSON.meshes = [];
-				}
-
-				var geometry = mesh.geometry;
-				var mode;
-
-				// Use the correct mode
-				if (mesh instanceof THREE.LineSegments) {
-
-					mode = WEBGL_CONSTANTS.LINES;
-				} else if (mesh instanceof THREE.LineLoop) {
-
-					mode = WEBGL_CONSTANTS.LINE_LOOP;
-				} else if (mesh instanceof THREE.Line) {
-
-					mode = WEBGL_CONSTANTS.LINE_STRIP;
-				} else if (mesh instanceof THREE.Points) {
-
-					mode = WEBGL_CONSTANTS.POINTS;
-				} else {
-
-					if (!geometry.isBufferGeometry) {
-
-						var geometryTemp = new THREE.BufferGeometry();
-						geometryTemp.fromGeometry(geometry);
-						geometry = geometryTemp;
-					}
-
-					if (mesh.drawMode === THREE.TriangleFanDrawMode) {
-
-						console.warn('GLTFExporter: TriangleFanDrawMode and wireframe incompatible.');
-						mode = WEBGL_CONSTANTS.TRIANGLE_FAN;
-					} else if (mesh.drawMode === THREE.TriangleStripDrawMode) {
-
-						mode = mesh.material.wireframe ? WEBGL_CONSTANTS.LINE_STRIP : WEBGL_CONSTANTS.TRIANGLE_STRIP;
-					} else {
-
-						mode = mesh.material.wireframe ? WEBGL_CONSTANTS.LINES : WEBGL_CONSTANTS.TRIANGLES;
-					}
-				}
-
-				var gltfMesh = {
-					primitives: [{
-						mode: mode,
-						attributes: {}
-					}]
-				};
-
-				var material = processMaterial(mesh.material);
-				if (material !== null) {
-
-					gltfMesh.primitives[0].material = material;
-				}
-
-				if (geometry.index) {
-
-					gltfMesh.primitives[0].indices = processAccessor(geometry.index, geometry);
-				}
-
-				// We've just one primitive per mesh
-				var gltfAttributes = gltfMesh.primitives[0].attributes;
-				var attributes = geometry.attributes;
-
-				// Conversion between attributes names in threejs and gltf spec
-				var nameConversion = {
-
-					uv: 'TEXCOORD_0',
-					uv2: 'TEXCOORD_1',
-					color: 'COLOR_0',
-					skinWeight: 'WEIGHTS_0',
-					skinIndex: 'JOINTS_0'
-
-				};
-
-				// @QUESTION Detect if .vertexColors = THREE.VertexColors?
-				// For every attribute create an accessor
-				for (var attributeName in geometry.attributes) {
-
-					var attribute = geometry.attributes[attributeName];
-					attributeName = nameConversion[attributeName] || attributeName.toUpperCase();
-					gltfAttributes[attributeName] = processAccessor(attribute, geometry);
-				}
-
-				outputJSON.meshes.push(gltfMesh);
-
-				return outputJSON.meshes.length - 1;
-			}
-
-			/**
-	   * Process camera
-	   * @param  {THREE.Camera} camera Camera to process
-	   * @return {Integer}      Index of the processed mesh in the "camera" array
-	   */
-			function processCamera(camera) {
-
-				if (!outputJSON.cameras) {
-
-					outputJSON.cameras = [];
-				}
-
-				var isOrtho = camera instanceof THREE.OrthographicCamera;
-
-				var gltfCamera = {
-
-					type: isOrtho ? 'orthographic' : 'perspective'
-
-				};
-
-				if (isOrtho) {
-
-					gltfCamera.orthographic = {
-
-						xmag: camera.right * 2,
-						ymag: camera.top * 2,
-						zfar: camera.far,
-						znear: camera.near
-
-					};
-				} else {
-
-					gltfCamera.perspective = {
-
-						aspectRatio: camera.aspect,
-						yfov: THREE.Math.degToRad(camera.fov) / camera.aspect,
-						zfar: camera.far,
-						znear: camera.near
-
-					};
-				}
-
-				if (camera.name) {
-
-					gltfCamera.name = camera.type;
-				}
-
-				outputJSON.cameras.push(gltfCamera);
-
-				return outputJSON.cameras.length - 1;
-			}
-
-			/**
-	   * Process Object3D node
-	   * @param  {THREE.Object3D} node Object3D to processNode
-	   * @return {Integer}      Index of the node in the nodes list
-	   */
-			function processNode(object) {
-
-				if (object instanceof THREE.Light) {
-
-					console.warn('GLTFExporter: Unsupported node type:', object.constructor.name);
-					return false;
-				}
-
-				if (!outputJSON.nodes) {
-
-					outputJSON.nodes = [];
-				}
-
-				var gltfNode = {};
-
-				if (options.trs) {
-
-					var rotation = object.quaternion.toArray();
-					var position = object.position.toArray();
-					var scale = object.scale.toArray();
-
-					if (!equalArray(rotation, [0, 0, 0, 1])) {
-
-						gltfNode.rotation = rotation;
-					}
-
-					if (!equalArray(position, [0, 0, 0])) {
-
-						gltfNode.position = position;
-					}
-
-					if (!equalArray(scale, [1, 1, 1])) {
-
-						gltfNode.scale = scale;
-					}
-				} else {
-
-					object.updateMatrix();
-					if (!equalArray(object.matrix.elements, [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1])) {
-
-						gltfNode.matrix = object.matrix.elements;
-					}
-				}
-
-				if (object.name) {
-
-					gltfNode.name = object.name;
-				}
-
-				if (object.userData && Object.keys(object.userData).length > 0) {
-
-					try {
-
-						gltfNode.extras = JSON.parse(JSON.stringify(object.userData));
-					} catch (e) {
-
-						throw new Error('GLTFExporter: userData can\'t be serialized');
-					}
-				}
-
-				if (object instanceof THREE.Mesh || object instanceof THREE.Line || object instanceof THREE.Points) {
-
-					gltfNode.mesh = processMesh(object);
-				} else if (object instanceof THREE.Camera) {
-
-					gltfNode.camera = processCamera(object);
-				}
-
-				if (object.children.length > 0) {
-
-					var children = [];
-
-					for (var i = 0, l = object.children.length; i < l; i++) {
-
-						var child = object.children[i];
-
-						if (child.visible || options.onlyVisible === false) {
-
-							var node = processNode(child);
-
-							if (node !== false) {
-
-								children.push(node);
+													return element === array2[index];
+										});
 							}
-						}
-					}
 
-					if (children.length > 0) {
+							/**
+	       * Get the min and he max vectors from the given attribute
+	       * @param  {THREE.WebGLAttribute} attribute Attribute to find the min/max
+	       * @return {Object} Object containing the `min` and `max` values (As an array of attribute.itemSize components)
+	       */
+							function getMinMax(attribute) {
 
-						gltfNode.children = children;
-					}
+										var output = {
+
+													min: new Array(attribute.itemSize).fill(Number.POSITIVE_INFINITY),
+													max: new Array(attribute.itemSize).fill(Number.NEGATIVE_INFINITY)
+
+										};
+
+										for (var i = 0; i < attribute.count; i++) {
+
+													for (var a = 0; a < attribute.itemSize; a++) {
+
+																var value = attribute.array[i * attribute.itemSize + a];
+																output.min[a] = Math.min(output.min[a], value);
+																output.max[a] = Math.max(output.max[a], value);
+													}
+										}
+
+										return output;
+							}
+
+							/**
+	       * Process a buffer to append to the default one.
+	       * @param  {THREE.BufferAttribute} attribute     Attribute to store
+	       * @param  {Integer} componentType Component type (Unsigned short, unsigned int or float)
+	       * @return {Integer}               Index of the buffer created (Currently always 0)
+	       */
+							function processBuffer(attribute, componentType, start, count) {
+
+										if (!outputJSON.buffers) {
+
+													outputJSON.buffers = [{
+
+																byteLength: 0,
+																uri: ''
+
+													}];
+										}
+
+										var offset = 0;
+										var componentSize = componentType === WEBGL_CONSTANTS.UNSIGNED_SHORT ? 2 : 4;
+
+										// Create a new dataview and dump the attribute's array into it
+										var byteLength = count * attribute.itemSize * componentSize;
+
+										var dataView = new DataView(new ArrayBuffer(byteLength));
+
+										for (var i = start; i < start + count; i++) {
+
+													for (var a = 0; a < attribute.itemSize; a++) {
+
+																var value = attribute.array[i * attribute.itemSize + a];
+
+																if (componentType === WEBGL_CONSTANTS.FLOAT) {
+
+																			dataView.setFloat32(offset, value, true);
+																} else if (componentType === WEBGL_CONSTANTS.UNSIGNED_INT) {
+
+																			dataView.setUint8(offset, value, true);
+																} else if (componentType === WEBGL_CONSTANTS.UNSIGNED_SHORT) {
+
+																			dataView.setUint16(offset, value, true);
+																}
+
+																offset += componentSize;
+													}
+										}
+
+										// We just use one buffer
+										dataViews.push(dataView);
+
+										// Always using just one buffer
+										return 0;
+							}
+
+							/**
+	       * Process and generate a BufferView
+	       * @param  {[type]} data [description]
+	       * @return {[type]}      [description]
+	       */
+							function processBufferView(data, componentType, start, count) {
+
+										var isVertexAttributes = componentType === WEBGL_CONSTANTS.FLOAT;
+
+										if (!outputJSON.bufferViews) {
+
+													outputJSON.bufferViews = [];
+										}
+
+										var componentSize = componentType === WEBGL_CONSTANTS.UNSIGNED_SHORT ? 2 : 4;
+
+										// Create a new dataview and dump the attribute's array into it
+										var byteLength = count * data.itemSize * componentSize;
+
+										var gltfBufferView = {
+
+													buffer: processBuffer(data, componentType, start, count),
+													byteOffset: byteOffset,
+													byteLength: byteLength,
+													byteStride: data.itemSize * componentSize,
+													target: isVertexAttributes ? WEBGL_CONSTANTS.ARRAY_BUFFER : WEBGL_CONSTANTS.ELEMENT_ARRAY_BUFFER
+
+										};
+
+										byteOffset += byteLength;
+
+										outputJSON.bufferViews.push(gltfBufferView);
+
+										// @TODO Ideally we'll have just two bufferviews: 0 is for vertex attributes, 1 for indices
+										var output = {
+
+													id: outputJSON.bufferViews.length - 1,
+													byteLength: 0
+
+										};
+
+										return output;
+							}
+
+							/**
+	       * Process attribute to generate an accessor
+	       * @param  {THREE.WebGLAttribute} attribute Attribute to process
+	       * @return {Integer}           Index of the processed accessor on the "accessors" array
+	       */
+							function processAccessor(attribute, geometry) {
+
+										if (!outputJSON.accessors) {
+
+													outputJSON.accessors = [];
+										}
+
+										var types = ['SCALAR', 'VEC2', 'VEC3', 'VEC4'];
+
+										var componentType;
+
+										// Detect the component type of the attribute array (float, uint or ushort)
+										if (attribute.array.constructor === Float32Array) {
+
+													componentType = WEBGL_CONSTANTS.FLOAT;
+										} else if (attribute.array.constructor === Uint32Array) {
+
+													componentType = WEBGL_CONSTANTS.UNSIGNED_INT;
+										} else if (attribute.array.constructor === Uint16Array) {
+
+													componentType = WEBGL_CONSTANTS.UNSIGNED_SHORT;
+										} else {
+
+													throw new Error('THREE.GLTFExporter: Unsupported bufferAttribute component type.');
+										}
+
+										var minMax = getMinMax(attribute);
+
+										var start = 0;
+										var count = attribute.count;
+
+										// @TODO Indexed buffer geometry with drawRange not supported yet
+										if (options.truncateDrawRange && geometry.index === null) {
+													start = geometry.drawRange.start;
+													count = geometry.drawRange.count !== Infinity ? geometry.drawRange.count : attribute.count;
+										}
+
+										var bufferView = processBufferView(attribute, componentType, start, count);
+
+										var gltfAccessor = {
+
+													bufferView: bufferView.id,
+													byteOffset: bufferView.byteOffset,
+													componentType: componentType,
+													count: count,
+													max: minMax.max,
+													min: minMax.min,
+													type: types[attribute.itemSize - 1]
+
+										};
+
+										outputJSON.accessors.push(gltfAccessor);
+
+										return outputJSON.accessors.length - 1;
+							}
+
+							/**
+	       * Process image
+	       * @param  {Texture} map Texture to process
+	       * @return {Integer}     Index of the processed texture in the "images" array
+	       */
+							function processImage(map) {
+
+										if (cachedData.images[map.uuid]) {
+
+													return cachedData.images[map.uuid];
+										}
+
+										if (!outputJSON.images) {
+
+													outputJSON.images = [];
+										}
+
+										var gltfImage = {};
+
+										if (options.embedImages) {
+
+													// @TODO { bufferView, mimeType }
+
+										} else {
+
+													// @TODO base64 based on options
+													gltfImage.uri = map.image.src;
+										}
+
+										outputJSON.images.push(gltfImage);
+
+										var index = outputJSON.images.length - 1;
+										cachedData.images[map.uuid] = index;
+
+										return index;
+							}
+
+							/**
+	       * Process sampler
+	       * @param  {Texture} map Texture to process
+	       * @return {Integer}     Index of the processed texture in the "samplers" array
+	       */
+							function processSampler(map) {
+
+										if (!outputJSON.samplers) {
+
+													outputJSON.samplers = [];
+										}
+
+										var gltfSampler = {
+
+													magFilter: THREE_TO_WEBGL[map.magFilter],
+													minFilter: THREE_TO_WEBGL[map.minFilter],
+													wrapS: THREE_TO_WEBGL[map.wrapS],
+													wrapT: THREE_TO_WEBGL[map.wrapT]
+
+										};
+
+										outputJSON.samplers.push(gltfSampler);
+
+										return outputJSON.samplers.length - 1;
+							}
+
+							/**
+	       * Process texture
+	       * @param  {Texture} map Map to process
+	       * @return {Integer}     Index of the processed texture in the "textures" array
+	       */
+							function processTexture(map) {
+
+										if (!outputJSON.textures) {
+
+													outputJSON.textures = [];
+										}
+
+										var gltfTexture = {
+
+													sampler: processSampler(map),
+													source: processImage(map)
+
+										};
+
+										outputJSON.textures.push(gltfTexture);
+
+										return outputJSON.textures.length - 1;
+							}
+
+							/**
+	       * Process material
+	       * @param  {THREE.Material} material Material to process
+	       * @return {Integer}      Index of the processed material in the "materials" array
+	       */
+							function processMaterial(material) {
+
+										if (cachedData.materials[material.uuid]) {
+
+													return cachedData.materials[material.uuid];
+										}
+
+										if (!outputJSON.materials) {
+
+													outputJSON.materials = [];
+										}
+
+										if (material instanceof THREE.ShaderMaterial) {
+
+													console.warn('GLTFExporter: THREE.ShaderMaterial not supported.');
+													return null;
+										}
+
+										if (!(material instanceof THREE.MeshStandardMaterial)) {
+
+													console.warn('GLTFExporter: Currently just THREE.StandardMaterial is supported. Material conversion may lose information.');
+										}
+
+										// @QUESTION Should we avoid including any attribute that has the default value?
+										var gltfMaterial = {
+
+													pbrMetallicRoughness: {}
+
+										};
+
+										// pbrMetallicRoughness.baseColorFactor
+										var color = material.color.toArray().concat([material.opacity]);
+
+										if (!equalArray(color, [1, 1, 1, 1])) {
+
+													gltfMaterial.pbrMetallicRoughness.baseColorFactor = color;
+										}
+
+										if (material instanceof THREE.MeshStandardMaterial) {
+
+													gltfMaterial.pbrMetallicRoughness.metallicFactor = material.metalness;
+													gltfMaterial.pbrMetallicRoughness.roughnessFactor = material.roughness;
+										} else {
+
+													gltfMaterial.pbrMetallicRoughness.metallicFactor = 0.5;
+													gltfMaterial.pbrMetallicRoughness.roughnessFactor = 0.5;
+										}
+
+										// pbrMetallicRoughness.baseColorTexture
+										if (material.map) {
+
+													gltfMaterial.pbrMetallicRoughness.baseColorTexture = {
+
+																index: processTexture(material.map)
+
+													};
+										}
+
+										if (material instanceof THREE.MeshBasicMaterial || material instanceof THREE.LineBasicMaterial || material instanceof THREE.PointsMaterial) {} else {
+
+													// emissiveFactor
+													var emissive = material.emissive.clone().multiplyScalar(material.emissiveIntensity).toArray();
+
+													if (!equalArray(emissive, [0, 0, 0])) {
+
+																gltfMaterial.emissiveFactor = emissive;
+													}
+
+													// emissiveTexture
+													if (material.emissiveMap) {
+
+																gltfMaterial.emissiveTexture = {
+
+																			index: processTexture(material.emissiveMap)
+
+																};
+													}
+										}
+
+										// normalTexture
+										if (material.normalMap) {
+
+													gltfMaterial.normalTexture = {
+
+																index: processTexture(material.normalMap)
+
+													};
+
+													if (material.normalScale.x !== -1) {
+
+																if (material.normalScale.x !== material.normalScale.y) {
+
+																			console.warn('GLTFExporter: Normal scale components are different, ignoring Y and exporting X');
+																}
+
+																gltfMaterial.normalTexture.scale = material.normalScale.x;
+													}
+										}
+
+										// occlusionTexture
+										if (material.aoMap) {
+
+													gltfMaterial.occlusionTexture = {
+
+																index: processTexture(material.aoMap)
+
+													};
+
+													if (material.aoMapIntensity !== 1.0) {
+
+																gltfMaterial.occlusionTexture.strength = material.aoMapIntensity;
+													}
+										}
+
+										// alphaMode
+										if (material.transparent) {
+
+													gltfMaterial.alphaMode = 'MASK'; // @FIXME We should detect MASK or BLEND
+
+													if (material.alphaTest !== 0.5) {
+
+																gltfMaterial.alphaCutoff = material.alphaTest;
+													}
+										}
+
+										// doubleSided
+										if (material.side === THREE.DoubleSide) {
+
+													gltfMaterial.doubleSided = true;
+										}
+
+										if (material.name) {
+
+													gltfMaterial.name = material.name;
+										}
+
+										outputJSON.materials.push(gltfMaterial);
+
+										var index = outputJSON.materials.length - 1;
+										cachedData.materials[material.uuid] = index;
+
+										return index;
+							}
+
+							/**
+	       * Process mesh
+	       * @param  {THREE.Mesh} mesh Mesh to process
+	       * @return {Integer}      Index of the processed mesh in the "meshes" array
+	       */
+							function processMesh(mesh) {
+
+										if (!outputJSON.meshes) {
+
+													outputJSON.meshes = [];
+										}
+
+										var geometry = mesh.geometry;
+										var mode;
+
+										// Use the correct mode
+										if (mesh instanceof THREE.LineSegments) {
+
+													mode = WEBGL_CONSTANTS.LINES;
+										} else if (mesh instanceof THREE.LineLoop) {
+
+													mode = WEBGL_CONSTANTS.LINE_LOOP;
+										} else if (mesh instanceof THREE.Line) {
+
+													mode = WEBGL_CONSTANTS.LINE_STRIP;
+										} else if (mesh instanceof THREE.Points) {
+
+													mode = WEBGL_CONSTANTS.POINTS;
+										} else {
+
+													if (!geometry.isBufferGeometry) {
+
+																var geometryTemp = new THREE.BufferGeometry();
+																geometryTemp.fromGeometry(geometry);
+																geometry = geometryTemp;
+													}
+
+													if (mesh.drawMode === THREE.TriangleFanDrawMode) {
+
+																console.warn('GLTFExporter: TriangleFanDrawMode and wireframe incompatible.');
+																mode = WEBGL_CONSTANTS.TRIANGLE_FAN;
+													} else if (mesh.drawMode === THREE.TriangleStripDrawMode) {
+
+																mode = mesh.material.wireframe ? WEBGL_CONSTANTS.LINE_STRIP : WEBGL_CONSTANTS.TRIANGLE_STRIP;
+													} else {
+
+																mode = mesh.material.wireframe ? WEBGL_CONSTANTS.LINES : WEBGL_CONSTANTS.TRIANGLES;
+													}
+										}
+
+										var gltfMesh = {
+													primitives: [{
+																mode: mode,
+																attributes: {}
+													}]
+										};
+
+										var material = processMaterial(mesh.material);
+										if (material !== null) {
+
+													gltfMesh.primitives[0].material = material;
+										}
+
+										if (geometry.index) {
+
+													gltfMesh.primitives[0].indices = processAccessor(geometry.index, geometry);
+										}
+
+										// We've just one primitive per mesh
+										var gltfAttributes = gltfMesh.primitives[0].attributes;
+										var attributes = geometry.attributes;
+
+										// Conversion between attributes names in threejs and gltf spec
+										var nameConversion = {
+
+													uv: 'TEXCOORD_0',
+													uv2: 'TEXCOORD_1',
+													color: 'COLOR_0',
+													skinWeight: 'WEIGHTS_0',
+													skinIndex: 'JOINTS_0'
+
+										};
+
+										// @QUESTION Detect if .vertexColors = THREE.VertexColors?
+										// For every attribute create an accessor
+										for (var attributeName in geometry.attributes) {
+
+													var attribute = geometry.attributes[attributeName];
+													attributeName = nameConversion[attributeName] || attributeName.toUpperCase();
+													gltfAttributes[attributeName] = processAccessor(attribute, geometry);
+										}
+
+										outputJSON.meshes.push(gltfMesh);
+
+										return outputJSON.meshes.length - 1;
+							}
+
+							/**
+	       * Process camera
+	       * @param  {THREE.Camera} camera Camera to process
+	       * @return {Integer}      Index of the processed mesh in the "camera" array
+	       */
+							function processCamera(camera) {
+
+										if (!outputJSON.cameras) {
+
+													outputJSON.cameras = [];
+										}
+
+										var isOrtho = camera instanceof THREE.OrthographicCamera;
+
+										var gltfCamera = {
+
+													type: isOrtho ? 'orthographic' : 'perspective'
+
+										};
+
+										if (isOrtho) {
+
+													gltfCamera.orthographic = {
+
+																xmag: camera.right * 2,
+																ymag: camera.top * 2,
+																zfar: camera.far,
+																znear: camera.near
+
+													};
+										} else {
+
+													gltfCamera.perspective = {
+
+																aspectRatio: camera.aspect,
+																yfov: THREE.Math.degToRad(camera.fov) / camera.aspect,
+																zfar: camera.far,
+																znear: camera.near
+
+													};
+										}
+
+										if (camera.name) {
+
+													gltfCamera.name = camera.type;
+										}
+
+										outputJSON.cameras.push(gltfCamera);
+
+										return outputJSON.cameras.length - 1;
+							}
+
+							/**
+	       * Process Object3D node
+	       * @param  {THREE.Object3D} node Object3D to processNode
+	       * @return {Integer}      Index of the node in the nodes list
+	       */
+							function processNode(object) {
+
+										if (object instanceof THREE.Light) {
+
+													console.warn('GLTFExporter: Unsupported node type:', object.constructor.name);
+													return false;
+										}
+
+										if (!outputJSON.nodes) {
+
+													outputJSON.nodes = [];
+										}
+
+										var gltfNode = {};
+
+										if (options.trs) {
+
+													var rotation = object.quaternion.toArray();
+													var position = object.position.toArray();
+													var scale = object.scale.toArray();
+
+													if (!equalArray(rotation, [0, 0, 0, 1])) {
+
+																gltfNode.rotation = rotation;
+													}
+
+													if (!equalArray(position, [0, 0, 0])) {
+
+																gltfNode.position = position;
+													}
+
+													if (!equalArray(scale, [1, 1, 1])) {
+
+																gltfNode.scale = scale;
+													}
+										} else {
+
+													object.updateMatrix();
+													if (!equalArray(object.matrix.elements, [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1])) {
+
+																gltfNode.matrix = object.matrix.elements;
+													}
+										}
+
+										if (object.name) {
+
+													gltfNode.name = object.name;
+										}
+
+										if (object.userData && Object.keys(object.userData).length > 0) {
+
+													try {
+
+																gltfNode.extras = JSON.parse(JSON.stringify(object.userData));
+													} catch (e) {
+
+																throw new Error('GLTFExporter: userData can\'t be serialized');
+													}
+										}
+
+										if (object instanceof THREE.Mesh || object instanceof THREE.Line || object instanceof THREE.Points) {
+
+													gltfNode.mesh = processMesh(object);
+										} else if (object instanceof THREE.Camera) {
+
+													gltfNode.camera = processCamera(object);
+										}
+
+										if (object.children.length > 0) {
+
+													var children = [];
+
+													for (var i = 0, l = object.children.length; i < l; i++) {
+
+																var child = object.children[i];
+
+																if (child.visible || options.onlyVisible === false) {
+
+																			var node = processNode(child);
+
+																			if (node !== false) {
+
+																						children.push(node);
+																			}
+																}
+													}
+
+													if (children.length > 0) {
+
+																gltfNode.children = children;
+													}
+										}
+
+										outputJSON.nodes.push(gltfNode);
+
+										return outputJSON.nodes.length - 1;
+							}
+
+							/**
+	       * Process Scene
+	       * @param  {THREE.Scene} node Scene to process
+	       */
+							function processScene(scene) {
+
+										if (!outputJSON.scenes) {
+
+													outputJSON.scenes = [];
+													outputJSON.scene = 0;
+										}
+
+										var gltfScene = {
+
+													nodes: []
+
+										};
+
+										if (scene.name) {
+
+													gltfScene.name = scene.name;
+										}
+
+										outputJSON.scenes.push(gltfScene);
+
+										var nodes = [];
+
+										for (var i = 0, l = scene.children.length; i < l; i++) {
+
+													var child = scene.children[i];
+
+													if (child.visible || options.onlyVisible === false) {
+
+																var node = processNode(child);
+
+																if (node !== false) {
+
+																			nodes.push(node);
+																}
+													}
+										}
+
+										if (nodes.length > 0) {
+
+													gltfScene.nodes = nodes;
+										}
+							}
+
+							/**
+	       * Creates a THREE.Scene to hold a list of objects and parse it
+	       * @param  {Array} objects List of objects to process
+	       */
+							function processObjects(objects) {
+
+										var scene = new THREE.Scene();
+										scene.name = 'AuxScene';
+
+										for (var i = 0; i < objects.length; i++) {
+
+													// We push directly to children instead of calling `add` to prevent
+													// modify the .parent and break its original scene and hierarchy
+													scene.children.push(objects[i]);
+										}
+
+										processScene(scene);
+							}
+
+							function processInput(input) {
+
+										input = input instanceof Array ? input : [input];
+
+										var objectsWithoutScene = [];
+										for (var i = 0; i < input.length; i++) {
+
+													if (input[i] instanceof THREE.Scene) {
+
+																processScene(input[i]);
+													} else {
+
+																objectsWithoutScene.push(input[i]);
+													}
+										}
+
+										if (objectsWithoutScene.length > 0) {
+
+													processObjects(objectsWithoutScene);
+										}
+							}
+
+							processInput(input);
+
+							// Generate buffer
+							// Create a new blob with all the dataviews from the buffers
+							var blob = new Blob(dataViews, { type: 'application/octet-stream' });
+
+							// Update the bytlength of the only main buffer and update the uri with the base64 representation of it
+							if (outputJSON.buffers && outputJSON.buffers.length > 0) {
+
+										outputJSON.buffers[0].byteLength = blob.size;
+										var objectURL = URL.createObjectURL(blob);
+
+										var reader = new window.FileReader();
+										reader.readAsDataURL(blob);
+										reader.onloadend = function () {
+
+													var base64data = reader.result;
+													outputJSON.buffers[0].uri = base64data;
+													onDone(outputJSON);
+										};
+							} else {
+
+										onDone(outputJSON);
+							}
 				}
-
-				outputJSON.nodes.push(gltfNode);
-
-				return outputJSON.nodes.length - 1;
-			}
-
-			/**
-	   * Process Scene
-	   * @param  {THREE.Scene} node Scene to process
-	   */
-			function processScene(scene) {
-
-				if (!outputJSON.scenes) {
-
-					outputJSON.scenes = [];
-					outputJSON.scene = 0;
-				}
-
-				var gltfScene = {
-
-					nodes: []
-
-				};
-
-				if (scene.name) {
-
-					gltfScene.name = scene.name;
-				}
-
-				outputJSON.scenes.push(gltfScene);
-
-				var nodes = [];
-
-				for (var i = 0, l = scene.children.length; i < l; i++) {
-
-					var child = scene.children[i];
-
-					if (child.visible || options.onlyVisible === false) {
-
-						var node = processNode(child);
-
-						if (node !== false) {
-
-							nodes.push(node);
-						}
-					}
-				}
-
-				if (nodes.length > 0) {
-
-					gltfScene.nodes = nodes;
-				}
-			}
-
-			/**
-	   * Creates a THREE.Scene to hold a list of objects and parse it
-	   * @param  {Array} objects List of objects to process
-	   */
-			function processObjects(objects) {
-
-				var scene = new THREE.Scene();
-				scene.name = 'AuxScene';
-
-				for (var i = 0; i < objects.length; i++) {
-
-					// We push directly to children instead of calling `add` to prevent
-					// modify the .parent and break its original scene and hierarchy
-					scene.children.push(objects[i]);
-				}
-
-				processScene(scene);
-			}
-
-			function processInput(input) {
-
-				input = input instanceof Array ? input : [input];
-
-				var objectsWithoutScene = [];
-				for (var i = 0; i < input.length; i++) {
-
-					if (input[i] instanceof THREE.Scene) {
-
-						processScene(input[i]);
-					} else {
-
-						objectsWithoutScene.push(input[i]);
-					}
-				}
-
-				if (objectsWithoutScene.length > 0) {
-
-					processObjects(objectsWithoutScene);
-				}
-			}
-
-			processInput(input);
-
-			// Generate buffer
-			// Create a new blob with all the dataviews from the buffers
-			var blob = new Blob(dataViews, { type: 'application/octet-stream' });
-
-			// Update the bytlength of the only main buffer and update the uri with the base64 representation of it
-			if (outputJSON.buffers && outputJSON.buffers.length > 0) {
-
-				outputJSON.buffers[0].byteLength = blob.size;
-				var objectURL = URL.createObjectURL(blob);
-
-				var reader = new window.FileReader();
-				reader.readAsDataURL(blob);
-				reader.onloadend = function () {
-
-					var base64data = reader.result;
-					outputJSON.buffers[0].uri = base64data;
-					onDone(outputJSON);
-				};
-			} else {
-
-				onDone(outputJSON);
-			}
-		}
 	};
 
 /***/ }),
-/* 212 */
+/* 213 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var _lodash = __webpack_require__(213);
+	var _lodash = __webpack_require__(214);
 
 	var _lodash2 = _interopRequireDefault(_lodash);
 
-	var _TransformControls = __webpack_require__(214);
+	var _TransformControls = __webpack_require__(215);
 
 	var _TransformControls2 = _interopRequireDefault(_TransformControls);
 
-	var _EditorControls = __webpack_require__(215);
+	var _EditorControls = __webpack_require__(216);
 
 	var _EditorControls2 = _interopRequireDefault(_EditorControls);
 
-	var _utils = __webpack_require__(216);
+	var _utils = __webpack_require__(217);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -27923,7 +28094,7 @@
 	module.exports = Viewport;
 
 /***/ }),
-/* 213 */
+/* 214 */
 /***/ (function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {/**
@@ -28307,7 +28478,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ }),
-/* 214 */
+/* 215 */
 /***/ (function(module, exports) {
 
 	"use strict";
@@ -28318,999 +28489,999 @@
 
 	(function () {
 
-		'use strict';
+				'use strict';
 
-		var GizmoMaterial = function GizmoMaterial(parameters) {
+				var GizmoMaterial = function GizmoMaterial(parameters) {
 
-			THREE.MeshBasicMaterial.call(this);
+							THREE.MeshBasicMaterial.call(this);
 
-			this.depthTest = false;
-			this.depthWrite = false;
-			this.side = THREE.FrontSide;
-			this.transparent = true;
+							this.depthTest = false;
+							this.depthWrite = false;
+							this.side = THREE.FrontSide;
+							this.transparent = true;
 
-			this.setValues(parameters);
+							this.setValues(parameters);
 
-			this.oldColor = this.color.clone();
-			this.oldOpacity = this.opacity;
+							this.oldColor = this.color.clone();
+							this.oldOpacity = this.opacity;
 
-			this.highlight = function (highlighted) {
+							this.highlight = function (highlighted) {
 
-				if (highlighted) {
+										if (highlighted) {
 
-					this.color.setRGB(1, 1, 0);
-					this.opacity = 1;
-				} else {
+													this.color.setRGB(1, 1, 0);
+													this.opacity = 1;
+										} else {
 
-					this.color.copy(this.oldColor);
-					this.opacity = this.oldOpacity;
-				}
-			};
-		};
-
-		GizmoMaterial.prototype = Object.create(THREE.MeshBasicMaterial.prototype);
-		GizmoMaterial.prototype.constructor = GizmoMaterial;
-
-		var GizmoLineMaterial = function GizmoLineMaterial(parameters) {
-
-			THREE.LineBasicMaterial.call(this);
-
-			this.depthTest = false;
-			this.depthWrite = false;
-			this.transparent = true;
-			this.linewidth = 1;
-
-			this.setValues(parameters);
-
-			this.oldColor = this.color.clone();
-			this.oldOpacity = this.opacity;
-
-			this.highlight = function (highlighted) {
-
-				if (highlighted) {
-
-					this.color.setRGB(1, 1, 0);
-					this.opacity = 1;
-				} else {
-
-					this.color.copy(this.oldColor);
-					this.opacity = this.oldOpacity;
-				}
-			};
-		};
-
-		GizmoLineMaterial.prototype = Object.create(THREE.LineBasicMaterial.prototype);
-		GizmoLineMaterial.prototype.constructor = GizmoLineMaterial;
-
-		var pickerMaterial = new GizmoMaterial({ visible: false, transparent: false });
-
-		THREE.TransformGizmo = function () {
-
-			var scope = this;
-
-			this.init = function () {
-
-				THREE.Object3D.call(this);
-
-				this.handles = new THREE.Object3D();
-				this.pickers = new THREE.Object3D();
-				this.planes = new THREE.Object3D();
-
-				this.add(this.handles);
-				this.add(this.pickers);
-				this.add(this.planes);
-
-				//// PLANES
-
-				var planeGeometry = new THREE.PlaneBufferGeometry(50, 50, 2, 2);
-				var planeMaterial = new THREE.MeshBasicMaterial({ visible: false, side: THREE.DoubleSide });
-
-				var planes = {
-					"XY": new THREE.Mesh(planeGeometry, planeMaterial),
-					"YZ": new THREE.Mesh(planeGeometry, planeMaterial),
-					"XZ": new THREE.Mesh(planeGeometry, planeMaterial),
-					"XYZE": new THREE.Mesh(planeGeometry, planeMaterial)
+													this.color.copy(this.oldColor);
+													this.opacity = this.oldOpacity;
+										}
+							};
 				};
 
-				this.activePlane = planes["XYZE"];
+				GizmoMaterial.prototype = Object.create(THREE.MeshBasicMaterial.prototype);
+				GizmoMaterial.prototype.constructor = GizmoMaterial;
 
-				planes["YZ"].rotation.set(0, Math.PI / 2, 0);
-				planes["XZ"].rotation.set(-Math.PI / 2, 0, 0);
+				var GizmoLineMaterial = function GizmoLineMaterial(parameters) {
 
-				for (var i in planes) {
+							THREE.LineBasicMaterial.call(this);
 
-					planes[i].name = i;
-					this.planes.add(planes[i]);
-					this.planes[i] = planes[i];
-				}
+							this.depthTest = false;
+							this.depthWrite = false;
+							this.transparent = true;
+							this.linewidth = 1;
 
-				//// HANDLES AND PICKERS
+							this.setValues(parameters);
 
-				var setupGizmos = function setupGizmos(gizmoMap, parent) {
+							this.oldColor = this.color.clone();
+							this.oldOpacity = this.opacity;
 
-					for (var name in gizmoMap) {
+							this.highlight = function (highlighted) {
 
-						for (i = gizmoMap[name].length; i--;) {
+										if (highlighted) {
 
-							var object = gizmoMap[name][i][0];
-							var position = gizmoMap[name][i][1];
-							var rotation = gizmoMap[name][i][2];
+													this.color.setRGB(1, 1, 0);
+													this.opacity = 1;
+										} else {
 
-							object.name = name;
-
-							if (position) object.position.set(position[0], position[1], position[2]);
-							if (rotation) object.rotation.set(rotation[0], rotation[1], rotation[2]);
-
-							parent.add(object);
-						}
-					}
+													this.color.copy(this.oldColor);
+													this.opacity = this.oldOpacity;
+										}
+							};
 				};
 
-				setupGizmos(this.handleGizmos, this.handles);
-				setupGizmos(this.pickerGizmos, this.pickers);
+				GizmoLineMaterial.prototype = Object.create(THREE.LineBasicMaterial.prototype);
+				GizmoLineMaterial.prototype.constructor = GizmoLineMaterial;
 
-				// reset Transformations
+				var pickerMaterial = new GizmoMaterial({ visible: false, transparent: false });
 
-				this.traverse(function (child) {
+				THREE.TransformGizmo = function () {
 
-					if (child instanceof THREE.Mesh) {
+							var scope = this;
 
-						child.updateMatrix();
+							this.init = function () {
 
-						var tempGeometry = child.geometry.clone();
-						tempGeometry.applyMatrix(child.matrix);
-						child.geometry = tempGeometry;
+										THREE.Object3D.call(this);
 
-						child.position.set(0, 0, 0);
-						child.rotation.set(0, 0, 0);
-						child.scale.set(1, 1, 1);
-					}
-				});
-			};
+										this.handles = new THREE.Object3D();
+										this.pickers = new THREE.Object3D();
+										this.planes = new THREE.Object3D();
 
-			this.highlight = function (axis) {
+										this.add(this.handles);
+										this.add(this.pickers);
+										this.add(this.planes);
 
-				this.traverse(function (child) {
+										//// PLANES
 
-					if (child.material && child.material.highlight) {
+										var planeGeometry = new THREE.PlaneBufferGeometry(50, 50, 2, 2);
+										var planeMaterial = new THREE.MeshBasicMaterial({ visible: false, side: THREE.DoubleSide });
 
-						if (child.name === axis) {
+										var planes = {
+													"XY": new THREE.Mesh(planeGeometry, planeMaterial),
+													"YZ": new THREE.Mesh(planeGeometry, planeMaterial),
+													"XZ": new THREE.Mesh(planeGeometry, planeMaterial),
+													"XYZE": new THREE.Mesh(planeGeometry, planeMaterial)
+										};
 
-							child.material.highlight(true);
-						} else {
+										this.activePlane = planes["XYZE"];
 
-							child.material.highlight(false);
-						}
-					}
-				});
-			};
-		};
+										planes["YZ"].rotation.set(0, Math.PI / 2, 0);
+										planes["XZ"].rotation.set(-Math.PI / 2, 0, 0);
 
-		THREE.TransformGizmo.prototype = Object.create(THREE.Object3D.prototype);
-		THREE.TransformGizmo.prototype.constructor = THREE.TransformGizmo;
+										for (var i in planes) {
 
-		THREE.TransformGizmo.prototype.update = function (rotation, eye) {
+													planes[i].name = i;
+													this.planes.add(planes[i]);
+													this.planes[i] = planes[i];
+										}
 
-			var vec1 = new THREE.Vector3(0, 0, 0);
-			var vec2 = new THREE.Vector3(0, 1, 0);
-			var lookAtMatrix = new THREE.Matrix4();
+										//// HANDLES AND PICKERS
 
-			this.traverse(function (child) {
+										var setupGizmos = function setupGizmos(gizmoMap, parent) {
 
-				if (child.name.search("E") !== -1) {
+													for (var name in gizmoMap) {
 
-					child.quaternion.setFromRotationMatrix(lookAtMatrix.lookAt(eye, vec1, vec2));
-				} else if (child.name.search("X") !== -1 || child.name.search("Y") !== -1 || child.name.search("Z") !== -1) {
+																for (i = gizmoMap[name].length; i--;) {
 
-					child.quaternion.setFromEuler(rotation);
-				}
-			});
-		};
+																			var object = gizmoMap[name][i][0];
+																			var position = gizmoMap[name][i][1];
+																			var rotation = gizmoMap[name][i][2];
 
-		THREE.TransformGizmoTranslate = function () {
+																			object.name = name;
 
-			THREE.TransformGizmo.call(this);
+																			if (position) object.position.set(position[0], position[1], position[2]);
+																			if (rotation) object.rotation.set(rotation[0], rotation[1], rotation[2]);
 
-			var arrowGeometry = new THREE.Geometry();
-			var mesh = new THREE.Mesh(new THREE.CylinderGeometry(0, 0.05, 0.2, 12, 1, false));
-			mesh.position.y = 0.5;
-			mesh.updateMatrix();
+																			parent.add(object);
+																}
+													}
+										};
 
-			arrowGeometry.merge(mesh.geometry, mesh.matrix);
+										setupGizmos(this.handleGizmos, this.handles);
+										setupGizmos(this.pickerGizmos, this.pickers);
 
-			var lineXGeometry = new THREE.BufferGeometry();
-			lineXGeometry.addAttribute('position', new THREE.Float32BufferAttribute([0, 0, 0, 1, 0, 0], 3));
+										// reset Transformations
 
-			var lineYGeometry = new THREE.BufferGeometry();
-			lineYGeometry.addAttribute('position', new THREE.Float32BufferAttribute([0, 0, 0, 0, 1, 0], 3));
+										this.traverse(function (child) {
 
-			var lineZGeometry = new THREE.BufferGeometry();
-			lineZGeometry.addAttribute('position', new THREE.Float32BufferAttribute([0, 0, 0, 0, 0, 1], 3));
+													if (child instanceof THREE.Mesh) {
 
-			this.handleGizmos = {
+																child.updateMatrix();
 
-				X: [[new THREE.Mesh(arrowGeometry, new GizmoMaterial({ color: 0xff0000 })), [0.5, 0, 0], [0, 0, -Math.PI / 2]], [new THREE.Line(lineXGeometry, new GizmoLineMaterial({ color: 0xff0000 }))]],
+																var tempGeometry = child.geometry.clone();
+																tempGeometry.applyMatrix(child.matrix);
+																child.geometry = tempGeometry;
 
-				Y: [[new THREE.Mesh(arrowGeometry, new GizmoMaterial({ color: 0x00ff00 })), [0, 0.5, 0]], [new THREE.Line(lineYGeometry, new GizmoLineMaterial({ color: 0x00ff00 }))]],
+																child.position.set(0, 0, 0);
+																child.rotation.set(0, 0, 0);
+																child.scale.set(1, 1, 1);
+													}
+										});
+							};
 
-				Z: [[new THREE.Mesh(arrowGeometry, new GizmoMaterial({ color: 0x0000ff })), [0, 0, 0.5], [Math.PI / 2, 0, 0]], [new THREE.Line(lineZGeometry, new GizmoLineMaterial({ color: 0x0000ff }))]],
+							this.highlight = function (axis) {
 
-				XYZ: [[new THREE.Mesh(new THREE.OctahedronGeometry(0.1, 0), new GizmoMaterial({ color: 0xffffff, opacity: 0.25 })), [0, 0, 0], [0, 0, 0]]],
+										this.traverse(function (child) {
 
-				XY: [[new THREE.Mesh(new THREE.PlaneBufferGeometry(0.29, 0.29), new GizmoMaterial({ color: 0xffff00, opacity: 0.25 })), [0.15, 0.15, 0]]],
+													if (child.material && child.material.highlight) {
 
-				YZ: [[new THREE.Mesh(new THREE.PlaneBufferGeometry(0.29, 0.29), new GizmoMaterial({ color: 0x00ffff, opacity: 0.25 })), [0, 0.15, 0.15], [0, Math.PI / 2, 0]]],
+																if (child.name === axis) {
 
-				XZ: [[new THREE.Mesh(new THREE.PlaneBufferGeometry(0.29, 0.29), new GizmoMaterial({ color: 0xff00ff, opacity: 0.25 })), [0.15, 0, 0.15], [-Math.PI / 2, 0, 0]]]
+																			child.material.highlight(true);
+																} else {
 
-			};
-
-			this.pickerGizmos = {
-
-				X: [[new THREE.Mesh(new THREE.CylinderBufferGeometry(0.2, 0, 1, 4, 1, false), pickerMaterial), [0.6, 0, 0], [0, 0, -Math.PI / 2]]],
-
-				Y: [[new THREE.Mesh(new THREE.CylinderBufferGeometry(0.2, 0, 1, 4, 1, false), pickerMaterial), [0, 0.6, 0]]],
-
-				Z: [[new THREE.Mesh(new THREE.CylinderBufferGeometry(0.2, 0, 1, 4, 1, false), pickerMaterial), [0, 0, 0.6], [Math.PI / 2, 0, 0]]],
-
-				XYZ: [[new THREE.Mesh(new THREE.OctahedronGeometry(0.2, 0), pickerMaterial)]],
-
-				XY: [[new THREE.Mesh(new THREE.PlaneBufferGeometry(0.4, 0.4), pickerMaterial), [0.2, 0.2, 0]]],
-
-				YZ: [[new THREE.Mesh(new THREE.PlaneBufferGeometry(0.4, 0.4), pickerMaterial), [0, 0.2, 0.2], [0, Math.PI / 2, 0]]],
-
-				XZ: [[new THREE.Mesh(new THREE.PlaneBufferGeometry(0.4, 0.4), pickerMaterial), [0.2, 0, 0.2], [-Math.PI / 2, 0, 0]]]
-
-			};
-
-			this.setActivePlane = function (axis, eye) {
-
-				var tempMatrix = new THREE.Matrix4();
-				eye.applyMatrix4(tempMatrix.getInverse(tempMatrix.extractRotation(this.planes["XY"].matrixWorld)));
-
-				if (axis === "X") {
-
-					this.activePlane = this.planes["XY"];
-
-					if (Math.abs(eye.y) > Math.abs(eye.z)) this.activePlane = this.planes["XZ"];
-				}
-
-				if (axis === "Y") {
-
-					this.activePlane = this.planes["XY"];
-
-					if (Math.abs(eye.x) > Math.abs(eye.z)) this.activePlane = this.planes["YZ"];
-				}
-
-				if (axis === "Z") {
-
-					this.activePlane = this.planes["XZ"];
-
-					if (Math.abs(eye.x) > Math.abs(eye.y)) this.activePlane = this.planes["YZ"];
-				}
-
-				if (axis === "XYZ") this.activePlane = this.planes["XYZE"];
-
-				if (axis === "XY") this.activePlane = this.planes["XY"];
-
-				if (axis === "YZ") this.activePlane = this.planes["YZ"];
-
-				if (axis === "XZ") this.activePlane = this.planes["XZ"];
-			};
-
-			this.init();
-		};
-
-		THREE.TransformGizmoTranslate.prototype = Object.create(THREE.TransformGizmo.prototype);
-		THREE.TransformGizmoTranslate.prototype.constructor = THREE.TransformGizmoTranslate;
-
-		THREE.TransformGizmoRotate = function () {
-
-			THREE.TransformGizmo.call(this);
-
-			var CircleGeometry = function CircleGeometry(radius, facing, arc) {
-
-				var geometry = new THREE.BufferGeometry();
-				var vertices = [];
-				arc = arc ? arc : 1;
-
-				for (var i = 0; i <= 64 * arc; ++i) {
-					if (facing === 'x') vertices.push(0, Math.cos(i / 32 * Math.PI) * radius, Math.sin(i / 32 * Math.PI) * radius);
-					if (facing === 'y') vertices.push(Math.cos(i / 32 * Math.PI) * radius, 0, Math.sin(i / 32 * Math.PI) * radius);
-					if (facing === 'z') vertices.push(Math.sin(i / 32 * Math.PI) * radius, Math.cos(i / 32 * Math.PI) * radius, 0);
-				}
-
-				geometry.addAttribute('position', new THREE.Float32BufferAttribute(vertices, 3));
-				return geometry;
-			};
-
-			this.handleGizmos = {
-
-				X: [[new THREE.Line(new CircleGeometry(1, 'x', 0.5), new GizmoLineMaterial({ color: 0xff0000 }))]],
-
-				Y: [[new THREE.Line(new CircleGeometry(1, 'y', 0.5), new GizmoLineMaterial({ color: 0x00ff00 }))]],
-
-				Z: [[new THREE.Line(new CircleGeometry(1, 'z', 0.5), new GizmoLineMaterial({ color: 0x0000ff }))]],
-
-				E: [[new THREE.Line(new CircleGeometry(1.25, 'z', 1), new GizmoLineMaterial({ color: 0xcccc00 }))]],
-
-				XYZE: [[new THREE.Line(new CircleGeometry(1, 'z', 1), new GizmoLineMaterial({ color: 0x787878 }))]]
-
-			};
-
-			this.pickerGizmos = {
-
-				X: [[new THREE.Mesh(new THREE.TorusBufferGeometry(1, 0.12, 4, 12, Math.PI), pickerMaterial), [0, 0, 0], [0, -Math.PI / 2, -Math.PI / 2]]],
-
-				Y: [[new THREE.Mesh(new THREE.TorusBufferGeometry(1, 0.12, 4, 12, Math.PI), pickerMaterial), [0, 0, 0], [Math.PI / 2, 0, 0]]],
-
-				Z: [[new THREE.Mesh(new THREE.TorusBufferGeometry(1, 0.12, 4, 12, Math.PI), pickerMaterial), [0, 0, 0], [0, 0, -Math.PI / 2]]],
-
-				E: [[new THREE.Mesh(new THREE.TorusBufferGeometry(1.25, 0.12, 2, 24), pickerMaterial)]],
-
-				XYZE: [[new THREE.Mesh(new THREE.Geometry())] // TODO
-				]
-
-			};
-
-			this.setActivePlane = function (axis) {
-
-				if (axis === "E") this.activePlane = this.planes["XYZE"];
-
-				if (axis === "X") this.activePlane = this.planes["YZ"];
-
-				if (axis === "Y") this.activePlane = this.planes["XZ"];
-
-				if (axis === "Z") this.activePlane = this.planes["XY"];
-			};
-
-			this.update = function (rotation, eye2) {
-
-				THREE.TransformGizmo.prototype.update.apply(this, arguments);
-
-				var group = {
-
-					handles: this["handles"],
-					pickers: this["pickers"]
-
+																			child.material.highlight(false);
+																}
+													}
+										});
+							};
 				};
 
-				var tempMatrix = new THREE.Matrix4();
-				var worldRotation = new THREE.Euler(0, 0, 1);
-				var tempQuaternion = new THREE.Quaternion();
-				var unitX = new THREE.Vector3(1, 0, 0);
-				var unitY = new THREE.Vector3(0, 1, 0);
-				var unitZ = new THREE.Vector3(0, 0, 1);
-				var quaternionX = new THREE.Quaternion();
-				var quaternionY = new THREE.Quaternion();
-				var quaternionZ = new THREE.Quaternion();
-				var eye = eye2.clone();
+				THREE.TransformGizmo.prototype = Object.create(THREE.Object3D.prototype);
+				THREE.TransformGizmo.prototype.constructor = THREE.TransformGizmo;
 
-				worldRotation.copy(this.planes["XY"].rotation);
-				tempQuaternion.setFromEuler(worldRotation);
+				THREE.TransformGizmo.prototype.update = function (rotation, eye) {
 
-				tempMatrix.makeRotationFromQuaternion(tempQuaternion).getInverse(tempMatrix);
-				eye.applyMatrix4(tempMatrix);
+							var vec1 = new THREE.Vector3(0, 0, 0);
+							var vec2 = new THREE.Vector3(0, 1, 0);
+							var lookAtMatrix = new THREE.Matrix4();
 
-				this.traverse(function (child) {
+							this.traverse(function (child) {
 
-					tempQuaternion.setFromEuler(worldRotation);
+										if (child.name.search("E") !== -1) {
 
-					if (child.name === "X") {
+													child.quaternion.setFromRotationMatrix(lookAtMatrix.lookAt(eye, vec1, vec2));
+										} else if (child.name.search("X") !== -1 || child.name.search("Y") !== -1 || child.name.search("Z") !== -1) {
 
-						quaternionX.setFromAxisAngle(unitX, Math.atan2(-eye.y, eye.z));
-						tempQuaternion.multiplyQuaternions(tempQuaternion, quaternionX);
-						child.quaternion.copy(tempQuaternion);
-					}
+													child.quaternion.setFromEuler(rotation);
+										}
+							});
+				};
 
-					if (child.name === "Y") {
+				THREE.TransformGizmoTranslate = function () {
 
-						quaternionY.setFromAxisAngle(unitY, Math.atan2(eye.x, eye.z));
-						tempQuaternion.multiplyQuaternions(tempQuaternion, quaternionY);
-						child.quaternion.copy(tempQuaternion);
-					}
+							THREE.TransformGizmo.call(this);
 
-					if (child.name === "Z") {
+							var arrowGeometry = new THREE.Geometry();
+							var mesh = new THREE.Mesh(new THREE.CylinderGeometry(0, 0.05, 0.2, 12, 1, false));
+							mesh.position.y = 0.5;
+							mesh.updateMatrix();
 
-						quaternionZ.setFromAxisAngle(unitZ, Math.atan2(eye.y, eye.x));
-						tempQuaternion.multiplyQuaternions(tempQuaternion, quaternionZ);
-						child.quaternion.copy(tempQuaternion);
-					}
-				});
-			};
+							arrowGeometry.merge(mesh.geometry, mesh.matrix);
 
-			this.init();
-		};
+							var lineXGeometry = new THREE.BufferGeometry();
+							lineXGeometry.addAttribute('position', new THREE.Float32BufferAttribute([0, 0, 0, 1, 0, 0], 3));
 
-		THREE.TransformGizmoRotate.prototype = Object.create(THREE.TransformGizmo.prototype);
-		THREE.TransformGizmoRotate.prototype.constructor = THREE.TransformGizmoRotate;
+							var lineYGeometry = new THREE.BufferGeometry();
+							lineYGeometry.addAttribute('position', new THREE.Float32BufferAttribute([0, 0, 0, 0, 1, 0], 3));
 
-		THREE.TransformGizmoScale = function () {
+							var lineZGeometry = new THREE.BufferGeometry();
+							lineZGeometry.addAttribute('position', new THREE.Float32BufferAttribute([0, 0, 0, 0, 0, 1], 3));
 
-			THREE.TransformGizmo.call(this);
+							this.handleGizmos = {
 
-			var arrowGeometry = new THREE.Geometry();
-			var mesh = new THREE.Mesh(new THREE.BoxGeometry(0.125, 0.125, 0.125));
-			mesh.position.y = 0.5;
-			mesh.updateMatrix();
+										X: [[new THREE.Mesh(arrowGeometry, new GizmoMaterial({ color: 0xff0000 })), [0.5, 0, 0], [0, 0, -Math.PI / 2]], [new THREE.Line(lineXGeometry, new GizmoLineMaterial({ color: 0xff0000 }))]],
 
-			arrowGeometry.merge(mesh.geometry, mesh.matrix);
+										Y: [[new THREE.Mesh(arrowGeometry, new GizmoMaterial({ color: 0x00ff00 })), [0, 0.5, 0]], [new THREE.Line(lineYGeometry, new GizmoLineMaterial({ color: 0x00ff00 }))]],
 
-			var lineXGeometry = new THREE.BufferGeometry();
-			lineXGeometry.addAttribute('position', new THREE.Float32BufferAttribute([0, 0, 0, 1, 0, 0], 3));
+										Z: [[new THREE.Mesh(arrowGeometry, new GizmoMaterial({ color: 0x0000ff })), [0, 0, 0.5], [Math.PI / 2, 0, 0]], [new THREE.Line(lineZGeometry, new GizmoLineMaterial({ color: 0x0000ff }))]],
 
-			var lineYGeometry = new THREE.BufferGeometry();
-			lineYGeometry.addAttribute('position', new THREE.Float32BufferAttribute([0, 0, 0, 0, 1, 0], 3));
+										XYZ: [[new THREE.Mesh(new THREE.OctahedronGeometry(0.1, 0), new GizmoMaterial({ color: 0xffffff, opacity: 0.25 })), [0, 0, 0], [0, 0, 0]]],
 
-			var lineZGeometry = new THREE.BufferGeometry();
-			lineZGeometry.addAttribute('position', new THREE.Float32BufferAttribute([0, 0, 0, 0, 0, 1], 3));
+										XY: [[new THREE.Mesh(new THREE.PlaneBufferGeometry(0.29, 0.29), new GizmoMaterial({ color: 0xffff00, opacity: 0.25 })), [0.15, 0.15, 0]]],
 
-			this.handleGizmos = {
+										YZ: [[new THREE.Mesh(new THREE.PlaneBufferGeometry(0.29, 0.29), new GizmoMaterial({ color: 0x00ffff, opacity: 0.25 })), [0, 0.15, 0.15], [0, Math.PI / 2, 0]]],
 
-				X: [[new THREE.Mesh(arrowGeometry, new GizmoMaterial({ color: 0xff0000 })), [0.5, 0, 0], [0, 0, -Math.PI / 2]], [new THREE.Line(lineXGeometry, new GizmoLineMaterial({ color: 0xff0000 }))]],
+										XZ: [[new THREE.Mesh(new THREE.PlaneBufferGeometry(0.29, 0.29), new GizmoMaterial({ color: 0xff00ff, opacity: 0.25 })), [0.15, 0, 0.15], [-Math.PI / 2, 0, 0]]]
 
-				Y: [[new THREE.Mesh(arrowGeometry, new GizmoMaterial({ color: 0x00ff00 })), [0, 0.5, 0]], [new THREE.Line(lineYGeometry, new GizmoLineMaterial({ color: 0x00ff00 }))]],
+							};
 
-				Z: [[new THREE.Mesh(arrowGeometry, new GizmoMaterial({ color: 0x0000ff })), [0, 0, 0.5], [Math.PI / 2, 0, 0]], [new THREE.Line(lineZGeometry, new GizmoLineMaterial({ color: 0x0000ff }))]],
+							this.pickerGizmos = {
 
-				XYZ: [[new THREE.Mesh(new THREE.BoxBufferGeometry(0.125, 0.125, 0.125), new GizmoMaterial({ color: 0xffffff, opacity: 0.25 }))]]
+										X: [[new THREE.Mesh(new THREE.CylinderBufferGeometry(0.2, 0, 1, 4, 1, false), pickerMaterial), [0.6, 0, 0], [0, 0, -Math.PI / 2]]],
 
-			};
+										Y: [[new THREE.Mesh(new THREE.CylinderBufferGeometry(0.2, 0, 1, 4, 1, false), pickerMaterial), [0, 0.6, 0]]],
 
-			this.pickerGizmos = {
+										Z: [[new THREE.Mesh(new THREE.CylinderBufferGeometry(0.2, 0, 1, 4, 1, false), pickerMaterial), [0, 0, 0.6], [Math.PI / 2, 0, 0]]],
 
-				X: [[new THREE.Mesh(new THREE.CylinderBufferGeometry(0.2, 0, 1, 4, 1, false), pickerMaterial), [0.6, 0, 0], [0, 0, -Math.PI / 2]]],
+										XYZ: [[new THREE.Mesh(new THREE.OctahedronGeometry(0.2, 0), pickerMaterial)]],
 
-				Y: [[new THREE.Mesh(new THREE.CylinderBufferGeometry(0.2, 0, 1, 4, 1, false), pickerMaterial), [0, 0.6, 0]]],
+										XY: [[new THREE.Mesh(new THREE.PlaneBufferGeometry(0.4, 0.4), pickerMaterial), [0.2, 0.2, 0]]],
 
-				Z: [[new THREE.Mesh(new THREE.CylinderBufferGeometry(0.2, 0, 1, 4, 1, false), pickerMaterial), [0, 0, 0.6], [Math.PI / 2, 0, 0]]],
+										YZ: [[new THREE.Mesh(new THREE.PlaneBufferGeometry(0.4, 0.4), pickerMaterial), [0, 0.2, 0.2], [0, Math.PI / 2, 0]]],
 
-				XYZ: [[new THREE.Mesh(new THREE.BoxBufferGeometry(0.4, 0.4, 0.4), pickerMaterial)]]
+										XZ: [[new THREE.Mesh(new THREE.PlaneBufferGeometry(0.4, 0.4), pickerMaterial), [0.2, 0, 0.2], [-Math.PI / 2, 0, 0]]]
 
-			};
+							};
 
-			this.setActivePlane = function (axis, eye) {
+							this.setActivePlane = function (axis, eye) {
 
-				var tempMatrix = new THREE.Matrix4();
-				eye.applyMatrix4(tempMatrix.getInverse(tempMatrix.extractRotation(this.planes["XY"].matrixWorld)));
+										var tempMatrix = new THREE.Matrix4();
+										eye.applyMatrix4(tempMatrix.getInverse(tempMatrix.extractRotation(this.planes["XY"].matrixWorld)));
 
-				if (axis === "X") {
+										if (axis === "X") {
 
-					this.activePlane = this.planes["XY"];
-					if (Math.abs(eye.y) > Math.abs(eye.z)) this.activePlane = this.planes["XZ"];
-				}
+													this.activePlane = this.planes["XY"];
 
-				if (axis === "Y") {
+													if (Math.abs(eye.y) > Math.abs(eye.z)) this.activePlane = this.planes["XZ"];
+										}
 
-					this.activePlane = this.planes["XY"];
-					if (Math.abs(eye.x) > Math.abs(eye.z)) this.activePlane = this.planes["YZ"];
-				}
+										if (axis === "Y") {
 
-				if (axis === "Z") {
+													this.activePlane = this.planes["XY"];
 
-					this.activePlane = this.planes["XZ"];
-					if (Math.abs(eye.x) > Math.abs(eye.y)) this.activePlane = this.planes["YZ"];
-				}
+													if (Math.abs(eye.x) > Math.abs(eye.z)) this.activePlane = this.planes["YZ"];
+										}
 
-				if (axis === "XYZ") this.activePlane = this.planes["XYZE"];
-			};
+										if (axis === "Z") {
 
-			this.init();
-		};
+													this.activePlane = this.planes["XZ"];
 
-		THREE.TransformGizmoScale.prototype = Object.create(THREE.TransformGizmo.prototype);
-		THREE.TransformGizmoScale.prototype.constructor = THREE.TransformGizmoScale;
+													if (Math.abs(eye.x) > Math.abs(eye.y)) this.activePlane = this.planes["YZ"];
+										}
 
-		THREE.TransformControls = function (camera, domElement) {
+										if (axis === "XYZ") this.activePlane = this.planes["XYZE"];
 
-			// TODO: Make non-uniform scale and rotate play nice in hierarchies
-			// TODO: ADD RXYZ contol
+										if (axis === "XY") this.activePlane = this.planes["XY"];
 
-			THREE.Object3D.call(this);
+										if (axis === "YZ") this.activePlane = this.planes["YZ"];
 
-			domElement = domElement !== undefined ? domElement : document;
+										if (axis === "XZ") this.activePlane = this.planes["XZ"];
+							};
 
-			this.object = undefined;
-			this.visible = false;
-			this.translationSnap = null;
-			this.rotationSnap = null;
-			this.space = "world";
-			this.size = 1;
-			this.axis = null;
+							this.init();
+				};
 
-			var scope = this;
+				THREE.TransformGizmoTranslate.prototype = Object.create(THREE.TransformGizmo.prototype);
+				THREE.TransformGizmoTranslate.prototype.constructor = THREE.TransformGizmoTranslate;
 
-			var _mode = "translate";
-			var _dragging = false;
-			var _plane = "XY";
-			var _gizmo = {
+				THREE.TransformGizmoRotate = function () {
 
-				"translate": new THREE.TransformGizmoTranslate(),
-				"rotate": new THREE.TransformGizmoRotate(),
-				"scale": new THREE.TransformGizmoScale()
-			};
+							THREE.TransformGizmo.call(this);
 
-			for (var type in _gizmo) {
+							var CircleGeometry = function CircleGeometry(radius, facing, arc) {
 
-				var gizmoObj = _gizmo[type];
+										var geometry = new THREE.BufferGeometry();
+										var vertices = [];
+										arc = arc ? arc : 1;
 
-				gizmoObj.visible = type === _mode;
-				this.add(gizmoObj);
-			}
+										for (var i = 0; i <= 64 * arc; ++i) {
+													if (facing === 'x') vertices.push(0, Math.cos(i / 32 * Math.PI) * radius, Math.sin(i / 32 * Math.PI) * radius);
+													if (facing === 'y') vertices.push(Math.cos(i / 32 * Math.PI) * radius, 0, Math.sin(i / 32 * Math.PI) * radius);
+													if (facing === 'z') vertices.push(Math.sin(i / 32 * Math.PI) * radius, Math.cos(i / 32 * Math.PI) * radius, 0);
+										}
 
-			var changeEvent = { type: "change" };
-			var mouseDownEvent = { type: "mouseDown" };
-			var mouseUpEvent = { type: "mouseUp", mode: _mode };
-			var objectChangeEvent = { type: "objectChange" };
+										geometry.addAttribute('position', new THREE.Float32BufferAttribute(vertices, 3));
+										return geometry;
+							};
 
-			var ray = new THREE.Raycaster();
-			var pointerVector = new THREE.Vector2();
+							this.handleGizmos = {
 
-			var point = new THREE.Vector3();
-			var offset = new THREE.Vector3();
+										X: [[new THREE.Line(new CircleGeometry(1, 'x', 0.5), new GizmoLineMaterial({ color: 0xff0000 }))]],
 
-			var rotation = new THREE.Vector3();
-			var offsetRotation = new THREE.Vector3();
-			var scale = 1;
+										Y: [[new THREE.Line(new CircleGeometry(1, 'y', 0.5), new GizmoLineMaterial({ color: 0x00ff00 }))]],
 
-			var lookAtMatrix = new THREE.Matrix4();
-			var eye = new THREE.Vector3();
+										Z: [[new THREE.Line(new CircleGeometry(1, 'z', 0.5), new GizmoLineMaterial({ color: 0x0000ff }))]],
 
-			var tempMatrix = new THREE.Matrix4();
-			var tempVector = new THREE.Vector3();
-			var tempQuaternion = new THREE.Quaternion();
-			var unitX = new THREE.Vector3(1, 0, 0);
-			var unitY = new THREE.Vector3(0, 1, 0);
-			var unitZ = new THREE.Vector3(0, 0, 1);
+										E: [[new THREE.Line(new CircleGeometry(1.25, 'z', 1), new GizmoLineMaterial({ color: 0xcccc00 }))]],
 
-			var quaternionXYZ = new THREE.Quaternion();
-			var quaternionX = new THREE.Quaternion();
-			var quaternionY = new THREE.Quaternion();
-			var quaternionZ = new THREE.Quaternion();
-			var quaternionE = new THREE.Quaternion();
+										XYZE: [[new THREE.Line(new CircleGeometry(1, 'z', 1), new GizmoLineMaterial({ color: 0x787878 }))]]
 
-			var oldPosition = new THREE.Vector3();
-			var oldScale = new THREE.Vector3();
-			var oldRotationMatrix = new THREE.Matrix4();
+							};
 
-			var parentRotationMatrix = new THREE.Matrix4();
-			var parentScale = new THREE.Vector3();
+							this.pickerGizmos = {
 
-			var worldPosition = new THREE.Vector3();
-			var worldRotation = new THREE.Euler();
-			var worldRotationMatrix = new THREE.Matrix4();
-			var camPosition = new THREE.Vector3();
-			var camRotation = new THREE.Euler();
+										X: [[new THREE.Mesh(new THREE.TorusBufferGeometry(1, 0.12, 4, 12, Math.PI), pickerMaterial), [0, 0, 0], [0, -Math.PI / 2, -Math.PI / 2]]],
 
-			this.activate = function () {
-				domElement.addEventListener("mousedown", onPointerDown, false);
-				domElement.addEventListener("touchstart", onPointerDown, false);
+										Y: [[new THREE.Mesh(new THREE.TorusBufferGeometry(1, 0.12, 4, 12, Math.PI), pickerMaterial), [0, 0, 0], [Math.PI / 2, 0, 0]]],
 
-				domElement.addEventListener("mousemove", onPointerHover, false);
-				domElement.addEventListener("touchmove", onPointerHover, false);
+										Z: [[new THREE.Mesh(new THREE.TorusBufferGeometry(1, 0.12, 4, 12, Math.PI), pickerMaterial), [0, 0, 0], [0, 0, -Math.PI / 2]]],
 
-				domElement.addEventListener("mousemove", onPointerMove, false);
-				domElement.addEventListener("touchmove", onPointerMove, false);
+										E: [[new THREE.Mesh(new THREE.TorusBufferGeometry(1.25, 0.12, 2, 24), pickerMaterial)]],
 
-				domElement.addEventListener("mouseup", onPointerUp, false);
-				domElement.addEventListener("mouseout", onPointerUp, false);
-				domElement.addEventListener("touchend", onPointerUp, false);
-				domElement.addEventListener("touchcancel", onPointerUp, false);
-				domElement.addEventListener("touchleave", onPointerUp, false);
-			};
+										XYZE: [[new THREE.Mesh(new THREE.Geometry())] // TODO
+										]
 
-			this.activate();
+							};
 
-			this.dispose = function () {
+							this.setActivePlane = function (axis) {
 
-				domElement.removeEventListener("mousedown", onPointerDown);
-				domElement.removeEventListener("touchstart", onPointerDown);
+										if (axis === "E") this.activePlane = this.planes["XYZE"];
 
-				domElement.removeEventListener("mousemove", onPointerHover);
-				domElement.removeEventListener("touchmove", onPointerHover);
+										if (axis === "X") this.activePlane = this.planes["YZ"];
 
-				domElement.removeEventListener("mousemove", onPointerMove);
-				domElement.removeEventListener("touchmove", onPointerMove);
+										if (axis === "Y") this.activePlane = this.planes["XZ"];
 
-				domElement.removeEventListener("mouseup", onPointerUp);
-				domElement.removeEventListener("mouseout", onPointerUp);
-				domElement.removeEventListener("touchend", onPointerUp);
-				domElement.removeEventListener("touchcancel", onPointerUp);
-				domElement.removeEventListener("touchleave", onPointerUp);
-			};
+										if (axis === "Z") this.activePlane = this.planes["XY"];
+							};
 
-			this.attach = function (object) {
+							this.update = function (rotation, eye2) {
 
-				this.object = object;
-				this.visible = true;
-				this.update();
-			};
+										THREE.TransformGizmo.prototype.update.apply(this, arguments);
 
-			this.detach = function () {
+										var group = {
 
-				this.object = undefined;
-				this.visible = false;
-				this.axis = null;
-			};
+													handles: this["handles"],
+													pickers: this["pickers"]
 
-			this.getMode = function () {
+										};
 
-				return _mode;
-			};
+										var tempMatrix = new THREE.Matrix4();
+										var worldRotation = new THREE.Euler(0, 0, 1);
+										var tempQuaternion = new THREE.Quaternion();
+										var unitX = new THREE.Vector3(1, 0, 0);
+										var unitY = new THREE.Vector3(0, 1, 0);
+										var unitZ = new THREE.Vector3(0, 0, 1);
+										var quaternionX = new THREE.Quaternion();
+										var quaternionY = new THREE.Quaternion();
+										var quaternionZ = new THREE.Quaternion();
+										var eye = eye2.clone();
 
-			this.setMode = function (mode) {
+										worldRotation.copy(this.planes["XY"].rotation);
+										tempQuaternion.setFromEuler(worldRotation);
 
-				_mode = mode ? mode : _mode;
+										tempMatrix.makeRotationFromQuaternion(tempQuaternion).getInverse(tempMatrix);
+										eye.applyMatrix4(tempMatrix);
 
-				// if ( _mode === "scale" ) scope.space = "local";
+										this.traverse(function (child) {
 
-				for (var type in _gizmo) {
-					_gizmo[type].visible = type === _mode;
-				}this.update();
-				scope.dispatchEvent(changeEvent);
-			};
+													tempQuaternion.setFromEuler(worldRotation);
 
-			this.setTranslationSnap = function (translationSnap) {
+													if (child.name === "X") {
 
-				scope.translationSnap = translationSnap;
-			};
+																quaternionX.setFromAxisAngle(unitX, Math.atan2(-eye.y, eye.z));
+																tempQuaternion.multiplyQuaternions(tempQuaternion, quaternionX);
+																child.quaternion.copy(tempQuaternion);
+													}
 
-			this.setRotationSnap = function (rotationSnap) {
+													if (child.name === "Y") {
 
-				scope.rotationSnap = rotationSnap;
-			};
+																quaternionY.setFromAxisAngle(unitY, Math.atan2(eye.x, eye.z));
+																tempQuaternion.multiplyQuaternions(tempQuaternion, quaternionY);
+																child.quaternion.copy(tempQuaternion);
+													}
 
-			this.setSize = function (size) {
+													if (child.name === "Z") {
 
-				scope.size = size;
-				this.update();
-				scope.dispatchEvent(changeEvent);
-			};
+																quaternionZ.setFromAxisAngle(unitZ, Math.atan2(eye.y, eye.x));
+																tempQuaternion.multiplyQuaternions(tempQuaternion, quaternionZ);
+																child.quaternion.copy(tempQuaternion);
+													}
+										});
+							};
 
-			this.toggleSpace = function () {
+							this.init();
+				};
 
-				this.setSpace(scope.space === 'local' ? 'world' : 'local');
-			};
+				THREE.TransformGizmoRotate.prototype = Object.create(THREE.TransformGizmo.prototype);
+				THREE.TransformGizmoRotate.prototype.constructor = THREE.TransformGizmoRotate;
 
-			this.setSpace = function (space) {
+				THREE.TransformGizmoScale = function () {
 
-				scope.space = space;
-				this.update();
-				scope.dispatchEvent(changeEvent);
-			};
+							THREE.TransformGizmo.call(this);
 
-			this.update = function () {
+							var arrowGeometry = new THREE.Geometry();
+							var mesh = new THREE.Mesh(new THREE.BoxGeometry(0.125, 0.125, 0.125));
+							mesh.position.y = 0.5;
+							mesh.updateMatrix();
 
-				if (scope.object === undefined) return;
+							arrowGeometry.merge(mesh.geometry, mesh.matrix);
 
-				scope.object.updateMatrixWorld();
-				worldPosition.setFromMatrixPosition(scope.object.matrixWorld);
-				worldRotation.setFromRotationMatrix(tempMatrix.extractRotation(scope.object.matrixWorld));
+							var lineXGeometry = new THREE.BufferGeometry();
+							lineXGeometry.addAttribute('position', new THREE.Float32BufferAttribute([0, 0, 0, 1, 0, 0], 3));
 
-				camera.updateMatrixWorld();
-				camPosition.setFromMatrixPosition(camera.matrixWorld);
-				camRotation.setFromRotationMatrix(tempMatrix.extractRotation(camera.matrixWorld));
+							var lineYGeometry = new THREE.BufferGeometry();
+							lineYGeometry.addAttribute('position', new THREE.Float32BufferAttribute([0, 0, 0, 0, 1, 0], 3));
 
-				scale = worldPosition.distanceTo(camPosition) / 6 * scope.size;
-				this.position.copy(worldPosition);
-				this.scale.set(scale, scale, scale);
+							var lineZGeometry = new THREE.BufferGeometry();
+							lineZGeometry.addAttribute('position', new THREE.Float32BufferAttribute([0, 0, 0, 0, 0, 1], 3));
 
-				eye.copy(camPosition).sub(worldPosition).normalize();
+							this.handleGizmos = {
 
-				if (scope.space === "local" || _mode === "scale") {
+										X: [[new THREE.Mesh(arrowGeometry, new GizmoMaterial({ color: 0xff0000 })), [0.5, 0, 0], [0, 0, -Math.PI / 2]], [new THREE.Line(lineXGeometry, new GizmoLineMaterial({ color: 0xff0000 }))]],
 
-					_gizmo[_mode].update(worldRotation, eye);
-				} else if (scope.space === "world") {
+										Y: [[new THREE.Mesh(arrowGeometry, new GizmoMaterial({ color: 0x00ff00 })), [0, 0.5, 0]], [new THREE.Line(lineYGeometry, new GizmoLineMaterial({ color: 0x00ff00 }))]],
 
-					_gizmo[_mode].update(new THREE.Euler(), eye);
-				}
+										Z: [[new THREE.Mesh(arrowGeometry, new GizmoMaterial({ color: 0x0000ff })), [0, 0, 0.5], [Math.PI / 2, 0, 0]], [new THREE.Line(lineZGeometry, new GizmoLineMaterial({ color: 0x0000ff }))]],
 
-				_gizmo[_mode].highlight(scope.axis);
-			};
+										XYZ: [[new THREE.Mesh(new THREE.BoxBufferGeometry(0.125, 0.125, 0.125), new GizmoMaterial({ color: 0xffffff, opacity: 0.25 }))]]
 
-			function onPointerHover(event) {
+							};
 
-				if (scope.object === undefined || _dragging === true || event.button !== undefined && event.button !== 0) return;
+							this.pickerGizmos = {
 
-				var pointer = event.changedTouches ? event.changedTouches[0] : event;
+										X: [[new THREE.Mesh(new THREE.CylinderBufferGeometry(0.2, 0, 1, 4, 1, false), pickerMaterial), [0.6, 0, 0], [0, 0, -Math.PI / 2]]],
 
-				var intersect = intersectObjects(pointer, _gizmo[_mode].pickers.children);
+										Y: [[new THREE.Mesh(new THREE.CylinderBufferGeometry(0.2, 0, 1, 4, 1, false), pickerMaterial), [0, 0.6, 0]]],
 
-				var axis = null;
+										Z: [[new THREE.Mesh(new THREE.CylinderBufferGeometry(0.2, 0, 1, 4, 1, false), pickerMaterial), [0, 0, 0.6], [Math.PI / 2, 0, 0]]],
 
-				if (intersect) {
+										XYZ: [[new THREE.Mesh(new THREE.BoxBufferGeometry(0.4, 0.4, 0.4), pickerMaterial)]]
 
-					axis = intersect.object.name;
+							};
 
-					event.preventDefault();
-				}
+							this.setActivePlane = function (axis, eye) {
 
-				if (scope.axis !== axis) {
+										var tempMatrix = new THREE.Matrix4();
+										eye.applyMatrix4(tempMatrix.getInverse(tempMatrix.extractRotation(this.planes["XY"].matrixWorld)));
 
-					scope.axis = axis;
-					scope.update();
-					scope.dispatchEvent(changeEvent);
-				}
-			}
+										if (axis === "X") {
 
-			function onPointerDown(event) {
+													this.activePlane = this.planes["XY"];
+													if (Math.abs(eye.y) > Math.abs(eye.z)) this.activePlane = this.planes["XZ"];
+										}
 
-				if (scope.object === undefined || _dragging === true || event.button !== undefined && event.button !== 0) return;
+										if (axis === "Y") {
 
-				var pointer = event.changedTouches ? event.changedTouches[0] : event;
+													this.activePlane = this.planes["XY"];
+													if (Math.abs(eye.x) > Math.abs(eye.z)) this.activePlane = this.planes["YZ"];
+										}
 
-				if (pointer.button === 0 || pointer.button === undefined) {
+										if (axis === "Z") {
 
-					var intersect = intersectObjects(pointer, _gizmo[_mode].pickers.children);
+													this.activePlane = this.planes["XZ"];
+													if (Math.abs(eye.x) > Math.abs(eye.y)) this.activePlane = this.planes["YZ"];
+										}
 
-					if (intersect) {
+										if (axis === "XYZ") this.activePlane = this.planes["XYZE"];
+							};
 
-						event.preventDefault();
-						event.stopPropagation();
+							this.init();
+				};
 
-						scope.dispatchEvent(mouseDownEvent);
+				THREE.TransformGizmoScale.prototype = Object.create(THREE.TransformGizmo.prototype);
+				THREE.TransformGizmoScale.prototype.constructor = THREE.TransformGizmoScale;
 
-						scope.axis = intersect.object.name;
+				THREE.TransformControls = function (camera, domElement) {
 
-						scope.update();
+							// TODO: Make non-uniform scale and rotate play nice in hierarchies
+							// TODO: ADD RXYZ contol
 
-						eye.copy(camPosition).sub(worldPosition).normalize();
+							THREE.Object3D.call(this);
 
-						_gizmo[_mode].setActivePlane(scope.axis, eye);
+							domElement = domElement !== undefined ? domElement : document;
 
-						var planeIntersect = intersectObjects(pointer, [_gizmo[_mode].activePlane]);
+							this.object = undefined;
+							this.visible = false;
+							this.translationSnap = null;
+							this.rotationSnap = null;
+							this.space = "world";
+							this.size = 1;
+							this.axis = null;
 
-						if (planeIntersect) {
+							var scope = this;
 
-							oldPosition.copy(scope.object.position);
-							oldScale.copy(scope.object.scale);
+							var _mode = "translate";
+							var _dragging = false;
+							var _plane = "XY";
+							var _gizmo = {
 
-							oldRotationMatrix.extractRotation(scope.object.matrix);
-							worldRotationMatrix.extractRotation(scope.object.matrixWorld);
+										"translate": new THREE.TransformGizmoTranslate(),
+										"rotate": new THREE.TransformGizmoRotate(),
+										"scale": new THREE.TransformGizmoScale()
+							};
 
-							parentRotationMatrix.extractRotation(scope.object.parent.matrixWorld);
-							parentScale.setFromMatrixScale(tempMatrix.getInverse(scope.object.parent.matrixWorld));
+							for (var type in _gizmo) {
 
-							offset.copy(planeIntersect.point);
-						}
-					}
-				}
+										var gizmoObj = _gizmo[type];
 
-				_dragging = true;
-			}
+										gizmoObj.visible = type === _mode;
+										this.add(gizmoObj);
+							}
 
-			function onPointerMove(event) {
+							var changeEvent = { type: "change" };
+							var mouseDownEvent = { type: "mouseDown" };
+							var mouseUpEvent = { type: "mouseUp", mode: _mode };
+							var objectChangeEvent = { type: "objectChange" };
 
-				if (scope.object === undefined || scope.axis === null || _dragging === false || event.button !== undefined && event.button !== 0) return;
+							var ray = new THREE.Raycaster();
+							var pointerVector = new THREE.Vector2();
 
-				var pointer = event.changedTouches ? event.changedTouches[0] : event;
+							var point = new THREE.Vector3();
+							var offset = new THREE.Vector3();
 
-				var planeIntersect = intersectObjects(pointer, [_gizmo[_mode].activePlane]);
+							var rotation = new THREE.Vector3();
+							var offsetRotation = new THREE.Vector3();
+							var scale = 1;
 
-				if (planeIntersect === false) return;
+							var lookAtMatrix = new THREE.Matrix4();
+							var eye = new THREE.Vector3();
 
-				event.preventDefault();
-				event.stopPropagation();
+							var tempMatrix = new THREE.Matrix4();
+							var tempVector = new THREE.Vector3();
+							var tempQuaternion = new THREE.Quaternion();
+							var unitX = new THREE.Vector3(1, 0, 0);
+							var unitY = new THREE.Vector3(0, 1, 0);
+							var unitZ = new THREE.Vector3(0, 0, 1);
 
-				point.copy(planeIntersect.point);
+							var quaternionXYZ = new THREE.Quaternion();
+							var quaternionX = new THREE.Quaternion();
+							var quaternionY = new THREE.Quaternion();
+							var quaternionZ = new THREE.Quaternion();
+							var quaternionE = new THREE.Quaternion();
 
-				if (_mode === "translate") {
+							var oldPosition = new THREE.Vector3();
+							var oldScale = new THREE.Vector3();
+							var oldRotationMatrix = new THREE.Matrix4();
 
-					point.sub(offset);
-					point.multiply(parentScale);
+							var parentRotationMatrix = new THREE.Matrix4();
+							var parentScale = new THREE.Vector3();
 
-					if (scope.space === "local" || _mode === "scale") {
+							var worldPosition = new THREE.Vector3();
+							var worldRotation = new THREE.Euler();
+							var worldRotationMatrix = new THREE.Matrix4();
+							var camPosition = new THREE.Vector3();
+							var camRotation = new THREE.Euler();
 
-						point.applyMatrix4(tempMatrix.getInverse(worldRotationMatrix));
+							this.activate = function () {
+										domElement.addEventListener("mousedown", onPointerDown, false);
+										domElement.addEventListener("touchstart", onPointerDown, false);
 
-						if (scope.axis.search("X") === -1) point.x = 0;
-						if (scope.axis.search("Y") === -1) point.y = 0;
-						if (scope.axis.search("Z") === -1) point.z = 0;
+										domElement.addEventListener("mousemove", onPointerHover, false);
+										domElement.addEventListener("touchmove", onPointerHover, false);
 
-						point.applyMatrix4(oldRotationMatrix);
+										domElement.addEventListener("mousemove", onPointerMove, false);
+										domElement.addEventListener("touchmove", onPointerMove, false);
 
-						scope.object.position.copy(oldPosition);
-						scope.object.position.add(point);
-					}
+										domElement.addEventListener("mouseup", onPointerUp, false);
+										domElement.addEventListener("mouseout", onPointerUp, false);
+										domElement.addEventListener("touchend", onPointerUp, false);
+										domElement.addEventListener("touchcancel", onPointerUp, false);
+										domElement.addEventListener("touchleave", onPointerUp, false);
+							};
 
-					if (scope.space === "world" || scope.axis.search("XYZ") !== -1) {
+							this.activate();
 
-						if (scope.axis.search("X") === -1) point.x = 0;
-						if (scope.axis.search("Y") === -1) point.y = 0;
-						if (scope.axis.search("Z") === -1) point.z = 0;
+							this.dispose = function () {
 
-						point.applyMatrix4(tempMatrix.getInverse(parentRotationMatrix));
+										domElement.removeEventListener("mousedown", onPointerDown);
+										domElement.removeEventListener("touchstart", onPointerDown);
 
-						scope.object.position.copy(oldPosition);
-						scope.object.position.add(point);
-					}
+										domElement.removeEventListener("mousemove", onPointerHover);
+										domElement.removeEventListener("touchmove", onPointerHover);
 
-					if (scope.translationSnap !== null) {
+										domElement.removeEventListener("mousemove", onPointerMove);
+										domElement.removeEventListener("touchmove", onPointerMove);
 
-						if (scope.space === "local" || _mode === "scale") {
+										domElement.removeEventListener("mouseup", onPointerUp);
+										domElement.removeEventListener("mouseout", onPointerUp);
+										domElement.removeEventListener("touchend", onPointerUp);
+										domElement.removeEventListener("touchcancel", onPointerUp);
+										domElement.removeEventListener("touchleave", onPointerUp);
+							};
 
-							scope.object.position.applyMatrix4(tempMatrix.getInverse(worldRotationMatrix));
-						}
+							this.attach = function (object) {
 
-						if (scope.axis.search("X") !== -1) scope.object.position.x = Math.round(scope.object.position.x / scope.translationSnap) * scope.translationSnap;
-						if (scope.axis.search("Y") !== -1) scope.object.position.y = Math.round(scope.object.position.y / scope.translationSnap) * scope.translationSnap;
-						if (scope.axis.search("Z") !== -1) scope.object.position.z = Math.round(scope.object.position.z / scope.translationSnap) * scope.translationSnap;
+										this.object = object;
+										this.visible = true;
+										this.update();
+							};
 
-						if (scope.space === "local" || _mode === "scale") {
+							this.detach = function () {
 
-							scope.object.position.applyMatrix4(worldRotationMatrix);
-						}
-					}
-				} else if (_mode === "scale") {
+										this.object = undefined;
+										this.visible = false;
+										this.axis = null;
+							};
 
-					point.sub(offset);
-					point.multiply(parentScale);
+							this.getMode = function () {
 
-					if (scope.space === "local" || _mode === "scale") {
+										return _mode;
+							};
 
-						if (scope.axis === "XYZ") {
+							this.setMode = function (mode) {
 
-							scale = 1 + point.y / Math.max(oldScale.x, oldScale.y, oldScale.z);
+										_mode = mode ? mode : _mode;
 
-							scope.object.scale.x = oldScale.x * scale;
-							scope.object.scale.y = oldScale.y * scale;
-							scope.object.scale.z = oldScale.z * scale;
-						} else {
+										// if ( _mode === "scale" ) scope.space = "local";
 
-							point.applyMatrix4(tempMatrix.getInverse(worldRotationMatrix));
+										for (var type in _gizmo) {
+													_gizmo[type].visible = type === _mode;
+										}this.update();
+										scope.dispatchEvent(changeEvent);
+							};
 
-							if (scope.axis === "X") scope.object.scale.x = oldScale.x * (1 + point.x / oldScale.x);
-							if (scope.axis === "Y") scope.object.scale.y = oldScale.y * (1 + point.y / oldScale.y);
-							if (scope.axis === "Z") scope.object.scale.z = oldScale.z * (1 + point.z / oldScale.z);
-						}
-					}
-				} else if (_mode === "rotate") {
+							this.setTranslationSnap = function (translationSnap) {
 
-					point.sub(worldPosition);
-					point.multiply(parentScale);
-					tempVector.copy(offset).sub(worldPosition);
-					tempVector.multiply(parentScale);
+										scope.translationSnap = translationSnap;
+							};
 
-					if (scope.axis === "E") {
+							this.setRotationSnap = function (rotationSnap) {
 
-						point.applyMatrix4(tempMatrix.getInverse(lookAtMatrix));
-						tempVector.applyMatrix4(tempMatrix.getInverse(lookAtMatrix));
+										scope.rotationSnap = rotationSnap;
+							};
 
-						rotation.set(Math.atan2(point.z, point.y), Math.atan2(point.x, point.z), Math.atan2(point.y, point.x));
-						offsetRotation.set(Math.atan2(tempVector.z, tempVector.y), Math.atan2(tempVector.x, tempVector.z), Math.atan2(tempVector.y, tempVector.x));
+							this.setSize = function (size) {
 
-						tempQuaternion.setFromRotationMatrix(tempMatrix.getInverse(parentRotationMatrix));
+										scope.size = size;
+										this.update();
+										scope.dispatchEvent(changeEvent);
+							};
 
-						quaternionE.setFromAxisAngle(eye, rotation.z - offsetRotation.z);
-						quaternionXYZ.setFromRotationMatrix(worldRotationMatrix);
+							this.toggleSpace = function () {
 
-						tempQuaternion.multiplyQuaternions(tempQuaternion, quaternionE);
-						tempQuaternion.multiplyQuaternions(tempQuaternion, quaternionXYZ);
+										this.setSpace(scope.space === 'local' ? 'world' : 'local');
+							};
 
-						scope.object.quaternion.copy(tempQuaternion);
-					} else if (scope.axis === "XYZE") {
+							this.setSpace = function (space) {
 
-						quaternionE.setFromEuler(point.clone().cross(tempVector).normalize()); // rotation axis
+										scope.space = space;
+										this.update();
+										scope.dispatchEvent(changeEvent);
+							};
 
-						tempQuaternion.setFromRotationMatrix(tempMatrix.getInverse(parentRotationMatrix));
-						quaternionX.setFromAxisAngle(quaternionE, -point.clone().angleTo(tempVector));
-						quaternionXYZ.setFromRotationMatrix(worldRotationMatrix);
+							this.update = function () {
 
-						tempQuaternion.multiplyQuaternions(tempQuaternion, quaternionX);
-						tempQuaternion.multiplyQuaternions(tempQuaternion, quaternionXYZ);
+										if (scope.object === undefined) return;
 
-						scope.object.quaternion.copy(tempQuaternion);
-					} else if (scope.space === "local" || _mode === "scale") {
+										scope.object.updateMatrixWorld();
+										worldPosition.setFromMatrixPosition(scope.object.matrixWorld);
+										worldRotation.setFromRotationMatrix(tempMatrix.extractRotation(scope.object.matrixWorld));
 
-						point.applyMatrix4(tempMatrix.getInverse(worldRotationMatrix));
+										camera.updateMatrixWorld();
+										camPosition.setFromMatrixPosition(camera.matrixWorld);
+										camRotation.setFromRotationMatrix(tempMatrix.extractRotation(camera.matrixWorld));
 
-						tempVector.applyMatrix4(tempMatrix.getInverse(worldRotationMatrix));
+										scale = worldPosition.distanceTo(camPosition) / 6 * scope.size;
+										this.position.copy(worldPosition);
+										this.scale.set(scale, scale, scale);
 
-						rotation.set(Math.atan2(point.z, point.y), Math.atan2(point.x, point.z), Math.atan2(point.y, point.x));
-						offsetRotation.set(Math.atan2(tempVector.z, tempVector.y), Math.atan2(tempVector.x, tempVector.z), Math.atan2(tempVector.y, tempVector.x));
+										eye.copy(camPosition).sub(worldPosition).normalize();
 
-						quaternionXYZ.setFromRotationMatrix(oldRotationMatrix);
+										if (scope.space === "local" || _mode === "scale") {
 
-						if (scope.rotationSnap !== null) {
+													_gizmo[_mode].update(worldRotation, eye);
+										} else if (scope.space === "world") {
 
-							quaternionX.setFromAxisAngle(unitX, Math.round((rotation.x - offsetRotation.x) / scope.rotationSnap) * scope.rotationSnap);
-							quaternionY.setFromAxisAngle(unitY, Math.round((rotation.y - offsetRotation.y) / scope.rotationSnap) * scope.rotationSnap);
-							quaternionZ.setFromAxisAngle(unitZ, Math.round((rotation.z - offsetRotation.z) / scope.rotationSnap) * scope.rotationSnap);
-						} else {
+													_gizmo[_mode].update(new THREE.Euler(), eye);
+										}
 
-							quaternionX.setFromAxisAngle(unitX, rotation.x - offsetRotation.x);
-							quaternionY.setFromAxisAngle(unitY, rotation.y - offsetRotation.y);
-							quaternionZ.setFromAxisAngle(unitZ, rotation.z - offsetRotation.z);
-						}
+										_gizmo[_mode].highlight(scope.axis);
+							};
 
-						if (scope.axis === "X") quaternionXYZ.multiplyQuaternions(quaternionXYZ, quaternionX);
-						if (scope.axis === "Y") quaternionXYZ.multiplyQuaternions(quaternionXYZ, quaternionY);
-						if (scope.axis === "Z") quaternionXYZ.multiplyQuaternions(quaternionXYZ, quaternionZ);
+							function onPointerHover(event) {
 
-						scope.object.quaternion.copy(quaternionXYZ);
-					} else if (scope.space === "world") {
+										if (scope.object === undefined || _dragging === true || event.button !== undefined && event.button !== 0) return;
 
-						rotation.set(Math.atan2(point.z, point.y), Math.atan2(point.x, point.z), Math.atan2(point.y, point.x));
-						offsetRotation.set(Math.atan2(tempVector.z, tempVector.y), Math.atan2(tempVector.x, tempVector.z), Math.atan2(tempVector.y, tempVector.x));
+										var pointer = event.changedTouches ? event.changedTouches[0] : event;
 
-						tempQuaternion.setFromRotationMatrix(tempMatrix.getInverse(parentRotationMatrix));
+										var intersect = intersectObjects(pointer, _gizmo[_mode].pickers.children);
 
-						if (scope.rotationSnap !== null) {
+										var axis = null;
 
-							quaternionX.setFromAxisAngle(unitX, Math.round((rotation.x - offsetRotation.x) / scope.rotationSnap) * scope.rotationSnap);
-							quaternionY.setFromAxisAngle(unitY, Math.round((rotation.y - offsetRotation.y) / scope.rotationSnap) * scope.rotationSnap);
-							quaternionZ.setFromAxisAngle(unitZ, Math.round((rotation.z - offsetRotation.z) / scope.rotationSnap) * scope.rotationSnap);
-						} else {
+										if (intersect) {
 
-							quaternionX.setFromAxisAngle(unitX, rotation.x - offsetRotation.x);
-							quaternionY.setFromAxisAngle(unitY, rotation.y - offsetRotation.y);
-							quaternionZ.setFromAxisAngle(unitZ, rotation.z - offsetRotation.z);
-						}
+													axis = intersect.object.name;
 
-						quaternionXYZ.setFromRotationMatrix(worldRotationMatrix);
+													event.preventDefault();
+										}
 
-						if (scope.axis === "X") tempQuaternion.multiplyQuaternions(tempQuaternion, quaternionX);
-						if (scope.axis === "Y") tempQuaternion.multiplyQuaternions(tempQuaternion, quaternionY);
-						if (scope.axis === "Z") tempQuaternion.multiplyQuaternions(tempQuaternion, quaternionZ);
+										if (scope.axis !== axis) {
 
-						tempQuaternion.multiplyQuaternions(tempQuaternion, quaternionXYZ);
+													scope.axis = axis;
+													scope.update();
+													scope.dispatchEvent(changeEvent);
+										}
+							}
 
-						scope.object.quaternion.copy(tempQuaternion);
-					}
-				}
+							function onPointerDown(event) {
 
-				scope.update();
-				scope.dispatchEvent(changeEvent);
-				scope.dispatchEvent(objectChangeEvent);
-			}
+										if (scope.object === undefined || _dragging === true || event.button !== undefined && event.button !== 0) return;
 
-			function onPointerUp(event) {
+										var pointer = event.changedTouches ? event.changedTouches[0] : event;
 
-				event.preventDefault(); // Prevent MouseEvent on mobile
+										if (pointer.button === 0 || pointer.button === undefined) {
 
-				if (event.button !== undefined && event.button !== 0) return;
+													var intersect = intersectObjects(pointer, _gizmo[_mode].pickers.children);
 
-				if (_dragging && scope.axis !== null) {
+													if (intersect) {
 
-					mouseUpEvent.mode = _mode;
-					scope.dispatchEvent(mouseUpEvent);
-				}
+																event.preventDefault();
+																event.stopPropagation();
 
-				_dragging = false;
+																scope.dispatchEvent(mouseDownEvent);
 
-				if ('TouchEvent' in window && event instanceof TouchEvent) {
+																scope.axis = intersect.object.name;
 
-					// Force "rollover"
+																scope.update();
 
-					scope.axis = null;
-					scope.update();
-					scope.dispatchEvent(changeEvent);
-				} else {
+																eye.copy(camPosition).sub(worldPosition).normalize();
 
-					onPointerHover(event);
-				}
-			}
+																_gizmo[_mode].setActivePlane(scope.axis, eye);
 
-			function intersectObjects(pointer, objects) {
+																var planeIntersect = intersectObjects(pointer, [_gizmo[_mode].activePlane]);
 
-				var rect = domElement.getBoundingClientRect();
-				var x = (pointer.clientX - rect.left) / rect.width;
-				var y = (pointer.clientY - rect.top) / rect.height;
+																if (planeIntersect) {
 
-				pointerVector.set(x * 2 - 1, -(y * 2) + 1);
-				ray.setFromCamera(pointerVector, camera);
+																			oldPosition.copy(scope.object.position);
+																			oldScale.copy(scope.object.scale);
 
-				var intersections = ray.intersectObjects(objects, true);
-				return intersections[0] ? intersections[0] : false;
-			}
-		};
+																			oldRotationMatrix.extractRotation(scope.object.matrix);
+																			worldRotationMatrix.extractRotation(scope.object.matrixWorld);
 
-		THREE.TransformControls.prototype = Object.create(THREE.Object3D.prototype);
-		THREE.TransformControls.prototype.constructor = THREE.TransformControls;
+																			parentRotationMatrix.extractRotation(scope.object.parent.matrixWorld);
+																			parentScale.setFromMatrixScale(tempMatrix.getInverse(scope.object.parent.matrixWorld));
+
+																			offset.copy(planeIntersect.point);
+																}
+													}
+										}
+
+										_dragging = true;
+							}
+
+							function onPointerMove(event) {
+
+										if (scope.object === undefined || scope.axis === null || _dragging === false || event.button !== undefined && event.button !== 0) return;
+
+										var pointer = event.changedTouches ? event.changedTouches[0] : event;
+
+										var planeIntersect = intersectObjects(pointer, [_gizmo[_mode].activePlane]);
+
+										if (planeIntersect === false) return;
+
+										event.preventDefault();
+										event.stopPropagation();
+
+										point.copy(planeIntersect.point);
+
+										if (_mode === "translate") {
+
+													point.sub(offset);
+													point.multiply(parentScale);
+
+													if (scope.space === "local" || _mode === "scale") {
+
+																point.applyMatrix4(tempMatrix.getInverse(worldRotationMatrix));
+
+																if (scope.axis.search("X") === -1) point.x = 0;
+																if (scope.axis.search("Y") === -1) point.y = 0;
+																if (scope.axis.search("Z") === -1) point.z = 0;
+
+																point.applyMatrix4(oldRotationMatrix);
+
+																scope.object.position.copy(oldPosition);
+																scope.object.position.add(point);
+													}
+
+													if (scope.space === "world" || scope.axis.search("XYZ") !== -1) {
+
+																if (scope.axis.search("X") === -1) point.x = 0;
+																if (scope.axis.search("Y") === -1) point.y = 0;
+																if (scope.axis.search("Z") === -1) point.z = 0;
+
+																point.applyMatrix4(tempMatrix.getInverse(parentRotationMatrix));
+
+																scope.object.position.copy(oldPosition);
+																scope.object.position.add(point);
+													}
+
+													if (scope.translationSnap !== null) {
+
+																if (scope.space === "local" || _mode === "scale") {
+
+																			scope.object.position.applyMatrix4(tempMatrix.getInverse(worldRotationMatrix));
+																}
+
+																if (scope.axis.search("X") !== -1) scope.object.position.x = Math.round(scope.object.position.x / scope.translationSnap) * scope.translationSnap;
+																if (scope.axis.search("Y") !== -1) scope.object.position.y = Math.round(scope.object.position.y / scope.translationSnap) * scope.translationSnap;
+																if (scope.axis.search("Z") !== -1) scope.object.position.z = Math.round(scope.object.position.z / scope.translationSnap) * scope.translationSnap;
+
+																if (scope.space === "local" || _mode === "scale") {
+
+																			scope.object.position.applyMatrix4(worldRotationMatrix);
+																}
+													}
+										} else if (_mode === "scale") {
+
+													point.sub(offset);
+													point.multiply(parentScale);
+
+													if (scope.space === "local" || _mode === "scale") {
+
+																if (scope.axis === "XYZ") {
+
+																			scale = 1 + point.y / Math.max(oldScale.x, oldScale.y, oldScale.z);
+
+																			scope.object.scale.x = oldScale.x * scale;
+																			scope.object.scale.y = oldScale.y * scale;
+																			scope.object.scale.z = oldScale.z * scale;
+																} else {
+
+																			point.applyMatrix4(tempMatrix.getInverse(worldRotationMatrix));
+
+																			if (scope.axis === "X") scope.object.scale.x = oldScale.x * (1 + point.x / oldScale.x);
+																			if (scope.axis === "Y") scope.object.scale.y = oldScale.y * (1 + point.y / oldScale.y);
+																			if (scope.axis === "Z") scope.object.scale.z = oldScale.z * (1 + point.z / oldScale.z);
+																}
+													}
+										} else if (_mode === "rotate") {
+
+													point.sub(worldPosition);
+													point.multiply(parentScale);
+													tempVector.copy(offset).sub(worldPosition);
+													tempVector.multiply(parentScale);
+
+													if (scope.axis === "E") {
+
+																point.applyMatrix4(tempMatrix.getInverse(lookAtMatrix));
+																tempVector.applyMatrix4(tempMatrix.getInverse(lookAtMatrix));
+
+																rotation.set(Math.atan2(point.z, point.y), Math.atan2(point.x, point.z), Math.atan2(point.y, point.x));
+																offsetRotation.set(Math.atan2(tempVector.z, tempVector.y), Math.atan2(tempVector.x, tempVector.z), Math.atan2(tempVector.y, tempVector.x));
+
+																tempQuaternion.setFromRotationMatrix(tempMatrix.getInverse(parentRotationMatrix));
+
+																quaternionE.setFromAxisAngle(eye, rotation.z - offsetRotation.z);
+																quaternionXYZ.setFromRotationMatrix(worldRotationMatrix);
+
+																tempQuaternion.multiplyQuaternions(tempQuaternion, quaternionE);
+																tempQuaternion.multiplyQuaternions(tempQuaternion, quaternionXYZ);
+
+																scope.object.quaternion.copy(tempQuaternion);
+													} else if (scope.axis === "XYZE") {
+
+																quaternionE.setFromEuler(point.clone().cross(tempVector).normalize()); // rotation axis
+
+																tempQuaternion.setFromRotationMatrix(tempMatrix.getInverse(parentRotationMatrix));
+																quaternionX.setFromAxisAngle(quaternionE, -point.clone().angleTo(tempVector));
+																quaternionXYZ.setFromRotationMatrix(worldRotationMatrix);
+
+																tempQuaternion.multiplyQuaternions(tempQuaternion, quaternionX);
+																tempQuaternion.multiplyQuaternions(tempQuaternion, quaternionXYZ);
+
+																scope.object.quaternion.copy(tempQuaternion);
+													} else if (scope.space === "local" || _mode === "scale") {
+
+																point.applyMatrix4(tempMatrix.getInverse(worldRotationMatrix));
+
+																tempVector.applyMatrix4(tempMatrix.getInverse(worldRotationMatrix));
+
+																rotation.set(Math.atan2(point.z, point.y), Math.atan2(point.x, point.z), Math.atan2(point.y, point.x));
+																offsetRotation.set(Math.atan2(tempVector.z, tempVector.y), Math.atan2(tempVector.x, tempVector.z), Math.atan2(tempVector.y, tempVector.x));
+
+																quaternionXYZ.setFromRotationMatrix(oldRotationMatrix);
+
+																if (scope.rotationSnap !== null) {
+
+																			quaternionX.setFromAxisAngle(unitX, Math.round((rotation.x - offsetRotation.x) / scope.rotationSnap) * scope.rotationSnap);
+																			quaternionY.setFromAxisAngle(unitY, Math.round((rotation.y - offsetRotation.y) / scope.rotationSnap) * scope.rotationSnap);
+																			quaternionZ.setFromAxisAngle(unitZ, Math.round((rotation.z - offsetRotation.z) / scope.rotationSnap) * scope.rotationSnap);
+																} else {
+
+																			quaternionX.setFromAxisAngle(unitX, rotation.x - offsetRotation.x);
+																			quaternionY.setFromAxisAngle(unitY, rotation.y - offsetRotation.y);
+																			quaternionZ.setFromAxisAngle(unitZ, rotation.z - offsetRotation.z);
+																}
+
+																if (scope.axis === "X") quaternionXYZ.multiplyQuaternions(quaternionXYZ, quaternionX);
+																if (scope.axis === "Y") quaternionXYZ.multiplyQuaternions(quaternionXYZ, quaternionY);
+																if (scope.axis === "Z") quaternionXYZ.multiplyQuaternions(quaternionXYZ, quaternionZ);
+
+																scope.object.quaternion.copy(quaternionXYZ);
+													} else if (scope.space === "world") {
+
+																rotation.set(Math.atan2(point.z, point.y), Math.atan2(point.x, point.z), Math.atan2(point.y, point.x));
+																offsetRotation.set(Math.atan2(tempVector.z, tempVector.y), Math.atan2(tempVector.x, tempVector.z), Math.atan2(tempVector.y, tempVector.x));
+
+																tempQuaternion.setFromRotationMatrix(tempMatrix.getInverse(parentRotationMatrix));
+
+																if (scope.rotationSnap !== null) {
+
+																			quaternionX.setFromAxisAngle(unitX, Math.round((rotation.x - offsetRotation.x) / scope.rotationSnap) * scope.rotationSnap);
+																			quaternionY.setFromAxisAngle(unitY, Math.round((rotation.y - offsetRotation.y) / scope.rotationSnap) * scope.rotationSnap);
+																			quaternionZ.setFromAxisAngle(unitZ, Math.round((rotation.z - offsetRotation.z) / scope.rotationSnap) * scope.rotationSnap);
+																} else {
+
+																			quaternionX.setFromAxisAngle(unitX, rotation.x - offsetRotation.x);
+																			quaternionY.setFromAxisAngle(unitY, rotation.y - offsetRotation.y);
+																			quaternionZ.setFromAxisAngle(unitZ, rotation.z - offsetRotation.z);
+																}
+
+																quaternionXYZ.setFromRotationMatrix(worldRotationMatrix);
+
+																if (scope.axis === "X") tempQuaternion.multiplyQuaternions(tempQuaternion, quaternionX);
+																if (scope.axis === "Y") tempQuaternion.multiplyQuaternions(tempQuaternion, quaternionY);
+																if (scope.axis === "Z") tempQuaternion.multiplyQuaternions(tempQuaternion, quaternionZ);
+
+																tempQuaternion.multiplyQuaternions(tempQuaternion, quaternionXYZ);
+
+																scope.object.quaternion.copy(tempQuaternion);
+													}
+										}
+
+										scope.update();
+										scope.dispatchEvent(changeEvent);
+										scope.dispatchEvent(objectChangeEvent);
+							}
+
+							function onPointerUp(event) {
+
+										event.preventDefault(); // Prevent MouseEvent on mobile
+
+										if (event.button !== undefined && event.button !== 0) return;
+
+										if (_dragging && scope.axis !== null) {
+
+													mouseUpEvent.mode = _mode;
+													scope.dispatchEvent(mouseUpEvent);
+										}
+
+										_dragging = false;
+
+										if ('TouchEvent' in window && event instanceof TouchEvent) {
+
+													// Force "rollover"
+
+													scope.axis = null;
+													scope.update();
+													scope.dispatchEvent(changeEvent);
+										} else {
+
+													onPointerHover(event);
+										}
+							}
+
+							function intersectObjects(pointer, objects) {
+
+										var rect = domElement.getBoundingClientRect();
+										var x = (pointer.clientX - rect.left) / rect.width;
+										var y = (pointer.clientY - rect.top) / rect.height;
+
+										pointerVector.set(x * 2 - 1, -(y * 2) + 1);
+										ray.setFromCamera(pointerVector, camera);
+
+										var intersections = ray.intersectObjects(objects, true);
+										return intersections[0] ? intersections[0] : false;
+							}
+				};
+
+				THREE.TransformControls.prototype = Object.create(THREE.Object3D.prototype);
+				THREE.TransformControls.prototype.constructor = THREE.TransformControls;
 	})();
 
 /***/ }),
-/* 215 */
+/* 216 */
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -29324,270 +29495,270 @@
 
 	THREE.EditorControls = function (object, domElement) {
 
-		domElement = domElement !== undefined ? domElement : document;
+			domElement = domElement !== undefined ? domElement : document;
 
-		// API
+			// API
 
-		this.enabled = true;
-		this.center = new THREE.Vector3();
-		this.panSpeed = 0.001;
-		this.zoomSpeed = 0.001;
-		this.rotationSpeed = 0.005;
+			this.enabled = true;
+			this.center = new THREE.Vector3();
+			this.panSpeed = 0.001;
+			this.zoomSpeed = 0.001;
+			this.rotationSpeed = 0.005;
 
-		// internals
+			// internals
 
-		var scope = this;
-		var vector = new THREE.Vector3();
+			var scope = this;
+			var vector = new THREE.Vector3();
 
-		var STATE = { NONE: -1, ROTATE: 0, ZOOM: 1, PAN: 2 };
-		var state = STATE.NONE;
+			var STATE = { NONE: -1, ROTATE: 0, ZOOM: 1, PAN: 2 };
+			var state = STATE.NONE;
 
-		var center = this.center;
-		var normalMatrix = new THREE.Matrix3();
-		var pointer = new THREE.Vector2();
-		var pointerOld = new THREE.Vector2();
-		var spherical = new THREE.Spherical();
+			var center = this.center;
+			var normalMatrix = new THREE.Matrix3();
+			var pointer = new THREE.Vector2();
+			var pointerOld = new THREE.Vector2();
+			var spherical = new THREE.Spherical();
 
-		// events
+			// events
 
-		var changeEvent = { type: 'change' };
+			var changeEvent = { type: 'change' };
 
-		this.focus = function (target) {
+			this.focus = function (target) {
 
-			var box = new THREE.Box3().setFromObject(target);
-			object.lookAt(center.copy(box.getCenter()));
-			scope.dispatchEvent(changeEvent);
-		};
+					var box = new THREE.Box3().setFromObject(target);
+					object.lookAt(center.copy(box.getCenter()));
+					scope.dispatchEvent(changeEvent);
+			};
 
-		this.pan = function (delta) {
+			this.pan = function (delta) {
 
-			var distance = object.position.distanceTo(center);
+					var distance = object.position.distanceTo(center);
 
-			delta.multiplyScalar(distance * scope.panSpeed);
-			delta.applyMatrix3(normalMatrix.getNormalMatrix(object.matrix));
+					delta.multiplyScalar(distance * scope.panSpeed);
+					delta.applyMatrix3(normalMatrix.getNormalMatrix(object.matrix));
 
-			object.position.add(delta);
-			center.add(delta);
+					object.position.add(delta);
+					center.add(delta);
 
-			scope.dispatchEvent(changeEvent);
-		};
+					scope.dispatchEvent(changeEvent);
+			};
 
-		this.zoom = function (delta) {
+			this.zoom = function (delta) {
 
-			var distance = object.position.distanceTo(center);
+					var distance = object.position.distanceTo(center);
 
-			delta.multiplyScalar(distance * scope.zoomSpeed);
+					delta.multiplyScalar(distance * scope.zoomSpeed);
 
-			if (delta.length() > distance) return;
+					if (delta.length() > distance) return;
 
-			delta.applyMatrix3(normalMatrix.getNormalMatrix(object.matrix));
+					delta.applyMatrix3(normalMatrix.getNormalMatrix(object.matrix));
 
-			object.position.add(delta);
+					object.position.add(delta);
 
-			scope.dispatchEvent(changeEvent);
-		};
+					scope.dispatchEvent(changeEvent);
+			};
 
-		this.rotate = function (delta) {
+			this.rotate = function (delta) {
 
-			vector.copy(object.position).sub(center);
+					vector.copy(object.position).sub(center);
 
-			spherical.setFromVector3(vector);
+					spherical.setFromVector3(vector);
 
-			spherical.theta += delta.x;
-			spherical.phi += delta.y;
+					spherical.theta += delta.x;
+					spherical.phi += delta.y;
 
-			spherical.makeSafe();
+					spherical.makeSafe();
 
-			vector.setFromSpherical(spherical);
+					vector.setFromSpherical(spherical);
 
-			object.position.copy(center).add(vector);
+					object.position.copy(center).add(vector);
 
-			object.lookAt(center);
+					object.lookAt(center);
 
-			scope.dispatchEvent(changeEvent);
-		};
+					scope.dispatchEvent(changeEvent);
+			};
 
-		// mouse
+			// mouse
 
-		function onMouseDown(event) {
+			function onMouseDown(event) {
 
-			if (scope.enabled === false) return;
+					if (scope.enabled === false) return;
 
-			if (event.button === 0) {
+					if (event.button === 0) {
 
-				state = STATE.ROTATE;
-			} else if (event.button === 1) {
+							state = STATE.ROTATE;
+					} else if (event.button === 1) {
 
-				state = STATE.ZOOM;
-			} else if (event.button === 2) {
+							state = STATE.ZOOM;
+					} else if (event.button === 2) {
 
-				state = STATE.PAN;
+							state = STATE.PAN;
+					}
+
+					pointerOld.set(event.clientX, event.clientY);
+
+					domElement.addEventListener('mousemove', onMouseMove, false);
+					domElement.addEventListener('mouseup', onMouseUp, false);
+					domElement.addEventListener('mouseout', onMouseUp, false);
+					domElement.addEventListener('dblclick', onMouseUp, false);
 			}
 
-			pointerOld.set(event.clientX, event.clientY);
+			function onMouseMove(event) {
 
-			domElement.addEventListener('mousemove', onMouseMove, false);
-			domElement.addEventListener('mouseup', onMouseUp, false);
-			domElement.addEventListener('mouseout', onMouseUp, false);
-			domElement.addEventListener('dblclick', onMouseUp, false);
-		}
+					if (scope.enabled === false) return;
 
-		function onMouseMove(event) {
+					pointer.set(event.clientX, event.clientY);
 
-			if (scope.enabled === false) return;
+					var movementX = pointer.x - pointerOld.x;
+					var movementY = pointer.y - pointerOld.y;
 
-			pointer.set(event.clientX, event.clientY);
+					if (state === STATE.ROTATE) {
 
-			var movementX = pointer.x - pointerOld.x;
-			var movementY = pointer.y - pointerOld.y;
+							scope.rotate(new THREE.Vector3(-movementX * scope.rotationSpeed, -movementY * scope.rotationSpeed, 0));
+					} else if (state === STATE.ZOOM) {
 
-			if (state === STATE.ROTATE) {
+							scope.zoom(new THREE.Vector3(0, 0, movementY));
+					} else if (state === STATE.PAN) {
 
-				scope.rotate(new THREE.Vector3(-movementX * scope.rotationSpeed, -movementY * scope.rotationSpeed, 0));
-			} else if (state === STATE.ZOOM) {
+							scope.pan(new THREE.Vector3(-movementX, movementY, 0));
+					}
 
-				scope.zoom(new THREE.Vector3(0, 0, movementY));
-			} else if (state === STATE.PAN) {
-
-				scope.pan(new THREE.Vector3(-movementX, movementY, 0));
+					pointerOld.set(event.clientX, event.clientY);
 			}
 
-			pointerOld.set(event.clientX, event.clientY);
-		}
+			function onMouseUp(event) {
 
-		function onMouseUp(event) {
+					domElement.removeEventListener('mousemove', onMouseMove, false);
+					domElement.removeEventListener('mouseup', onMouseUp, false);
+					domElement.removeEventListener('mouseout', onMouseUp, false);
+					domElement.removeEventListener('dblclick', onMouseUp, false);
 
-			domElement.removeEventListener('mousemove', onMouseMove, false);
-			domElement.removeEventListener('mouseup', onMouseUp, false);
-			domElement.removeEventListener('mouseout', onMouseUp, false);
-			domElement.removeEventListener('dblclick', onMouseUp, false);
-
-			state = STATE.NONE;
-		}
-
-		function onMouseWheel(event) {
-
-			event.preventDefault();
-
-			// if ( scope.enabled === false ) return;
-
-			scope.zoom(new THREE.Vector3(0, 0, event.deltaY));
-		}
-
-		function contextmenu(event) {
-
-			event.preventDefault();
-		}
-
-		this.dispose = function () {
-
-			domElement.removeEventListener('contextmenu', contextmenu, false);
-			domElement.removeEventListener('mousedown', onMouseDown, false);
-			domElement.removeEventListener('wheel', onMouseWheel, false);
-
-			domElement.removeEventListener('mousemove', onMouseMove, false);
-			domElement.removeEventListener('mouseup', onMouseUp, false);
-			domElement.removeEventListener('mouseout', onMouseUp, false);
-			domElement.removeEventListener('dblclick', onMouseUp, false);
-
-			domElement.removeEventListener('touchstart', touchStart, false);
-			domElement.removeEventListener('touchmove', touchMove, false);
-		};
-
-		domElement.addEventListener('contextmenu', contextmenu, false);
-		domElement.addEventListener('mousedown', onMouseDown, false);
-		domElement.addEventListener('wheel', onMouseWheel, false);
-
-		// touch
-
-		var touch = new THREE.Vector3();
-
-		var touches = [new THREE.Vector3(), new THREE.Vector3(), new THREE.Vector3()];
-		var prevTouches = [new THREE.Vector3(), new THREE.Vector3(), new THREE.Vector3()];
-
-		var prevDistance = null;
-
-		function touchStart(event) {
-
-			if (scope.enabled === false) return;
-
-			switch (event.touches.length) {
-
-				case 1:
-					touches[0].set(event.touches[0].pageX, event.touches[0].pageY, 0);
-					touches[1].set(event.touches[0].pageX, event.touches[0].pageY, 0);
-					break;
-
-				case 2:
-					touches[0].set(event.touches[0].pageX, event.touches[0].pageY, 0);
-					touches[1].set(event.touches[1].pageX, event.touches[1].pageY, 0);
-					prevDistance = touches[0].distanceTo(touches[1]);
-					break;
-
+					state = STATE.NONE;
 			}
 
-			prevTouches[0].copy(touches[0]);
-			prevTouches[1].copy(touches[1]);
-		}
+			function onMouseWheel(event) {
 
-		function touchMove(event) {
+					event.preventDefault();
 
-			if (scope.enabled === false) return;
+					// if ( scope.enabled === false ) return;
 
-			event.preventDefault();
-			event.stopPropagation();
-
-			function getClosest(touch, touches) {
-
-				var closest = touches[0];
-
-				for (var i in touches) {
-
-					if (closest.distanceTo(touch) > touches[i].distanceTo(touch)) closest = touches[i];
-				}
-
-				return closest;
+					scope.zoom(new THREE.Vector3(0, 0, event.deltaY));
 			}
 
-			switch (event.touches.length) {
+			function contextmenu(event) {
 
-				case 1:
-					touches[0].set(event.touches[0].pageX, event.touches[0].pageY, 0);
-					touches[1].set(event.touches[0].pageX, event.touches[0].pageY, 0);
-					scope.rotate(touches[0].sub(getClosest(touches[0], prevTouches)).multiplyScalar(-scope.rotationSpeed));
-					break;
-
-				case 2:
-					touches[0].set(event.touches[0].pageX, event.touches[0].pageY, 0);
-					touches[1].set(event.touches[1].pageX, event.touches[1].pageY, 0);
-					var distance = touches[0].distanceTo(touches[1]);
-					scope.zoom(new THREE.Vector3(0, 0, prevDistance - distance));
-					prevDistance = distance;
-
-					var offset0 = touches[0].clone().sub(getClosest(touches[0], prevTouches));
-					var offset1 = touches[1].clone().sub(getClosest(touches[1], prevTouches));
-					offset0.x = -offset0.x;
-					offset1.x = -offset1.x;
-
-					scope.pan(offset0.add(offset1).multiplyScalar(0.5));
-
-					break;
-
+					event.preventDefault();
 			}
 
-			prevTouches[0].copy(touches[0]);
-			prevTouches[1].copy(touches[1]);
-		}
+			this.dispose = function () {
 
-		domElement.addEventListener('touchstart', touchStart, false);
-		domElement.addEventListener('touchmove', touchMove, false);
+					domElement.removeEventListener('contextmenu', contextmenu, false);
+					domElement.removeEventListener('mousedown', onMouseDown, false);
+					domElement.removeEventListener('wheel', onMouseWheel, false);
+
+					domElement.removeEventListener('mousemove', onMouseMove, false);
+					domElement.removeEventListener('mouseup', onMouseUp, false);
+					domElement.removeEventListener('mouseout', onMouseUp, false);
+					domElement.removeEventListener('dblclick', onMouseUp, false);
+
+					domElement.removeEventListener('touchstart', touchStart, false);
+					domElement.removeEventListener('touchmove', touchMove, false);
+			};
+
+			domElement.addEventListener('contextmenu', contextmenu, false);
+			domElement.addEventListener('mousedown', onMouseDown, false);
+			domElement.addEventListener('wheel', onMouseWheel, false);
+
+			// touch
+
+			var touch = new THREE.Vector3();
+
+			var touches = [new THREE.Vector3(), new THREE.Vector3(), new THREE.Vector3()];
+			var prevTouches = [new THREE.Vector3(), new THREE.Vector3(), new THREE.Vector3()];
+
+			var prevDistance = null;
+
+			function touchStart(event) {
+
+					if (scope.enabled === false) return;
+
+					switch (event.touches.length) {
+
+							case 1:
+									touches[0].set(event.touches[0].pageX, event.touches[0].pageY, 0);
+									touches[1].set(event.touches[0].pageX, event.touches[0].pageY, 0);
+									break;
+
+							case 2:
+									touches[0].set(event.touches[0].pageX, event.touches[0].pageY, 0);
+									touches[1].set(event.touches[1].pageX, event.touches[1].pageY, 0);
+									prevDistance = touches[0].distanceTo(touches[1]);
+									break;
+
+					}
+
+					prevTouches[0].copy(touches[0]);
+					prevTouches[1].copy(touches[1]);
+			}
+
+			function touchMove(event) {
+
+					if (scope.enabled === false) return;
+
+					event.preventDefault();
+					event.stopPropagation();
+
+					function getClosest(touch, touches) {
+
+							var closest = touches[0];
+
+							for (var i in touches) {
+
+									if (closest.distanceTo(touch) > touches[i].distanceTo(touch)) closest = touches[i];
+							}
+
+							return closest;
+					}
+
+					switch (event.touches.length) {
+
+							case 1:
+									touches[0].set(event.touches[0].pageX, event.touches[0].pageY, 0);
+									touches[1].set(event.touches[0].pageX, event.touches[0].pageY, 0);
+									scope.rotate(touches[0].sub(getClosest(touches[0], prevTouches)).multiplyScalar(-scope.rotationSpeed));
+									break;
+
+							case 2:
+									touches[0].set(event.touches[0].pageX, event.touches[0].pageY, 0);
+									touches[1].set(event.touches[1].pageX, event.touches[1].pageY, 0);
+									var distance = touches[0].distanceTo(touches[1]);
+									scope.zoom(new THREE.Vector3(0, 0, prevDistance - distance));
+									prevDistance = distance;
+
+									var offset0 = touches[0].clone().sub(getClosest(touches[0], prevTouches));
+									var offset1 = touches[1].clone().sub(getClosest(touches[1], prevTouches));
+									offset0.x = -offset0.x;
+									offset1.x = -offset1.x;
+
+									scope.pan(offset0.add(offset1).multiplyScalar(0.5));
+
+									break;
+
+					}
+
+					prevTouches[0].copy(touches[0]);
+					prevTouches[1].copy(touches[1]);
+			}
+
+			domElement.addEventListener('touchstart', touchStart, false);
+			domElement.addEventListener('touchmove', touchMove, false);
 	};
 
 	THREE.EditorControls.prototype = Object.create(THREE.EventDispatcher.prototype);
 	THREE.EditorControls.prototype.constructor = THREE.EditorControls;
 
 /***/ }),
-/* 216 */
+/* 217 */
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -29711,12 +29882,12 @@
 	};
 
 /***/ }),
-/* 217 */
+/* 218 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var _utils = __webpack_require__(216);
+	var _utils = __webpack_require__(217);
 
 	var registryBaseUrl = 'https://aframe.io/aframe-registry/build/';
 
@@ -29787,7 +29958,7 @@
 	module.exports = ComponentLoader;
 
 /***/ }),
-/* 218 */
+/* 219 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29845,7 +30016,7 @@
 	module.exports = AssetsLoader;
 
 /***/ }),
-/* 219 */
+/* 220 */
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -29902,14 +30073,14 @@
 	module.exports = ShaderLoader;
 
 /***/ }),
-/* 220 */
+/* 221 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var _entity = __webpack_require__(221);
+	var _entity = __webpack_require__(222);
 
-	var _utils = __webpack_require__(216);
+	var _utils = __webpack_require__(217);
 
 	/* globals AFRAME */
 	var Events = __webpack_require__(190);
@@ -30090,7 +30261,7 @@
 	module.exports = Shortcuts;
 
 /***/ }),
-/* 221 */
+/* 222 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30105,7 +30276,7 @@
 	exports.cloneSelectedEntity = cloneSelectedEntity;
 	exports.getClipboardRepresentation = getClipboardRepresentation;
 
-	var _utils = __webpack_require__(216);
+	var _utils = __webpack_require__(217);
 
 	var Events = __webpack_require__(190);
 
@@ -30567,20 +30738,20 @@
 	}
 
 /***/ }),
-/* 222 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	__webpack_require__(223);
-
-/***/ }),
 /* 223 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var registerModule = __webpack_require__(224).registerModule;
+	__webpack_require__(224);
+
+/***/ }),
+/* 224 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var registerModule = __webpack_require__(225).registerModule;
 
 	registerModule('dummy', {
 	  init: function init() {
@@ -30599,12 +30770,12 @@
 	});
 
 /***/ }),
-/* 224 */
+/* 225 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var Shortcuts = __webpack_require__(220);
+	var Shortcuts = __webpack_require__(221);
 
 	module.exports.registerModule = function registerModule(name, definition) {
 	  name = name.toLowerCase();
@@ -30640,7 +30811,7 @@
 	};
 
 /***/ }),
-/* 225 */
+/* 226 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30659,19 +30830,19 @@
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
-	var _PropertyRow = __webpack_require__(226);
+	var _PropertyRow = __webpack_require__(227);
 
 	var _PropertyRow2 = _interopRequireDefault(_PropertyRow);
 
-	var _Collapsible = __webpack_require__(237);
+	var _Collapsible = __webpack_require__(238);
 
 	var _Collapsible2 = _interopRequireDefault(_Collapsible);
 
-	var _clipboard = __webpack_require__(238);
+	var _clipboard = __webpack_require__(239);
 
 	var _clipboard2 = _interopRequireDefault(_clipboard);
 
-	var _component = __webpack_require__(236);
+	var _component = __webpack_require__(237);
 
 	var _Events = __webpack_require__(190);
 
@@ -30843,7 +31014,7 @@
 	exports.default = Component;
 
 /***/ }),
-/* 226 */
+/* 227 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30864,49 +31035,49 @@
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
-	var _lodash = __webpack_require__(213);
+	var _lodash = __webpack_require__(214);
 
 	var _lodash2 = _interopRequireDefault(_lodash);
 
-	var _BooleanWidget = __webpack_require__(227);
+	var _BooleanWidget = __webpack_require__(228);
 
 	var _BooleanWidget2 = _interopRequireDefault(_BooleanWidget);
 
-	var _ColorWidget = __webpack_require__(228);
+	var _ColorWidget = __webpack_require__(229);
 
 	var _ColorWidget2 = _interopRequireDefault(_ColorWidget);
 
-	var _InputWidget = __webpack_require__(229);
+	var _InputWidget = __webpack_require__(230);
 
 	var _InputWidget2 = _interopRequireDefault(_InputWidget);
 
-	var _NumberWidget = __webpack_require__(230);
+	var _NumberWidget = __webpack_require__(231);
 
 	var _NumberWidget2 = _interopRequireDefault(_NumberWidget);
 
-	var _SelectWidget = __webpack_require__(231);
+	var _SelectWidget = __webpack_require__(232);
 
 	var _SelectWidget2 = _interopRequireDefault(_SelectWidget);
 
-	var _TextureWidget = __webpack_require__(232);
+	var _TextureWidget = __webpack_require__(233);
 
 	var _TextureWidget2 = _interopRequireDefault(_TextureWidget);
 
-	var _Vec4Widget = __webpack_require__(233);
+	var _Vec4Widget = __webpack_require__(234);
 
 	var _Vec4Widget2 = _interopRequireDefault(_Vec4Widget);
 
-	var _Vec3Widget = __webpack_require__(234);
+	var _Vec3Widget = __webpack_require__(235);
 
 	var _Vec3Widget2 = _interopRequireDefault(_Vec3Widget);
 
-	var _Vec2Widget = __webpack_require__(235);
+	var _Vec2Widget = __webpack_require__(236);
 
 	var _Vec2Widget2 = _interopRequireDefault(_Vec2Widget);
 
-	var _entity = __webpack_require__(221);
+	var _entity = __webpack_require__(222);
 
-	var _component = __webpack_require__(236);
+	var _component = __webpack_require__(237);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -31040,7 +31211,7 @@
 	exports.default = PropertyRow;
 
 /***/ }),
-/* 227 */
+/* 228 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -31117,7 +31288,7 @@
 	exports.default = BooleanWidget;
 
 /***/ }),
-/* 228 */
+/* 229 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -31236,7 +31407,7 @@
 	exports.default = ColorWidget;
 
 /***/ }),
-/* 229 */
+/* 230 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -31308,7 +31479,7 @@
 	exports.default = InputWidget;
 
 /***/ }),
-/* 230 */
+/* 231 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -31489,7 +31660,7 @@
 	exports.default = NumberWidget;
 
 /***/ }),
-/* 231 */
+/* 232 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -31508,7 +31679,7 @@
 
 	var _reactSelect2 = _interopRequireDefault(_reactSelect);
 
-	__webpack_require__(206);
+	__webpack_require__(207);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -31591,7 +31762,7 @@
 	exports.default = SelectWidget;
 
 /***/ }),
-/* 232 */
+/* 233 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -31610,7 +31781,7 @@
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
-	var _inspector = __webpack_require__(210);
+	var _inspector = __webpack_require__(211);
 
 	var _inspector2 = _interopRequireDefault(_inspector);
 
@@ -31856,7 +32027,7 @@
 	exports.default = TextureWidget;
 
 /***/ }),
-/* 233 */
+/* 234 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -31877,7 +32048,7 @@
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
-	var _NumberWidget = __webpack_require__(230);
+	var _NumberWidget = __webpack_require__(231);
 
 	var _NumberWidget2 = _interopRequireDefault(_NumberWidget);
 
@@ -31953,7 +32124,7 @@
 	exports.default = Vec4Widget;
 
 /***/ }),
-/* 234 */
+/* 235 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -31974,7 +32145,7 @@
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
-	var _NumberWidget = __webpack_require__(230);
+	var _NumberWidget = __webpack_require__(231);
 
 	var _NumberWidget2 = _interopRequireDefault(_NumberWidget);
 
@@ -32048,7 +32219,7 @@
 	exports.default = Vec3Widget;
 
 /***/ }),
-/* 235 */
+/* 236 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -32069,7 +32240,7 @@
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
-	var _NumberWidget = __webpack_require__(230);
+	var _NumberWidget = __webpack_require__(231);
 
 	var _NumberWidget2 = _interopRequireDefault(_NumberWidget);
 
@@ -32141,7 +32312,7 @@
 	exports.default = Vec2Widget;
 
 /***/ }),
-/* 236 */
+/* 237 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -32157,7 +32328,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _utils = __webpack_require__(216);
+	var _utils = __webpack_require__(217);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -32234,7 +32405,7 @@
 	}
 
 /***/ }),
-/* 237 */
+/* 238 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -32333,12 +32504,12 @@
 	exports.default = Collapsible;
 
 /***/ }),
-/* 238 */
+/* 239 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function (global, factory) {
 	    if (true) {
-	        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [module, __webpack_require__(239), __webpack_require__(241), __webpack_require__(242)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [module, __webpack_require__(240), __webpack_require__(242), __webpack_require__(243)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 	    } else if (typeof exports !== "undefined") {
 	        factory(module, require('./clipboard-action'), require('tiny-emitter'), require('good-listener'));
 	    } else {
@@ -32545,12 +32716,12 @@
 	});
 
 /***/ }),
-/* 239 */
+/* 240 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function (global, factory) {
 	    if (true) {
-	        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [module, __webpack_require__(240)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [module, __webpack_require__(241)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 	    } else if (typeof exports !== "undefined") {
 	        factory(module, require('select'));
 	    } else {
@@ -32779,7 +32950,7 @@
 	});
 
 /***/ }),
-/* 240 */
+/* 241 */
 /***/ (function(module, exports) {
 
 	function select(element) {
@@ -32828,7 +32999,7 @@
 
 
 /***/ }),
-/* 241 */
+/* 242 */
 /***/ (function(module, exports) {
 
 	function E () {
@@ -32900,11 +33071,11 @@
 
 
 /***/ }),
-/* 242 */
+/* 243 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	var is = __webpack_require__(243);
-	var delegate = __webpack_require__(244);
+	var is = __webpack_require__(244);
+	var delegate = __webpack_require__(245);
 
 	/**
 	 * Validates all params and calls the right
@@ -33001,7 +33172,7 @@
 
 
 /***/ }),
-/* 243 */
+/* 244 */
 /***/ (function(module, exports) {
 
 	/**
@@ -33056,10 +33227,10 @@
 
 
 /***/ }),
-/* 244 */
+/* 245 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	var closest = __webpack_require__(245);
+	var closest = __webpack_require__(246);
 
 	/**
 	 * Delegates event to a selector.
@@ -33071,7 +33242,7 @@
 	 * @param {Boolean} useCapture
 	 * @return {Object}
 	 */
-	function delegate(element, selector, type, callback, useCapture) {
+	function _delegate(element, selector, type, callback, useCapture) {
 	    var listenerFn = listener.apply(this, arguments);
 
 	    element.addEventListener(type, listenerFn, useCapture);
@@ -33081,6 +33252,40 @@
 	            element.removeEventListener(type, listenerFn, useCapture);
 	        }
 	    }
+	}
+
+	/**
+	 * Delegates event to a selector.
+	 *
+	 * @param {Element|String|Array} [elements]
+	 * @param {String} selector
+	 * @param {String} type
+	 * @param {Function} callback
+	 * @param {Boolean} useCapture
+	 * @return {Object}
+	 */
+	function delegate(elements, selector, type, callback, useCapture) {
+	    // Handle the regular Element usage
+	    if (typeof elements.addEventListener === 'function') {
+	        return _delegate.apply(null, arguments);
+	    }
+
+	    // Handle Element-less usage, it defaults to global delegation
+	    if (typeof type === 'function') {
+	        // Use `document` as the first parameter, then apply arguments
+	        // This is a short way to .unshift `arguments` without running into deoptimizations
+	        return _delegate.bind(null, document).apply(null, arguments);
+	    }
+
+	    // Handle Selector-based usage
+	    if (typeof elements === 'string') {
+	        elements = document.querySelectorAll(elements);
+	    }
+
+	    // Handle Array-like based usage
+	    return Array.prototype.map.call(elements, function (element) {
+	        return _delegate(element, selector, type, callback, useCapture);
+	    });
 	}
 
 	/**
@@ -33106,7 +33311,7 @@
 
 
 /***/ }),
-/* 245 */
+/* 246 */
 /***/ (function(module, exports) {
 
 	var DOCUMENT_NODE_TYPE = 9;
@@ -33145,7 +33350,7 @@
 
 
 /***/ }),
-/* 246 */
+/* 247 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -33164,35 +33369,35 @@
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
-	var _widgets = __webpack_require__(247);
+	var _widgets = __webpack_require__(248);
 
-	var _DefaultComponents = __webpack_require__(248);
+	var _DefaultComponents = __webpack_require__(249);
 
 	var _DefaultComponents2 = _interopRequireDefault(_DefaultComponents);
 
-	var _PropertyRow = __webpack_require__(226);
+	var _PropertyRow = __webpack_require__(227);
 
 	var _PropertyRow2 = _interopRequireDefault(_PropertyRow);
 
-	var _Collapsible = __webpack_require__(237);
+	var _Collapsible = __webpack_require__(238);
 
 	var _Collapsible2 = _interopRequireDefault(_Collapsible);
 
-	var _Mixins = __webpack_require__(249);
+	var _Mixins = __webpack_require__(250);
 
 	var _Mixins2 = _interopRequireDefault(_Mixins);
 
-	var _entity = __webpack_require__(221);
+	var _entity = __webpack_require__(222);
 
 	var _Events = __webpack_require__(190);
 
 	var _Events2 = _interopRequireDefault(_Events);
 
-	var _clipboard = __webpack_require__(238);
+	var _clipboard = __webpack_require__(239);
 
 	var _clipboard2 = _interopRequireDefault(_clipboard);
 
-	var _utils = __webpack_require__(216);
+	var _utils = __webpack_require__(217);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -33328,25 +33533,25 @@
 	exports.default = CommonComponents;
 
 /***/ }),
-/* 247 */
+/* 248 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
 	module.exports = {
-	  BooleanWidget: __webpack_require__(227).default,
-	  ColorWidget: __webpack_require__(228).default,
-	  InputWidget: __webpack_require__(229).default,
-	  NumberWidget: __webpack_require__(230).default,
-	  SelectWidget: __webpack_require__(231).default,
-	  TextureWidget: __webpack_require__(232).default,
-	  Vec4Widget: __webpack_require__(233).default,
-	  Vec3Widget: __webpack_require__(234).default,
-	  Vec2Widget: __webpack_require__(235).default
+	  BooleanWidget: __webpack_require__(228).default,
+	  ColorWidget: __webpack_require__(229).default,
+	  InputWidget: __webpack_require__(230).default,
+	  NumberWidget: __webpack_require__(231).default,
+	  SelectWidget: __webpack_require__(232).default,
+	  TextureWidget: __webpack_require__(233).default,
+	  Vec4Widget: __webpack_require__(234).default,
+	  Vec3Widget: __webpack_require__(235).default,
+	  Vec2Widget: __webpack_require__(236).default
 	};
 
 /***/ }),
-/* 248 */
+/* 249 */
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -33357,7 +33562,7 @@
 	exports.default = ['visible', 'position', 'scale', 'rotation'];
 
 /***/ }),
-/* 249 */
+/* 250 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -33515,7 +33720,7 @@
 	exports.default = Mixin;
 
 /***/ }),
-/* 250 */
+/* 251 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -33538,15 +33743,15 @@
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
-	var _Modal = __webpack_require__(251);
+	var _Modal = __webpack_require__(252);
 
 	var _Modal2 = _interopRequireDefault(_Modal);
 
-	var _inspector = __webpack_require__(210);
+	var _inspector = __webpack_require__(211);
 
 	var _inspector2 = _interopRequireDefault(_inspector);
 
-	var _uploadcare = __webpack_require__(252);
+	var _uploadcare = __webpack_require__(253);
 
 	var _uploadcare2 = _interopRequireDefault(_uploadcare);
 
@@ -33561,7 +33766,7 @@
 	/* global uploadcare */
 	window.UPLOADCARE_PUBLIC_KEY = 'f43ad452b58f9e853d05';
 
-	var insertNewAsset = __webpack_require__(253).insertNewAsset;
+	var insertNewAsset = __webpack_require__(254).insertNewAsset;
 
 
 	function getFilename(url) {
@@ -34084,7 +34289,7 @@
 	exports.default = ModalTextures;
 
 /***/ }),
-/* 251 */
+/* 252 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -34226,7 +34431,7 @@
 	exports.default = Modal;
 
 /***/ }),
-/* 252 */
+/* 253 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -34236,7 +34441,7 @@
 	});
 	exports.default = initUploadCare;
 
-	var _utils = __webpack_require__(216);
+	var _utils = __webpack_require__(217);
 
 	function initUploadCare() {
 	  window.UPLOADCARE_PUBLIC_KEY = 'f43ad452b58f9e853d05';
@@ -34246,7 +34451,7 @@
 	}
 
 /***/ }),
-/* 253 */
+/* 254 */
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -34280,7 +34485,7 @@
 	};
 
 /***/ }),
-/* 254 */
+/* 255 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -34299,7 +34504,7 @@
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
-	var _Modal = __webpack_require__(251);
+	var _Modal = __webpack_require__(252);
 
 	var _Modal2 = _interopRequireDefault(_Modal);
 
@@ -34392,7 +34597,7 @@
 	exports.default = ModalHelp;
 
 /***/ }),
-/* 255 */
+/* 256 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -34415,13 +34620,13 @@
 
 	var _classnames2 = _interopRequireDefault(_classnames);
 
-	var _lodash = __webpack_require__(213);
+	var _lodash = __webpack_require__(214);
 
 	var _lodash2 = _interopRequireDefault(_lodash);
 
-	var _entity = __webpack_require__(221);
+	var _entity = __webpack_require__(222);
 
-	var _Toolbar = __webpack_require__(256);
+	var _Toolbar = __webpack_require__(257);
 
 	var _Toolbar2 = _interopRequireDefault(_Toolbar);
 
@@ -34461,7 +34666,10 @@
 	        var element = _this.state.options[i];
 	        if (element.value === value) {
 	          _this.setState({ value: value, selectedIndex: i });
-
+	          if (_this.state.filterText.length > 0) {
+	            // If we were filtering when we selected it then make sure its not under collapsed node in scenegraph
+	            _this.expandToRoot(element.value);
+	          }
 	          if (_this.props.onChange) {
 	            _this.props.onChange(value);
 	          }
@@ -34481,18 +34689,14 @@
 	    };
 
 	    _this.rebuildOptions = function () {
-	      var options = [{ static: true, value: _this.props.scene, tagName: 'a-scene', hasChildren: true }];
+	      var options = [{ static: true, value: _this.props.scene, tagName: 'a-scene', hasChildren: true, depth: 0 }];
 
 	      function treeIterate(element, depth) {
 	        if (!element) {
 	          return;
 	        }
+	        depth += 1;
 
-	        if (depth === undefined) {
-	          depth = 1;
-	        } else {
-	          depth += 1;
-	        }
 	        var children = element.children;
 	        for (var i = 0; i < children.length; i++) {
 	          var child = children[i];
@@ -34536,7 +34740,8 @@
 	          }
 	        }
 	      }
-	      treeIterate(_this.props.scene);
+	      treeIterate(_this.props.scene, 0);
+
 	      _this.setState({ options: options });
 	    };
 
@@ -34591,6 +34796,24 @@
 	      entity.setAttribute('visible', !visible);
 	    };
 
+	    _this.isExpanded = function (x) {
+	      return _this.state.expandedElements.get(x) === true;
+	    };
+
+	    _this.toggleExpandedCollapsed = function (x) {
+	      _this.setState({ expandedElements: _this.state.expandedElements.set(x, !_this.isExpanded(x)) });
+	    };
+
+	    _this.expandToRoot = function (x) {
+	      // Expand element all the way to the scene element
+	      var curr = x;
+	      while (curr !== undefined && curr.isEntity) {
+	        _this.state.expandedElements.set(curr, true);
+	        curr = curr.parentEl;
+	      }
+	      _this.setState({ expandedElements: _this.state.expandedElements });
+	    };
+
 	    _this.onChangeFilter = function (e) {
 	      _this.setState({ filterText: e.target.value });
 	      gaTrackSearchEntity();
@@ -34604,7 +34827,8 @@
 	      value: _this.props.value || '',
 	      options: [],
 	      selectedIndex: -1,
-	      filterText: ''
+	      filterText: '',
+	      expandedElements: new WeakMap([[props.scene, true]])
 	    };
 	    return _this;
 	  }
@@ -34636,6 +34860,9 @@
 	      var _this3 = this;
 
 	      var filterText = this.state.filterText.toUpperCase();
+	      var currentMaxDepth = 0;
+	      var isFiltering = filterText.length > 0;
+
 	      return this.state.options.filter(function (option, idx) {
 	        var value = option.value;
 	        // Check if the ID or the tagName includes the filterText
@@ -34661,6 +34888,17 @@
 
 	        return false;
 	      }).map(function (option, idx) {
+	        // Check that our current depth doesn't exceed a limit set by a collapsed element
+	        if (option.depth > currentMaxDepth) {
+	          return null;
+	        }
+	        var isExpanded = _this3.isExpanded(option.value) || isFiltering; // If searching expand everything
+	        if (isExpanded) {
+	          currentMaxDepth = option.depth + 1;
+	        } else {
+	          currentMaxDepth = option.depth;
+	        }
+
 	        var cloneButton = _react2.default.createElement('a', { onClick: function onClick() {
 	            return _this3.cloneEntity(option.value);
 	          },
@@ -34676,8 +34914,17 @@
 	        }
 
 	        var pad = '    '.repeat(option.depth);
-	        // const collapse = option.hasChildren ? <span className="collasespace fa fa-caret-down"></span> : <span className="collasespace"></span>;
-	        var collapse = null;
+	        var collapse = void 0;
+	        if (option.hasChildren && !isFiltering) {
+	          var expandedElements = _this3.state.expandedElements;
+	          collapse = _react2.default.createElement('span', {
+	            onClick: function onClick() {
+	              return _this3.toggleExpandedCollapsed(option.value);
+	            },
+	            className: 'collasespace fa ' + (isExpanded ? 'fa-caret-down' : 'fa-caret-right') });
+	        } else {
+	          collapse = _react2.default.createElement('span', { className: 'collasespace' });
+	        }
 	        var entity = option.value;
 	        var visible = entity.tagName.toLowerCase() === 'a-scene' ? entity.object3D.visible : entity.getAttribute('visible');
 	        var visibility = _react2.default.createElement('i', { title: 'Toggle entity visibility', className: 'fa ' + (visible ? 'fa-eye' : 'fa-eye-slash'),
@@ -34707,9 +34954,10 @@
 	            null,
 	            visibility,
 	            ' ',
-	            collapse,
 	            pad,
-	            ' <',
+	            ' ',
+	            collapse,
+	            '<',
 	            option.tagName,
 	            _react2.default.createElement(
 	              'span',
@@ -34782,7 +35030,7 @@
 	exports.default = SceneGraph;
 
 /***/ }),
-/* 256 */
+/* 257 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -34797,19 +35045,19 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _clipboard = __webpack_require__(238);
+	var _clipboard = __webpack_require__(239);
 
 	var _clipboard2 = _interopRequireDefault(_clipboard);
 
-	var _exporter = __webpack_require__(257);
+	var _exporter = __webpack_require__(258);
 
 	var _Events = __webpack_require__(190);
 
 	var _Events2 = _interopRequireDefault(_Events);
 
-	var _utils = __webpack_require__(216);
+	var _utils = __webpack_require__(217);
 
-	var _MotionCapture = __webpack_require__(258);
+	var _MotionCapture = __webpack_require__(259);
 
 	var _MotionCapture2 = _interopRequireDefault(_MotionCapture);
 
@@ -34821,7 +35069,7 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var INSPECTOR = __webpack_require__(210);
+	var INSPECTOR = __webpack_require__(211);
 
 
 	var LOCALSTORAGE_MOCAP_UI = 'aframeinspectormocapuienabled';
@@ -34929,7 +35177,7 @@
 	exports.default = Toolbar;
 
 /***/ }),
-/* 257 */
+/* 258 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -34940,9 +35188,9 @@
 	exports.getSceneName = getSceneName;
 	exports.generateHtml = generateHtml;
 
-	var _entity = __webpack_require__(221);
+	var _entity = __webpack_require__(222);
 
-	var INSPECTOR = __webpack_require__(210);
+	var INSPECTOR = __webpack_require__(211);
 
 	/**
 	 * Get scene name
@@ -35030,7 +35278,7 @@
 	}
 
 /***/ }),
-/* 258 */
+/* 259 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -35051,9 +35299,9 @@
 
 	var _reactSelect2 = _interopRequireDefault(_reactSelect);
 
-	__webpack_require__(206);
+	__webpack_require__(207);
 
-	var _reactFileReaderInput = __webpack_require__(259);
+	var _reactFileReaderInput = __webpack_require__(260);
 
 	var _reactFileReaderInput2 = _interopRequireDefault(_reactFileReaderInput);
 
@@ -35721,7 +35969,7 @@
 	exports.default = MotionCapture;
 
 /***/ }),
-/* 259 */
+/* 260 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -35874,7 +36122,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 260 */
+/* 261 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -35982,16 +36230,16 @@
 	exports.default = Toolbar;
 
 /***/ }),
-/* 261 */
+/* 262 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(262);
+	var content = __webpack_require__(263);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(209)(content, {});
+	var update = __webpack_require__(210)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -36008,21 +36256,21 @@
 	}
 
 /***/ }),
-/* 262 */
+/* 263 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(208)();
+	exports = module.exports = __webpack_require__(209)();
 	// imports
 
 
 	// module
-	exports.push([module.id, "body.aframe-inspector-opened,\n.toggle-edit {\n  font-family: BlinkMacSystemFont, -apple-system, \"Segoe UI\", Helvetica, Arial, sans-serif;\n}\n\n.wf-roboto-n4-active body.aframe-inspector-opened,\n.wf-roboto-n4-active .toggle-edit {\n  font-family: Roboto, BlinkMacSystemFont, -apple-system, \"Segoe UI\", Helvetica, Arial, sans-serif;\n}\n\n.Select,\ncode,\npre,\ninput,\ntextarea,\nselect {\n  font-family: Consolas, Andale Mono, Monaco, Courier New, monospace;\n}\n\n.wf-robotomono-n4-active .Select,\n.wf-robotomono-n4-active code,\n.wf-robotomono-n4-active pre,\n.wf-robotomono-n4-active input,\n.wf-robotomono-n4-active textarea,\n.wf-robotomono-n4-active select {\n  font-family: Roboto Mono, Consolas, Andale Mono, Monaco, Courier New, monospace;\n}\n\nbody.aframe-inspector-opened {\n  color: #fff;\n  font-size: 12px;\n  margin: 0;\n  overflow: hidden;\n}\n\nhr {\n  border: 0;\n  border-top: 1px solid #ccc;\n}\n\na {\n  cursor: pointer;\n}\n\nbutton {\n  position: relative;\n}\n\ncode {\n  font-family: Consolas, Andale Mono, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;\n}\n\ntextarea {\n  -moz-tab-size: 4;\n    -o-tab-size: 4;\n       tab-size: 4;\n  white-space: pre;\n  word-wrap: normal;\n}\n\ntextarea.success {\n  border-color: #8b8 !important;\n}\n\ntextarea.fail {\n  background-color: rgba(255, 0, 0, 0.05);\n  border-color: #f00 !important;\n}\n\ntextarea,\ninput {\n  outline: none; /* osx */\n}\n\n#left-sidebar,\n#right-panels {\n  z-index: 9998;\n}\n\n#sidebar,\n#left-sidebar,\n.panel {\n  cursor: default;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n}\n\n.collapsible .static {\n  margin: 0;\n}\n\n.collapsible .static .collapse-button {\n  border: 6px solid transparent;\n  float: left;\n  height: 0;\n  margin-right: 6px;\n  width: 0;\n}\n\n.collapsible.collapsed .static .collapse-button {\n  border-left-color: #1faaf2;\n  margin-top: 2px;\n}\n\n.collapsible:not(.collapsed) .static .collapse-button {\n  border-top-color: #1faaf2;\n  margin-top: 6px;\n}\n\n.collapsible.collapsed .content {\n  display: none;\n}\n\n.toggle-edit {\n  background-color: #ed3160;\n  color: #fff;\n  font-size: 12px;\n  left: 3px;\n  margin: 0;\n  padding: 6px 10px;\n  position: fixed;\n  text-align: center;\n  text-decoration: none;\n  top: 3px;\n  width: 204px;\n  z-index: 99999;\n}\n\n.toggle-edit:hover {\n  background-color: rgb(228, 43, 90);\n}\n\n.scenegraph {\n  border-top: 1px solid #111;\n  padding-top: 32px;\n}\n\n.scenegraph .search {\n  padding: 5px;\n}\n\n.scenegraph-toolbar {\n  background-color: #333;\n}\n\n.scenegraph-actions {\n  padding: 9px 0 5px;\n}\n\n.search {\n  color: #aaa;\n  font-size: 16px;\n  position: relative;\n}\n\n.search input {\n  background: #222;\n  border-radius: 5px;\n  height: 22px;\n  text-indent: 10px;\n  width: 216px;\n}\n\n.search .fa-search {\n  position: absolute;\n  right: 11px;\n  top: 10px;\n}\n\n.search .fa-times {\n  position: absolute;\n  right: 32px;\n  top: 10px;\n}\n\ninput {\n  background-color: transparent;\n  border: 1px solid #555;\n  color: #fff;\n}\n\ninput,\n.texture canvas {\n  transition: 0.1s background-color ease-in-out, 0.1s border-color ease-in-out, 0.1s color ease-in-out;\n}\n\ninput[type=text],\ninput[type=number],\ninput.string,\ninput.number {\n  min-height: 14px;\n  outline: none;\n}\n\ninput.number {\n  background-color: transparent !important;\n  border: 0;\n  color: #20b1fb !important;\n  cursor: col-resize;\n  font-size: 12px;\n  padding: 2px;\n}\n\ninput.string:focus,\ninput.number:focus {\n  border: 1px solid #20b1fb;\n  color: #fff;\n  cursor: auto;\n}\n\ninput.error {\n  border: 1px solid #a00;\n}\n\n#left-sidebar {\n  background: #2b2b2b;\n  bottom: 0;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  left: 0;\n  overflow: auto;\n  position: fixed;\n  top: 0;\n  width: 230px;\n}\n\n#sidebar {\n  background: #2b2b2b;\n  width: 331px;\n}\n\n#sidebar * {\n  vertical-align: middle;\n}\n\ninput,\ntextarea,\nselect {\n  background: #222;\n  border: 1px solid transparent;\n  color: #888;\n}\n\n.row {\n  margin-bottom: 10px;\n  min-height: 20px;\n}\n\ninput[type=color] {\n  background-color: #333;\n  border: 1px solid #111;\n  cursor: pointer;\n}\n\n.texture canvas {\n  border: 1px solid #222;\n  cursor: pointer;\n}\n\n.texture canvas:hover {\n  border-color: #1faaf2;\n}\n\ninput[type=color] {\n  cursor: pointer;\n  height: 16px;\n  padding: 0;\n  width: 64px;\n}\n\n/* Note: these vendor-prefixed selectors cannot be grouped! */\n\ninput[type=color]::-webkit-color-swatch {\n  border: 0;  /* To remove the gray border. */\n}\n\ninput[type=color]::-webkit-color-swatch-wrapper {\n  padding: 0;  /* To remove the inner padding. */\n}\n\ninput[type=color]::-moz-color-swatch {\n  border: 0;\n}\n\ninput[type=color]::-moz-focus-inner {\n  border: 0;  /* To remove the inner border (specific to Firefox). */\n  padding: 0;\n}\n\n.components {\n  background-color: #323232;\n  color: #bcbcbc;\n  height: 100%;\n  overflow: auto;\n  position: fixed;\n  width: 331px;\n}\n\ndiv.vec2,\ndiv.vec3,\ndiv.vec4 {\n  display: inline;\n}\n\n.vec2 input.number,\n.vec3 input.number {\n  width: 46px;\n}\n\n.vec4 input.number {\n  width: 34px;\n}\n\n.collapsible-header {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n}\n\n.component-title span {\n  float: left;\n  max-width: 110px;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  text-transform: uppercase;\n  white-space: nowrap;\n}\n\n.collapsible .static {\n  background-color: #323232;\n  border-bottom: 1px solid #262626;\n  border-top: 1px solid #262626;\n  color: #fff;\n  height: 16px;\n  padding: 10px;\n  vertical-align: middle;\n}\n\n.collapsible .menu {\n  text-align: right;\n}\n\n.collapsible .menu::after {\n  color: #bbb;\n  content: '\\2807';\n  font-size: 12px;\n  padding: 5px;\n  text-align: right;\n}\n\n.collapsible .static .collapse-button {\n  border-left: 5px solid transparent;\n  border-right: 5px solid transparent;\n  float: left;\n  height: 0;\n  margin-right: 10px;\n  margin-top: 2px;\n  width: 0;\n}\n\n.collapsible.collapsed .static .collapse-button {\n  border-left-color: #bbb;\n}\n\n.collapsible:not(.collapsed) .static .collapse-button {\n  border-top-color: #bbb;\n}\n\n.collapsible .content {\n  background-color: #2b2b2b;\n  padding: 10px;\n}\n\n.components .row {\n  margin-bottom: 10px;\n  min-height: 20px;\n}\n\n.components * {\n  vertical-align: middle;\n}\n\n.components .row .text {\n  cursor: default;\n  display: inline-block;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  vertical-align: middle;\n  width: 120px;\n}\n\n.components .row .map_value {\n  margin: 0 0 0 5px;\n  width: 68px;\n}\n\n.hidden {\n  visibility: hidden;\n}\n\n.uploader-normal-button .hidden {\n  display: none;\n}\n\n.texture canvas + input {\n  margin-left: 5px;\n}\n\n.texture .fa {\n  padding-right: 5px;\n}\n\n.texture .fa-external-link {\n  font-size: 14px;\n  padding-top: 2px;\n}\n\n.scenegraph-bottom {\n  background-color: #323232;\n  border-top: 1px solid #111;\n  bottom: 10;\n  height: 40px;\n  left: 0;\n  z-index: 100;\n}\n\na.button {\n  color: #bcbcbc;\n  font-size: 16px;\n  margin-left: 10px;\n  text-decoration: none;\n}\n\na.button:hover {\n  color: #1faaf2;\n}\n\n.scenegraph-bottom a {\n  float: right;\n  margin: 10px;\n}\n\n.modal {\n  -webkit-animation: animateopacity 0.2s ease-out;\n          animation: animateopacity 0.2s ease-out;\n  background-color: rgb(0, 0, 0);\n  background-color: rgba(0, 0, 0, 0.6);\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  height: 100%;\n  left: 0;\n  overflow: auto;\n  position: fixed;\n  top: 0;\n  width: 100%;\n  z-index: 9999;\n}\n\n.modal h3 {\n  font-size: 18px;\n  font-weight: 100;\n  margin: 0.6em 0;\n}\n\n#texture-modal .modal-content {\n  height: calc(100% - 50px);\n  width: calc(100% - 50px);\n}\n\n.modal-content {\n  -webkit-animation: animatetop 0.2s ease-out;\n          animation: animatetop 0.2s ease-out;\n  -webkit-animation-duration: 0.2s;\n          animation-duration: 0.2s;\n  -webkit-animation-name: animatetop;\n          animation-name: animatetop;\n  background-color: #232323;\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);\n  margin: auto;\n  overflow: hidden;\n  padding: 0;\n}\n\n@-webkit-keyframes animateopacity {\n  from { opacity: 0; }\n  to { opacity: 1; }\n}\n\n@keyframes animateopacity {\n  from { opacity: 0; }\n  to { opacity: 1; }\n}\n\n.close {\n  color: white;\n  float: right;\n  font-size: 28px;\n  font-weight: bold;\n}\n\n.close:hover,\n.close:focus {\n  color: #08f;\n  cursor: pointer;\n  text-decoration: none;\n}\n\n.modal-header {\n  color: white;\n  padding: 2px 16px;\n}\n\n.modal-body {\n  overflow: auto;\n  padding: 16px;\n}\n\n.modal-footer {\n  color: white;\n  padding: 2px 16px;\n}\n\n/* Gallery */\n\n.gallery {\n  background: #232323;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-wrap: wrap;\n      flex-wrap: wrap;\n  margin: 15px auto 0;\n  max-height: 50vh;\n  overflow: auto;\n  padding: 15px 3px 3px;\n}\n\n.newimage .gallery {\n  padding: 16px;\n}\n\n.gallery li {\n  border-radius: 2px;\n  box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);\n  cursor: pointer;\n  margin: 8px;\n  overflow: hidden;\n  width: 155px;\n}\n\n.gallery li.selected,\n.gallery li:hover {\n  box-shadow: 0 0 0 2px #1eaaf1;\n}\n\n.gallery li .detail {\n  background-color: #323232;\n  margin: 0;\n  min-height: 60px;\n  padding: 3px 10px;\n}\n\n.gallery li .button.fa-external-link {\n  margin-left: 136px;\n  margin-top: 5px;\n  position: fixed;\n}\n\n.preview {\n  padding: 10px;\n  width: 150px;\n}\n\n.preview input {\n  display: block;\n  margin: 8px 0;\n  width: 144px;\n}\n\n.preview button {\n  width: 155px;\n}\n\n.preview .detail .title {\n  color: #fff;\n  display: inline-block;\n  max-width: 155px;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n}\n\n.gallery li.selected .detail,\n.gallery li:hover .detail {\n  background-color: #444;\n}\n\n.gallery li .detail span {\n  color: #777;\n  display: block;\n  margin-top: 4px;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  width: 140px;\n}\n\n.gallery li.selected .detail span,\n.gallery li:hover .detail span {\n  color: #888;\n}\n\n.gallery li .detail span.title {\n  color: #fff !important;\n}\n\n.modal button {\n  -webkit-appearance: none;\n     -moz-appearance: none;\n          appearance: none;\n  border-radius: 0;\n  box-shadow: none;\n  cursor: pointer;\n  display: inline-block;\n  font-size: 12px;\n  line-height: 1.8;\n  margin: 0 10px 0 0;\n  padding: 5px 10px;\n}\n\n.modal button:focus {\n  outline: none;\n}\n\n.modal button {\n  background-color: #1eaaf1;\n  border: none;\n  color: #fff;\n}\n\n.modal button:hover,\n.modal button.hover {\n  background-color: #346392;\n  text-shadow: -1px 1px #27496d;\n}\n\n.modal button:active,\n.modal button.active {\n  background-color: #27496d;\n  text-shadow: -1px 1px #193047;\n}\n\n.modal button:disabled {\n  background-color: #888;\n  cursor: none;\n}\n\n.newimage {\n  background-color: #323232;\n  color: #bcbcbc;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  font-size: 13px;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  margin-top: 10px;\n  overflow: auto;\n  padding: 10px;\n}\n\n.newimage input {\n  color: #1eaaf1;\n  padding: 3px 5px;\n}\n\n.hide {\n  display: none;\n}\n\nspan.value {\n  color: #fff;\n  display: inline-block;\n}\n\nspan.mixinlist {\n  color: #888 !important;\n  display: inline-block;\n}\n\nspan.mixinlist ul {\n  background-color: #222;\n  list-style-type: none;\n  margin: 5px 0 0;\n  padding: 5px;\n}\n\nspan.mixinlist ul li {\n  font-size: 11px;\n  margin-bottom: 3px;\n}\n\nspan.mixinlist ul li:last-child {\n  margin-bottom: 0;\n}\n\nspan.mixin {\n  display: inline-block;\n  width: 100px;\n}\n\n.mixinlist {\n  margin-left: 120px;\n}\n\nspan.subcomponent {\n  color: #999;\n  float: none !important;\n  margin-left: 10px;\n  vertical-align: top !important;\n}\n\n.collapsible .static {\n  cursor: pointer;\n}\n\n.a-canvas.state-dragging {\n  cursor: -webkit-grabbing;\n  cursor: grabbing;\n}\n\n.tagName {\n  font-weight: 500;\n}\n\n.sidebar-title {\n  background-color: #444;\n  color: #aaa;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  font-size: 12px;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  padding: 6px 10px;\n  position: relative;\n  text-align: center;\n}\n\n.toolbar {\n  background-color: #262626;\n  color: #333;\n  height: 32px;\n  position: relative;\n}\n\n.toolbar * {\n  margin-left: 0;\n  padding: 8px;\n  vertical-align: middle;\n}\n\n.toolbar a.button {\n  margin: 0 6px 0 0;\n}\n\n.toolbar .active {\n  background-color: #1faaf2;\n  color: #fff;\n}\n\n.toolbar .active:hover {\n  color: #fff !important;\n}\n\n.local-transform {\n  padding-left: 10px;\n}\n\n.local-transform label {\n  color: #aaa;\n  padding-left: 5px;\n}\n\n.local-transform a.button {\n  padding-top: 0;\n}\n\n.outliner {\n  background: #2b2b2b;\n  color: #868686;\n  cursor: default;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 auto;\n          flex: 1 1 auto;\n  font-size: 12px;\n  height: calc(100% - 98px);\n  outline: none;\n  overflow-y: auto;\n  padding: 0;\n  width: 230px;\n}\n\n.outliner .option {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  padding: 4px;\n  white-space: nowrap;\n}\n\n.outliner .option.active {\n  background-color: #1faaf2;\n  color: #fff;\n}\n\n.outliner .option .component:hover {\n  color: #1faaf2;\n}\n\n.outliner .option.active .component:hover {\n  color: #1888c1;\n}\n\n.outliner .option .icons {\n  display: none;\n  margin: 0 3px 0 10px;\n}\n\n.outliner .option .icons .button {\n  color: #fff;\n  font-size: 12px;\n}\n\n.outliner .option.active .icons {\n  display: inline;\n}\n\n.outliner .fa {\n  color: #aaa;\n}\n\n.outliner .active .fa {\n  color: #fff;\n}\n\na.flat-button {\n  background-color: #262626;\n  color: #bcbcbc;\n  font-size: 11px;\n  margin-left: 10px;\n  padding: 5px;\n  text-decoration: none;\n}\n\na.flat-button:hover {\n  color: #1faaf2;\n}\n\n.component-title {\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n}\n\na.help-link {\n  opacity: 0.4;\n}\n\na.help-link:hover {\n  opacity: 1;\n}\n\n#right-panels {\n  -webkit-box-align: stretch;\n      -ms-flex-align: stretch;\n          align-items: stretch;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: end;\n      -ms-flex-pack: end;\n          justify-content: flex-end;\n  position: fixed;\n  right: 0;\n  top: 0;\n}\n\n#aframe-inspector-panels {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n}\n\n.aframe-inspector-opened a-scene .a-canvas {\n  background-color: #191919;\n  z-index: 9998;\n}\n\n.uploadcare-widget-button-open {\n  background-color: #1eaaf1;\n  border-radius: 0;\n  cursor: pointer;\n  margin-left: 10px;\n  padding: 10px 15px;\n}\n\n.uploadcare-widget-button-open:hover {\n  background-color: #346392;\n}\n\n.new_asset_options {\n  margin: 10px;\n}\n\n.new_asset_options > ul {\n  margin-left: 10px;\n  padding: 5px;\n}\n\n.new_asset_options > ul > li {\n  padding: 10px 0;\n}\n\n.new_asset_options .imageUrl {\n  margin-left: 5px;\n  width: 350px;\n}\n\nspan.entity-name {\n  color: #fff;\n  font-family: Consolas, Andale Mono, Monaco, Courier New, monospace;\n  font-size: 16px;\n}\n\n.add-component {\n  width: 200px;\n}\n\n.Select-control {\n  background-color: #222 !important;\n  border: none;\n  border-radius: 0;\n  color: #1faaf2;\n}\n\n.Select-menu-outer {\n  border: none;\n}\n\n.Select-menu-outer .is-focused {\n  background-color: #1faaf2 !important;\n  color: #fff;\n}\n\n.Select-option {\n  background-color: #222 !important;\n}\n\n.select-widget {\n  display: inline-block;\n  width: 157px;\n}\n\n.Select-placeholder,\n.Select--single > .Select-control .Select-value {\n  color: #1faaf2 !important;\n}\n\n.Select-value-label {\n  color: #1faaf2 !important;\n}\n\n.row .Select-control {\n  font-size: 11px;\n  height: 24px;\n}\n\n.row .Select-placeholder,\n.row .Select--single > .Select-control .Select-value {\n  line-height: 19px;\n}\n\n.row .Select-input {\n  height: 22px;\n}\n\n.row input[type=text],\n.row input[type=number],\n.row input.string,\n.row input.number {\n  background: #222;\n  border: 1px solid transparent;\n  color: #1faaf2;\n  min-height: 20px;\n  padding-left: 5px;\n  padding-right: 5px;\n}\n\n.row input.string {\n  box-sizing: border-box;\n  width: 165px;\n}\n\n.help-lists {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-pack: distribute;\n      justify-content: space-around;\n}\n\n.help-list {\n  list-style: none;\n  margin: 0;\n  padding: 0 0 10px;\n  width: 350px;\n}\n\n.help-list li {\n  margin-right: 40px;\n}\n\n.help-key-unit {\n  line-height: 1.8;\n  margin-right: 2em;\n  padding: 5px 0;\n}\n\n.help-key {\n  bottom: 2px;\n  margin-right: 4px;\n  min-width: 60px;\n  position: relative;\n}\n\n.help-key span {\n  background-color: #2e2e2e;\n  background-repeat: repeat-x;\n  border: 1px solid #666;\n  border-radius: 3px;\n  box-shadow: 0 0 5px #000;\n  color: #999;\n  display: inline-block;\n  font-size: 12px;\n  padding: 0 8px;\n  text-align: center;\n}\n\n.help-key-def {\n  color: #bbb;\n  display: inline-block;\n  margin-left: 1em;\n}\n\n.add-component {\n  text-align: left;\n}\n\n.add-component .option {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n}\n\n.add-component .option span {\n  color: #1faaf2;\n}\n\n.Select-menu-outer .is-focused span {\n  color: #fff;\n}\n\n.add-component-container {\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  background-color: #2b2b2b;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  padding: 10px;\n}\n\n.aregistry-button {\n  font-size: 12px;\n  margin-left: 10px;\n  padding: 8px;\n}\n\n.aregistry-button:hover {\n  background-color: #1faaf2;\n}\n\n.aregistry-button img {\n  height: 20px;\n  width: 20px;\n}\n\n.components .row .color_value {\n  margin: 0 0 0 5px;\n  width: 68px;\n}\n\n.assets.search {\n  margin-top: 10px;\n  width: 200px;\n}\n\n.assets.search .fa-search {\n  top: 7px;\n}\n\n.gallery a.fa.texture-link {\n  box-shadow: 0 0 14px -1px rgba(0, 0, 0, 0.75);\n  position: fixed;\n}\n\n.outliner .id {\n  color: #ccc;\n}\n\n.outliner .option.active .id {\n  color: #fff;\n}\n\n.outliner .collasespace {\n  color: #eee;\n  display: inline-block;\n  text-align: center;\n  width: 14px;\n}\n\n.outliner .fa-eye {\n  color: #bbb;\n}\n\n.outliner .option {\n  white-space: pre;\n}\n\n.option span:first-child {\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n\n.outliner .option.novisible span,\n.outliner .option.novisible .fa,\n.outliner .option.novisible .collasespace,\n.outliner .option.novisible .id {\n  color: #575757;\n}\n\n.outliner .option .icons a.button {\n  color: #fff;\n}\n\n.toggle-sidebar {\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  height: 100%;\n  position: absolute;\n  z-index: 9998;\n}\n\n.toggle-sidebar.left {\n  left: 0;\n}\n\n.toggle-sidebar.right {\n  right: 0;\n}\n\n.toggle-sidebar a {\n  background-color: #262626;\n  color: #bcbcbc;\n  padding: 5px;\n  z-index: 9998;\n}\n\n.toggle-sidebar a:hover {\n  background-color: #1faaf2;\n  color: #fff;\n}\n\n/* Dropdown menu */\n\n.dropbtn {\n  border: none;\n  color: white;\n  cursor: pointer;\n}\n\n.dropdown {\n  display: inline-block;\n  position: relative;\n}\n\n.dropdown-content {\n  background-color: #f9f9f9;\n  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);\n  display: none;\n  left: 8px;\n  min-width: 38px;\n  position: absolute;\n  z-index: 999;\n}\n\n.dropdown-content a {\n  background-color: #232323;\n  color: #7d7d7d;\n  display: block;\n  padding: 10px 14px;\n  text-decoration: none;\n}\n\n.dropdown-content a:hover {\n  background-color: #4ecbff;\n  color: #fff;\n}\n\n.dropdown:hover .dropdown-content {\n  display: block;\n}\n\n.dropdown:hover .dropbtn {\n  color: #1faaf2;\n}\n\n.savedRecordings {\n  display: inline-block;\n  margin-top: 10px;\n  vertical-align: middle;\n  width: 80%;\n}\n", ""]);
+	exports.push([module.id, "body.aframe-inspector-opened,\r\n.toggle-edit {\r\n  font-family: BlinkMacSystemFont, -apple-system, \"Segoe UI\", Helvetica, Arial, sans-serif;\r\n}\r\n\r\n.wf-roboto-n4-active body.aframe-inspector-opened,\r\n.wf-roboto-n4-active .toggle-edit {\r\n  font-family: Roboto, BlinkMacSystemFont, -apple-system, \"Segoe UI\", Helvetica, Arial, sans-serif;\r\n}\r\n\r\n.Select,\r\ncode,\r\npre,\r\ninput,\r\ntextarea,\r\nselect {\r\n  font-family: Consolas, Andale Mono, Monaco, Courier New, monospace;\r\n}\r\n\r\n.wf-robotomono-n4-active .Select,\r\n.wf-robotomono-n4-active code,\r\n.wf-robotomono-n4-active pre,\r\n.wf-robotomono-n4-active input,\r\n.wf-robotomono-n4-active textarea,\r\n.wf-robotomono-n4-active select {\r\n  font-family: Roboto Mono, Consolas, Andale Mono, Monaco, Courier New, monospace;\r\n}\r\n\r\nbody.aframe-inspector-opened {\r\n  color: #fff;\r\n  font-size: 12px;\r\n  margin: 0;\r\n  overflow: hidden;\r\n}\r\n\r\nhr {\r\n  border: 0;\r\n  border-top: 1px solid #ccc;\r\n}\r\n\r\na {\r\n  cursor: pointer;\r\n}\r\n\r\nbutton {\r\n  position: relative;\r\n}\r\n\r\ncode {\r\n  font-family: Consolas, Andale Mono, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;\r\n}\r\n\r\ntextarea {\r\n  -moz-tab-size: 4;\r\n    -o-tab-size: 4;\r\n       tab-size: 4;\r\n  white-space: pre;\r\n  word-wrap: normal;\r\n}\r\n\r\ntextarea.success {\r\n  border-color: #8b8 !important;\r\n}\r\n\r\ntextarea.fail {\r\n  background-color: rgba(255, 0, 0, 0.05);\r\n  border-color: #f00 !important;\r\n}\r\n\r\ntextarea,\r\ninput {\r\n  outline: none; /* osx */\r\n}\r\n\r\n#left-sidebar,\r\n#right-panels {\r\n  z-index: 9998;\r\n}\r\n\r\n#sidebar,\r\n#left-sidebar,\r\n.panel {\r\n  cursor: default;\r\n  -webkit-user-select: none;\r\n     -moz-user-select: none;\r\n      -ms-user-select: none;\r\n          user-select: none;\r\n}\r\n\r\n.collapsible .static {\r\n  margin: 0;\r\n}\r\n\r\n.collapsible .static .collapse-button {\r\n  border: 6px solid transparent;\r\n  float: left;\r\n  height: 0;\r\n  margin-right: 6px;\r\n  width: 0;\r\n}\r\n\r\n.collapsible.collapsed .static .collapse-button {\r\n  border-left-color: #1faaf2;\r\n  margin-top: 2px;\r\n}\r\n\r\n.collapsible:not(.collapsed) .static .collapse-button {\r\n  border-top-color: #1faaf2;\r\n  margin-top: 6px;\r\n}\r\n\r\n.collapsible.collapsed .content {\r\n  display: none;\r\n}\r\n\r\n.toggle-edit {\r\n  background-color: #ed3160;\r\n  color: #fff;\r\n  font-size: 12px;\r\n  left: 3px;\r\n  margin: 0;\r\n  padding: 6px 10px;\r\n  position: fixed;\r\n  text-align: center;\r\n  text-decoration: none;\r\n  top: 3px;\r\n  width: 204px;\r\n  z-index: 99999;\r\n}\r\n\r\n.toggle-edit:hover {\r\n  background-color: rgb(228, 43, 90);\r\n}\r\n\r\n.scenegraph {\r\n  border-top: 1px solid #111;\r\n  padding-top: 32px;\r\n}\r\n\r\n.scenegraph .search {\r\n  padding: 5px;\r\n}\r\n\r\n.scenegraph-toolbar {\r\n  background-color: #333;\r\n}\r\n\r\n.scenegraph-actions {\r\n  padding: 9px 0 5px;\r\n}\r\n\r\n.search {\r\n  color: #aaa;\r\n  font-size: 16px;\r\n  position: relative;\r\n}\r\n\r\n.search input {\r\n  background: #222;\r\n  border-radius: 5px;\r\n  height: 22px;\r\n  text-indent: 10px;\r\n  width: 216px;\r\n}\r\n\r\n.search .fa-search {\r\n  position: absolute;\r\n  right: 11px;\r\n  top: 10px;\r\n}\r\n\r\n.search .fa-times {\r\n  position: absolute;\r\n  right: 32px;\r\n  top: 10px;\r\n}\r\n\r\ninput {\r\n  background-color: transparent;\r\n  border: 1px solid #555;\r\n  color: #fff;\r\n}\r\n\r\ninput,\r\n.texture canvas {\r\n  transition: 0.1s background-color ease-in-out, 0.1s border-color ease-in-out, 0.1s color ease-in-out;\r\n}\r\n\r\ninput[type=text],\r\ninput[type=number],\r\ninput.string,\r\ninput.number {\r\n  min-height: 14px;\r\n  outline: none;\r\n}\r\n\r\ninput.number {\r\n  background-color: transparent !important;\r\n  border: 0;\r\n  color: #20b1fb !important;\r\n  cursor: col-resize;\r\n  font-size: 12px;\r\n  padding: 2px;\r\n}\r\n\r\ninput.string:focus,\r\ninput.number:focus {\r\n  border: 1px solid #20b1fb;\r\n  color: #fff;\r\n  cursor: auto;\r\n}\r\n\r\ninput.error {\r\n  border: 1px solid #a00;\r\n}\r\n\r\n#left-sidebar {\r\n  background: #2b2b2b;\r\n  bottom: 0;\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-orient: vertical;\r\n  -webkit-box-direction: normal;\r\n      -ms-flex-direction: column;\r\n          flex-direction: column;\r\n  left: 0;\r\n  overflow: auto;\r\n  position: fixed;\r\n  top: 0;\r\n  width: 230px;\r\n}\r\n\r\n#sidebar {\r\n  background: #2b2b2b;\r\n  width: 331px;\r\n}\r\n\r\n#sidebar * {\r\n  vertical-align: middle;\r\n}\r\n\r\ninput,\r\ntextarea,\r\nselect {\r\n  background: #222;\r\n  border: 1px solid transparent;\r\n  color: #888;\r\n}\r\n\r\n.row {\r\n  margin-bottom: 10px;\r\n  min-height: 20px;\r\n}\r\n\r\ninput[type=color] {\r\n  background-color: #333;\r\n  border: 1px solid #111;\r\n  cursor: pointer;\r\n}\r\n\r\n.texture canvas {\r\n  border: 1px solid #222;\r\n  cursor: pointer;\r\n}\r\n\r\n.texture canvas:hover {\r\n  border-color: #1faaf2;\r\n}\r\n\r\ninput[type=color] {\r\n  cursor: pointer;\r\n  height: 16px;\r\n  padding: 0;\r\n  width: 64px;\r\n}\r\n\r\n/* Note: these vendor-prefixed selectors cannot be grouped! */\r\n\r\ninput[type=color]::-webkit-color-swatch {\r\n  border: 0;  /* To remove the gray border. */\r\n}\r\n\r\ninput[type=color]::-webkit-color-swatch-wrapper {\r\n  padding: 0;  /* To remove the inner padding. */\r\n}\r\n\r\ninput[type=color]::-moz-color-swatch {\r\n  border: 0;\r\n}\r\n\r\ninput[type=color]::-moz-focus-inner {\r\n  border: 0;  /* To remove the inner border (specific to Firefox). */\r\n  padding: 0;\r\n}\r\n\r\n.components {\r\n  background-color: #323232;\r\n  color: #bcbcbc;\r\n  height: 100%;\r\n  overflow: auto;\r\n  position: fixed;\r\n  width: 331px;\r\n}\r\n\r\ndiv.vec2,\r\ndiv.vec3,\r\ndiv.vec4 {\r\n  display: inline;\r\n}\r\n\r\n.vec2 input.number,\r\n.vec3 input.number {\r\n  width: 46px;\r\n}\r\n\r\n.vec4 input.number {\r\n  width: 34px;\r\n}\r\n\r\n.collapsible-header {\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-pack: justify;\r\n      -ms-flex-pack: justify;\r\n          justify-content: space-between;\r\n}\r\n\r\n.component-title span {\r\n  float: left;\r\n  max-width: 110px;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n  text-transform: uppercase;\r\n  white-space: nowrap;\r\n}\r\n\r\n.collapsible .static {\r\n  background-color: #323232;\r\n  border-bottom: 1px solid #262626;\r\n  border-top: 1px solid #262626;\r\n  color: #fff;\r\n  height: 16px;\r\n  padding: 10px;\r\n  vertical-align: middle;\r\n}\r\n\r\n.collapsible .menu {\r\n  text-align: right;\r\n}\r\n\r\n.collapsible .menu::after {\r\n  color: #bbb;\r\n  content: '\\2807';\r\n  font-size: 12px;\r\n  padding: 5px;\r\n  text-align: right;\r\n}\r\n\r\n.collapsible .static .collapse-button {\r\n  border-left: 5px solid transparent;\r\n  border-right: 5px solid transparent;\r\n  float: left;\r\n  height: 0;\r\n  margin-right: 10px;\r\n  margin-top: 2px;\r\n  width: 0;\r\n}\r\n\r\n.collapsible.collapsed .static .collapse-button {\r\n  border-left-color: #bbb;\r\n}\r\n\r\n.collapsible:not(.collapsed) .static .collapse-button {\r\n  border-top-color: #bbb;\r\n}\r\n\r\n.collapsible .content {\r\n  background-color: #2b2b2b;\r\n  padding: 10px;\r\n}\r\n\r\n.components .row {\r\n  margin-bottom: 10px;\r\n  min-height: 20px;\r\n}\r\n\r\n.components * {\r\n  vertical-align: middle;\r\n}\r\n\r\n.components .row .text {\r\n  cursor: default;\r\n  display: inline-block;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n  vertical-align: middle;\r\n  width: 120px;\r\n}\r\n\r\n.components .row .map_value {\r\n  margin: 0 0 0 5px;\r\n  width: 68px;\r\n}\r\n\r\n.hidden {\r\n  visibility: hidden;\r\n}\r\n\r\n.uploader-normal-button .hidden {\r\n  display: none;\r\n}\r\n\r\n.texture canvas + input {\r\n  margin-left: 5px;\r\n}\r\n\r\n.texture .fa {\r\n  padding-right: 5px;\r\n}\r\n\r\n.texture .fa-external-link {\r\n  font-size: 14px;\r\n  padding-top: 2px;\r\n}\r\n\r\n.scenegraph-bottom {\r\n  background-color: #323232;\r\n  border-top: 1px solid #111;\r\n  bottom: 10;\r\n  height: 40px;\r\n  left: 0;\r\n  z-index: 100;\r\n}\r\n\r\na.button {\r\n  color: #bcbcbc;\r\n  font-size: 16px;\r\n  margin-left: 10px;\r\n  text-decoration: none;\r\n}\r\n\r\na.button:hover {\r\n  color: #1faaf2;\r\n}\r\n\r\n.scenegraph-bottom a {\r\n  float: right;\r\n  margin: 10px;\r\n}\r\n\r\n.modal {\r\n  -webkit-animation: animateopacity 0.2s ease-out;\r\n          animation: animateopacity 0.2s ease-out;\r\n  background-color: rgb(0, 0, 0);\r\n  background-color: rgba(0, 0, 0, 0.6);\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  height: 100%;\r\n  left: 0;\r\n  overflow: auto;\r\n  position: fixed;\r\n  top: 0;\r\n  width: 100%;\r\n  z-index: 9999;\r\n}\r\n\r\n.modal h3 {\r\n  font-size: 18px;\r\n  font-weight: 100;\r\n  margin: 0.6em 0;\r\n}\r\n\r\n#texture-modal .modal-content {\r\n  height: calc(100% - 50px);\r\n  width: calc(100% - 50px);\r\n}\r\n\r\n.modal-content {\r\n  -webkit-animation: animatetop 0.2s ease-out;\r\n          animation: animatetop 0.2s ease-out;\r\n  -webkit-animation-duration: 0.2s;\r\n          animation-duration: 0.2s;\r\n  -webkit-animation-name: animatetop;\r\n          animation-name: animatetop;\r\n  background-color: #232323;\r\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);\r\n  margin: auto;\r\n  overflow: hidden;\r\n  padding: 0;\r\n}\r\n\r\n@-webkit-keyframes animateopacity {\r\n  from { opacity: 0; }\r\n  to { opacity: 1; }\r\n}\r\n\r\n@keyframes animateopacity {\r\n  from { opacity: 0; }\r\n  to { opacity: 1; }\r\n}\r\n\r\n.close {\r\n  color: white;\r\n  float: right;\r\n  font-size: 28px;\r\n  font-weight: bold;\r\n}\r\n\r\n.close:hover,\r\n.close:focus {\r\n  color: #08f;\r\n  cursor: pointer;\r\n  text-decoration: none;\r\n}\r\n\r\n.modal-header {\r\n  color: white;\r\n  padding: 2px 16px;\r\n}\r\n\r\n.modal-body {\r\n  overflow: auto;\r\n  padding: 16px;\r\n}\r\n\r\n.modal-footer {\r\n  color: white;\r\n  padding: 2px 16px;\r\n}\r\n\r\n/* Gallery */\r\n\r\n.gallery {\r\n  background: #232323;\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -ms-flex-wrap: wrap;\r\n      flex-wrap: wrap;\r\n  margin: 15px auto 0;\r\n  max-height: 50vh;\r\n  overflow: auto;\r\n  padding: 15px 3px 3px;\r\n}\r\n\r\n.newimage .gallery {\r\n  padding: 16px;\r\n}\r\n\r\n.gallery li {\r\n  border-radius: 2px;\r\n  box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);\r\n  cursor: pointer;\r\n  margin: 8px;\r\n  overflow: hidden;\r\n  width: 155px;\r\n}\r\n\r\n.gallery li.selected,\r\n.gallery li:hover {\r\n  box-shadow: 0 0 0 2px #1eaaf1;\r\n}\r\n\r\n.gallery li .detail {\r\n  background-color: #323232;\r\n  margin: 0;\r\n  min-height: 60px;\r\n  padding: 3px 10px;\r\n}\r\n\r\n.gallery li .button.fa-external-link {\r\n  margin-left: 136px;\r\n  margin-top: 5px;\r\n  position: fixed;\r\n}\r\n\r\n.preview {\r\n  padding: 10px;\r\n  width: 150px;\r\n}\r\n\r\n.preview input {\r\n  display: block;\r\n  margin: 8px 0;\r\n  width: 144px;\r\n}\r\n\r\n.preview button {\r\n  width: 155px;\r\n}\r\n\r\n.preview .detail .title {\r\n  color: #fff;\r\n  display: inline-block;\r\n  max-width: 155px;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n  white-space: nowrap;\r\n}\r\n\r\n.gallery li.selected .detail,\r\n.gallery li:hover .detail {\r\n  background-color: #444;\r\n}\r\n\r\n.gallery li .detail span {\r\n  color: #777;\r\n  display: block;\r\n  margin-top: 4px;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n  white-space: nowrap;\r\n  width: 140px;\r\n}\r\n\r\n.gallery li.selected .detail span,\r\n.gallery li:hover .detail span {\r\n  color: #888;\r\n}\r\n\r\n.gallery li .detail span.title {\r\n  color: #fff !important;\r\n}\r\n\r\n.modal button {\r\n  -webkit-appearance: none;\r\n     -moz-appearance: none;\r\n          appearance: none;\r\n  border-radius: 0;\r\n  box-shadow: none;\r\n  cursor: pointer;\r\n  display: inline-block;\r\n  font-size: 12px;\r\n  line-height: 1.8;\r\n  margin: 0 10px 0 0;\r\n  padding: 5px 10px;\r\n}\r\n\r\n.modal button:focus {\r\n  outline: none;\r\n}\r\n\r\n.modal button {\r\n  background-color: #1eaaf1;\r\n  border: none;\r\n  color: #fff;\r\n}\r\n\r\n.modal button:hover,\r\n.modal button.hover {\r\n  background-color: #346392;\r\n  text-shadow: -1px 1px #27496d;\r\n}\r\n\r\n.modal button:active,\r\n.modal button.active {\r\n  background-color: #27496d;\r\n  text-shadow: -1px 1px #193047;\r\n}\r\n\r\n.modal button:disabled {\r\n  background-color: #888;\r\n  cursor: none;\r\n}\r\n\r\n.newimage {\r\n  background-color: #323232;\r\n  color: #bcbcbc;\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  font-size: 13px;\r\n  -webkit-box-pack: justify;\r\n      -ms-flex-pack: justify;\r\n          justify-content: space-between;\r\n  margin-top: 10px;\r\n  overflow: auto;\r\n  padding: 10px;\r\n}\r\n\r\n.newimage input {\r\n  color: #1eaaf1;\r\n  padding: 3px 5px;\r\n}\r\n\r\n.hide {\r\n  display: none;\r\n}\r\n\r\nspan.value {\r\n  color: #fff;\r\n  display: inline-block;\r\n}\r\n\r\nspan.mixinlist {\r\n  color: #888 !important;\r\n  display: inline-block;\r\n}\r\n\r\nspan.mixinlist ul {\r\n  background-color: #222;\r\n  list-style-type: none;\r\n  margin: 5px 0 0;\r\n  padding: 5px;\r\n}\r\n\r\nspan.mixinlist ul li {\r\n  font-size: 11px;\r\n  margin-bottom: 3px;\r\n}\r\n\r\nspan.mixinlist ul li:last-child {\r\n  margin-bottom: 0;\r\n}\r\n\r\nspan.mixin {\r\n  display: inline-block;\r\n  width: 100px;\r\n}\r\n\r\n.mixinlist {\r\n  margin-left: 120px;\r\n}\r\n\r\nspan.subcomponent {\r\n  color: #999;\r\n  float: none !important;\r\n  margin-left: 10px;\r\n  vertical-align: top !important;\r\n}\r\n\r\n.collapsible .static {\r\n  cursor: pointer;\r\n}\r\n\r\n.a-canvas.state-dragging {\r\n  cursor: -webkit-grabbing;\r\n  cursor: grabbing;\r\n}\r\n\r\n.tagName {\r\n  font-weight: 500;\r\n}\r\n\r\n.sidebar-title {\r\n  background-color: #444;\r\n  color: #aaa;\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  font-size: 12px;\r\n  -webkit-box-pack: justify;\r\n      -ms-flex-pack: justify;\r\n          justify-content: space-between;\r\n  padding: 6px 10px;\r\n  position: relative;\r\n  text-align: center;\r\n}\r\n\r\n.toolbar {\r\n  background-color: #262626;\r\n  color: #333;\r\n  height: 32px;\r\n  position: relative;\r\n}\r\n\r\n.toolbar * {\r\n  margin-left: 0;\r\n  padding: 8px;\r\n  vertical-align: middle;\r\n}\r\n\r\n.toolbar a.button {\r\n  margin: 0 6px 0 0;\r\n}\r\n\r\n.toolbar .active {\r\n  background-color: #1faaf2;\r\n  color: #fff;\r\n}\r\n\r\n.toolbar .active:hover {\r\n  color: #fff !important;\r\n}\r\n\r\n.local-transform {\r\n  padding-left: 10px;\r\n}\r\n\r\n.local-transform label {\r\n  color: #aaa;\r\n  padding-left: 5px;\r\n}\r\n\r\n.local-transform a.button {\r\n  padding-top: 0;\r\n}\r\n\r\n.outliner {\r\n  background: #2b2b2b;\r\n  color: #868686;\r\n  cursor: default;\r\n  -webkit-box-flex: 1;\r\n      -ms-flex: 1 1 auto;\r\n          flex: 1 1 auto;\r\n  font-size: 12px;\r\n  height: calc(100% - 98px);\r\n  outline: none;\r\n  overflow-y: auto;\r\n  padding: 0;\r\n  width: 230px;\r\n}\r\n\r\n.outliner .option {\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-pack: justify;\r\n      -ms-flex-pack: justify;\r\n          justify-content: space-between;\r\n  padding: 4px;\r\n  white-space: nowrap;\r\n}\r\n\r\n.outliner .option.active {\r\n  background-color: #1faaf2;\r\n  color: #fff;\r\n}\r\n\r\n.outliner .option .component:hover {\r\n  color: #1faaf2;\r\n}\r\n\r\n.outliner .option.active .component:hover {\r\n  color: #1888c1;\r\n}\r\n\r\n.outliner .option .icons {\r\n  display: none;\r\n  margin: 0 3px 0 10px;\r\n}\r\n\r\n.outliner .option .icons .button {\r\n  color: #fff;\r\n  font-size: 12px;\r\n}\r\n\r\n.outliner .option.active .icons {\r\n  display: inline;\r\n}\r\n\r\n.outliner .fa {\r\n  color: #aaa;\r\n}\r\n\r\n.outliner .active .fa {\r\n  color: #fff;\r\n}\r\n\r\na.flat-button {\r\n  background-color: #262626;\r\n  color: #bcbcbc;\r\n  font-size: 11px;\r\n  margin-left: 10px;\r\n  padding: 5px;\r\n  text-decoration: none;\r\n}\r\n\r\na.flat-button:hover {\r\n  color: #1faaf2;\r\n}\r\n\r\n.component-title {\r\n  -webkit-box-align: center;\r\n      -ms-flex-align: center;\r\n          align-items: center;\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n}\r\n\r\na.help-link {\r\n  opacity: 0.4;\r\n}\r\n\r\na.help-link:hover {\r\n  opacity: 1;\r\n}\r\n\r\n#right-panels {\r\n  -webkit-box-align: stretch;\r\n      -ms-flex-align: stretch;\r\n          align-items: stretch;\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-pack: end;\r\n      -ms-flex-pack: end;\r\n          justify-content: flex-end;\r\n  position: fixed;\r\n  right: 0;\r\n  top: 0;\r\n}\r\n\r\n#aframe-inspector-panels {\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-pack: justify;\r\n      -ms-flex-pack: justify;\r\n          justify-content: space-between;\r\n}\r\n\r\n.aframe-inspector-opened a-scene .a-canvas {\r\n  background-color: #191919;\r\n  z-index: 9998;\r\n}\r\n\r\n.uploadcare-widget-button-open {\r\n  background-color: #1eaaf1;\r\n  border-radius: 0;\r\n  cursor: pointer;\r\n  margin-left: 10px;\r\n  padding: 10px 15px;\r\n}\r\n\r\n.uploadcare-widget-button-open:hover {\r\n  background-color: #346392;\r\n}\r\n\r\n.new_asset_options {\r\n  margin: 10px;\r\n}\r\n\r\n.new_asset_options > ul {\r\n  margin-left: 10px;\r\n  padding: 5px;\r\n}\r\n\r\n.new_asset_options > ul > li {\r\n  padding: 10px 0;\r\n}\r\n\r\n.new_asset_options .imageUrl {\r\n  margin-left: 5px;\r\n  width: 350px;\r\n}\r\n\r\nspan.entity-name {\r\n  color: #fff;\r\n  font-family: Consolas, Andale Mono, Monaco, Courier New, monospace;\r\n  font-size: 16px;\r\n}\r\n\r\n.add-component {\r\n  width: 200px;\r\n}\r\n\r\n.Select-control {\r\n  background-color: #222 !important;\r\n  border: none;\r\n  border-radius: 0;\r\n  color: #1faaf2;\r\n}\r\n\r\n.Select-menu-outer {\r\n  border: none;\r\n}\r\n\r\n.Select-menu-outer .is-focused {\r\n  background-color: #1faaf2 !important;\r\n  color: #fff;\r\n}\r\n\r\n.Select-option {\r\n  background-color: #222 !important;\r\n}\r\n\r\n.select-widget {\r\n  display: inline-block;\r\n  width: 157px;\r\n}\r\n\r\n.Select-placeholder,\r\n.Select--single > .Select-control .Select-value {\r\n  color: #1faaf2 !important;\r\n}\r\n\r\n.Select-value-label {\r\n  color: #1faaf2 !important;\r\n}\r\n\r\n.row .Select-control {\r\n  font-size: 11px;\r\n  height: 24px;\r\n}\r\n\r\n.row .Select-placeholder,\r\n.row .Select--single > .Select-control .Select-value {\r\n  line-height: 19px;\r\n}\r\n\r\n.row .Select-input {\r\n  height: 22px;\r\n}\r\n\r\n.row input[type=text],\r\n.row input[type=number],\r\n.row input.string,\r\n.row input.number {\r\n  background: #222;\r\n  border: 1px solid transparent;\r\n  color: #1faaf2;\r\n  min-height: 20px;\r\n  padding-left: 5px;\r\n  padding-right: 5px;\r\n}\r\n\r\n.row input.string {\r\n  box-sizing: border-box;\r\n  width: 165px;\r\n}\r\n\r\n.help-lists {\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -ms-flex-pack: distribute;\r\n      justify-content: space-around;\r\n}\r\n\r\n.help-list {\r\n  list-style: none;\r\n  margin: 0;\r\n  padding: 0 0 10px;\r\n  width: 350px;\r\n}\r\n\r\n.help-list li {\r\n  margin-right: 40px;\r\n}\r\n\r\n.help-key-unit {\r\n  line-height: 1.8;\r\n  margin-right: 2em;\r\n  padding: 5px 0;\r\n}\r\n\r\n.help-key {\r\n  bottom: 2px;\r\n  margin-right: 4px;\r\n  min-width: 60px;\r\n  position: relative;\r\n}\r\n\r\n.help-key span {\r\n  background-color: #2e2e2e;\r\n  background-repeat: repeat-x;\r\n  border: 1px solid #666;\r\n  border-radius: 3px;\r\n  box-shadow: 0 0 5px #000;\r\n  color: #999;\r\n  display: inline-block;\r\n  font-size: 12px;\r\n  padding: 0 8px;\r\n  text-align: center;\r\n}\r\n\r\n.help-key-def {\r\n  color: #bbb;\r\n  display: inline-block;\r\n  margin-left: 1em;\r\n}\r\n\r\n.add-component {\r\n  text-align: left;\r\n}\r\n\r\n.add-component .option {\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-pack: justify;\r\n      -ms-flex-pack: justify;\r\n          justify-content: space-between;\r\n}\r\n\r\n.add-component .option span {\r\n  color: #1faaf2;\r\n}\r\n\r\n.Select-menu-outer .is-focused span {\r\n  color: #fff;\r\n}\r\n\r\n.add-component-container {\r\n  -webkit-box-align: center;\r\n      -ms-flex-align: center;\r\n          align-items: center;\r\n  background-color: #2b2b2b;\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-pack: center;\r\n      -ms-flex-pack: center;\r\n          justify-content: center;\r\n  padding: 10px;\r\n}\r\n\r\n.aregistry-button {\r\n  font-size: 12px;\r\n  margin-left: 10px;\r\n  padding: 8px;\r\n}\r\n\r\n.aregistry-button:hover {\r\n  background-color: #1faaf2;\r\n}\r\n\r\n.aregistry-button img {\r\n  height: 20px;\r\n  width: 20px;\r\n}\r\n\r\n.components .row .color_value {\r\n  margin: 0 0 0 5px;\r\n  width: 68px;\r\n}\r\n\r\n.assets.search {\r\n  margin-top: 10px;\r\n  width: 200px;\r\n}\r\n\r\n.assets.search .fa-search {\r\n  top: 7px;\r\n}\r\n\r\n.gallery a.fa.texture-link {\r\n  box-shadow: 0 0 14px -1px rgba(0, 0, 0, 0.75);\r\n  position: fixed;\r\n}\r\n\r\n.outliner .id {\r\n  color: #ccc;\r\n}\r\n\r\n.outliner .option.active .id {\r\n  color: #fff;\r\n}\r\n\r\n.outliner .collasespace {\r\n  color: #eee;\r\n  display: inline-block;\r\n  text-align: center;\r\n  width: 14px;\r\n}\r\n\r\n.outliner .fa-eye {\r\n  color: #bbb;\r\n}\r\n\r\n.outliner .option {\r\n  white-space: pre;\r\n}\r\n\r\n.option span:first-child {\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n}\r\n\r\n.outliner .option.novisible span,\r\n.outliner .option.novisible .fa,\r\n.outliner .option.novisible .collasespace,\r\n.outliner .option.novisible .id {\r\n  color: #575757;\r\n}\r\n\r\n.outliner .option .icons a.button {\r\n  color: #fff;\r\n}\r\n\r\n.toggle-sidebar {\r\n  -webkit-box-align: center;\r\n      -ms-flex-align: center;\r\n          align-items: center;\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  height: 100%;\r\n  position: absolute;\r\n  z-index: 9998;\r\n}\r\n\r\n.toggle-sidebar.left {\r\n  left: 0;\r\n}\r\n\r\n.toggle-sidebar.right {\r\n  right: 0;\r\n}\r\n\r\n.toggle-sidebar a {\r\n  background-color: #262626;\r\n  color: #bcbcbc;\r\n  padding: 5px;\r\n  z-index: 9998;\r\n}\r\n\r\n.toggle-sidebar a:hover {\r\n  background-color: #1faaf2;\r\n  color: #fff;\r\n}\r\n\r\n/* Dropdown menu */\r\n\r\n.dropbtn {\r\n  border: none;\r\n  color: white;\r\n  cursor: pointer;\r\n}\r\n\r\n.dropdown {\r\n  display: inline-block;\r\n  position: relative;\r\n}\r\n\r\n.dropdown-content {\r\n  background-color: #f9f9f9;\r\n  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);\r\n  display: none;\r\n  left: 8px;\r\n  min-width: 38px;\r\n  position: absolute;\r\n  z-index: 999;\r\n}\r\n\r\n.dropdown-content a {\r\n  background-color: #232323;\r\n  color: #7d7d7d;\r\n  display: block;\r\n  padding: 10px 14px;\r\n  text-decoration: none;\r\n}\r\n\r\n.dropdown-content a:hover {\r\n  background-color: #4ecbff;\r\n  color: #fff;\r\n}\r\n\r\n.dropdown:hover .dropdown-content {\r\n  display: block;\r\n}\r\n\r\n.dropdown:hover .dropbtn {\r\n  color: #1faaf2;\r\n}\r\n\r\n.savedRecordings {\r\n  display: inline-block;\r\n  margin-top: 10px;\r\n  vertical-align: middle;\r\n  width: 80%;\r\n}\r\n", ""]);
 
 	// exports
 
 
 /***/ }),
-/* 263 */
+/* 264 */
 /***/ (function(module, exports) {
 
 	'use strict';
