@@ -318,7 +318,7 @@
 	  window.addEventListener('inspector-loaded', function () {
 	    _reactDom2.default.render(_react2.default.createElement(Main, null), div);
 	  });
-	  console.log('A-Frame Inspector Version:', ("0.7.4"), '(' + ("07-01-2018") + ' Commit: ' + ("ca42891e3f0843ce9ed8a4b76d375ba7879e9b46\n").substr(0, 7) + ')');
+	  console.log('A-Frame Inspector Version:', ("0.7.4"), '(' + ("07-01-2018") + ' Commit: ' + ("172cda6a1f9799b10b9689f2f98e2f41bcf61512\n").substr(0, 7) + ')');
 	})();
 
 /***/ }),
@@ -28073,6 +28073,7 @@
 	    grid.visible = !grid.visible;
 	  });
 
+	  var originalKeyboardShortcuts = void 0;
 	  Events.on('inspectormodechanged', function (active) {
 	    if (active) {
 	      enableControls();
@@ -28080,12 +28081,17 @@
 	      Array.prototype.slice.call(document.querySelectorAll('.a-enter-vr,.rs-base')).forEach(function (element) {
 	        element.style.display = 'none';
 	      });
+	      // Disable keyboard shortcuts while inspector is active so we can't enter vr mode
+	      originalKeyboardShortcuts = inspector.sceneEl.getAttribute("keyboard-shortcuts");
+	      inspector.sceneEl.setAttribute("keyboard-shortcuts", { enterVR: false });
 	    } else {
 	      disableControls();
 	      prevActiveCameraEl.setAttribute('camera', 'active', 'true');
 	      Array.prototype.slice.call(document.querySelectorAll('.a-enter-vr,.rs-base')).forEach(function (element) {
 	        element.style.display = 'block';
 	      });
+	      // Reset keyboard shortcuts component with its original parameters
+	      inspector.sceneEl.setAttribute("keyboard-shortcuts", originalKeyboardShortcuts);
 	    }
 	    ga('send', 'event', 'Viewport', 'toggleEditor', active);
 	  });
@@ -30155,6 +30161,15 @@
 	    // d: clone selected entity
 	    if (keyCode === 68) {
 	      (0, _entity.cloneSelectedEntity)();
+	    }
+
+	    // f: Focus on selected entity. Same hotkey as Enter-VR but inspector will disable 
+	    // keyboard-shortcuts.
+	    if (keyCode === 70) {
+	      var selectedEntity = AFRAME.INSPECTOR.selectedEntity;
+	      if (selectedEntity !== undefined) {
+	        Events.emit('objectfocused', selectedEntity.object3D);
+	      }
 	    }
 
 	    for (var moduleName in this.shortcuts.modules) {
@@ -34546,7 +34561,7 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      var shortcuts = [[{ key: ['w'], description: 'Translate' }, { key: ['e'], description: 'Rotate' }, { key: ['r'], description: 'Scale' }, { key: ['d'], description: 'Duplicate selected entity' }, { key: ['g'], description: 'Toggle grid visibility' }, { key: ['n'], description: 'Add new entity' }, { key: ['supr | backspace'], description: 'Delete selected entity' }], [{ key: ['1'], description: 'Toggle scenegraph panel' }, { key: ['2'], description: 'Toggle components panel' }, { key: ['tab'], description: 'Toggle scenegraph and components panel' }, { key: ['m'], description: 'Toggle motion capture tools' }, { key: ['ctrl | cmd', 'x'], description: 'Cut selected entity' }, { key: ['ctrl | cmd', 'c'], description: 'Copy selected entity' }, { key: ['ctrl | cmd', 'v'], description: 'Paste entity' }, { key: ['h'], description: 'Show this help' }, { key: ['Esc'], description: 'Exit edit mode' }, { key: ['ctrl', 'alt', 'i'], description: 'Switch Edit and VR Modes' }]];
+	      var shortcuts = [[{ key: ['w'], description: 'Translate' }, { key: ['e'], description: 'Rotate' }, { key: ['r'], description: 'Scale' }, { key: ['d'], description: 'Duplicate selected entity' }, { key: ['f'], description: 'Focus on selected entity' }, { key: ['g'], description: 'Toggle grid visibility' }, { key: ['n'], description: 'Add new entity' }, { key: ['supr | backspace'], description: 'Delete selected entity' }], [{ key: ['1'], description: 'Toggle scenegraph panel' }, { key: ['2'], description: 'Toggle components panel' }, { key: ['tab'], description: 'Toggle scenegraph and components panel' }, { key: ['m'], description: 'Toggle motion capture tools' }, { key: ['ctrl | cmd', 'x'], description: 'Cut selected entity' }, { key: ['ctrl | cmd', 'c'], description: 'Copy selected entity' }, { key: ['ctrl | cmd', 'v'], description: 'Paste entity' }, { key: ['h'], description: 'Show this help' }, { key: ['Esc'], description: 'Exit edit mode' }, { key: ['ctrl', 'alt', 'i'], description: 'Switch Edit and VR Modes' }]];
 
 	      return _react2.default.createElement(
 	        _Modal2.default,
