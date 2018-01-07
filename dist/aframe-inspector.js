@@ -318,7 +318,7 @@
 	  window.addEventListener('inspector-loaded', function () {
 	    _reactDom2.default.render(_react2.default.createElement(Main, null), div);
 	  });
-	  console.log('A-Frame Inspector Version:', ("0.7.4"), '(' + ("07-01-2018") + ' Commit: ' + ("172cda6a1f9799b10b9689f2f98e2f41bcf61512\n").substr(0, 7) + ')');
+	  console.log('A-Frame Inspector Version:', ("0.7.4"), '(' + ("07-01-2018") + ' Commit: ' + ("b366117c38441cd2eef9a2cb8d6f73347b263a96\n").substr(0, 7) + ')');
 	})();
 
 /***/ }),
@@ -28073,7 +28073,6 @@
 	    grid.visible = !grid.visible;
 	  });
 
-	  var originalKeyboardShortcuts = void 0;
 	  Events.on('inspectormodechanged', function (active) {
 	    if (active) {
 	      enableControls();
@@ -28081,17 +28080,12 @@
 	      Array.prototype.slice.call(document.querySelectorAll('.a-enter-vr,.rs-base')).forEach(function (element) {
 	        element.style.display = 'none';
 	      });
-	      // Disable keyboard shortcuts while inspector is active so we can't enter vr mode
-	      originalKeyboardShortcuts = inspector.sceneEl.getAttribute("keyboard-shortcuts");
-	      inspector.sceneEl.setAttribute("keyboard-shortcuts", { enterVR: false });
 	    } else {
 	      disableControls();
 	      prevActiveCameraEl.setAttribute('camera', 'active', 'true');
 	      Array.prototype.slice.call(document.querySelectorAll('.a-enter-vr,.rs-base')).forEach(function (element) {
 	        element.style.display = 'block';
 	      });
-	      // Reset keyboard shortcuts component with its original parameters
-	      inspector.sceneEl.setAttribute("keyboard-shortcuts", originalKeyboardShortcuts);
 	    }
 	    ga('send', 'event', 'Viewport', 'toggleEditor', active);
 	  });
@@ -29530,9 +29524,27 @@
 			var changeEvent = { type: 'change' };
 
 			this.focus = function (target) {
+					if (target === undefined || !target.isObject3D) {
+							return;
+					}
 
 					var box = new THREE.Box3().setFromObject(target);
-					object.lookAt(center.copy(box.getCenter()));
+					var targetDistance;
+					if (box.isEmpty()) {
+							target.getWorldPosition(center);
+							targetDistance = 0.5;
+					} else {
+							center.copy(box.getCenter());
+							targetDistance = box.getBoundingSphere().radius * 6;
+					}
+
+					object.lookAt(center);
+
+					var distance = object.position.distanceTo(center);
+					var delta = distance - targetDistance;
+					var forward = new THREE.Vector3(0, 0, -1).applyQuaternion(object.quaternion);
+					object.position.add(forward.multiplyScalar(delta));
+
 					scope.dispatchEvent(changeEvent);
 			};
 
@@ -30163,11 +30175,13 @@
 	      (0, _entity.cloneSelectedEntity)();
 	    }
 
-	    // f: Focus on selected entity. Same hotkey as Enter-VR but inspector will disable 
-	    // keyboard-shortcuts.
+	    // f: Focus on selected entity.
 	    if (keyCode === 70) {
+	      // Stop message propagation since keyboard-controls listens for f key to enable vr mode.
+	      event.preventDefault();
+	      event.stopPropagation();
 	      var selectedEntity = AFRAME.INSPECTOR.selectedEntity;
-	      if (selectedEntity !== undefined) {
+	      if (selectedEntity !== undefined && selectedEntity !== null) {
 	        Events.emit('objectfocused', selectedEntity.object3D);
 	      }
 	    }
